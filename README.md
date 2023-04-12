@@ -20,11 +20,14 @@ The result can be readily loaded into Python programs for further processing.
 
 See
 
-* [about](docs/about.md) for the provenance of the data;
-* [transcription](docs/transcription.md) for how the resulting data is modelled;
-* [tutorial]() to get started with computing;
-* [getImages]() to see how we got the images;
-* [docs]() for an index to all documentation.
+* [about](docs/about.md)
+  for the provenance of the data;
+* [transcription](docs/transcription.md)
+  for how the resulting data is modelled;
+* [tutorial](https://nbviewer.org/github/annotation/mondriaan/blob/master/tutorial/start.ipynb)
+  to get started with computing;
+* [getImages](https://nbviewer.org/github/annotation/mondriaan/blob/master/programs/getImages.ipynb)
+  to see how we got the images;
 
 ## Disclaimer
 
@@ -32,6 +35,13 @@ As the badge above indicates: this is work in progress.
 Although we use this repository to develop an official website to publish the letters
 by Mondriaan, nothing that you see here is a promise of what that website will
 look like.
+
+## Status
+
+*   2023-04-12
+    Initial content, the source data is not yet present, hence the programs do not yet
+    work in this context. They do work in another repo, but that repo is not 
+    accessible.
 
 ## Quick start
 
