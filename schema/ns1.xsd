@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://mondrian.huygens.knaw.nl/" xmlns:af="http://huygensinstituut.knaw.nl/ns/AF" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://mondrian.huygens.knaw.nl/" xmlns:ns2="http://mondrian.huygens.knaw.nl">
+  <xs:import namespace="http://huygensinstituut.knaw.nl/ns/AF" schemaLocation="af.xsd"/>
+  <xs:import namespace="http://mondrian.huygens.knaw.nl" schemaLocation="ns2.xsd"/>
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="MD.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="postmark">
+    <xs:annotation>
+      <xs:documentation/>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:group ref="tei:tei_macro.phraseSeq"/>
+      <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="transpose">
+    <xs:annotation>
+      <xs:documentation>transposed segments</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:tei_macro.paraContent">
+          <xs:attributeGroup ref="tei:tei_att.pointing.attributes"/>
+          <xs:attributeGroup ref="tei:tei_att.transcriptional.attributes"/>
+          <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
+          <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

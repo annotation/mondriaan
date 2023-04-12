@@ -1,0 +1,88 @@
+.r_.r_italic,.r_.r_italics {
+  font-style: italic;
+  color: #000000;
+}
+.r_.r_bold {
+  font-weight: bold;
+  color: #000000;
+}
+.r_.r_underline {
+  text-decoration: underline;
+  color: #000000;
+}
+.r_.r_center {
+  text-align: center;
+  color: #000000;
+}
+.r_.r_large {
+  font-size: large;
+  color: #000000;
+}
+.r_.r_spaced {
+  letter-spacing: .2rem;
+  color: #000000;
+}
+.r_.r_margin {
+  position: relative;
+  top: -0.3em;
+  font-weight: bold;
+  color: #0000ee;
+}
+.r_.r_above {
+  position: relative;
+  top: -0.3em;
+  color: #000000;
+}
+.r_.r_below {
+  position: relative;
+  top: 0.3em;
+  color: #000000;
+}
+.r_.r_sub {
+  vertical-align: sub;
+  font-size: small;
+  color: #000000;
+}
+.r_.r_sup, .r_.r_super {
+  vertical-align: super;
+  font-size: small;
+  color: #000000;
+}
+.r_ {
+  color: #dd9900;
+}
+.is_meta {
+  font-family: monospace;
+  color: #008800;
+}
+.is_note {
+  font-size: small;
+  color: #dd0055;
+}
+
+/* GRAPHICS */
+
+
+.graphic_item {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.graphic_set {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.graphic_img {
+    display: block;
+    max-width: 15rem ! important;
+    max-height: 15rem ! important;
+}
+.graphic_caption {
+    display: block;
+    max-width: 15rem ! important;
+    max-height: 15rem ! important;
+}
