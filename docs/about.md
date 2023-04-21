@@ -1,5 +1,5 @@
 
-# Corpus mondriaan - letters
+# Corpus annotation - mondriaan
 
 ## author
 
@@ -13,7 +13,7 @@ Letters
 
 ## institute
 
-KNAW/Huygens Amsterdam
+RKD Den Haag; KNAW/HuCHuygens Amsterdam
 
 
 ## language
@@ -21,9 +21,19 @@ KNAW/Huygens Amsterdam
 nl
 
 
+## projectleaders
+
+Hennie Brugman, Mariken Teeuwen
+
+
 ## converters
 
 Dirk Roorda (Text-Fabric)
+
+
+## editors
+
+Wietse Coppes; Leo Jansen
 
 
 ## sourceFormat

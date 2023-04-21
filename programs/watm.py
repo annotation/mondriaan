@@ -6,8 +6,9 @@ TT_NAME = "watm"
 
 
 class WATM:
-    def __init__(self, app):
+    def __init__(self, app, skipMeta=False):
         self.app = app
+        self.skipMeta = skipMeta
         api = app.api
         self.L = api.L
         self.E = api.E
@@ -25,6 +26,7 @@ class WATM:
     def makeText(self):
         F = self.F
         slotType = self.slotType
+        skipMeta = self.skipMeta
 
         text = []
         tlFromTf = {}
@@ -33,7 +35,7 @@ class WATM:
         self.tlFromTf = tlFromTf
 
         for s in F.otype.s(slotType):
-            if F.is_meta.v(s):
+            if skipMeta and F.is_meta.v(s):
                 continue
 
             if F.empty.v(s):
@@ -59,6 +61,7 @@ class WATM:
         features = self.features
         slotType = self.slotType
         otypes = self.otypes
+        skipMeta = self.skipMeta
 
         tlFromTf = self.tlFromTf
 
@@ -79,14 +82,14 @@ class WATM:
 
             for n in F.otype.s(otype):
                 if isSlot:
-                    if F.is_meta.v(n):
+                    if skipMeta and F.is_meta.v(n):
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}"
                     self.mkAnno(kind1, n, target)
                 else:
                     ws = E.oslots.s(n)
-                    if F.is_meta.v(ws[0]) or F.is_meta.v(ws[-1]):
+                    if skipMeta and (F.is_meta.v(ws[0]) or F.is_meta.v(ws[-1])):
                         continue
                     start = tlFromTf[ws[0]]
                     end = tlFromTf[ws[-1]]
@@ -102,7 +105,7 @@ class WATM:
             parts = feat.split("_", 2)
             if len(parts) >= 2 and parts[0] == "rend":
                 for (n, val) in Fs(feat).items():
-                    if not val or F.is_meta.v(n):
+                    if not val or (skipMeta and F.is_meta.v(n)):
                         continue
                     prop = parts[1]
                     t = tlFromTf[n]
@@ -110,14 +113,14 @@ class WATM:
                     self.mkAnno(kind4, prop, target)
             elif len(parts) == 2 and parts[0] == "is" and parts[1] == "note":
                 for (n, val) in Fs(feat).items():
-                    if not val or F.is_meta.v(n):
+                    if not val or (skipMeta and F.is_meta.v(n)):
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
                     self.mkAnno(kind4, "note", target)
             else:
                 for (n, val) in Fs(feat).items():
-                    if F.is_meta.v(n):
+                    if skipMeta and F.is_meta.v(n):
                         continue
                     t = tlFromTf.get(n, None)
                     if t is None:
@@ -138,12 +141,14 @@ class WATM:
                 print(f"{otype:>20} {start:>6} `{sega}` > {end - 1} `{segb}`")
 
     def writeAll(self):
+        app = self.app
         info = self.info
         text = self.text
         annos = self.annos
 
         baseDir = self.repoLocation
-        resultDir = f"{baseDir}/{TT_NAME}"
+        version = app.version
+        resultDir = f"{baseDir}/{TT_NAME}/{version}"
         textFile = f"{resultDir}/text.json"
         annoFile = f"{resultDir}/anno.json"
 

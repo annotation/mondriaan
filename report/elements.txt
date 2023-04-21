@@ -8,223 +8,223 @@ Contains the following sections:
 
 Formatting Attributes
 
-	<add>        rend=            2x above
-	             "                1x below
-	             "                1x inline
+	mixed: <add>              rend=                  2x above
+	                          "                      1x below
+	                          "                      1x inline
 
-	<addrLine>   rend=            1x center
+	mixed: <addrLine>         rend=                  1x center
 
-	<del>        rend=            2x overwritten
+	mixed: <del>              rend=                  2x overwritten
 
-	<hi>         rend=            2x blockletter
-	             "               31x italics
-	             "                1x right
-	             "                4x spaced
-	             "                7x super
-	             "               36x underline
-	             "                4x underline2
+	mixed: <hi>               rend=                  2x blockletter
+	                          "                     31x italics
+	                          "                      1x right
+	                          "                      4x spaced
+	                          "                      7x super
+	                          "                     36x underline
+	                          "                      4x underline2
 
-	<postscript> rend=            1x upsidedown
+	pure : <postscript>       rend=                  1x upsidedown
 
-	<signed>     rend=            1x right
+	mixed: <signed>           rend=                  1x right
 
-	<space>      dim=             9x vertical
-	             rend=            4x norend
+	pure : <space>            dim=                   9x vertical
+	                   rend=                  4x norend
 
 Keyword Attributes
 
-	<address>    type=            3x receiver
+	mixed: <address>          type=                  3x receiver
 
-	<c>          type=            1x wbh>
+	mixed: <c>                type=                  1x wbh>
 
-	<change>     type=           13x editedText
-	             who=             1x XX
-	             "               42x ev
-	             "                1x gr
-	             "               23x lj
-	             "               14x ms
-	             "               32x wc
+	mixed: <change>           type=                 13x editedText
+	                   who=                   1x XX
+	                          "                     42x ev
+	                          "                      1x gr
+	                          "                     23x lj
+	                          "                     14x ms
+	                          "                     32x wc
 
-	<correspAction> type=           14x received
-	             "               14x sent
+	pure : <correspAction>    type=                 14x received
+	                          "                     14x sent
 
-	<del>        type=            1x overwritten
-	             "                5x strikeover
+	mixed: <del>              type=                  1x overwritten
+	                          "                      5x strikeover
 
-	<div>        lang=           21x en
-	             "               54x nl
-	             type=           16x annotation
-	             "               16x notes
-	             "               14x ogtnotes
-	             "               14x original
-	             "                2x postalData
-	             "               15x translation
-	             "               16x typednotes
+	pure : <div>              lang=                 21x en
+	                          "                     54x nl
+	                   type=                 16x annotation
+	                          "                     16x notes
+	                          "                     14x ogtnotes
+	                          "                     14x original
+	                          "                      2x postalData
+	                          "                     15x translation
+	                          "                     16x typednotes
 
-	<idno>       type=           14x def
-	             "               14x letterId
+	mixed: <idno>             type=                 14x def
+	                          "                     14x letterId
 
-	<note>       type=           16x dating
-	             "                6x pubhistory
-	             "                2x remarks
-	             "               16x transcrSource
+	mixed: <note>             type=                 16x dating
+	                          "                      6x pubhistory
+	                          "                      2x remarks
+	                          "                     16x transcrSource
 
-	<objectDesc> form=           12x brief
-	             "                1x briefkaart
-	             "                1x correspondentiekaart
+	pure : <objectDesc>       form=                 12x brief
+	                          "                      1x briefkaart
+	                          "                      1x correspondentiekaart
 
-	<pb>         facs=           26x #s1r
-	             "                9x #s1v
-	             "                1x #ser
-	             "                1x #sev
+	pure : <pb>               facs=                 26x #s1r
+	                          "                      9x #s1v
+	                          "                      1x #ser
+	                          "                      1x #sev
 
-	<ptr>        type=           71x note
+	pure : <ptr>              type=                 71x note
 
-	<reg>        type=            3x misprint
-	             "                1x mistake
-	             "                5x punctuation
-	             "                1x spelling
+	mixed: <reg>              type=                  3x misprint
+	                          "                      1x mistake
+	                          "                      5x punctuation
+	                          "                      1x spelling
 
-	<rs>         type=            2x article
-	             "                7x artistsassoc
-	             "               18x artwork-m
-	             "                9x exhibition
-	             "                3x firm
-	             "                5x journal
-	             "                5x museum
-	             "                7x org
-	             "              113x person
-	             "                3x photograph
+	mixed: <rs>               type=                  2x article
+	                          "                      7x artistsassoc
+	                          "                     18x artwork-m
+	                          "                      9x exhibition
+	                          "                      3x firm
+	                          "                      5x journal
+	                          "                      5x museum
+	                          "                      7x org
+	                          "                    113x person
+	                          "                      3x photograph
 
-	<space>      unit=            1x chars
-	             "                8x lines
+	pure : <space>            unit=                  1x chars
+	                          "                      8x lines
 
-	<unclear>    reason=          2x strikeover
+	mixed: <unclear>          reason=                2x strikeover
 
 Remaining Attributes and Elements
 
-	<TEI>                        14x 
+	pure : <TEI>                                    14x 
 
-	<accMat>                      1x 
+	mixed: <accMat>                                  1x 
 
-	<add>                         4x 
+	mixed: <add>                                     4x 
 
-	<addrLine>                    7x 
+	mixed: <addrLine>                                7x 
 
-	<address>                     2x 
+	mixed: <address>                                 2x 
 
-	<altIdentifier>                 28x 
+	pure : <altIdentifier>                          28x 
 
-	<body>                       14x 
+	pure : <body>                                   14x 
 
-	<change>                     28x 
+	mixed: <change>                                 28x 
 
-	<choice>                     12x 
+	pure : <choice>                                 12x 
 
-	<closer>                     31x 
+	mixed: <closer>                                 31x 
 
-	<correspDesc>                 14x 
+	pure : <correspDesc>                            14x 
 
-	<country>                    14x 
+	mixed: <country>                                14x 
 
-	<date>                        2x 
-	             when=            5x NNNN-NN
-	             "                9x NNNN-NN-NN
+	mixed: <date>                                    2x 
+	                   when=                  5x NNNN-NN
+	                          "                      9x NNNN-NN-NN
 
-	<dateline>                    9x 
+	mixed: <dateline>                                9x 
 
-	<decoDesc>                   14x 
+	pure : <decoDesc>                               14x 
 
-	<decoNote>                   14x 
+	mixed: <decoNote>                               14x 
 
-	<del>                         1x 
+	mixed: <del>                                     1x 
 
-	<div>        id=              2x X
+	pure : <div>              id=                    2x X
 
-	<editor>     id=             28x X
+	mixed: <editor>           id=                   28x X
 
-	<facsimile>                  14x 
+	pure : <facsimile>                              14x 
 
-	<fileDesc>                   14x 
+	pure : <fileDesc>                               14x 
 
-	<graphic>    url=             1x ../NNNN/km_NNN.NNN.jpg
-	             "                1x ../NNNN/km_NNN.NNN_NN.jpg
-	             "               50x dummy
+	pure : <graphic>          url=                   1x ../NNNN/km_NNN.NNN.jpg
+	                          "                      1x ../NNNN/km_NNN.NNN_NN.jpg
+	                          "                     50x dummy
 
-	<idno>                       14x 
+	mixed: <idno>                                   14x 
 
-	<institution>                 14x 
+	mixed: <institution>                            14x 
 
-	<msDesc>                     14x 
+	pure : <msDesc>                                 14x 
 
-	<msIdentifier>                 14x 
+	pure : <msIdentifier>                           14x 
 
-	<name>                       14x 
-	             key=            14x X
+	mixed: <name>                                   14x 
+	                   key=                  14x X
 
-	<note>                        2x 
-	             id=             43x X
-	             n=               1x _N
+	mixed: <note>                                    2x 
+	                   id=                   43x X
+	                   n=                     1x _N
 
-	<opener>                     29x 
+	mixed: <opener>                                 29x 
 
-	<orig>                       10x 
+	mixed: <orig>                                   10x 
 
-	<p>                          95x 
+	mixed: <p>                                      95x 
 
-	<pb>                         14x 
-	             f=              26x Nr
-	             "                9x Nv
-	             n=              35x N
-	             "                1x er
-	             "                1x ev
+	pure : <pb>                                     14x 
+	                   f=                    26x Nr
+	                          "                      9x Nv
+	                   n=                    35x N
+	                          "                      1x er
+	                          "                      1x ev
 
-	<physDesc>                   14x 
+	pure : <physDesc>                               14x 
 
-	<placeName>                  14x 
+	mixed: <placeName>                              14x 
 
-	<postmark>                    2x 
+	mixed: <postmark>                                2x 
 
-	<postscript>                  5x 
+	pure : <postscript>                              5x 
 
-	<profileDesc>                 14x 
+	pure : <profileDesc>                            14x 
 
-	<ptr>        target=         76x X
+	pure : <ptr>              target=               76x X
 
-	<publicationStmt>                 14x 
+	pure : <publicationStmt>                        14x 
 
-	<ref>                         6x 
-	             target=         51x X
+	mixed: <ref>                                     6x 
+	                   target=               51x X
 
-	<revisionDesc>                 14x 
+	pure : <revisionDesc>                           14x 
 
-	<rs>         key=           124x X
+	mixed: <rs>               key=                 124x X
 
-	<salute>                     55x 
+	mixed: <salute>                                 55x 
 
-	<settlement>                 14x 
+	mixed: <settlement>                             14x 
 
-	<signed>                     30x 
+	mixed: <signed>                                 30x 
 
-	<sourceDesc>                 14x 
+	pure : <sourceDesc>                             14x 
 
-	<space>      quantity=        9x N
+	pure : <space>            quantity=              9x N
 
-	<sponsor>                    14x 
+	mixed: <sponsor>                                14x 
 
-	<surface>    id=             52x X
-	             n=               2x N
-	             "               13x Nr
-	             "               13x Nv
-	             "               12x er
-	             "               12x ev
+	pure : <surface>          id=                   52x X
+	                   n=                     2x N
+	                          "                     13x Nr
+	                          "                     13x Nv
+	                          "                     12x er
+	                          "                     12x ev
 
-	<teiHeader>                  14x 
+	pure : <teiHeader>                              14x 
 
-	<text>                       14x 
+	pure : <text>                                   14x 
 
-	<title>                      14x 
+	mixed: <title>                                  14x 
 
-	<titleStmt>                  14x 
+	pure : <titleStmt>                              14x 
 
-	<unclear>                     2x 
+	mixed: <unclear>                                 2x 

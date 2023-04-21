@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="file:/C:/Mondrian_xml/svnmondxml/schema/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    
+	<teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan Aletta de Iongh. Amsterdam, dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Nederland</country>
+						<settlement>Otterlo</settlement>
+						<institution>Kröller Müller Museum</institution>
+						<idno>KM 123.397</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="correspondentiekaart"/>
+						<decoDesc>
+							<decoNote/>
+						</decoDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+        </fileDesc>
+        
+        
+        
+    
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<name>Piet Mondriaan</name>
+					<date when="1909-02-16">dinsdag 16 februari</date>
+					<placeName>Amsterdam</placeName>
+				</correspAction>
+				<correspAction type="received">
+				    <name key="iongh_aletta_de">Aletta de Iongh</name>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+            <change who="wc">transcriptie: voltooid 20.7.15</change>
+        </revisionDesc>
+	</teiHeader>
+    
+    
+    <text>
+        <body>
+            <div>
+                <pb f="1r" n="1"/>
+                <opener><salute>Beste Zus,</salute></opener>
+                <p>kom je morgenavond om kwart voor acht?</p>
+            </div>
+            
+        </body>
+    </text>
+
+</TEI>

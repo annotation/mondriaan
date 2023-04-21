@@ -1,13 +1,17 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
-![mondriaan](app/static/logo.png)
+![mondriaan](docs/images/logo.png)
+![rkd](docs/images/rkd.png)
+![huygens](docs/images/huygens.png)
+![huc](docs/images/huc.png)
+![tf](docs/images/tf.png)
 
 # Piet Mondriaan - Letters
 
 Selected Letters of Mondriaan in Text-Fabric.
 
 In this repository we prepare a "Proeftuin* of 14 letters of
-[Mondriaan](https://en.wikipedia.org/wiki/Piet_Mondrian)
+[Mondriaan](https://rkd.nl/en/explore/artists/56854)
 for the application of data science.
 
 The source files, TEI-XML files, are provided by the Huygens Institute.
@@ -29,6 +33,25 @@ See
 * [getImages](https://nbviewer.org/github/annotation/mondriaan/blob/master/programs/getImages.ipynb)
   to see how we got the images;
 
+## Who and what
+
+Several memory institutions and their associated developers are working to make
+rich datasets available to the public and researchers.
+
+The Mondriaan Letters collection is such a dataset for which active development is
+taking place.
+
+The participating institutes are:
+
+*   [RKD](https://rkd.nl/en/)
+*   [Huygens Institute](https://www.huygens.knaw.nl/en/)
+*   [Humanities Cluster](https://huc.knaw.nl)
+
+We make a test bed for the data transformations from the original TEI through
+Text-Fabric to Web Annotations, the format that will drive the resulting website.
+
+In this repository you can see and follow and reproduce the whole chain.
+
 ## Disclaimer
 
 As the badge above indicates: this is work in progress.
@@ -37,6 +60,14 @@ by Mondriaan, nothing that you see here is a promise of what that website will
 look like.
 
 ## Status
+
+*   2023-04-21
+    Source data, Text-Fabric data and Web annotation data all present,
+    the pipeline works.
+    The conversion aims at conserving all information that is present in the source
+    throughout all stages in the pipeline.
+    Later we should discuss which elements should be rendered and in what ways,
+    and with what controls on the interface.
 
 *   2023-04-12
     Initial content, the source data is not yet present, hence the programs do not yet
@@ -96,15 +127,44 @@ look like.
 In both cases, the corpus ends up in your home directory,
 under `text-fabric-data`.
 
-For reference, see the public corpus of the correspondence of Descartes in Text-Fabric on github:
+We have published several notebooks that show how the data is converted
+and how the Text-Fabric version of the data can be used.
 
-* [repo](https://github.com/CLARIAH/descartes-tf)
-* [tutorial](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tf/blob/main/tutorial/start.ipynb)
-* [search tutorial](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tf/blob/main/tutorial/search.ipynb)
+*   [tutorial](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/main/tutorial/start.ipynb)
+    on using Text-Fabric to explore this corpus;
+*   [convertExpress](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/main/programs/convertExpres.ipynb)
+    on converting TEI to Text-Fabric and using an NLP pipeline to delineate tokens and sentences;
+*   [watmFromTf](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/main/programs/watmFromTf.ipynb)
+    on converting TF to text segments plus web annotations, without information loss.
 
-# Author
+For reference, see some other public datasets on GitHub:
+
+*   Herman Melville, Moby Dick
+    *   [repo](https://github.com/annotation/mobydick)
+    *   [tutorial](https://nbviewer.jupyter.org/github/annotation/mobydick/blob/main/tutorial/start.ipynb)
+    *   [pandas tutorial](https://nbviewer.jupyter.org/github/annotation/mobydick/blob/main/tutorial/pandas.ipynb)
+
+*   Descartes, Letters
+    *   [repo](https://github.com/CLARIAH/descartes-tf)
+    *   [tutorial](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tf/blob/main/tutorial/start.ipynb)
+    *   [search tutorial](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tf/blob/main/tutorial/search.ipynb)
+
+# Authors and contributors
+
+*   Piet Mondriaan (original author)
+*   Leo Jansen (editor)
+*   Wietse Coppes (editor)
+*   Sabine Craft-Giepmans (RKD data architect)
+*   Reinier van 't Zelfde (RKD data architect)
+*   Mariken Teeuwen (Huygens researcher)
+*   Hennie Brugman (HuC software architect)
+*   Hayco de Jong (HuC data modeller and software developer)
+*   Bram Buitendijk (HuC senior software developer)
+*   Sebastiaan van Daalen (HuC interface developer)
+*   Dirk Roorda (Huc data modeller and software developer)
 
 See [about](docs/about.md) for the authors/editors of the data.
 
-[Dirk Roorda](https://github.com/dirkroorda) is the author of the representation in Text-Fabric of the data,
-and the tutorials and documentation.
+[Dirk Roorda](https://github.com/dirkroorda) has set up and organized this repo,
+and designed the data conversions.
+He has also written Text-Fabric.

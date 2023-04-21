@@ -1,55 +1,106 @@
-.r_.r_italic,.r_.r_italics {
-  font-style: italic;
-  color: #000000;
+
+.r_above {
+position: relative;
+top: -0.3em;
 }
-.r_.r_bold {
-  font-weight: bold;
-  color: #000000;
+
+.r_below {
+position: relative;
+top: 0.3em;
 }
-.r_.r_underline {
-  text-decoration: underline;
-  color: #000000;
+
+.r_b,.r_bold {
+font-weight: bold;
 }
-.r_.r_center {
-  text-align: center;
-  color: #000000;
+
+.r_center {
+text-align: center;
 }
-.r_.r_large {
-  font-size: large;
-  color: #000000;
+
+.r_h1 {
+font-size: xx-large;
+font-weight: bold;
+margin-top: 3rem;
+margin-bottom: 1rem;
 }
-.r_.r_spaced {
-  letter-spacing: .2rem;
-  color: #000000;
+
+.r_h2 {
+font-size: x-large;
+font-weight: bold;
+margin-top: 2rem;
+margin-bottom: 1rem;
 }
-.r_.r_margin {
-  position: relative;
-  top: -0.3em;
-  font-weight: bold;
-  color: #0000ee;
+
+.r_h3 {
+font-size: large;
+font-weight: bold;
+margin-top: 1rem;
+margin-bottom: 0.5rem;
 }
-.r_.r_above {
-  position: relative;
-  top: -0.3em;
-  color: #000000;
+
+.r_h4 {
+font-size: large;
+font-style: italic;
+margin-top: 1rem;
+margin-bottom: 0.5rem;
 }
-.r_.r_below {
-  position: relative;
-  top: 0.3em;
-  color: #000000;
+
+.r_h5 {
+font-size: medium;
+font-weight: bold;
+font-variant: small-caps;
+margin-top: 0.5rem;
+margin-bottom: 0.25rem;
 }
-.r_.r_sub {
-  vertical-align: sub;
-  font-size: small;
-  color: #000000;
+
+.r_h6 {
+font-size: medium;
+font-weight: normal;
+font-variant: small-caps;
+margin-top: 0.25rem;
+margin-bottom: 0.125rem;
 }
-.r_.r_sup, .r_.r_super {
-  vertical-align: super;
-  font-size: small;
-  color: #000000;
+
+.r_i,.r_italic,.r_italics {
+font-style: italic;
 }
+
+.r_large {
+font-size: large;
+}
+
+.r_margin {
+position: relative;
+top: -0.3em;
+font-weight: bold;
+color: #0000ee;
+}
+
+.r_sc,.r_small_caps,.r_smallcaps {
+font-variant: small-caps;
+}
+
+.r_spaced,.r_spat {
+letter-spacing: .2rem;
+}
+
+.r_sub {
+vertical-align: sub;
+font-size: small;
+}
+
+.r_sup,.r_super {
+vertical-align: super;
+font-size: small;
+}
+
+.r_ul,.r_underline {
+text-decoration: underline;
+}
+
 .r_ {
-  color: #dd9900;
+  color: #dd22ff;
+  text-decoration: underline;
 }
 .is_meta {
   font-family: monospace;
@@ -86,3 +137,4 @@
     max-width: 15rem ! important;
     max-height: 15rem ! important;
 }
+

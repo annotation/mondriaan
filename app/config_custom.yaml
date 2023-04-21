@@ -1,0 +1,9 @@
+interfaceDefaults:
+  showGraphics: true
+provenanceSpec:
+  graphicsRelative: illustrations
+typeDisplay:
+  rs:
+    features: type key
+    graphics: true
+writing: ''

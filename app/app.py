@@ -1,9 +1,9 @@
 import types
-from tf.advanced.find import loadModule
 from tf.advanced.app import App
 
+from tf.advanced.find import loadModule
 
-KNOWN_RENDS = {'h2', 'h6', 'ul', 'b', 'i', 'large', 'italic', 'below', 'center', 'spat', 'smallcaps', 'spaced', 'h4', 'small_caps', 'h1', 'italics', 'sc', 'sub', 'h3', 'sup', 'underline', 'bold', 'above', 'super', 'h5', 'margin'}
+KNOWN_RENDS = {'h4', 'spaced', 'underline', 'italics', 'smallcaps', 'h1', 'h6', 'bold', 'ul', 'italic', 'super', 'b', 'large', 'sub', 'sup', 'h2', 'center', 'h3', 'small_caps', 'sc', 'below', 'i', 'above', 'margin', 'h5', 'spat'}
 
 
 def fmt_layout(app, n, **kwargs):

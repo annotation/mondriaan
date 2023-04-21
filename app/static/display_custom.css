@@ -1,0 +1,26 @@
+/* GRAPHICS */
+
+
+.graphic_item {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.graphic_set {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.graphic_img {
+    display: block;
+    max-width: 15rem ! important;
+    max-height: 15rem ! important;
+}
+.graphic_caption {
+    display: block;
+    max-width: 15rem ! important;
+    max-height: 15rem ! important;
+}

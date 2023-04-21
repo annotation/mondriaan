@@ -22,9 +22,9 @@ provenanceSpec:
   branch: main
   corpus: '{org} - {repo}{relative}'
   doi: 10.5281/zenodo.nnnnnn
-  moduleSpecs: []
   graphicsRelative: illustrations
-  version: 0.8
+  moduleSpecs: []
+  version: 0.8.1
   webBase: https://public.{org}.org/{repo}
   webHint: Show this on the website
   webLang: en
@@ -34,6 +34,4 @@ typeDisplay:
   rs:
     features: type key
     graphics: true
-  word:
-    base: true
 writing: ''
