@@ -1,7 +1,7 @@
 @node
 @author=Piet Mondriaan
 @converters=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-04-21T14:24:46Z
+@dateWritten=2023-04-21T14:47:21Z
 @description=whether text is to be rendered as italics
 @descriptionTf=Critical edition
 @editors=Wietse Coppes; Leo Jansen
@@ -15,7 +15,7 @@
 @version=0.8.1pre
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-21T14:26:11Z
+@dateWritten=2023-04-21T14:47:39Z
 
 3268	1
 1

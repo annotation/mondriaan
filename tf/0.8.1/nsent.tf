@@ -2,7 +2,7 @@
 @description=number of sentence in corpus
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-21T14:26:11Z
+@dateWritten=2023-04-21T14:47:39Z
 
 15563	1
 2
