@@ -4,7 +4,7 @@
 ![rkd](docs/images/rkd.png)
 ![huygens](docs/images/huygens.png)
 ![huc](docs/images/huc.png)
-![tf](docs/images/tf.png)
+![tf](docs/images/tf-small.png)
 
 # Piet Mondriaan - Letters
 
