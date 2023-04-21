@@ -130,11 +130,11 @@ under `text-fabric-data`.
 We have published several notebooks that show how the data is converted
 and how the Text-Fabric version of the data can be used.
 
-*   [tutorial](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/main/tutorial/start.ipynb)
+*   [tutorial](https://nbviewer.org/github/annotation/mondriaan/blob/master/tutorial/start.ipynb)
     on using Text-Fabric to explore this corpus;
-*   [convertExpress](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/main/programs/convertExpres.ipynb)
+*   [convertExpress](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/master/programs/convertExpress.ipynb)
     on converting TEI to Text-Fabric and using an NLP pipeline to delineate tokens and sentences;
-*   [watmFromTf](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/main/programs/watmFromTf.ipynb)
+*   [watmFromTf](https://nbviewer.jupyter.org/github/annotation/mondriaan/blob/master/programs/watmFromTf.ipynb)
     on converting TF to text segments plus web annotations, without information loss.
 
 For reference, see some other public datasets on GitHub:
