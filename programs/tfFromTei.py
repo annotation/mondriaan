@@ -50,7 +50,7 @@ for (i, (acro, info)) in enumerate(sorted(INSTITUTES.items())):
 
 APP_CONFIG = dict(
     provenanceSpec=dict(
-        doi="10.5281/zenodo.nnnnnn",
+        branch="master",
     )
 )
 

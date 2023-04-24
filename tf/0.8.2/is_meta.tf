@@ -1,7 +1,7 @@
 @node
 @author=Piet Mondriaan
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-04-24T18:24:08Z
+@dateWritten=2023-04-24T19:35:41Z
 @description=whether a slot or word is in the teiHeader element
 @descriptionTf=Critical edition
 @institute1=HuC
@@ -24,7 +24,7 @@
 @version=0.8.2pre
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-24T18:24:28Z
+@dateWritten=2023-04-24T19:35:52Z
 
 1
 1

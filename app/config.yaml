@@ -19,9 +19,9 @@ interfaceDefaults:
   fmt: layout-orig-full
   showGraphics: true
 provenanceSpec:
-  branch: main
+  branch: master
   corpus: '{org} - {repo}{relative}'
-  doi: 10.5281/zenodo.nnnnnn
+  doi: 10.5281/zenodo.notyet
   graphicsRelative: illustrations
   moduleSpecs: []
   version: 0.8.2

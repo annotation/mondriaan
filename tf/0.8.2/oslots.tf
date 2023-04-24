@@ -1,7 +1,7 @@
 @edge
 @author=Piet Mondriaan
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-04-24T18:24:08Z
+@dateWritten=2023-04-24T19:35:41Z
 @descriptionTf=Critical edition
 @institute1=HuC
 @institute2=Huygens
@@ -23,7 +23,7 @@
 @version=0.8.2pre
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-24T18:24:28Z
+@dateWritten=2023-04-24T19:35:52Z
 
 13762	2952-2953
 178

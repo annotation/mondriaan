@@ -16,7 +16,7 @@
 @institute_place2=Amsterdam
 @institute_place3=Den Haag
 @language=nl
-@levelConstraints=note < chunk, p; salute < opener, closer; fileDesc < chunk; profileDesc < chunk; facsimile < chunk; revisionDesc < chunk; div < chunk
+@levelConstraints=note < chunk, p; salute < opener, closer; revisionDesc < chunk; facsimile < chunk; fileDesc < chunk; profileDesc < chunk; div < chunk
 @schema=MD
 @sectionFeatures=folder,letter,chunk
 @sectionTypes=folder,letter,chunk
@@ -24,5 +24,5 @@
 @title=Letters
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-24T18:24:08Z
+@dateWritten=2023-04-24T19:35:41Z
 
