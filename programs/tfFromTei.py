@@ -4,58 +4,54 @@ from tf.convert.tei import TEI
 
 AUTHOR = "Piet Mondriaan"
 TITLE = "Letters"
-INSTITUTE = "RKD Den Haag; KNAW/HuCHuygens Amsterdam"
+INSTITUTES = dict(
+    RKD=dict(
+        name="Nederlands Instituut voor Kunstgeschiedenis",
+        place="Den Haag",
+        contributors=[
+            "Wietse Coppes",
+            "Sabine Craft-Giepmans",
+            "Reinier van 't Zelfde",
+        ],
+    ),
+    Huygens=dict(
+        name="Huygens Instituut",
+        place="Amsterdam",
+        contributors=["Leo Jansen", "Peter Boot", "Beatrice Nava", "Mariken Teeuwen"],
+    ),
+    HuC=dict(
+        name="Humanities Cluster",
+        place="Amsterdam",
+        contributors=[
+            "Hennie Brugman",
+            "Hayco de Jong",
+            "Bram Buitendijk",
+            "Sebastiaan van Daalen",
+            "Dirk Roorda",
+        ],
+    ),
+)
+COLLABORATORS = dict()
 
 GENERIC = dict(
     author=AUTHOR,
     title=TITLE,
-    institute=INSTITUTE,
     language="nl",
-    projectleaders="Hennie Brugman, Mariken Teeuwen",
-    converters="Dirk Roorda (Text-Fabric)",
-    editors="Wietse Coppes; Leo Jansen",
+    converter="Dirk Roorda (Text-Fabric)",
     sourceFormat="TEI",
     descriptionTf="Critical edition",
 )
+for (i, (acro, info)) in enumerate(sorted(INSTITUTES.items())):
+    i1 = i + 1
+    GENERIC[f"institute{i1}"] = acro
+    GENERIC[f"institute_name{i1}"] = info["name"]
+    GENERIC[f"institute_place{i1}"] = info["place"]
+    GENERIC[f"institute_contributors{i1}"] = ", ".join(info["contributors"])
 
 APP_CONFIG = dict(
     provenanceSpec=dict(
         doi="10.5281/zenodo.nnnnnn",
     )
-)
-
-ABOUT_TEXT = """
-# CONTRIBUTORS
-
-Authors and contributors
-
-*   Piet Mondriaan (original author)
-*   Leo Jansen (editor)
-*   Wietse Coppes (editor)
-*   Peter Boot (content specialist)
-*   Sabine Craft-Giepmans (RKD data architect)
-*   Reinier van 't Zelfde (RKD data architect)
-*   Mariken Teeuwen (Huygens researcher)
-*   Hennie Brugman (HuC software architect)
-*   Hayco de Jong (HuC data modeller and software developer)
-*   Bram Buitendijk (HuC senior software developer)
-*   Sebastiaan van Daalen (HuC interface developer)
-*   Dirk Roorda (Huc data modeller and software developer)
-tors: Peter Boot et al.
-"""
-
-TRANSCRIPTION_TEXT = """
-
-The TEI has been validated and polished
-before generating the TF data.
-
-The initial TF data has been fed into Spacy to detect tokens and sentences,
-and the result has been integrated into a new version of the TF data.
-"""
-
-DOC_MATERIAL = dict(
-    about=ABOUT_TEXT,
-    transcription=TRANSCRIPTION_TEXT,
 )
 
 HY = "\u2010"  # hyphen
@@ -74,10 +70,8 @@ T = TEI(
     sectionModel=dict(model="I", levels=["folder", "letter", "chunk"]),
     generic=GENERIC,
     transform=transform,
-    tfVersion="0.8.1pre",
+    tfVersion="0.8.2pre",
     appConfig=APP_CONFIG,
-    docMaterial=DOC_MATERIAL,
-    force=False,
 )
 
 T.run(os.path.basename(__file__))

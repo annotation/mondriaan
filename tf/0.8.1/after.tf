@@ -1,13 +1,22 @@
 @node
 @author=Piet Mondriaan
-@converters=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-04-21T14:47:21Z
+@converter=Dirk Roorda (Text-Fabric)
+@dateWritten=2023-04-24T17:08:20Z
 @description=the text after a word till the next word
 @descriptionTf=Critical edition
-@editors=Wietse Coppes; Leo Jansen
-@institute=RKD Den Haag; KNAW/HuCHuygens Amsterdam
+@institute1=HuC
+@institute2=Huygens
+@institute3=RKD
+@institute_contributors1=Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+@institute_contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+@institute_contributors3=Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde
+@institute_name1=Humanities Cluster
+@institute_name2=Huygens Instituut
+@institute_name3=Nederlands Instituut voor Kunstgeschiedenis
+@institute_place1=Amsterdam
+@institute_place2=Amsterdam
+@institute_place3=Den Haag
 @language=nl
-@projectleaders=Hennie Brugman, Mariken Teeuwen
 @schema=MD
 @sourceFormat=TEI
 @title=Letters
@@ -15,7 +24,7 @@
 @version=0.8.1pre
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-21T14:47:39Z
+@dateWritten=2023-04-24T17:12:43Z
 
  
  
@@ -208,7 +217,8 @@
  
 
 
-209	
+
+
 
 
 
@@ -416,7 +426,9 @@
  
 
 
-421	 
+
+
+ 
  
  
  
@@ -656,7 +668,8 @@
  
 
 
-681	
+
+
 
 
 
@@ -969,7 +982,9 @@
  
 
 
-1000	 
+
+
+ 
  
  
  
@@ -1247,7 +1262,8 @@
  
 
 
-1298	
+
+
 
 
 
@@ -1662,11 +1678,14 @@
  
 
 
-1718	
+
+
 
 
 1722	
-1727	 
+1725	
+
+ 
  
  
  
@@ -1895,7 +1914,9 @@
  
 
 
-1975	
+
+
+
 
 
  
@@ -2209,7 +2230,9 @@
  
 
 
-2292	 
+
+
+ 
  
  
  
@@ -2476,7 +2499,9 @@
  
 
 
-2578	
+
+
+
 
 
  
@@ -2803,7 +2828,9 @@
  
 
 
-2910	 
+
+
+ 
  
  
  
@@ -2934,7 +2961,9 @@
  
 
 3058	 
-3063	
+3061	
+
+
  
 
 
@@ -3023,7 +3052,8 @@
  
 
 
-3154	
+
+
 
 
 
@@ -3254,7 +3284,9 @@
  
 
 
-3389	 
+
+
+ 
  
  
  
@@ -3493,7 +3525,9 @@
  
 
 
-3647	
+
+
+
 
 
  
@@ -3756,7 +3790,9 @@
  
 
 
-3915	
+
+
+
  
  
  
@@ -3922,7 +3958,8 @@
  
 
 
-4100	
+
+
  
  
 
@@ -4172,7 +4209,9 @@
  
 
 
-4355	 
+
+
+ 
  
  
  
@@ -4485,7 +4524,9 @@
  
 
 
-4693	 
+
+
+ 
  
  
  
@@ -4556,7 +4597,9 @@
  
 
 
-4768	
+
+
+
 
 
  
@@ -5125,7 +5168,9 @@
  
 
 
-5348	 
+
+
+ 
  
  
  
@@ -5195,7 +5240,9 @@
  
 
 
-5422	 
+
+
+ 
  
  
 
@@ -6399,7 +6446,8 @@
  
 
 
-6649	
+
+
  
  
  
@@ -8383,7 +8431,9 @@
  
 
 
-8643	 
+
+
+ 
  
  
 
@@ -8569,7 +8619,9 @@
  
 
 
-8847	
+
+
+
  
  
  
@@ -8831,7 +8883,9 @@
 
 
 
-9112	 
+9110	
+
+ 
 
  
 
@@ -8916,7 +8970,9 @@
  
 
 
-9201	 
+
+
+ 
  
  
  
@@ -9353,50 +9409,7 @@
  
 
 
-9661	 
- 
- 
- 
- 
- 
- 
- 
-
- 
-
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
- 
-
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
+9659	
 
  
  
@@ -9412,6 +9425,51 @@
  
  
  
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
 
  
  
@@ -9457,7 +9515,8 @@
  
 
 
-9766	
+
+
 
 
 
@@ -10130,7 +10189,9 @@
  
 
 
-10450	 
+10448	
+
+ 
  
  
  
@@ -10141,69 +10202,6 @@
 
  
 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
-
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
-
- 
- 
-
- 
- 
-
-
-
-
- 
- 
- 
-
- 
- 
- 
- 
-
- 
- 
- 
  
  
  
@@ -10220,6 +10218,69 @@
 
  
  
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
 
  
 
@@ -10228,7 +10289,9 @@
  
 
 
-10550	 
+
+
+ 
  
  
  
@@ -10457,23 +10520,9 @@
  
 
 
-10798	
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
 
 
  
@@ -10486,6 +10535,11 @@
  
  
  
+ 
+ 
+ 
+ 
+
 
  
  
@@ -10508,6 +10562,17 @@
  
  
  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -10539,32 +10604,6 @@
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
- 
- 
- 
- 
- 
-
  
  
  
@@ -10590,6 +10629,32 @@
  
  
  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
  
  
 
@@ -10623,34 +10688,7 @@
 
 
 
-10967	 
- 
- 
- 
- 
-
-
-
-
-
- 
- 
- 
- 
-
-
- 
- 
- 
- 
- 
- 
-
-
- 
- 
- 
-
+10966	
  
  
  
@@ -10661,11 +10699,40 @@
 
 
 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
 
 
 
 
-11010	 
+
+
+
+
+
+
+ 
 
 
 
@@ -10764,7 +10831,9 @@
  
 
 
-11114	 
+
+
+ 
 
 11117	 
 
@@ -11454,7 +11523,8 @@
  
 
 
-11826	
+
+
  
  
 
@@ -13375,5 +13445,7 @@
  
  
  
+
+
 
 
