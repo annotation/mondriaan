@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    
+	<teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs type="person" key="iongh_aletta_de">Aletta de Iongh</rs>. Amsterdam, donderdag 13 mei 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Nederland</country>
+						<settlement>Otterlo</settlement>
+						<institution>Kröller Müller Museum</institution>
+						<idno>KM 121.570</idno>
+						<altIdentifier><idno type="letterId">19090513y_IONG_1293</idno></altIdentifier>
+						<altIdentifier><idno type="def"/></altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="brief"/>
+						<decoDesc>
+							<decoNote/>
+						</decoDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+        </fileDesc>
+        
+        
+        
+    
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<name>Piet Mondriaan</name>
+					<date when="1909-05-13">donderdag 13 mei 1909</date>
+					<placeName>Amsterdam</placeName>
+				</correspAction>
+				<correspAction type="received">
+				    <name key="iongh_aletta_de">Aletta de Iongh</name>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+            <change who="wc">transcriptie: voltooid 20.7.15</change>
+            <change who="wc">collatie bron: voltooid 1.6.16</change>
+            <change who="lj">tweede collatie aan origineel: voltooid 26.11.19</change>
+            <change who="lj">invoer tweede collatie: voltooid 5.8.16</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+		    <change who="ev">titel gecontroleerd 15.9.2020</change>
+		    <change who="ev">personen getagd 12.10.2020</change>
+		    <change who="ev">vertaling ingevoerd 4.3.2021</change>
+		    <change who="ms">codering personen aangepast 16.2.2022</change>
+		    <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+	</teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#s1r"/>
+               
+                <opener xml:id="p.nl.1" n="1"><salute>Beste Zus,</salute></opener> <p xml:id="p.nl.2" n="2">daar ik een
+                    muur van ´t atelier met koolteer
+                    zwart maakte, ruikt 't zóó naar
+                    teer, dat je misschien hoofdpijn zou
+                    krijgen, en ik er ook maar uit ga.<ptr target="#koolteer" type="note"/></p>
+                 <p xml:id="p.nl.3" n="3">Ik dacht dat de lucht gauer
+                    weg zou zijn. Willen we dus maar
+                    uitstellen tot Donderdag volgende
+                     week? En <add rend="above">kan je</add> Zaterdag na de koffie
+                    met me naar <ref target="tentoon.xml#SintLucas1909">S<hi rend="super underline2">t</hi> Lucas</ref> gaan? Want
+                    Zondag is de laatste dag.<ptr target="#sluitingSintLucas" type="note"/> Mij
+                    komt 't beste uit om 2 uur: tot
+                    3½ ben ik vrij. Als je kunt, en
+                    ik dus geen tegenbericht van je
+                    krijg, kom dan om 2 uur
+                    op de afgesproken plaats, kiosk
+                     van Baerlestraat.<ptr target="#kioskBaerlestraat" type="note"/></p> <closer xml:id="p.nl.4" n="4"><salute>Dag Zus, vele
+                    beste groeten van je toegenegen</salute> <signed><hi rend="underline">Piet.</hi></signed></closer>
+                <!-- AAN BOVENZIJDE VAN HET BLAD -->
+                <postscript rend="upsidedown"><p xml:id="p.nl.5" n="5">Ik heb van <rs type="person" key="waldenburg_alfred">de poliep</rs> nog geen portretten;
+                     maar ik ben weinig thuis
+                    geweest.</p></postscript>
+            </div>
+
+			<div type="annotation">
+
+				<div type="typednotes" xml:lang="nl">
+				    <note type="transcrSource">Manuscript.</note>
+				    <note type="dating">Deze brief werd geschreven in de week voorafgaande aan de sluitingsdatum van de tentoonstelling van St. Lucas (zie <ref target="MEP_1293#sluitingSintLucas">noot 2</ref>). 
+				        Omdat Mondriaan en <rs type="person" key="iongh_aletta_de">De Iongh</rs> doorgaans afspraken op donderdagmiddag (zie <ref target="MEP_1294">MEP_1294</ref>), dateren we de onderhavige correspondentiekaart op donderdag 
+				        13 mei 1909.</note>
+				    <note type="pubhistory">Gepubliceerd in facsimile in <ref target="biblio.xml#Heteren2018">Heteren 2018</ref>, p. 25.</note>
+				</div>
+
+				<div type="ogtnotes" xml:lang="nl">
+				    <note xml:id="_1">Portretfoto's van <rs type="person" key="iongh_aletta_de">De Iongh</rs> door <rs type="person" key="waldenburg_alfred">Waldenburg</rs> (<ref target="MEP_1304#xml:id=schedelmeter">MEP_1304</ref>).</note>
+				</div>
+
+				<div type="notes" xml:lang="nl">
+                <note xml:id="koolteer">Koolteer ofwel bitumen is een stroperige, van aardolie afgeleide substantie die vanwege de penetrante geur niet geschikt is voor grootschalig 
+                    gebruik binnenshuis. Koolteer werd door kunstschilders ook wel gebruikt om zwarte verf extra donker te maken.</note>
+				<note xml:id="sluitingSintLucas">De <ref target="tentoon.xml#StLucas1909">Jaarlijksche Tentoonstelling</ref> van <rs type="artistsassoc">kunstenaarsvereniging
+				    Sint Lucas</rs> in het <rs type="museum">Stedelijk Museum</rs> sloot op zondag 16 mei 1909 (<ref target="biblio.xml#CR1998">CR </ref>III, 25).</note>
+                <note xml:id="kioskBaerlestraat">De kiosk bevond zich schuin tegenover de ingang van het <rs type="museum">Stedelijk Museum Amsterdam</rs>, op de kruising 
+                    van de Van Baerlestraat met de Paulus Potterstraat.</note>
+				</div>
+			    
+			    <div type="translation" xml:lang="en">
+			        <pb f="1r" n="1" facs="#s1r"/>
+			        <opener xml:id="p.en.1" n="1"><salute>Dear Zus,</salute></opener>
+			        <p xml:id="p.en.2" n="2">Because I used bitumen to make a wall in the studio black, it smells so strongly of bitumen that it might give you a headache, and so I’m getting out myself.<ptr target="#koolteer" type="note"/></p>
+			        <p xml:id="p.en.3" n="3">I thought the smell would clear sooner. So shall we just postpone until Thursday next week? And can you come with me to <ref target="tentoon.xml#SintLucas1909">St Lucas</ref> on Saturday after coffee? Because Sunday is the last day.<ptr target="#sluitingSintLucas" type="note"/>
+			            Two o’clock works out best for me: I’m free until 3.30. If you can, and I haven’t heard from you to the contrary, come to the agreed place, the Baerlestraat kiosk, at 2.<ptr target="#kioskBaerlestraat" type="note"/></p>
+			        <closer xml:id="p.en.4" n="4"><salute>Bye Zus, very best wishes from your affectionate</salute>
+			        <signed><hi rend="underline">Piet.</hi></signed></closer>
+			        <postscript><p xml:id="p.en.5" n="5">I still haven’t got any portraits of <rs type="person" key="waldenburg_alfred">the polyp</rs>; but I haven’t been home much.</p></postscript>
+			    </div>
+			</div>
+
+        </body>
+    </text>
+
+</TEI>

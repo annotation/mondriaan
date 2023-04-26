@@ -1,0 +1,149 @@
+Inventory of tags and attributes in the source XML file(s).
+Contains the following sections:
+	Formatting Attributes
+	Keyword Attributes
+	Remaining Attributes and Elements
+
+
+
+Formatting Attributes
+
+	mixed: <hi>               rend=                  2x underline
+
+Keyword Attributes
+
+	mixed: <c>                type=                  1x wbh>
+
+	mixed: <change>           type=                  1x editedText
+	                   who=                   3x ev
+	                          "                      2x lj
+	                          "                      1x ms
+	                          "                      3x wc
+
+	pure : <correspAction>    type=                  2x received
+	                          "                      2x sent
+
+	mixed: <del>              type=                  1x overwritten
+
+	pure : <div>              lang=                  1x en
+	                          "                      4x nl
+	                   type=                  1x annotation
+	                          "                      1x notes
+	                          "                      1x ogtnotes
+	                          "                      1x original
+	                          "                      1x translation
+	                          "                      1x typednotes
+
+	mixed: <idno>             type=                  1x def
+	                          "                      1x letterId
+
+	mixed: <note>             type=                  1x dating
+	                          "                      1x transcrSource
+
+	pure : <objectDesc>       form=                  2x correspondentiekaart
+
+	pure : <pb>               facs=                  2x #s1r
+
+	pure : <ptr>              type=                  3x note
+
+	mixed: <reg>              type=                  2x punctuation
+
+	mixed: <rs>               type=                  6x person
+
+Remaining Attributes and Elements
+
+	pure : <TEI>                                     2x 
+
+	mixed: <add>                                     1x 
+
+	pure : <altIdentifier>                           2x 
+
+	pure : <body>                                    2x 
+
+	mixed: <change>                                  2x 
+
+	pure : <choice>                                  2x 
+
+	mixed: <closer>                                  2x 
+
+	pure : <correspDesc>                             2x 
+
+	mixed: <country>                                 2x 
+
+	mixed: <date>             when=                  2x NNNN-NN-NN
+
+	pure : <decoDesc>                                2x 
+
+	mixed: <decoNote>                                2x 
+
+	pure : <div>                                     1x 
+
+	mixed: <editor>           id=                    4x X
+
+	pure : <facsimile>                               1x 
+
+	pure : <fileDesc>                                2x 
+
+	pure : <graphic>          url=                   4x dummy
+
+	mixed: <idno>                                    2x 
+
+	mixed: <institution>                             2x 
+
+	pure : <msDesc>                                  2x 
+
+	pure : <msIdentifier>                            2x 
+
+	mixed: <name>                                    2x 
+	                   key=                   2x X
+
+	mixed: <note>             id=                    2x X
+
+	mixed: <opener>                                  3x 
+
+	mixed: <orig>                                    2x 
+
+	mixed: <p>                                       5x 
+
+	pure : <pb>               f=                     3x Nr
+	                   n=                     3x N
+
+	pure : <physDesc>                                2x 
+
+	mixed: <placeName>                               2x 
+
+	pure : <profileDesc>                             2x 
+
+	pure : <ptr>              target=                3x X
+
+	pure : <publicationStmt>                         2x 
+
+	mixed: <ref>              target=                2x X
+
+	pure : <revisionDesc>                            2x 
+
+	mixed: <rs>               key=                   6x X
+
+	mixed: <salute>                                  5x 
+
+	mixed: <settlement>                              2x 
+
+	mixed: <signed>                                  2x 
+
+	pure : <sourceDesc>                              2x 
+
+	mixed: <sponsor>                                 2x 
+
+	pure : <surface>          id=                    4x X
+	                   n=                     1x Nr
+	                          "                      1x Nv
+	                          "                      1x er
+	                          "                      1x ev
+
+	pure : <teiHeader>                               2x 
+
+	pure : <text>                                    2x 
+
+	mixed: <title>                                   2x 
+
+	pure : <titleStmt>                               2x 

@@ -101,62 +101,42 @@ Critical edition
 
 ## institute1
 
-HuC
-
-
-## institute_name1
-
-Humanities Cluster
-
-
-## institute_place1
-
-Amsterdam
-
-
-## institute_contributors1
-
-Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+HuC (Humanities Cluster) Amsterdam
 
 
 ## institute2
 
-Huygens
-
-
-## institute_name2
-
-Huygens Instituut
-
-
-## institute_place2
-
-Amsterdam
-
-
-## institute_contributors2
-
-Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+Huygens Instituut Amsterdam
 
 
 ## institute3
 
-RKD
+RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 
 
-## institute_name3
+## contributors1
 
-Nederlands Instituut voor Kunstgeschiedenis
-
-
-## institute_place3
-
-Den Haag
+Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
 
 
-## institute_contributors3
+## contributors2
 
-Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde
+Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+
+
+## contributors3
+
+"Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
+
+
+## version
+
+0.8.2pre
+
+
+## schema
+
+MD
 
 
 ## Conversion

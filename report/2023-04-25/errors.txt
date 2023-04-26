@@ -1,0 +1,9 @@
+19100131_SAAL_ARNO_0018.xml
+255:0  ERROR Element 'opener', attribute 'id': 'p.en.1' is not a valid value of the atomic type 'xs:ID'.
+256:0  ERROR Element 'p', attribute 'id': 'p.en.2' is not a valid value of the atomic type 'xs:ID'.
+257:0  ERROR Element 'p', attribute 'id': 'p.en.3' is not a valid value of the atomic type 'xs:ID'.
+259:0  ERROR Element 'p', attribute 'id': 'p.en.4' is not a valid value of the atomic type 'xs:ID'.
+263:0  ERROR Element 'p', attribute 'id': 'p.en.5' is not a valid value of the atomic type 'xs:ID'.
+266:0  ERROR Element 'p', attribute 'id': 'p.en.6' is not a valid value of the atomic type 'xs:ID'.
+273:0  ERROR Element 'closer', attribute 'id': 'p.en.7' is not a valid value of the atomic type 'xs:ID'.
+

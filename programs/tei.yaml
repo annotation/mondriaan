@@ -1,0 +1,25 @@
+generic:
+  author: Piet Mondriaan
+  title: Letters
+  language: nl
+  converter: Dirk Roorda (Text-Fabric)
+  sourceFormat: TEI
+  descriptionTf: Critical edition
+  institute1: HuC (Humanities Cluster) Amsterdam
+  institute2: Huygens Instituut Amsterdam
+  institute3: RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
+  contributors1: |-
+    Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+  contributors2: |-
+    Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+  contributors3: |-
+    "Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
+schema: MD
+prelim: true
+wordAsSlot: false
+sectionModel: 
+  model: I
+  levels:
+  - folder
+  - letter
+  - chunk

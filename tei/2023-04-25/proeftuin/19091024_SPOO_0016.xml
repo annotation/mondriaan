@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    
+	<teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Briefkaart aan <rs type="person" key="spoor_kees">Kees Spoor</rs>. Amsterdam, zondag 24 oktober 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Onbekend</country>
+						<settlement>Onbekend</settlement>
+						<institution>Onbekend</institution>
+						<idno>Onbekend</idno>
+						<altIdentifier><idno type="letterId">19091024_SPOO_0016</idno></altIdentifier>
+						<altIdentifier><idno type="def"/></altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="brief"/>
+						<decoDesc>
+							<decoNote/>
+						</decoDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+        </fileDesc>
+        
+        
+        
+    
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<name>Piet Mondriaan</name>
+					<date when="1909-10-24">zondag 24 oktober 1909</date>
+					<placeName>Amsterdam</placeName>
+				</correspAction>
+				<correspAction type="received">
+				    <name key="spoor_kees">Cornelis Spoor</name>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+            <change who="wc">transcriptie: voltooid 24.5.16</change>
+            <change who="wc">collatie bron: voltooid 24.5.16</change>
+            <change who="lj">tweede collatie aan Museumjournaal: voltooid 29.7.16</change>
+            <change who="wc">invoer tweede collatie: voltooid 29.7.16</change>
+            <change>bespreking eindversie: gb </change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 8.4.2019</change>
+		    <change who="ev">titel gecontroleerd 15.9.2020</change>
+		    <change who="ev">personen getagd 13.10.2020</change>
+		    <change who="ev">vertaling ingevoerd 28.1.2021</change>
+		    <change who="ms">codering personen aangepast 16.2.2022</change>
+			<change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+	</teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#s1r"/>
+                   <opener xml:id="p.nl.1" n="1"><dateline><date>Zondagavond.</date> </dateline>
+    <salute>Kees,</salute></opener> <p xml:id="p.nl.2" n="2">daar ik geen gelegenheid had ze je
+                   te brengen, zend ik je de kaart maar, ook
+                   die voor <rs type="person" key="fernhout_henk">Fernhout</rs>, die bij jou de kaart
+                   zou komen halen.<ptr target="#Fernhout" type="note"/></p>
+                   <closer xml:id="p.nl.3" n="3"><salute>Tot morgen — vele groeten</salute> van <signed>Piet.</signed></closer>
+                <postscript><p xml:id="p.nl.4" n="4"><rs type="person" key="fernhout_henk">Fernhout</rs> zou jou komen halen, ik ga de
+                   dames van den trein halen en zie je dus
+                	wel in 't <rs type="org">Concertgebouw</rs><choice><orig/><reg>.</reg></choice><ptr target="#deDames" type="note"/> — Wacht dus
+                   niet op me.</p></postscript>
+            </div>
+
+            
+			<div type="annotation">
+
+				<div type="typednotes" xml:lang="nl">
+				    <note type="transcrSource">Transcriptie, afgedrukt in <ref target="biblio.xml#Ginneken1970">Ginneken 1970</ref>; het manuscript of een reproductie ervan is niet achterhaald. Zie verder 'pubhistory'.</note>
+				    <note type="dating">Bij publicatie (zie 'pubhistory') is de brief gedateerd op de onzekere lezing van het poststempel; de omschrijving luidt 'datum
+				        poststempel (wrsch.) 25-10-09'. Deze datum viel op een maandag. Uitgaande van de lezing van het poststempel moet de brief op zondag 24 oktober 1909 gedateerd
+				        worden, aangezien de brief op zondagavond geschreven werd (r. 90).</note>
+				    <note type="pubhistory">De brief of een reproductie ervan is niet overgeleverd; de tekst is bekend dankzij <ref target="biblio.xml#Ginneken1970">Lily van Ginneken,
+				        <rs type="article">'Documentatie: kunstenaarsbrieven Kees Spoor (2)'</rs></ref>, in <rs type="journal">Museumjournaal</rs> 15 (1970) nr. 5 (november), p. 261-267;
+				        de brieftekst op p. 266.</note>
+				</div>
+
+				<div type="notes" xml:lang="nl">
+				    <note xml:id="Fernhout">De student filosofie <rs type="person" key="fernhout_henk">Henk Fernhout</rs> was een goede vriend van <rs type="person" key="spoor_kees">Spoor</rs>. Hij zou in 1912 in het huwelijk treden met <rs type="person" key="toorop_charley">Charley
+                    Toorop</rs> (<ref target="biblio.xml#Exh.cat.Rotterdam2008">Exh.cat. Rotterdam 2008</ref>, p. 18-21). De kaarten waarvan sprake is waren bedoeld
+				    voor de voordracht 'The Coming Christ' door <rs type="person" key="besant_annie">Annie Besant</rs>, de presidente van de <rs type="org">Theosofische Vereniging</rs>. Deze vond plaats in de grote zaal van het 
+                    Concertgebouw (zie het postscriptum). Cf. o.a. <hi rend="italics">De Telegraaf</hi>, 24 oktober 1909 (advertentie) en .</note><!--** LKD: is hier iets weggevallen? -->
+				<note xml:id="deDames">Wie 'de dames' waren, is niet achterhaald.</note>
+                <note/> 
+            
+				</div>
+			    
+			    <div type="translation" xml:lang="en">
+			        <pb f="1r" n="1" facs="#s1r"/>
+			        <opener xml:id="p.en.1" n="1"><dateline><date>Sunday evening.</date> </dateline>
+    <salute>Kees,</salute></opener>
+			    	<p xml:id="p.en.2" n="2">Since I’ve had no opportunity to bring them to you, I’m sending you the ticket; and the one for <rs type="person" key="fernhout_henk">Fernhout</rs>, who should come and pick it up from you.<ptr target="#Fernhout" type="note"/></p>
+			        <closer xml:id="p.en.3" n="3"><salute>See you tomorrow – very best regards</salute> from
+			        <signed>Piet.</signed></closer>
+			    	<postscript><p xml:id="p.en.4" n="4"><rs type="person" key="fernhout_henk">Fernhout</rs> should pick you up; I’ll fetch the ladies from the train and so will see you at the <rs type="org">Concertgebouw</rs>.–<ptr target="#deDames" type="note"/> So don’t wait for me.</p></postscript>
+			    </div>
+			</div>
+
+        </body>
+    </text>
+
+</TEI>

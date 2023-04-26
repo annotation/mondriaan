@@ -1,0 +1,233 @@
+Inventory of tags and attributes in the source XML file(s).
+Contains the following sections:
+	Formatting Attributes
+	Keyword Attributes
+	Remaining Attributes and Elements
+
+
+
+Formatting Attributes
+
+	mixed: <add>              rend=                  1x above
+
+	mixed: <addrLine>         rend=                  1x center
+
+	mixed: <del>              rend=                  2x overwritten
+
+	mixed: <hi>               rend=                  2x blockletter
+	                          "                     17x italics
+	                          "                      1x right
+	                          "                      4x spaced
+	                          "                      7x super
+	                          "                     28x underline
+	                          "                      2x underline2
+
+	pure : <postscript>       rend=                  1x upsidedown
+
+	mixed: <signed>           rend=                  1x right
+
+	pure : <space>            dim=                   9x vertical
+	                   rend=                  4x norend
+
+Keyword Attributes
+
+	mixed: <address>          type=                  3x receiver
+
+	mixed: <change>           type=                 12x editedText
+	                   who=                   1x XX
+	                          "                     39x ev
+	                          "                      1x gr
+	                          "                     35x lj
+	                          "                     13x ms
+	                          "                     29x wc
+
+	pure : <correspAction>    type=                 13x received
+	                          "                     13x sent
+
+	mixed: <del>              type=                  1x overwritten
+	                          "                      1x strikeover
+
+	pure : <div>              lang=                 16x en
+	                          "                     50x nl
+	                   type=                 14x annotation
+	                          "                     14x notes
+	                          "                     12x ogtnotes
+	                          "                     13x original
+	                          "                      2x postalData
+	                          "                     13x translation
+	                          "                     14x typednotes
+
+	mixed: <idno>             type=                 13x def
+	                          "                     13x letterId
+
+	mixed: <note>             type=                 14x dating
+	                          "                      4x pubhistory
+	                          "                      2x remarks
+	                          "                     14x transcrSource
+
+	pure : <objectDesc>       form=                 11x brief
+	                          "                      1x briefkaart
+	                          "                      1x correspondentiekaart
+
+	pure : <pb>               facs=                 24x #s1r
+	                          "                      9x #s1v
+	                          "                      1x #ser
+	                          "                      1x #sev
+
+	pure : <ptr>              type=                 67x note
+
+	mixed: <reg>              type=                  1x misprint
+
+	mixed: <rs>               type=                  2x article
+	                          "                      7x artistsassoc
+	                          "                     15x artwork-m
+	                          "                      9x exhibition
+	                          "                      3x firm
+	                          "                      3x journal
+	                          "                      5x museum
+	                          "                      6x org
+	                          "                    106x person
+	                          "                      3x photograph
+
+	pure : <space>            unit=                  1x chars
+	                          "                      8x lines
+
+	mixed: <unclear>          reason=                2x strikeover
+
+Remaining Attributes and Elements
+
+	pure : <TEI>                                    13x 
+
+	mixed: <abbr>                                    2x 
+
+	mixed: <accMat>                                  1x 
+
+	mixed: <add>                                     3x 
+
+	mixed: <addrLine>                                7x 
+
+	mixed: <address>                                 2x 
+
+	pure : <altIdentifier>                          26x 
+
+	pure : <body>                                   13x 
+
+	mixed: <change>                                 26x 
+
+	pure : <choice>                                 15x 
+
+	mixed: <closer>           id=                   28x X
+	                   n=                    28x N
+
+	pure : <correspDesc>                            13x 
+
+	mixed: <country>                                13x 
+
+	mixed: <date>                                    2x 
+	                   when=                  5x NNNN-NN
+	                          "                      8x NNNN-NN-NN
+
+	mixed: <dateline>                                8x 
+
+	pure : <decoDesc>                               13x 
+
+	mixed: <decoNote>                               13x 
+
+	mixed: <del>                                     1x 
+
+	pure : <div>              id=                    2x X
+
+	mixed: <editor>           id=                   26x X
+
+	mixed: <expan>                                   2x 
+
+	pure : <facsimile>                              13x 
+
+	pure : <fileDesc>                               13x 
+
+	pure : <graphic>          url=                   1x ../NNNN/km_NNN.NNN.jpg
+	                          "                      1x ../NNNN/km_NNN.NNN_NN.jpg
+	                          "                     48x dummy
+
+	mixed: <idno>                                   13x 
+
+	mixed: <institution>                            13x 
+
+	pure : <msDesc>                                 13x 
+
+	pure : <msIdentifier>                           13x 
+
+	mixed: <name>                                   13x 
+	                   key=                  13x X
+
+	mixed: <note>                                    2x 
+	                   id=                   38x X
+	                   n=                     1x _N
+
+	mixed: <opener>           id=                   26x X
+	                   n=                    26x N
+
+	mixed: <orig>                                   11x 
+
+	mixed: <p>                                      13x 
+	                   id=                   66x X
+	                   n=                    66x N
+
+	pure : <pb>                                      7x 
+	                   f=                    24x Nr
+	                          "                      9x Nv
+	                   n=                    33x N
+	                          "                      1x er
+	                          "                      1x ev
+
+	pure : <physDesc>                               13x 
+
+	mixed: <placeName>                              13x 
+
+	mixed: <postmark>                                2x 
+
+	pure : <postscript>                              5x 
+
+	pure : <profileDesc>                            13x 
+
+	pure : <ptr>              target=               71x X
+
+	pure : <publicationStmt>                        13x 
+
+	mixed: <ref>                                     3x 
+	                   target=               46x X
+
+	mixed: <reg>                                    10x 
+
+	pure : <revisionDesc>                           13x 
+
+	mixed: <rs>               key=                 115x X
+
+	mixed: <salute>                                 50x 
+
+	mixed: <settlement>                             13x 
+
+	mixed: <signed>                                 27x 
+
+	pure : <sourceDesc>                             13x 
+
+	pure : <space>            quantity=              9x N
+
+	mixed: <sponsor>                                13x 
+
+	pure : <surface>          id=                   50x X
+	                   n=                     2x N
+	                          "                     12x Nr
+	                          "                     12x Nv
+	                          "                     12x er
+	                          "                     12x ev
+
+	pure : <teiHeader>                              13x 
+
+	pure : <text>                                   13x 
+
+	mixed: <title>                                  13x 
+
+	pure : <titleStmt>                              13x 
+
+	mixed: <unclear>                                 2x 

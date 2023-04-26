@@ -1,6 +1,7 @@
 interfaceDefaults:
   showGraphics: true
 provenanceSpec:
+  branch: master
   graphicsRelative: illustrations
 typeDisplay:
   rs:
