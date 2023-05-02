@@ -88,9 +88,10 @@
             
             <!-- voor annotaties: er moet nog een derde artikel van Querido gepubliceerd zijn; zie Info per brief -->
 
+                <div type="original" xml:lang="nl">
+                    <pb f="1r" n="1" facs="#s1r"/>
+            
                 
-            <div type="original" xml:lang="nl">
-                <pb f="1r" n="1" facs="#s1r"/>
                 <opener xml:id="p.nl.1" n="1"><salute>Waarde Querido.</salute></opener>
                  <p xml:id="p.nl.2" n="2">Nog dieper, als 't kan, dan 't eerste gedeelte, vind 
                      ik dit;<ptr target="#ditGedeelte" type="note"/> u zegt daar heel veel waars in, wat de menschen
