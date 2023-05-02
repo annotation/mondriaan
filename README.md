@@ -10,7 +10,7 @@
 
 Selected Letters of Mondriaan in Text-Fabric.
 
-In this repository we prepare a "Proeftuin* of 14 letters of
+In this repository we prepare a "Proeftuin" of 14 letters of
 [Mondriaan](https://rkd.nl/en/explore/artists/56854)
 for the application of data science.
 

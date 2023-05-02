@@ -4,7 +4,7 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-04-26T12:19:07Z
+@dateWritten=2023-05-02T07:17:45Z
 @description=whether text is to be rendered as super
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -18,7 +18,7 @@
 @version=0.8.2pre
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-26T12:19:32Z
+@dateWritten=2023-05-02T07:18:54Z
 
 4057	1
 4066	1

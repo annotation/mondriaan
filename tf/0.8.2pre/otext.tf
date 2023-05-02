@@ -10,7 +10,7 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@levelConstraints=note < chunk, p; salute < opener, closer; fileDesc < chunk; revisionDesc < chunk; profileDesc < chunk; facsimile < chunk; div < chunk
+@levelConstraints=note < chunk, p; salute < opener, closer; profileDesc < chunk; facsimile < chunk; div < chunk; fileDesc < chunk; revisionDesc < chunk
 @schema=MD
 @sectionFeatures=folder,letter,chunk
 @sectionTypes=folder,letter,chunk
@@ -18,5 +18,5 @@
 @title=Letters
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-04-26T12:19:07Z
+@dateWritten=2023-05-02T07:17:45Z
 
