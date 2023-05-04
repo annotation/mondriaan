@@ -10,15 +10,16 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-64297	19090216y_IONG_1303
+62441	19090216y_IONG_1303
 19090407y_IONG_1739
 19090421y_IONG_1304
 19090426y_IONG_1738

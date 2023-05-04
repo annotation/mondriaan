@@ -4,132 +4,147 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 @description=this is TEI attribute who
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
-@version=0.8.2pre
+@version=0.8.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:18:54Z
+@dateWritten=2023-05-04T12:29:21Z
 
-13827	wc
+13349	wc
 wc
 lj
 lj
-13834	ev
+13356	ev
 ev
 ev
 ms
 lj
 lj
+lj
 wc
 wc
-13845	ev
+13368	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-13856	ev
+13380	ev
 ev
 ms
 lj
 lj
+lj
 wc
 lj
-13866	ev
+13391	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-13877	ev
+13403	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-13888	ev
+13415	ev
 ev
 ev
 ms
+lj
 wc
 wc
 wc
 lj
-13899	ev
+13427	ev
 ev
 ev
 ms
+lj
 gr
 wc
 lj
 lj
-13908	XX
-13910	ev
+13437	XX
+13439	ev
 ev
 ev
 ms
+lj
 wc
 wc
 wc
 lj
-13921	ev
+13451	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 wc
-13932	ev
+13463	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 wc
-13943	ev
+13475	ev
 ev
 ev
 ms
+lj
 wc
 wc
 wc
 lj
 ev
-13955	ev
+13488	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-13966	ev
+13500	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 wc
-13977	ev
+13512	ev
 ev
 ev
 ms
+lj

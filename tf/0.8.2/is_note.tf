@@ -4,23 +4,24 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 @description=whether a slot or word is in the note element
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
-@version=0.8.2pre
+@version=0.8.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:18:54Z
+@dateWritten=2023-05-04T12:29:21Z
 
-210	1
+216	1
 1
 1
 1
@@ -70,7 +71,7 @@
 1
 1
 1
-261	1
+267	1
 1
 1
 1
@@ -160,7 +161,7 @@
 1
 1
 1
-682	1
+696	1
 1
 1
 1
@@ -235,7 +236,7 @@
 1
 1
 1
-758	1
+772	1
 1
 1
 1
@@ -337,7 +338,7 @@
 1
 1
 1
-1299	1
+1320	1
 1
 1
 1
@@ -443,7 +444,7 @@
 1
 1
 1
-1406	1
+1427	1
 1
 1
 1
@@ -584,11 +585,11 @@
 1
 1
 1
-1718	1
+1739	1
 1
 1
 1
-1975	1
+2004	1
 1
 1
 1
@@ -786,7 +787,7 @@
 1
 1
 1
-2578	1
+2615	1
 1
 1
 1
@@ -959,7 +960,7 @@
 1
 1
 1
-3155	1
+3202	1
 1
 1
 1
@@ -1063,7 +1064,7 @@
 1
 1
 1
-3260	1
+3307	1
 1
 1
 1
@@ -1100,7 +1101,7 @@
 1
 1
 1
-3647	1
+3703	1
 1
 1
 1
@@ -1219,7 +1220,7 @@
 1
 1
 1
-4101	1
+4164	1
 1
 1
 1
@@ -1351,7 +1352,7 @@
 1
 1
 1
-4234	1
+4297	1
 1
 1
 1
@@ -1427,13 +1428,13 @@
 1
 1
 1
+4833	1
 1
 1
 1
 1
 1
 1
-4768	1
 1
 1
 1
@@ -1797,13 +1798,13 @@
 1
 1
 1
+6721	1
 1
 1
 1
 1
 1
 1
-6650	1
 1
 1
 1
@@ -2358,13 +2359,13 @@
 1
 1
 1
+7283	1
 1
 1
 1
 1
 1
 1
-7212	1
 1
 1
 1
@@ -2678,13 +2679,13 @@
 1
 1
 1
+8928	1
 1
 1
 1
 1
 1
 1
-8847	1
 1
 1
 1
@@ -2941,13 +2942,13 @@
 1
 1
 1
+9857	1
 1
 1
 1
 1
 1
 1
-9767	1
 1
 1
 1
@@ -3005,13 +3006,13 @@
 1
 1
 1
+9922	1
 1
 1
 1
 1
 1
 1
-9832	1
 1
 1
 1
@@ -3309,13 +3310,13 @@
 1
 1
 1
+10896	1
 1
 1
 1
 1
 1
 1
-10798	1
 1
 1
 1
@@ -3477,13 +3478,13 @@
 1
 1
 1
+11065	1
 1
 1
 1
 1
 1
 1
-10967	1
 1
 1
 1
@@ -3519,13 +3520,13 @@
 1
 1
 1
+11933	1
 1
 1
 1
 1
 1
 1
-11827	1
 1
 1
 1
@@ -3700,13 +3701,13 @@
 1
 1
 1
+12115	1
 1
 1
 1
 1
 1
 1
-12009	1
 1
 1
 1
@@ -3881,13 +3882,13 @@
 1
 1
 1
+12876	1
 1
 1
 1
 1
 1
 1
-12770	1
 1
 1
 1
@@ -4080,13 +4081,7 @@
 1
 1
 1
-1
-1
-1
-1
-1
-1
-12971	1
+13077	1
 1
 1
 1

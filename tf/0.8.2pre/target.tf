@@ -10,15 +10,16 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-64702	#Zus
+62836	#Zus
 #plaatsBuhlig
 #Zus
 #gekreukteEnveloppe
@@ -42,7 +43,6 @@
 #dieProfessor
 #dieProfessor
 #Sarphatiepark
-#WVrn
 verblijfDomburg
 #WVrn
 #weerOpknapt
@@ -92,9 +92,9 @@ verblijfDomburg
 #Helmhout
 #werkTonen
 #godWorden
-#werkTonen_E
-#godWorden_E
-64792	#plaatsBuhlig
+#werkTonen
+#godWorden
+62925	#plaatsBuhlig
 biblio.xml#Heteren2018
 MEP_1294#
 tentoon.xml#StLucas1909
@@ -111,19 +111,19 @@ biblio.xml#CR1998
 tentoon.xml#SintLucas1909
 #SpoorDomburg
 plaatsen.xml#Domburg1909
-64810	MEP_1295
+62943	MEP_1295
 MEP0019#verblijfOegstgeest
-64813	MEP_1295
+62946	MEP_1295
 places.xml#Sarphatiepark42
 biblio.xml#Bax1994-2
 biblio.xml#CR1998
 biblio.xml#Henkels1988
-64819	MEP_1295#inAmsterdam
+MEP_1295#inAmsterdam
 MEP_1304#xml:id=schedelmeter
 biblio.xml#Heteren2018
 biblio.xml#Scherphuis1994
 biblio.xml#Coppes2012
-64825	biblio.xml#Sketchbooks1969
+62957	biblio.xml#Sketchbooks1969
 biblio.xml#Faassen2013
 biblio.xml#Bax2006
 biblio.xml#Ginneken1970
@@ -135,13 +135,12 @@ Gorter1998-1
 biblio.xml#Coppes2018
 tentoon.xml#StLucas1910
 tentoon.xml#Arti1909
-#MEP1297
 MEP_1297
 MEP_1299
 MEP_1297#_13November
 biblio.xml#AlgemeenAdresboekAmsterdam
 #MEP1297
-64844	biblio.xml#HoltzmanJames1986
+biblio.xml#HoltzmanJames1986
 MEP_1309
 biblio.xml#HoltzmanJames1986
 MEP_1309

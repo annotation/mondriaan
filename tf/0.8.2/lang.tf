@@ -4,94 +4,96 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 @description=this is TEI attribute lang
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
-@version=0.8.2pre
+@version=0.8.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:18:54Z
+@dateWritten=2023-05-04T12:29:21Z
 
-14228	nl
-14230	nl
+13767	nl
+13769	nl
 nl
 nl
 en
 nl
-14236	nl
+13775	nl
 nl
 nl
 en
 nl
-14242	nl
+13781	nl
 nl
 nl
 en
-14247	en
+13786	en
 en
 en
 nl
-14252	nl
-nl
-nl
-en
-nl
-14258	nl
-nl
-nl
-en
-14263	nl
-14265	nl
+13791	nl
 nl
 nl
 en
 nl
-14271	nl
-nl
-en
-14275	nl
-14277	nl
+13797	nl
 nl
 nl
 en
-nl
-14283	nl
+13802	nl
+13804	nl
 nl
 nl
 en
 nl
-14289	nl
+13810	nl
+nl
+en
+13814	nl
+13816	nl
 nl
 nl
 en
 nl
-14295	nl
-nl
-en
-nl
-14300	nl
+13822	nl
 nl
 nl
 en
 nl
-14306	nl
+13828	nl
 nl
 nl
 en
 nl
-14312	nl
+13834	nl
+nl
+en
+nl
+13839	nl
 nl
 nl
 en
-14317	en
+nl
+13845	nl
+nl
+nl
+en
+nl
+nl
+nl
+nl
+nl
+en
+en
 en
 en
 en

@@ -4,23 +4,24 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 @description=this is TEI attribute when
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
-@version=0.8.2pre
+@version=0.8.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:18:54Z
+@dateWritten=2023-05-04T12:29:21Z
 
-14166	1909-02-16
+13705	1909-02-16
 1909-04-07
 1909-04
 1909-04-26
@@ -31,6 +32,6 @@
 1909-09
 1909-09
 1909-10-24
-14179	1909-10-24
+13718	1909-10-24
 1909-10
 1910-01-31

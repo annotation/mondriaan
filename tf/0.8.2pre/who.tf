@@ -10,124 +10,139 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-63557	wc
+61688	wc
 wc
 lj
 lj
-63564	ev
+61695	ev
 ev
 ev
 ms
 lj
 lj
+lj
 wc
 wc
-63575	ev
+61707	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-63586	ev
+61719	ev
 ev
 ms
 lj
 lj
+lj
 wc
 lj
-63596	ev
+61730	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-63607	ev
+61742	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-63618	ev
+61754	ev
 ev
 ev
 ms
+lj
 wc
 wc
 wc
 lj
-63629	ev
+61766	ev
 ev
 ev
 ms
+lj
 gr
 wc
 lj
 lj
-63638	XX
-63640	ev
+61776	XX
+61778	ev
 ev
 ev
 ms
+lj
 wc
 wc
 wc
 lj
-63651	ev
+61790	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 wc
-63662	ev
+61802	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 wc
-63673	ev
+61814	ev
 ev
 ev
 ms
+lj
 wc
 wc
 wc
 lj
 ev
-63685	ev
+61827	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 lj
-63696	ev
+61839	ev
 ev
 ev
 ms
+lj
 wc
 wc
 lj
 wc
-63707	ev
+61851	ev
 ev
 ev
 ms
+lj

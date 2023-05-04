@@ -9,74 +9,76 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-1-63491	char
-63492	accMat
-63493-63500	add
-63501-63508	addrLine
-63509-63513	address
-63514-63541	altIdentifier
-63542-63555	body
-63556	c
-63557-63710	change
-63711-63722	choice
-63723-63808	chunk
-63809-63839	closer
-63840-63867	correspAction
-63868-63881	correspDesc
-63882-63895	country
-63896-63911	date
-63912-63920	dateline
-63921-63934	decoDesc
-63935-63948	decoNote
-63949-63957	del
-63958-64050	div
-64051-64078	editor
-64079-64092	facsimile
-64093-64106	fileDesc
-64107	folder
-64108-64159	graphic
-64160-64240	hi
-64241-64282	idno
-64283-64296	institution
-64297-64310	letter
-64311-64324	msDesc
-64325-64338	msIdentifier
-64339-64366	name
-64367-64452	note
-64453-64466	objectDesc
-64467-64495	opener
-64496-64505	orig
-64506-64600	p
-64601-64651	pb
-64652-64665	physDesc
-64666-64679	placeName
-64680-64681	postmark
-64682-64687	postscript
-64688-64701	profileDesc
-64702-64777	ptr
-64778-64791	publicationStmt
-64792-64848	ref
-64849-64858	reg
-64859-64872	revisionDesc
-64873-65044	rs
-65045-65099	salute
-65100-65113	settlement
-65114-65144	signed
-65145-65158	sourceDesc
-65159-65167	space
-65168-65181	sponsor
-65182-65233	surface
-65234-65247	teiHeader
-65248-65261	text
-65262-65275	title
-65276-65289	titleStmt
-65290-65293	unclear
-65294-76412	word
+1-61621	char
+61622-61623	abbr
+61624	accMat
+61625-61632	add
+61633-61640	addrLine
+61641-61645	address
+61646-61673	altIdentifier
+61674-61687	body
+61688-61855	change
+61856-61871	choice
+61872-61957	chunk
+61958-61987	closer
+61988-62015	correspAction
+62016-62029	correspDesc
+62030-62043	country
+62044-62059	date
+62060-62068	dateline
+62069-62082	decoDesc
+62083-62096	decoNote
+62097-62105	del
+62106-62197	div
+62198-62225	editor
+62226-62227	expan
+62228-62241	facsimile
+62242-62255	fileDesc
+62256	folder
+62257-62308	graphic
+62309-62384	hi
+62385-62426	idno
+62427-62440	institution
+62441-62454	letter
+62455-62468	msDesc
+62469-62482	msIdentifier
+62483-62510	name
+62511-62595	note
+62596-62609	objectDesc
+62610-62637	opener
+62638-62649	orig
+62650-62739	p
+62740-62785	pb
+62786-62799	physDesc
+62800-62813	placeName
+62814-62815	postmark
+62816-62821	postscript
+62822-62835	profileDesc
+62836-62910	ptr
+62911-62924	publicationStmt
+62925-62977	ref
+62978-62989	reg
+62990-63003	revisionDesc
+63004-63175	rs
+63176-63228	salute
+63229-63242	settlement
+63243-63272	signed
+63273-63286	sourceDesc
+63287-63295	space
+63296-63309	sponsor
+63310-63361	surface
+63362-63375	teiHeader
+63376-63389	text
+63390-63403	title
+63404-63417	titleStmt
+63418-63421	unclear
+63422-74155	word

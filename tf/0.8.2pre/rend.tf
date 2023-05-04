@@ -10,22 +10,23 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-63494	above
-63497	below
+61626	above
+61629	below
 above
 inline
-63503	center
-63951	overwritten
+61635	center
+62099	overwritten
 overwritten
-64160	underline
+62309	underline
 underline
 super underline
 underline
@@ -101,14 +102,9 @@ italics
 italics
 italics
 italics
-underline
-underline
-underline2
-underline
-underline
-64682	upsidedown
-65124	right
-65159	norend
-65161	norend
+62816	upsidedown
+63253	right
+63287	norend
+63289	norend
 norend
-65164	norend
+63292	norend

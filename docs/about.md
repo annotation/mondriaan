@@ -129,6 +129,21 @@ Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 "Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 
 
+## version
+
+0.8.2
+
+
+## teiVersion
+
+2023-04-26
+
+
+## schema
+
+TEI + MD
+
+
 ## Conversion
 
 Converted from TEI to Text-Fabric

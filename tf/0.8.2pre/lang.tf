@@ -10,86 +10,88 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-63958	nl
-63960	nl
+62106	nl
+62108	nl
 nl
 nl
 en
 nl
-63966	nl
+62114	nl
 nl
 nl
 en
 nl
-63972	nl
+62120	nl
 nl
 nl
 en
-63977	en
+62125	en
 en
 en
 nl
-63982	nl
-nl
-nl
-en
-nl
-63988	nl
-nl
-nl
-en
-63993	nl
-63995	nl
+62130	nl
 nl
 nl
 en
 nl
-64001	nl
-nl
-en
-64005	nl
-64007	nl
+62136	nl
 nl
 nl
 en
-nl
-64013	nl
+62141	nl
+62143	nl
 nl
 nl
 en
 nl
-64019	nl
+62149	nl
+nl
+en
+62153	nl
+62155	nl
 nl
 nl
 en
 nl
-64025	nl
-nl
-en
-nl
-64030	nl
+62161	nl
 nl
 nl
 en
 nl
-64036	nl
+62167	nl
 nl
 nl
 en
 nl
-64042	nl
+62173	nl
+nl
+en
+nl
+62178	nl
 nl
 nl
 en
-64047	en
+nl
+62184	nl
+nl
+nl
+en
+nl
+nl
+nl
+nl
+nl
+en
+en
 en
 en
 en

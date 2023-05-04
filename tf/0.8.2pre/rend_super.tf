@@ -10,23 +10,24 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=int
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-18707	1
+19126	1
 1
-18732	1
-20715	1
-1
-1
-43954	1
+19151	1
+21171	1
 1
 1
-68584	1
-68914	1
-72936	1
+44586	1
+1
+1
+66775	1
+67110	1
+71158	1

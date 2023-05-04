@@ -10,15 +10,16 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-64601	#s1r
+62740	#s1r
 #s1r
 #s1r
 #s1r
@@ -50,8 +51,7 @@
 #s1r
 #s1r
 #s1r
-64637	#s1r
-64640	#s1r
-64642	#s1r
-64644	#s1r
-64648	#s1r
+62775	#s1r
+62778	#s1r
+62780	#s1r
+62782	#s1r

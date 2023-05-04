@@ -4,40 +4,40 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 @description=this is TEI attribute type
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
-@version=0.8.2pre
+@version=0.8.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:18:54Z
+@dateWritten=2023-05-04T12:29:21Z
 
-13779	receiver
+13302	receiver
 receiver
 receiver
-13826	wbh>
-13833	editedText
-13844	editedText
-13855	editedText
-13865	editedText
-13876	editedText
-13887	editedText
-13898	editedText
-13920	editedText
-13931	editedText
-13942	editedText
-13954	editedText
-13965	editedText
-13976	editedText
-14110	sent
+13355	editedText
+13367	editedText
+13379	editedText
+13390	editedText
+13402	editedText
+13414	editedText
+13426	editedText
+13450	editedText
+13462	editedText
+13474	editedText
+13487	editedText
+13499	editedText
+13511	editedText
+13649	sent
 received
 sent
 received
@@ -65,8 +65,8 @@ sent
 received
 sent
 received
-14219	overwritten
-14223	strikeover
+13758	overwritten
+13762	strikeover
 strikeover
 strikeover
 strikeover
@@ -163,76 +163,75 @@ annotation
 typednotes
 ogtnotes
 notes
-translation
-14512	letterId
+14047	letterId
 def
-14515	letterId
+14050	letterId
 def
-14518	letterId
+14053	letterId
 def
-14521	letterId
+14056	letterId
 def
-14524	letterId
+14059	letterId
 def
-14527	letterId
+14062	letterId
 def
-14530	letterId
+14065	letterId
 def
-14533	letterId
+14068	letterId
 def
-14536	letterId
+14071	letterId
 def
-14539	letterId
+14074	letterId
 def
-14542	letterId
+14077	letterId
 def
-14545	letterId
+14080	letterId
 def
-14548	letterId
+14083	letterId
 def
-14551	letterId
+14086	letterId
 def
-14637	transcrSource
+14172	transcrSource
 dating
-14641	transcrSource
+14176	transcrSource
 dating
-14646	transcrSource
+14181	transcrSource
 dating
-14650	transcrSource
+14185	transcrSource
 dating
 transcrSource
 dating
-14656	transcrSource
+14191	transcrSource
 dating
 pubhistory
-14663	transcrSource
+14198	transcrSource
 dating
-14666	transcrSource
+14201	transcrSource
 dating
-14669	transcrSource
+14204	transcrSource
 dating
 remarks
-14674	transcrSource
+14208	transcrSource
 dating
-14684	transcrSource
-dating
-pubhistory
-14694	transcrSource
+14218	transcrSource
 dating
 pubhistory
-14700	transcrSource
+14228	transcrSource
 dating
-14707	transcrSource
+pubhistory
+14234	transcrSource
+dating
+14241	transcrSource
 dating
 remarks
 pubhistory
-14713	transcrSource
+14247	transcrSource
 dating
 pubhistory
-14718	transcrSource
+14252	transcrSource
 dating
 pubhistory
-14971	note
+14496	note
 note
 note
 note
@@ -256,17 +255,17 @@ note
 note
 note
 note
-14998	note
+14522	note
 note
 note
 note
-15003	note
+14527	note
 note
 note
 note
 note
 note
-15010	note
+14534	note
 note
 note
 note
@@ -303,17 +302,8 @@ note
 note
 note
 note
-15118	punctuation
-punctuation
-mistake
-spelling
-misprint
-misprint
-misprint
-punctuation
-punctuation
-punctuation
-15142	person
+14645	misprint
+14664	person
 person
 person
 person

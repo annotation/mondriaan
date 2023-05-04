@@ -10,32 +10,32 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
 @version=0.8.2pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 
-63509	receiver
+61641	receiver
 receiver
 receiver
-63556	wbh>
-63563	editedText
-63574	editedText
-63585	editedText
-63595	editedText
-63606	editedText
-63617	editedText
-63628	editedText
-63650	editedText
-63661	editedText
-63672	editedText
-63684	editedText
-63695	editedText
-63706	editedText
-63840	sent
+61694	editedText
+61706	editedText
+61718	editedText
+61729	editedText
+61741	editedText
+61753	editedText
+61765	editedText
+61789	editedText
+61801	editedText
+61813	editedText
+61826	editedText
+61838	editedText
+61850	editedText
+61988	sent
 received
 sent
 received
@@ -63,8 +63,8 @@ sent
 received
 sent
 received
-63949	overwritten
-63953	strikeover
+62097	overwritten
+62101	strikeover
 strikeover
 strikeover
 strikeover
@@ -161,76 +161,75 @@ annotation
 typednotes
 ogtnotes
 notes
-translation
-64242	letterId
+62386	letterId
 def
-64245	letterId
+62389	letterId
 def
-64248	letterId
+62392	letterId
 def
-64251	letterId
+62395	letterId
 def
-64254	letterId
+62398	letterId
 def
-64257	letterId
+62401	letterId
 def
-64260	letterId
+62404	letterId
 def
-64263	letterId
+62407	letterId
 def
-64266	letterId
+62410	letterId
 def
-64269	letterId
+62413	letterId
 def
-64272	letterId
+62416	letterId
 def
-64275	letterId
+62419	letterId
 def
-64278	letterId
+62422	letterId
 def
-64281	letterId
+62425	letterId
 def
-64367	transcrSource
+62511	transcrSource
 dating
-64371	transcrSource
+62515	transcrSource
 dating
-64376	transcrSource
+62520	transcrSource
 dating
-64380	transcrSource
+62524	transcrSource
 dating
 transcrSource
 dating
-64386	transcrSource
+62530	transcrSource
 dating
 pubhistory
-64393	transcrSource
+62537	transcrSource
 dating
-64396	transcrSource
+62540	transcrSource
 dating
-64399	transcrSource
+62543	transcrSource
 dating
 remarks
-64404	transcrSource
+62547	transcrSource
 dating
-64414	transcrSource
-dating
-pubhistory
-64424	transcrSource
+62557	transcrSource
 dating
 pubhistory
-64430	transcrSource
+62567	transcrSource
 dating
-64437	transcrSource
+pubhistory
+62573	transcrSource
+dating
+62580	transcrSource
 dating
 remarks
 pubhistory
-64443	transcrSource
+62586	transcrSource
 dating
 pubhistory
-64448	transcrSource
+62591	transcrSource
 dating
 pubhistory
-64702	note
+62836	note
 note
 note
 note
@@ -254,17 +253,17 @@ note
 note
 note
 note
-64729	note
+62862	note
 note
 note
 note
-64734	note
+62867	note
 note
 note
 note
 note
 note
-64741	note
+62874	note
 note
 note
 note
@@ -301,17 +300,8 @@ note
 note
 note
 note
-64849	punctuation
-punctuation
-mistake
-spelling
-misprint
-misprint
-misprint
-punctuation
-punctuation
-punctuation
-64873	person
+62985	misprint
+63004	person
 person
 person
 person

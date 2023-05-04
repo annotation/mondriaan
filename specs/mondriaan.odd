@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD voor Mondriaan</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2023-04-18">Initial version</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div xml:id="title">
+        <schemaSpec ident="mondrian" start="TEI">
+
+          <elementSpec ident="title" mode="change">
+            <modelSequence>
+              <model behaviour="document"/>
+              <model behaviour="heading"/>
+              <!-- title behaviour -->
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="rs">
+            <model behaviour="inline"/>
+          </elementSpec>
+        </schemaSpec>
+      </div>
+
+      <div xml:id="textoriginal">
+        <schemaSpec ident="mondrian" start="TEI">
+
+          <elementSpec ident="div" mode="change">
+            <model predicate="@type='original'" behaviour="document"/>
+          </elementSpec>
+
+          <elementSpec ident="lb" mode="change">
+            <model behaviour="break">
+              <param name="type" value="line"/>
+            </model>
+          </elementSpec>
+
+          <elementSpec ident="pb" mode="change">
+            <model behaviour="inline" cssClass="pb">
+              <!-- square brackets -->
+              <param name="content" value="concat(@f,concat(':',@n))"/>
+            </model>
+          </elementSpec>
+
+          <elementSpec ident="p" mode="change">
+            <modelSequence>
+              <model behaviour="inline" cssClass="paragraph-number">
+                <!-- inline? alternate? margin? -->
+                <param name="content" value="@n"/>
+                <!-- square brackets -->
+              </model>
+              <model behaviour="anchor">
+                <param name="content" value="@xml:id"/>
+              </model>
+              <model behaviour="paragraph" cssClass="indented-paragraph"/>
+
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="opener" mode="change">
+            <modelSequence>
+              <model behaviour="paragraph" cssClass="not-indented-paragraph"/>
+              <model behaviour="inline">
+                <param name="content" value="@n"/>
+                <!-- inline? alternate? margin? -->
+              </model>
+              <model behaviour="anchor">
+                <param name="content" value="@xml:id"/>
+              </model>
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="salute" mode="change">
+            <model behaviour="inline"/>
+          </elementSpec>
+
+          <elementSpec ident="dateline" mode="change">
+            <model behaviour="block"/>
+          </elementSpec>
+
+          <elementSpec ident="add" mode="change">
+            <modelSequence>
+              <model behaviour="inline" cssClass="addition"/>
+              <model behaviour="alt_text">
+                <param name="content" value="concat('Place: ' , @place)"/>
+              </model>
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="del" mode="change">
+            <modelSequence>
+              <model behaviour="inline" cssClass="deletion"/>
+              <model behaviour="alt_text">
+                <param name="content" value="concat('Type od deletion: ' , @type)"/>
+              </model>
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="supplied">
+            <model behaviour="inline" cssClass="supplied-text"/>
+            <!-- within sqaure brackets -->
+          </elementSpec>
+
+          <elementSpec ident="ptr" mode="change">
+            <model behaviour="link">
+              <param name="url" value="@target"/>
+              <param name="content" value="function"/>
+              <!-- function to be written -->
+            </model>
+          </elementSpec>
+
+          <elementSpec ident="ref" mode="change">
+            <model predicate="not(@target)" behaviour="inline"/>
+            <model predicate="@target" behaviour="link">
+              <param name="uri" value="@target"/>
+              <param name="content" value="."/>
+            </model>
+          </elementSpec>
+
+          <elementSpec ident="choice" mode="change">
+            <modelSequence predicate="orig and reg">
+              <model behaviour="alternate">
+                <param name="default" value="reg[1]"/>
+                <param name="alternate" value="orig[1]"/>
+              </model>
+              <model behaviour="alt_text">
+                <param name="content" value="concat('Type of regularization: ' , @type)"/>
+              </model>
+            </modelSequence>
+            <model predicate="expan" behaviour="inline"/>
+            <!-- controllare -->
+          </elementSpec>
+        </schemaSpec>
+
+        <elementSpec ident="rs">
+          <model behaviour="link">
+            <param name="url" value="function"/>
+            <!-- funtion to be written -->
+            <param name="content" value="."/>
+          </model>
+        </elementSpec>
+
+        <elementSpec ident="closer" mode="change">
+          <modelSequence>
+            <model behaviour="paragraph" cssClass="not-indented-paragraph"/>
+            <model behaviour="inline">
+              <!-- alternate? margin? -->
+              <param name="content" value="@n"/>
+            </model>
+            <model behaviour="anchor">
+              <param name="content" value="@xml:id"/>
+            </model>
+          </modelSequence>
+        </elementSpec>
+
+        <elementSpec ident="address" mode="change">
+          <model behaviour="inline"/>
+        </elementSpec>
+
+        <elementSpec ident="postscript" mode="change">
+          <model behaviour="block"/>
+        </elementSpec>
+
+        <elementSpec ident="signed" mode="change">
+          <model behaviour="inline" cssClass="signature"> </model>
+        </elementSpec>
+
+        <elementSpec ident="metamark" mode="change">
+          <modelSequence>
+            <model behaviour="inline"/>
+            <model behaviour="alt_text">
+              <param name="content" value="concat('Place: ' , @place)"/>
+            </model>
+          </modelSequence>
+        </elementSpec>
+
+
+        <elementSpec ident="hi" mode="change">
+          <modelSequence>
+            <model predicate="'underline' = tokenize(@rend)" behaviour="inline">
+              <outputRendition> font-style: italic; </outputRendition>
+            </model>
+            <model predicate="@rend='super'" behaviour="inline">
+              <outputRendition> vertical-align: super; </outputRendition>
+            </model>
+            <model predicate="@rend='italics'" behaviour="inline">
+              <outputRendition> font-style: italic; </outputRendition>
+            </model>
+            <model predicate="@rend='blockletter'" behaviour="inline">
+              <outputRendition> text-transform: uppercase; </outputRendition>
+            </model>
+            <model predicate="@rend='spaced'" behaviour="inline" cssClass="spaced-letters"/>
+          </modelSequence>
+        </elementSpec>
+      </div>
+
+      <div xml:id="text_translation">
+        <schemaSpec ident="mondrian" start="TEI">
+          <elementSpec ident="div" mode="change">
+            <model predicate="@type='translation'" behaviour="document"/>
+          </elementSpec>
+        </schemaSpec>
+        <!-- same as <div type="original"> -->
+      </div>
+
+      <div xml:id="address">
+        <schemaSpec ident="mondrian" start="TEI">
+
+          <elementSpec ident="div" mode="change">
+            <model predicate="@type='postalData'" behaviour="document"/>
+          </elementSpec>
+
+          <elementSpec ident="address">
+            <model behaviour="block"/>
+          </elementSpec>
+
+          <elementSpec ident="addrLine">
+            <modelSequence>
+              <model behaviour="inline"/>
+              <model behaviour="break">
+                <param name="type" value="line"/>
+              </model>
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="md:postmark">
+            <modelSequence>
+              <model behaviour="inline"/>
+              <model behaviour="break">
+                <param name="type" value="line"/>
+              </model>
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="supplied">
+            <model behaviour="inline" cssClass="supplied-text"/>
+            <!-- within square brackets -->
+          </elementSpec>
+        </schemaSpec>
+      </div>
+
+
+      <div xml:id="metadata">
+        <schemaSpec ident="mondrian" start="TEI">
+          <elementSpec ident="sourceDesc" mode="change">
+            <model behaviour="document"/>
+          </elementSpec>
+
+          <elementSpec ident="msIdentifier">
+            <model behaviour="block"/><!-- to be detailed later -->
+          </elementSpec>
+
+          <elementSpec ident="idno">
+            <model predicate="@type='letterId'" behaviour="anchor"/><!-- to be detailed later -->
+          </elementSpec>
+          
+           <elementSpec ident="physDesc">
+            <model behaviour="omit"/>
+           </elementSpec>
+        </schemaSpec>
+      </div>
+
+      <div xml:id="notes">
+        <schemaSpec ident="mondrian" start="TEI">
+          <elementSpec ident="div" mode="change">
+            <model predicate="@type='annotation'" behaviour="document"/>
+          </elementSpec>
+
+          <elementSpec ident="div">
+            <model predicate="@type='typednotes'" behaviour="block"/>
+            <model predicate="@type='ogtnotes'" behaviour="block"/>
+            <model predicate="@type='notes'" behaviour="block"/>
+          </elementSpec>
+
+          <elementSpec ident="note">
+            <modelSequence>
+              <model behaviour="note">
+                <param name="label" value="function"/><!-- function to be written -->
+                <param name="content" value="."/>
+              </model>
+              <model behaviour="anchor">
+                <param name="content" value="@xml:id"/>
+              </model>
+            </modelSequence>
+          </elementSpec>
+
+          <elementSpec ident="rs">
+            <model behaviour="link">
+              <param name="url" value="function"/><!-- function to be written -->
+              <param name="content" value="."/>
+            </model>
+          </elementSpec>
+
+          <elementSpec ident="ref" mode="change">
+            <model predicate="not(@target)" behaviour="inline"/>
+            <model predicate="@target" behaviour="link">
+              <param name="uri" value="@target"/>
+              <param name="content" value="."/>
+            </model>
+          </elementSpec>
+
+          <elementSpec ident="supplied">
+            <model behaviour="inline" cssClass="supplied-text"/>
+            <!-- within sqaure brackets -->
+          </elementSpec>
+        </schemaSpec>
+      </div>
+
+      <div xml:id="facs">
+        <schemaSpec ident="mondrian" start="TEI">
+          <elementSpec ident="facsimile" mode="change">
+            <model behaviour="document"/>
+          </elementSpec>
+
+          <elementSpec ident="graphic" mode="change">
+            <model behaviour="graphic"/>
+          </elementSpec>
+          
+          <!-- linking to the transcription to be defined -->
+        </schemaSpec>
+      </div>
+    </body>
+  </text>
+</TEI>

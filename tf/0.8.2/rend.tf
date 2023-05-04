@@ -4,30 +4,31 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-02T07:17:45Z
+@dateWritten=2023-05-04T12:28:57Z
 @description=this is TEI attribute rend
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@schema=MD
+@schema=TEI + MD
 @sourceFormat=TEI
+@teiVersion=2023-04-26
 @title=Letters
 @valueType=str
-@version=0.8.2pre
+@version=0.8.2
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-02T07:18:54Z
+@dateWritten=2023-05-04T12:29:21Z
 
-13764	above
-13767	below
+13287	above
+13290	below
 above
 inline
-13773	center
-14221	overwritten
+13296	center
+13760	overwritten
 overwritten
-14430	underline
+13970	underline
 underline
 super underline
 underline
@@ -103,14 +104,9 @@ italics
 italics
 italics
 italics
-underline
-underline
-underline2
-underline
-underline
-14951	upsidedown
-15393	right
-15428	norend
-15430	norend
+14476	upsidedown
+14913	right
+14947	norend
+14949	norend
 norend
-15433	norend
+14952	norend
