@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    
+	<teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs type="person" key="saalborn_arnold"/>. Amsterdam, maandag 31 januari 1910.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                    <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Nederland</country>
+						<settlement>Den Haag</settlement>
+					    <institution>RKD – Nederlands Instituut voor Kunstgeschiedenis</institution> <!--** Waar noteren we nu dat de locatie van origineel onbekend is?-->
+					    <idno>Archief van de werkgroep Mondriaan correspondentieproject (0613) inv.nr. 71</idno>
+						<altIdentifier><idno type="letterId">19100131_SAAL_ARNO_0018</idno></altIdentifier>
+						<altIdentifier><idno type="def"/></altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="brief"/>
+						<decoDesc>
+							<decoNote/>
+						</decoDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+        </fileDesc>
+        
+        
+    
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<name>Piet Mondriaan</name>
+					<date when="1910-01-31">maandag 31 januari 1910</date>
+					<placeName>Amsterdam</placeName>
+				</correspAction>
+				<correspAction type="received">
+				    <name key="saalborn_arnold">Arnold Saalborn</name>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+            <change who="wc">transcriptie: voltooid 25.1.16</change>
+            <change who="wc">collatie bron: voltooid 26.5.16</change>
+            <change who="lj">tweede collatie aan zw-w-copie van origineel: voltooid 4.8.16</change>
+            <change who="wc">invoer tweede collatie: voltooid 4.8.16</change>
+            <change>bespreking eindversie: voltooid 10.8.16</change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 9.4.2019</change>
+		    <change who="ev">titel gecontroleerd 15.9.2020</change>
+		    <change who="ev">personen getagd 13.10.2020</change>
+		    <change who="ev">vertaling ingevoerd 28.1.2021</change>
+		    <change who="ms">codering personen aangepast 21.2.2022</change>
+			<change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+	</teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            
+            
+            <div type="original" xml:lang="nl"><pb f="1r" n="1" facs="#s1r"/>
+                <!--** De datering en plaatsbepaling '31 Jan. 1916. Sarfatipark 42.' die in de rechterbovenhoek staan zijn in een andere hand en daarom niet getranscribeerd -->
+                <opener xml:id="p.nl.1" n="1"><salute>Waarde Arnold Saalborn,</salute></opener> <p xml:id="p.nl.2" n="2">ik
+                zal maar niet <add place="below">"</add>mijnheer<add place="above">"</add> schrijven,
+                ik hoop U mij ook Mondriaan zonder
+                 mijnheer voortaan zult noemen.</p>
+             <p xml:id="p.nl.3" n="3">Hartelijk dank voor Uw schrijven.
+                Als ik weêr eens wat meer tijd
+                heb zal ik U graag wat meer
+                van mijn werk laten zien.<ptr target="#werkTonen"/> Maar 
+                daar ik met mijn schilderwerk
+                niet veel verdien, moet ik ook veel
+                tijd besteden aan werk voor de
+                massa, dus schilderwerk op
+                een meer conventioneele manier
+                en dus moet ik dubbel werken.
+                Van daar dat ik me wel heel
+                concentreeren moet, wil ik nog
+                iets bereiken.</p>
+             <p xml:id="p.nl.4" n="4">Ik woû U nog een paar dingen
+                schrijven, maar veel schrijven
+                naar aanleiding van wat U
+             <pb/>
+                schreef, lijkt me niet goed
+                omdat 't altoos te onvolledig
+                zal zijn en U dus toch <del type="strikeover">niet den </del>een
+                <add place="inline">on</add>juist<del type="strikeover">en</del> beeld van mijn denken zou
+                krijgen. Er zijn zoovele factoren
+                die menschen van overigens dezelfde
+                gevoelens en aanleg, toch tijdelijk
+                doen verschillen; zoo onder andere
+                levenservaringen of levensomstandigheden
+                 etc. etc. — dan 't soort werk
+                 dat men doet, etc. etc<choice><orig>- .</orig><reg>.—</reg></choice> Dat zijn
+                schijnbaar alle kleine dingen maar
+                die van invloed zijn op de openbaring
+                van 't uiterlijke leven v.d. menschen
+                en artisten, vindt U ook niet?</p>
+             <p xml:id="p.nl.5" n="5">Zoo b.v. zal er verschil zijn (niet
+                in <hi rend="underline">wezen</hi>, maar in <hi rend="underline">leefwijze</hi>) tusschen
+                 <del type="strikeover">i</del><add>e</add>en artist die van zijn produkt
+                moet leven, en een, die toch kan
+                leven: ik noem maar eens wat,
+                om aan te toonen dat dergelijke
+            <pb/>
+                dingen toch alle regels en wetten
+                (zooals U er eene opnoemt, n.l. dat
+                alleen blijven niet goed is, als ik U
+                wel begrijp) — omver stooten.</p>
+             <p xml:id="p.nl.6" n="6">Over dat zelfde alleen zijn wilde
+                ik U nog deze gedachte zeggen:
+                ik vind dat de gewone mensch
+                de mooiheden zoekt in 't reëele
+                leven, maar de artist moet dit
+                naar mijn idée <hi rend="underline2">niet</hi>. Hij moet
+                niets reëels willen: hij moet alleen
+                en heel alleen staan. Hij moet
+                scheppen uit enkel scheppingsdrang:
+                 net als de heele natuur,
+                maar scheppen op een voor ons 
+                onreëel gebied, dat der gedachte.
+                En als hij enkel gehoorzaam aan
+                dien scheppingsdrang is, en zich
+                vrij houdt zooveel mogelijk opdat
+                hij dat zal kunnen, dan doet hij
+                genoeg. En dan volgt daaruit dat
+             <pb/>
+                hij heel veel voor de menschheid
+                zal zijn. Ik lees daar nog eens over dat
+                U schrijft: alleen zijn is zeer verderfelijk,
+                vooral voor de grooten en edelen onder de
+                menschen. Ik moet U ronduit zeggen
+                dat ik juist 't tegendeel zou beweren.
+                Alleen zijn is (voor de <hi rend="underline">grooten</hi>) 't indringen
+                 en kennen van 't Zelf, van den eigelijken
+                 mensch, van den godmensch en
+                god, in hoogste instantie. Dus volgt hieruit
+                 grooter worden, bewust worden — eindelijk
+                 God worden.<ptr target="#godWorden"/> Hoe zou dit verderfelijk
+                 kunnen zijn? Maar wellicht
+                bedoelt U 't ook anders, <del type="strikeover">dan </del>en daarom
+                 lijkt mij ´t beste dat we later nog
+                eens praten over 't een en ander.</p>
+        <closer xml:id="p.nl.7" n="7"><salute>Dus veel beste groeten van</salute>
+                <signed><hi rend="underline">Piet Mondriaan.</hi></signed></closer>                
+        </div>
+        
+        
+			<div type="annotation" xml:lang="nl">
+
+				<div type="typednotes" xml:lang="nl">
+					<note type="transcrSource">Fotokopie van manuscript.</note>
+				    <note type="dating">Op de fotokopie van de brief is te zien dat een andere hand een opschrift in de rechterbovenhoek van p. 1r:1 'overtrok'. Er staat nu '31 Jan. 1916.
+				        Sarfatipark 42.' Afgezien van de onjuiste spelling van het adres (juist is 'Sarphatipark') woonde Mondriaan in 1916 te Laren. Uit de brief is bovendien merkbaar dat <rs type="person" key="saalborn_arnold">Saalborn</rs>
+				        en Mondriaan elkaar nog niet lang kennen. Aangezien Mondriaan achterop de olieverfstudie <rs type="artwork-m">Dying sunflower II</rs> een opdracht aan Saalborn
+				        schreef met de datering 'Januari 1910', ligt voor de hand dat de aangevulde datering op de kopie 1910 had moeten zijn. We dateren daarom de brief op maandag 31
+				        januari 1910.</note>
+				    <note type="pubhistory">Engelse vertaling in <ref target="biblio.xml#HoltzmanJames1986">Holtzman/James 1986</ref>, p. 19 en 394, n. 29. Behalve de aanhef en de slotfrasen 
+				        ontbreken in de vertaling (met weglatingsteken) de eerste zin van <ref target="#p.nl.4 #p.en.4">par. 4</ref> ('Ik woû u nog ... denken zou krijgen.').</note>
+				</div>
+
+				<div type="ogtnotes" xml:lang="nl">
+				</div>
+
+				<div type="notes" xml:lang="nl">
+				    <note xml:id="werkTonen_NL">Kennelijk was <rs type="person" key="saalborn_arnold">Saalborn</rs> eerder kort bij Mondriaan in het atelier op Sarphatipark 42 geweest. Bij die gelegenheid kan Mondriaan Saalborn zijn
+				        <rs type="artwork-m" key="https://rkd.nl/images/268864">Dying sunflower II</rs> (1908, A597) gegeven hebben; op de achterzijde van het schilderij schreef Mondriaan: 'Van Piet 
+				        Mondriaan aan Arnold Saalborn, met sympathie voor den schrijver van Zonnesproke en De Schooier. Januari 1910'. 'Zonnesproke' en 'De schooier' waren symbolistische 
+				        verhalen die Saalborn gepubliceerd had in respectievelijk <rs type="journal">De Kunst</rs> (28 augustus 1909) en <rs type="journal">Amsterdamsche
+				        studenten-almanak voor het jaar 1910</rs>, jg. 80, p. 346-355 (uitgegeven in 1909).</note>
+                    <note xml:id="godWorden_NL">Het streven naar een steeds hogere staat van geestelijk bewustzijn is gebaseerd op de theosofische leer, waarvan Mondriaan een aanhanger was. 
+                        (Op 25 mei 1909 was Mondriaan toegetreden tot de <rs type="org">Theosofische Vereniging</rs>). Vergelijk ook <ref target="9101006y_IONG_1309.xml">brief 19101006y_IONG_1309</ref> aan
+                        <rs type="person" key="iongh_aletta_de">Aletta de Iongh</rs> van oktober 1910, waarin hij schrijft dat Theosofie 'werkelijk een leiddraad tot ontwikkeling van je bewustzijn' is.</note> 				    
+				</div>
+			    
+			    <div type="translation" xml:lang="en">
+			        <opener xml:id="p.en.1" n="1"><salute>Dear Arnold Saalborn,</salute></opener>			        
+			        <p xml:id="p.en.2" n="2">I shall not write “Mr”, in the hope that you will also call me Mondriaan without the “Mr” from now on.</p>			        
+			        <p xml:id="p.en.3" n="3">Thank you very much for your letter. Once I have rather more time, I will be happy to show you more of my work.<ptr target="#werkTonen"/> 
+			            But since I do not earn much with my painting, I also have to spend a lot of time on work for the masses, painting in a more conventional 
+			            way, and so I have double the work to do. That’s why I must concentrate very hard if I still wish to achieve anything.</p>			        
+			        <p xml:id="p.en.4" n="4">I wanted to tell you a few more things, but I don’t think that writing a lot in response to what you wrote is a good idea because 
+			            it will always be too incomplete and so you would gain an incorrect impression of my thinking. There are so many factors that make people 
+			            with the same feelings and disposition nonetheless differ temporarily; amongst other things, life experiences or living conditions, etc., 
+			            etc. – And then the kind of work one does, etc., etc. – These all seem like small things, but they influence the manifestation of the 
+			            outward life of people and artists, don’t you agree?</p>			        
+			        <p xml:id="p.en.5" n="5">So, e.g., there will be a difference (not in <hi rend="italics">essence</hi>, but in <hi rend="italics">way of living</hi>) between an artist 
+			            who has to live from his product and one who can live anyway; that’s just one example, to show that such things overturn all rules and laws (like 
+			            one you mention, namely that remaining alone is not good, if I understand you correctly).</p>			     			        
+			        <p xml:id="p.en.6" n="6">On that same topic, being alone, I also wanted to share this thought with you: I believe that the ordinary person looks to real life for 
+			            beauty, but in my opinion the artist should <hi rend="italics">not</hi> do that. He should not want anything real: he should stand alone, entirely 
+			            alone. He should create purely out of the urge to create, just like all of nature does, but creating in an area that is unreal to us, that of thought. 
+			            And if he is obedient only to that creative urge, keeping himself as free as possible so that he is able to, then he is doing enough. And from that 
+			            it follows that he will mean a great deal for mankind. I read again that you write: being alone is most pernicious, especially for great and 
+			            noble people. I must tell you frankly that I would argue the exact opposite. Being alone is (for the <hi rend="italics">great</hi>) infiltrating and knowing the Self, 
+			            the true person, the god-man and god, on the highest plane. And from that becoming greater, becoming aware – and in the end becoming God.<ptr target="#godWorden"/> 
+			            How can this be pernicious? But perhaps you mean it differently, and so that’s why I think it would be best if we talk more about these things 
+			            later.</p>			        
+			   <closer xml:id="p.en.7" n="7"><salute>Many best regards</salute>, then, from
+			   <signed><hi rend="italics">Piet Mondriaan.</hi></signed></closer>			        			        			        
+			    </div>
+			    
+			    <div type="annotation" xml:lang="en">
+			        
+			        <div type="typednotes" xml:lang="en">
+			            <note type="transcrSource">Photocopy of manuscript.</note>
+			            <note type="dating">On the photocopy of this letter, it can be seen that an inscription in the top right-hand corner of p. 1r:1 has been overwritten in 
+			                another hand. It now reads: “31 Jan. 1916. Sarfatipark 42.” Quite apart from the incorrect spelling of the Amsterdam address (it should be “Sarphatipark”), 
+			                Mondrian was living in Laren in 1916. It is also clear from this letter that <rs type="person" key="saalborn_arnold">Saalborn</rs> and Mondrian have not known each other for long. Since Mondrian wrote 
+			                a dedication to Saalborn on the back of the study in oils Dying Sunflower II with the date January 1910, it seems most likely that the dating added to the 
+			                copy should also have been 1910. We therefore date this letter to 31 January 1910.</note>
+			            <note type="pubhistory">English translation in <ref target="biblio.xml#HoltzmanJames1986">Holtzman/James 1986</ref>, pp. 19 and 394, n. 29. As well as the 
+			                salutation and the final greeting, that version also omits (with ellipsis) the first sentence of <ref target="#p.nl.4 #p.en.4">par. 4</ref>, “I wanted to tell you… impression of my thinking”.</note>
+			            
+			        </div>
+			        
+			        <div type="ogtnotes" xml:lang="en">			            
+			        </div>
+			        
+			        <div type="notes" xml:lang="en"/>
+			        <note xml:id="werkTonen"><rs type="person" key="saalborn_arnold">Saalborn</rs> had apparently already paid a brief visit to Mondrian’s studio at Sarphatipark 42. On that occasion the artist may have given him 
+			            the painting <rs type="artwork-m" key="https://rkd.nl/images/268864">Dying sunflower II</rs> (1908, A597); on the back of that work, he wrote: “From Piet Mondriaan to Arnold Saalborn, with 
+			            sympathy for the writer of Zonnesproke and De Schooier. January 1910.” <hi rend="italics">Zonnesproke</hi> (Tale of the Sun) and <hi rend="italics">De Schooier</hi> 
+			            (The Vagabond) were symbolist short stories Saalborn had published in, respectively, <hi rend="italics">De Kunst</hi> (28 August 1909) and <hi rend="italics">Amsterdamsche 
+			            studenten-almanak voor het jaar 1910</hi> (the Amsterdam student almanac for 1910, actually published in 1909; vol. 80, pp. 346-355).</note>
+			        <note xml:id="godWorden">The pursuit of an ever higher state of spiritual consciousness is based upon the theosophical doctrine, to which Mondrian adhered. He had 
+			            joined the Dutch Theosophical Society on 25 May 1909. Cf. also letter <ref target="9101006y_IONG_1309.xml">letter 19101006y_IONG_1309</ref> of October 1910 to <rs type="person" key="iongh_aletta_de">Aletta de Iongh</rs>, in which he writes 
+			            that Theosophy “truly [is] a guide to the development of your consciousness”.</note>
+			    </div>
+			    
+			    
+			</div>
+        
+        </body>
+    </text>
+
+</TEI>

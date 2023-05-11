@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    
+	<teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs type="person" key="iongh_aletta_de">Aletta de Iongh</rs>. Amsterdam, tussen 18 en 31 oktober 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Nederland</country>
+						<settlement>Otterlo</settlement>
+						<institution>Kröller Müller Museum</institution>
+						<idno>KM 122.825</idno>
+						<altIdentifier><idno type="letterId">19091024y_IONG_1297</idno></altIdentifier>
+						<altIdentifier><idno type="def"/></altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="brief"/>
+						<decoDesc>
+						    <decoNote>Bevat op 1r:4 een schetsje door Mondriaan van de bedoelde constructie voor de das.</decoNote>
+						</decoDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+        </fileDesc>
+        
+        
+        
+    
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<name>Piet Mondriaan</name>
+					<date when="1909-10-24">tussen 18 en 31 oktober 1909</date>
+					<placeName>Amsterdam</placeName>
+				</correspAction>
+				<correspAction type="received">
+				    <name key="iongh_aletta_de">Aletta de Iongh</name>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+            <change who="wc">transcriptie: voltooid 21.7.15</change>
+            <change who="wc">collatie bron: voltooid 2.6.16</change>
+            <change who="wc">tweede collatie aan origineel: voltooid 26.11.19</change>
+            <change who="lj">invoer tweede collatie: voltooid 5.8.16</change>
+		    <change who="ev">titel gecontroleerd: 14.9.20</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+		    <change who="ev">titel gecontroleerd 15.9.2020</change>
+		    <change who="ev">personen getagd 13.10.2020</change>
+		    <change who="ev">vertaling ingevoerd 4.3.2021</change>
+		    <change who="ms">codering personen aangepast 17.2.2022</change>
+		    <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+	</teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1297/KM_122.825.tif"/>
+            <zone xml:id="z1r1">
+                <graphic url="/images/1297/KM_122.825_1r1.tif"/>
+            </zone>
+            <zone xml:id="z1r4">
+                <graphic url="/images/1297/KM_122.825_1r4.tif"/>
+            </zone>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1297/KM_122.825_02.tif"/>
+            <zone xml:id="z1v2">
+                <graphic url="/images/1297/KM_122.825_02_1v2.tif"/>
+            </zone>
+            <zone xml:id="z1v3">
+                <graphic url="/images/1297/KM_122.825_02_1v3.tif"/>
+            </zone>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                   <address><choice><abbr>Sarphatiep.</abbr><expan>Sarphatiepark</expan></choice> 42.</address>
+                <space unit="lines" quantity="1" dim="vertical"/>
+                <opener xml:id="p.nl.1" n="1"><salute>Lieve Zus,</salute></opener> <p xml:id="p.nl.2" n="2">ik was 
+                   heel blij weêr eens iets
+                   van je te hooren. Gelukkig
+                    dat <rs type="person" key="iongh_anna_de">jelui</rs> 't zoo schikken
+                    kunnen en 't niet <hi rend="underline">te</hi>
+                   erg tegenvalt, de nieuwe
+                   omgeving etc.<ptr target="#nieuweOmgeving"/> 't Zal voor
+                   <rs type="person" key="iongh_de_frederika">je Moe</rs> wel prettig en
+                   goed zijn, dat jelûi bij
+                   haar bent. En, zooals
+                   je schrijft, je werk is
+                   toch hoofdzaak en als
+                   je 't druk heb, merkt
+                   men veel ontbrekende
+                   of gewenschte dingen niet!<ptr target="#werkHoofdzaak"/></p>
+                <p xml:id="p.nl.3" n="3">Ik ben al een paar
+                    maal bij <rs type="person" key="philippona_reinier philippona_mien">de Philippona's</rs>
+                    <pb f="1v" n="2" facs="#z1v2"/>
+                    geweest: ze vinden 't
+                   ook erg jammer dat <rs type="person" key="iongh_anna_de">jelui</rs>
+                   weg zijn en maken 't 
+                   nog goed. 't Zal leuk zijn
+                   als jelui 13 Nov.<hi rend="super">ber</hi> hier
+                   komen; ik denk dat je
+                   je wel amuseeren zal. Er
+                   wordt een stukje opgevoerd
+                   en ik zal een stierengevecht
+                    in elkaar zetten, omdat
+                    ik dat gezien heb.<ptr target="#DertienNovember"/> Ik
+                   denk in zwart fluweel
+                   te gaan, als 't niet te duur
+                   komt. Ik zal eens informeeren
+                    voor jelûi wat een
+                   damespakje kost, want
+                   wij krijgen 't, als combinatie,
+                    <pb f="1v" n="3" facs="#z1v3"/>
+                    veel goedkooper,
+                   heb ik gehoord. Ik zal je
+                   daar dus nog over schrijven;
+                   't zou veel leuker zijn als
+                   je gecostumeerd ging. Ik
+                   zal probeeren <rs type="person" key="philippona_reinier">Reinier</rs> ook
+                   als stierenvechter te krijgen.</p>
+                <p xml:id="p.nl.4" n="4">Ik ben nog niet met de dingen
+                    uit Zeeland bezig.<ptr target="#dingenZeeland"/> Ik
+                   heb <rs type="artwork-m">eenige bloemen</rs> gemaakt,
+                    (eén ervan is nu
+                   op <rs type="exhibition">Arti</rs>) en nu ben ik
+                   bezig met <rs type="artwork-m">eenige schilderijtjes</rs>
+                    die ik verkoopen
+                    kan; wel vervelend
+                   om dit te moeten doen
+                   daar 't naar den zin van de
+                   menschen moet wezen maar
+                   't is pecuniae causa.<ptr target="#bloemetjeArti"/></p>
+                <pb f="1r" n="4" facs="#z1r4"/>
+                <p xml:id="p.nl.5" n="5">Ik zal met die fluweele
+                   das heel blij zijn, hoor!
+                   Maak je er geen band
+                   aan, maar met een
+                   lus om 't knoopje? Aan
+                   den achterkant zien die
+                   dassen (voor dubbele boorden)
+                   er zoo zoowat uit: [tekening van beoogde das<!-- TEKENING VAN BEOOGDE DAS -->
+                   dat achter de boord gaat. [bijschrift bij tekening das]<!-- BIJSCHRIFT BIJ TEKENING DAS -->
+                   lus [bijschrift bij tekening das]<!-- BIJSCHRIFT BIJ TEKENING DAS --></p>
+                   <closer xml:id="p.nl.6" n="6">Nu, mijn beste
+                   kindje, ik hoop dat je
+                   er niet te veel tijd aan
+                   moet besteden en eindig
+                   nu maar <salute>met vele 
+                   hartelijke groeten, ook
+                   aan <rs type="person" key="iongh_anna_de">Annie</rs>, je vriendje</salute>
+                   <signed><hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+
+            
+			<div type="annotation">
+
+				<div type="typednotes" xml:lang="nl">
+				    <note type="transcrSource">Manuscript.</note>
+				    <note type="dating">De brief is geschreven na de opening van de <rs type="exhibition" key="arti_1909">tentoonstelling</rs> van <rs type="artistsassoc">Arti</rs> op 17 oktober 1909, maar nog voor het einde van de maand 
+				        (Mondriaan verwijst naar het feest van <rs type="artistsassoc">Sint Lucas</rs> als 13 Nov., wat impliceert dat het nog niet november is). We dateren de brief daarom tussen 18 en
+				        31 oktober 1909.</note>
+				</div>
+
+				<div type="ogtnotes" xml:lang="nl">
+				</div>
+
+				<div type="notes" xml:lang="nl">
+				    <note xml:id="nieuweOmgeving">Zie voor de verhuizing van <rs type="person" key="iongh_aletta_de">De Iongh</rs> naar Den Haag <ref target="19090905y_IONG_1295.xml#inAmsterdam">MEP_1295</ref>.</note>
+				    <note xml:id="werkHoofdzaak">In oktober 1909 begonnen <rs type="person" key="iongh_aletta_de">Aletta</rs> (viool) en <rs type="person" key="iongh_anna_de">Anna</rs> (cello) de Iongh aan hun studie aan het <rs type="org">Koninklijk Conservatorium te 
+                    Den Haag</rs> (<ref target="biblio.xml#Heteren2018">Van Heteren 2018</ref>, p. 42).</note>
+                <note xml:id="DertienNovember">Het jaarlijkse gecostumeerde bal van <rs type="artistsassoc">kunstenaarsvereniging Sint Lucas</rs> had dat jaar als thema Spanje en vond plaats op 
+                    zaterdag 13 november 1909 in het <rs type="firm">Hotel Americain</rs> te Amsterdam. 
+                    <lb/>In september 1903 had Mondriaan tijdens een reis naar Frankrijk en Spanje een stierengevecht bijgewoond in de arena van Bilbao (<ref target="Gorter1998-1">Gorter 1998</ref>, p. 27-32 and <ref target="biblio.xml#Coppes2018">Coppes 2018</ref>, p. 124); [ill.].</note><!--** ILL foto Simon Maris en Piet Mondriaan in de arena te Bilbao; archief Simon Maris -->
+                <note xml:id="dingenZeeland">Met de 'dingen uit Zeeland' bedoelt Mondriaan de schetsen die hij in de zomer van 1909 had gemaakt tijdens zijn verblijf
+                    in de kustprovincie. In Amsterdam zou hij de schetsen uitwerken tot volwaardige schilderijen. Daarvan zou hij er enkele tentoonstellen in de voorjaarstentoonstelling bij Sint Lucas in 1910;
+                    zie <ref target="19100130_IONG_0017.xml#SintLucas">brief 19100130_IONG_0017, n. "SintLucas"</ref>.</note>
+                <note xml:id="bloemetjeArti">Op de tentoonstelling <ref target="expo.xml#arti_1909">Teekeningen en Beeldhouwwerken van leden van Arti et Amicitiae</ref> (17 oktober - 21 november) stelde Mondriaan de
+                    tekening <rs type="artwork-m" key="https://rkd.nl/images/68728">Lily</rs>  (1909, A619) tentoon.
+                    <lb/>'Pecuniae causa' (Latijn): 'omwille van het geld'.</note>
+				</div>
+			    
+			    <div type="translation" xml:lang="en">
+			       <pb f="1r" n="1" facs="#z1r1"/>
+			        <address>Sarphatip. 42.</address>
+			       <space unit="lines" quantity="1" dim="vertical"/>
+			        <opener xml:id="p.en.1" n="1"><salute>Dear Zus,</salute></opener>
+			        <p xml:id="p.en.2" n="2">I was very pleased to hear from you again. It’s good that <rs type="person" key="iongh_anna_de">you</rs> can adjust so well and that it’s not <hi rend="underline">too</hi> disappointing, the new surroundings etc.<ptr target="#nieuweOmgeving"/>
+			            It will be very nice for <rs type="person" key="iongh_de_frederika">your Ma</rs> to have you both with her. And, as you write, your work is the main thing, after all, and when you’re busy you don’t miss a lot of things that may be lacking or desirable!<ptr target="#werkHoofdzaak"/></p>
+			        <p xml:id="p.en.3" n="3">I’ve already been to <rs type="person" key="philippona_reinier philippona_mien">the Philipponas’</rs>
+			            <pb f="1v" n="2" facs="#z1v2"/>
+			            a few times; they also think it’s a great pity that <rs type="person" key="iongh_anna_de">you</rs> have both gone and they’re still doing all right. It would be nice if you both came here on 13 November; I think you’ll enjoy it.
+			            There will be a performance and I shall put together a bullfight because I’ve seen that.<ptr target="#DertienNovember"/> I’m thinking of going in black velvet, if it doesn’t work out too dear. I’ll find out for you what a lady’s costume costs,
+			            because I’ve heard we can get it 
+			            <pb f="1v" n="3" facs="#z1v3"/>
+			            much cheaper as a combination. So I’ll write to you about it; it would be much nicer if you went in costume. I shall try to get <rs type="person" key="philippona_reinier">Reinier</rs> as a matador too.</p>
+			        <p xml:id="p.en.4" n="4">I haven’t started on the things from Zeeland yet.<ptr target="#dingenZeeland"/> I have made <rs type="artwork-m">a few flowers</rs> (one of them is at <rs type="exhibition">Arti</rs> now), and now I’m working on <rs type="artwork-m">some small paintings</rs> I can sell;
+			            tiresome to have to do this because it has to be the way people want, but it’s pecuniae causa.<ptr target="#bloemetjeArti"/></p>
+			        <pb f="1r" n="4" facs="#z1r4"/>
+			        <p xml:id="p.en.5" n="5">I shall be very pleased with that velvet tie! Don’t make it as a ribbon, but with a loop around the stud? From the back these ties (for double collars) look something like this: 
+			           [drawing of tie with note:]
+			           That goes behind the collar. 
+			           loop [end of note]</p>
+			        <closer xml:id="p.en.6" n="6">Now, my dear child, I hope you won’t have to spend too much time on it, and end now <salute>with many warm wishes, to <rs type="person" key="iongh_anna_de">Annie</rs>, too, your friend</salute>
+			        <signed><hi rend="underline">Piet.</hi></signed></closer>
+			    </div>
+			</div>
+
+        </body>
+    </text>
+
+</TEI>
