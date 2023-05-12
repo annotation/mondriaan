@@ -17,6 +17,8 @@ generic:
 schema: MD
 prelim: true
 wordAsSlot: false
+parentEdges: true
+siblingEdges: true
 sectionModel: 
   model: I
   levels:

@@ -1,0 +1,118 @@
+env:
+  rkd:
+    imageBaseUrl: https://rkd.nl/explore/images
+
+defaults:
+  headingLevel: 0
+  flow: document
+  display: inline
+
+flows:
+  - document
+
+altTexts:
+  - added
+  - deleted
+  - supplied
+  - chlabels
+  - numbering
+
+behaviours:
+  div:
+    select:
+      id: title
+
+    subelements:
+      title:
+        flow: document
+        format:
+          headingLevel: 1
+
+      rs:
+        format:
+          display: inline
+
+  div:
+    select:
+      id: textoriginal
+
+    subelements:
+      div:
+        select:
+          type: original
+        flow: document
+
+      lb:
+        format:
+          break: line
+
+      pb:
+        altText: numbering
+        content: "{@f}:{@n}"
+        format:
+          display: inline
+
+      p:
+        pre:
+          content: "{@n}"
+          altText: numbering
+          format:
+            css: paranum
+          anchor: "{@id}"
+
+        format:
+          css: paraindent
+
+      opener:
+        pre:
+          content: "{@n}"
+          altText: numbering
+          format:
+            css: paranum
+          anchor: "{@id}"
+          
+        format:
+          css: paranoindent
+
+      salute:
+        format:
+          display: inline
+
+      dateline:
+        format:
+          display: block
+
+      add:
+        altText: added
+        format:
+          css: addition
+        pre:
+          content: "{@place}"
+          altText: chlabel
+          format:
+            css: chlabel
+
+      del:
+        altText: deleted
+        format:
+          css: deletion
+        pre:
+          content: "{@type}"
+          altText: chlabel
+          format:
+            css: chlabel
+
+      supplied:
+        altText: supplied
+        format:
+          css: supplied
+
+      rs:
+        link:
+          text: "{.}"
+          href: "{rkd.imageUrlBase}/{@key}"
+          tip: "see this on the RKD website"
+        format:
+          css: rslink
+
+        

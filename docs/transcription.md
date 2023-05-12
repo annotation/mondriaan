@@ -22,10 +22,17 @@ In this dataset, **tokens** fullfill the role of slots.
 
 ## How TEI maps to TF
 
-*   Text-Fabric token nodes correspond to **tokens** in TEI element content;
-*   Text-Fabric node types correspond to TEI element names (tags);
-*   Text-Fabric non-token nodes correspond to TEI elements in the source;
+*   Text-Fabric *token nodes* correspond to **tokens** in TEI element content;
+*   Text-Fabric *node types* correspond to TEI *element names (tags)*;
+*   Text-Fabric *non-token nodes* correspond to TEI *elements in the source*;
 *   Text-Fabric *features* correspond to TEI *attributes*;
+*   Text-Fabric *edges* correspond to *relationships* between TEI elements;
+
+    *   `parent` edges correspond to TEI elements and their parent elements 
+
+
+    *   `sibling` edges correspond to TEI elements and their sibling elements 
+
 *   Here are the [TEI elements and attributes](elements.md) used in this corpus.
 
 
@@ -121,6 +128,33 @@ feature | description
 `is_meta` | whether a token is in the teiHeader element
 `is_note` | whether a token is in a note element
 `rend_`*r* | whether a token is under the influence of a `rend="`*r*`"` attribute.
+
+
+
+## Edge features
+
+feature | description
+--- | ---
+`parent` | from a node to the node that corresponds to the parent element
+
+`sibling` | from a node to all nodes that correspond to a preceding sibling element; the edges are labelled with the distance between the siblings; adjacent siblings have distance 1
+
+
+Note that edges can be traversed in both directions, see the
+[docs](https://annotation.github.io/text-fabric/tf/core/edgefeature.html).
+
+
+
+* `E.parent.f(node)` finds the parent of a node
+* `E.parent.t(node)` finds the children of a node
+
+
+
+
+
+* `E.sibling.f(node)` finds the *preceding* siblings of a node
+* `E.sibling.t(node)` finds the *succeeding* siblings of a node
+* `E.sibling.b(node)` finds *all* siblings of a node
 
 
 

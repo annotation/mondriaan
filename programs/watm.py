@@ -1,5 +1,6 @@
 import json
 from tf.core.files import initTree, unexpanduser as ux
+from tf.parameters import OTYPE, OSLOTS
 
 
 TT_NAME = "watm"
@@ -12,6 +13,7 @@ class WATM:
         api = app.api
         self.L = api.L
         self.E = api.E
+        self.Es = api.Es
         self.F = api.F
         self.Fs = api.Fs
         self.slotType = self.F.otype.slotType
@@ -20,8 +22,10 @@ class WATM:
         self.repoLocation = app.repoLocation
 
         Fall = api.Fall
-        excludedFeatures = {"otype", "after", "str"}
-        self.features = [f for f in Fall() if f not in excludedFeatures]
+        Eall = api.Eall
+        excludedFeatures = {OTYPE, OSLOTS, "after", "str"}
+        self.nodeFeatures = [f for f in Fall() if f not in excludedFeatures]
+        self.edgeFeatures = [f for f in Eall() if f not in excludedFeatures]
 
     def makeText(self):
         F = self.F
@@ -56,9 +60,11 @@ class WATM:
 
     def makeAnno(self, extra):
         E = self.E
+        Es = self.Es
         F = self.F
         Fs = self.Fs
-        features = self.features
+        nodeFeatures = self.nodeFeatures
+        edgeFeatures = self.edgeFeatures
         slotType = self.slotType
         otypes = self.otypes
         skipMeta = self.skipMeta
@@ -72,10 +78,11 @@ class WATM:
         wrongTargets = []
 
         kind1 = "node"
-        kind2 = "element"
-        kind3 = "attribute"
-        kind4 = "format"
-        kind5 = "anno"
+        kind2 = "edge"
+        kind3 = "element"
+        kind4 = "attribute"
+        kind5 = "format"
+        kind6 = "anno"
 
         for otype in otypes:
             isSlot = otype == slotType
@@ -97,11 +104,11 @@ class WATM:
                         wrongTargets.append((otype, start, end))
 
                     target = f"{start}-{end + 1}"
-                    aId = self.mkAnno(kind2, otype, target)
+                    aId = self.mkAnno(kind3, otype, target)
                     tlFromTf[n] = aId
                     self.mkAnno(kind1, n, aId)
 
-        for feat in features:
+        for feat in nodeFeatures:
             parts = feat.split("_", 2)
             if len(parts) >= 2 and parts[0] == "rend":
                 for (n, val) in Fs(feat).items():
@@ -110,14 +117,14 @@ class WATM:
                     prop = parts[1]
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    self.mkAnno(kind4, prop, target)
+                    self.mkAnno(kind5, prop, target)
             elif len(parts) == 2 and parts[0] == "is" and parts[1] == "note":
                 for (n, val) in Fs(feat).items():
                     if not val or (skipMeta and F.is_meta.v(n)):
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    self.mkAnno(kind4, "note", target)
+                    self.mkAnno(kind5, "note", target)
             else:
                 for (n, val) in Fs(feat).items():
                     if skipMeta and F.is_meta.v(n):
@@ -126,12 +133,46 @@ class WATM:
                     if t is None:
                         continue
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    aId = self.mkAnno(kind3, f"{feat}={val}", target)
+                    aId = self.mkAnno(kind4, f"{feat}={val}", target)
+
+        for feat in edgeFeatures:
+            for (fromNode, toNodes) in Es(feat).items():
+                if skipMeta and F.is_meta.v(fromNode):
+                    continue
+                fromT = tlFromTf.get(fromNode, None)
+                if fromT is None:
+                    continue
+                targetFrom = (
+                    f"{fromT}-{fromT + 1}" if F.otype.v(fromNode) == slotType else fromT
+                )
+
+                if type(toNodes) is dict:
+                    for (toNode, val) in toNodes.items():
+                        if skipMeta and F.is_meta.v(toNode):
+                            continue
+                        toT = tlFromTf.get(toNode, None)
+                        if toT is None:
+                            continue
+
+                        targetTo = (
+                            f"{toT}-{toT + 1}" if F.otype.v(toNode) == slotType else toT
+                        )
+                        target = f"{targetFrom}->{targetTo}"
+                        aId = self.mkAnno(kind2, f"{feat}={val}", target)
+                else:
+                    for toNode in toNodes:
+                        if skipMeta and F.is_meta.v(toNode):
+                            continue
+                        toT = tlFromTf.get(toNode, None)
+                        if toT is None:
+                            continue
+                        target = f"{fromT}->{toT}"
+                        aId = self.mkAnno(kind2, feat, target)
 
         for (n, value) in extra.items():
             t = tlFromTf[n]
             target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-            aId = self.mkAnno(kind5, str(value), target)
+            aId = self.mkAnno(kind6, str(value), target)
 
         if len(wrongTargets):
             print(f"WARNING: wrong targets, {len(wrongTargets)}x")

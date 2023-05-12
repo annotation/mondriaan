@@ -131,7 +131,7 @@ Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 
 ## version
 
-0.8.2
+0.8.3
 
 
 ## teiVersion
