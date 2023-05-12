@@ -1,0 +1,251 @@
+Inventory of tags and attributes in the source XML file(s).
+Contains the following sections:
+	Formatting Attributes
+	Keyword Attributes
+	Remaining Attributes and Elements
+
+
+
+Formatting Attributes
+
+	mixed: <add>              place=                 1x above
+	                          "                      1x below
+	                          "                      1x inline
+	                   rend=                  1x above
+
+	mixed: <addrLine>         rend=                  1x center
+
+	mixed: <del>              rend=                  2x overwritten
+
+	mixed: <hi>               rend=                  2x blockletter
+	                          "                     17x italics
+	                          "                      1x right
+	                          "                      4x spaced
+	                          "                      7x super
+	                          "                     32x underline
+	                          "                      3x underline2
+
+	pure : <postscript>       rend=                  1x upsidedown
+
+	mixed: <signed>           rend=                  1x right
+
+	pure : <space>            dim=                   9x vertical
+	                   rend=                  4x norend
+
+Keyword Attributes
+
+	mixed: <address>          type=                  2x receiver
+
+	mixed: <change>           type=                 13x editedText
+	                   who=                   1x XX
+	                          "                     42x ev
+	                          "                      1x gr
+	                          "                     37x lj
+	                          "                     14x ms
+	                          "                     32x wc
+
+	pure : <correspAction>    type=                 14x received
+	                          "                     14x sent
+
+	mixed: <del>              type=                  1x overwritten
+	                          "                      5x strikeover
+
+	pure : <div>              lang=                 21x en
+	                          "                     55x nl
+	                   type=                 16x annotation
+	                          "                     16x notes
+	                          "                     14x ogtnotes
+	                          "                     14x original
+	                          "                      2x postalData
+	                          "                     14x translation
+	                          "                     16x typednotes
+
+	mixed: <idno>             type=                 14x def
+	                          "                     14x letterId
+
+	mixed: <note>             type=                 16x dating
+	                          "                      4x ogtnote
+	                          "                      5x pubhistory
+	                          "                      1x remarks
+	                          "                     16x transcrSource
+
+	pure : <objectDesc>       form=                 12x brief
+	                          "                      1x briefkaart
+	                          "                      1x correspondentiekaart
+
+	pure : <pb>               facs=                 11x #s1r
+	                          "                      7x #s1v
+	                          "                      1x #ser
+	                          "                      1x #sev
+	                          "                     16x #z1r1
+	                          "                      2x #z1r4
+	                          "                      6x #z1v2
+	                          "                      4x #z1v3
+
+	mixed: <reg>              type=                  1x misprint
+
+	mixed: <rs>               type=                  3x article
+	                          "                     11x artistsassoc
+	                          "                     18x artwork-m
+	                          "                     15x exhibition
+	                          "                      3x firm
+	                          "                     12x journal
+	                          "                      7x museum
+	                          "                      6x org
+	                          "                    112x person
+	                          "                      3x photograph
+
+	pure : <space>            unit=                  1x chars
+	                          "                      8x lines
+
+	mixed: <unclear>          reason=                2x strikeover
+
+Remaining Attributes and Elements
+
+	pure : <TEI>                                    14x 
+
+	mixed: <abbr>                                    2x 
+
+	mixed: <accMat>                                  1x 
+
+	mixed: <add>                                     4x 
+
+	mixed: <addrLine>                                5x 
+
+	mixed: <address>                                 2x 
+
+	pure : <altIdentifier>                          28x 
+
+	pure : <body>                                   14x 
+
+	mixed: <change>                                 28x 
+
+	pure : <choice>                                 15x 
+
+	mixed: <closer>           id=                   30x X
+	                   n=                    30x N
+
+	pure : <correspDesc>                            14x 
+
+	mixed: <country>                                14x 
+
+	mixed: <date>                                    2x 
+	                   when=                  5x NNNN-NN
+	                          "                      9x NNNN-NN-NN
+
+	mixed: <dateline>                                5x 
+
+	pure : <decoDesc>                               14x 
+
+	mixed: <decoNote>                               14x 
+
+	mixed: <del>                                     1x 
+
+	pure : <div>              id=                    2x X
+
+	mixed: <editor>           id=                   28x X
+
+	mixed: <expan>                                   2x 
+
+	pure : <facsimile>                              14x 
+
+	pure : <fileDesc>                               14x 
+
+	pure : <graphic>          url=                   2x /images/NNNN/KM_NNN.NNN-N.tif
+	                          "                      2x /images/NNNN/KM_NNN.NNN-N_NN.tif
+	                          "                      1x /images/NNNN/KM_NNN.NNN-N_NrN.tif
+	                          "                      9x /images/NNNN/KM_NNN.NNN.tif
+	                          "                      9x /images/NNNN/KM_NNN.NNN_NN.tif
+	                          "                      5x /images/NNNN/KM_NNN.NNN_NN_NvN.tif
+	                          "                      8x /images/NNNN/KM_NNN.NNN_NrN.tif
+	                          "                      1x /images/NNNN/NNNN.tif
+	                          "                      1x /images/NNNN/NNNNCN_NNNNNNNN_bladN_pNN.jpg
+	                          "                      1x /images/NNNN/NNNN_DSCNNNNN_recto_NNN_iso.JPG
+	                          "                      1x /images/NNNN/NNNN_DSCNNNNN_verso_NNN_iso.JPG
+	                          "                     23x dummy
+
+	mixed: <idno>                                   14x 
+
+	mixed: <institution>                            14x 
+
+	pure : <lb>                                      5x 
+
+	pure : <msDesc>                                 14x 
+
+	pure : <msIdentifier>                           14x 
+
+	mixed: <name>                                   14x 
+	                   key=                  14x X
+
+	mixed: <note>                                    2x 
+	                   id=                   40x X
+
+	mixed: <opener>           id=                   28x X
+	                   n=                    28x N
+
+	mixed: <orig>                                   11x 
+
+	mixed: <p>                                      14x 
+	                   id=                   76x X
+	                   n=                    76x N
+
+	pure : <pb>                                      3x 
+	                   f=                    29x Nr
+	                          "                     17x Nv
+	                   n=                    44x N
+	                          "                      2x N-N
+	                          "                      1x er
+	                          "                      1x ev
+
+	pure : <physDesc>                               14x 
+
+	mixed: <placeName>                              14x 
+
+	mixed: <postmark>                                2x 
+
+	pure : <postscript>                              5x 
+
+	pure : <profileDesc>                            14x 
+
+	pure : <ptr>              target=               77x X
+
+	pure : <publicationStmt>                        14x 
+
+	mixed: <ref>                                     2x 
+	                   target=               62x X
+
+	mixed: <reg>                                    10x 
+
+	pure : <revisionDesc>                           14x 
+
+	mixed: <rs>               key=                 132x X
+
+	mixed: <salute>                                 56x 
+
+	mixed: <settlement>                             14x 
+
+	mixed: <signed>                                 29x 
+
+	pure : <sourceDesc>                             14x 
+
+	pure : <space>            quantity=              9x N
+
+	mixed: <sponsor>                                14x 
+
+	pure : <surface>          id=                   49x X
+	                   n=                    14x Nr
+	                          "                     13x Nv
+	                          "                     11x er
+	                          "                     11x ev
+
+	pure : <teiHeader>                              14x 
+
+	pure : <text>                                   14x 
+
+	mixed: <title>                                  14x 
+
+	pure : <titleStmt>                              14x 
+
+	mixed: <unclear>                                 2x 
+
+	mixed: <zone>             id=                   14x X

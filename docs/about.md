@@ -131,12 +131,12 @@ Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 
 ## version
 
-0.8.3
+0.8.4
 
 
 ## teiVersion
 
-2023-04-26
+2023-05-11
 
 
 ## schema
