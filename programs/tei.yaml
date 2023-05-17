@@ -19,6 +19,16 @@ prelim: true
 wordAsSlot: false
 parentEdges: true
 siblingEdges: true
+pageModel:
+  model: II
+  element: div
+  attributes:
+    type:
+    - original
+    - translation
+    - postalData
+  pbAtTop: true
+  nodeType: page
 sectionModel: 
   model: I
   levels:

@@ -11,7 +11,7 @@ Formatting Attributes
 	mixed: <add>              place=                 1x above
 	                          "                      1x below
 	                          "                      1x inline
-	                   rend=                  1x above
+	                          rend=                  1x above
 
 	mixed: <addrLine>         rend=                  1x center
 
@@ -30,14 +30,14 @@ Formatting Attributes
 	mixed: <signed>           rend=                  1x right
 
 	pure : <space>            dim=                   9x vertical
-	                   rend=                  4x norend
+	                          rend=                  4x norend
 
 Keyword Attributes
 
 	mixed: <address>          type=                  2x receiver
 
 	mixed: <change>           type=                 13x editedText
-	                   who=                   1x XX
+	                          who=                   1x XX
 	                          "                     42x ev
 	                          "                      1x gr
 	                          "                     37x lj
@@ -52,7 +52,7 @@ Keyword Attributes
 
 	pure : <div>              lang=                 21x en
 	                          "                     55x nl
-	                   type=                 16x annotation
+	                          type=                 16x annotation
 	                          "                     16x notes
 	                          "                     14x ogtnotes
 	                          "                     14x original
@@ -123,14 +123,14 @@ Remaining Attributes and Elements
 	pure : <choice>                                 15x 
 
 	mixed: <closer>           id=                   30x X
-	                   n=                    30x N
+	                          n=                    30x N
 
 	pure : <correspDesc>                            14x 
 
 	mixed: <country>                                14x 
 
 	mixed: <date>                                    2x 
-	                   when=                  5x NNNN-NN
+	                          when=                  5x NNNN-NN
 	                          "                      9x NNNN-NN-NN
 
 	mixed: <dateline>                                5x 
@@ -175,24 +175,24 @@ Remaining Attributes and Elements
 	pure : <msIdentifier>                           14x 
 
 	mixed: <name>                                   14x 
-	                   key=                  14x X
+	                          key=                  14x X
 
 	mixed: <note>                                    2x 
-	                   id=                   40x X
+	                          id=                   40x X
 
 	mixed: <opener>           id=                   28x X
-	                   n=                    28x N
+	                          n=                    28x N
 
 	mixed: <orig>                                   11x 
 
 	mixed: <p>                                      14x 
-	                   id=                   76x X
-	                   n=                    76x N
+	                          id=                   76x X
+	                          n=                    76x N
 
 	pure : <pb>                                      3x 
-	                   f=                    29x Nr
+	                          f=                    29x Nr
 	                          "                     17x Nv
-	                   n=                    44x N
+	                          n=                    44x N
 	                          "                      2x N-N
 	                          "                      1x er
 	                          "                      1x ev
@@ -212,7 +212,7 @@ Remaining Attributes and Elements
 	pure : <publicationStmt>                        14x 
 
 	mixed: <ref>                                     2x 
-	                   target=               62x X
+	                          target=               62x X
 
 	mixed: <reg>                                    10x 
 
@@ -233,7 +233,7 @@ Remaining Attributes and Elements
 	mixed: <sponsor>                                14x 
 
 	pure : <surface>          id=                   49x X
-	                   n=                    14x Nr
+	                          n=                    14x Nr
 	                          "                     13x Nv
 	                          "                     11x er
 	                          "                     11x ev
