@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem described_template="letter" panel="notes" described_adaptation="md"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <?editem described_template="letter" panel="orig" described_adaptation="md"?>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">eDITem letter template ODD</title>
+        <title type="desc">Genericity level 3: MD adaptation of panel 'notes', compiled version.</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <elementSpec ident="teiHeader" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="facsimile" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="div" mode="add">
+        <model predicate="@type='postalData'" behaviour="omit"/>
+        <model predicate="@type='original'" behaviour="omit"/>
+        <model predicate="@type='translation'" behaviour="omit"/>
+      </elementSpec>
+      
+      <elementSpec ident="standOff" mode="add">
+        <model behaviour="block"/>
+      </elementSpec>
+      
+      <elementSpec ident="listAnnotation">
+        <model predicate="@type='typednotes'" behaviour="block"/>
+        <model predicate="@type='ogtnotes'" behaviour="block"/>
+        <model predicate="@type='notes'" behaviour="block"/>
+      </elementSpec>
+      
+      <elementSpec ident="note">
+        <modelSequence>
+          <model behaviour="note">
+            <param name="label" value="function"/>
+            <!-- function to be written -->
+            <param name="content" value="."/>
+          </model>
+          <model behaviour="anchor">
+            <param name="content" value="@xml:id"/>
+          </model>
+          <model behaviour="inline" cssClass="note-number">
+            <!-- inline? alternate? margin? -->
+            <param name="content" value="@n"/>
+            <!-- square brackets -->
+          </model>
+        </modelSequence>
+      </elementSpec>
+      
+      <elementSpec ident="ref" mode="add">
+            <model predicate="not(@target)" behaviour="inline"/>
+            <model predicate="@target" behaviour="link">
+              <param name="uri" value="@target"/>
+              <param name="content" value="."/>
+            </model>
+          </elementSpec>
+          
+           <elementSpec ident="supplied">
+            <model behaviour="inline" cssClass="supplied-text"/>
+           <!--  within sqaure brackets -->
+          </elementSpec>
+       
+      <elementSpec ident="rs">
+        <model behaviour="link">
+          <param name="url" value="function"/>
+          <!-- function to be written -->
+          <param name="content" value="."/>
+        </model>
+      </elementSpec>
+    </body>
+  </text>
+</TEI>

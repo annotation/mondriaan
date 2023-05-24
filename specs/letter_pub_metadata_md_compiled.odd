@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <?editem described_template="letter" panel="orig" described_adaptation="md"?>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">eDITem letter template ODD</title>
+        <title type="desc">Genericity level 3: MD adaptation of panel 'original', compiled version.</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2023-05-22">First version</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <elementSpec ident="div" mode="add">
+        <model behaviour="postalData"/>
+      </elementSpec>
+      <elementSpec ident="facsimile" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="div" mode="add">
+        <model predicate="@type='original'" behaviour="omit"/>
+        <model predicate="@type='translation'" behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="standOff" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="titleStmt" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="publicationStmt" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="revisionDesc" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="physDesc" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      
+      <elementSpec ident="msIdentifier" mode="add">
+        <model behaviour="block"/>
+        <!-- more details? -->
+      </elementSpec>
+      
+      <elementSpec ident="idno" mode="add">
+        <model predicate="@type='letterId'" behaviour="anchor"/>
+        <!-- to be detailed later -->
+      </elementSpec>
+      
+      <elementSpec ident="correspAction" mode="add">
+        <model predicate="@type='sent'" behaviour="block"/>
+        <model predicate="@type='received'" behaviour="block"/>
+      </elementSpec>
+      
+    </body>
+  </text>
+</TEI>

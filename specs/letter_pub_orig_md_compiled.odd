@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem described_template="letter" panel="orig" described_adaptation="md"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <?editem described_template="letter" panel="orig" described_adaptation="md"?>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">eDITem letter template ODD</title>
+        <title type="desc">Genericity level 3: MD adaptation of panel 'original', compiled version.</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2023-05-22">First version</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <elementSpec ident="teiHeader" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="facsimile" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="div" mode="add">
+        <model predicate="@type='postalData'" behaviour="omit"/>
+        <model predicate="@type='translation'" behaviour="omit"/>
+      </elementSpec>
+      <elementSpec ident="standOff" mode="add">
+        <model behaviour="omit"/>
+      </elementSpec>
+      
+      
+      <!-- do we need to define Css classes somewhere else, 
+                since we use these documents not only to talk to DI, 
+                but also in the perspective of eDITem? 
+                I wonder if we should reevaluate the use of outputRendition 
+                and have all the information inside the ODD -->
+      
+      
+        <elementSpec ident="lb" mode="add">   
+            <model behaviour="break">
+              <param name="type" value="line"/>
+            </model>
+          </elementSpec>
+      
+      <elementSpec ident="pb" mode="add">
+        <model behaviour="inline" cssClass="pb">
+          <param name="content" value="concat(@f,concat(':',@n))"/>
+        </model>
+      </elementSpec>
+      
+      <elementSpec ident="p" mode="add">
+        <modelSequence>
+          <model behaviour="inline" cssClass="paragraph-number">
+            <!-- inline? alternate? margin? -->
+            <param name="content" value="@n"/>
+            <!-- square brackets -->
+          </model>
+          <model behaviour="anchor">
+            <param name="content" value="@xml:id"/>
+          </model>
+          <model behaviour="paragraph" cssClass="indented-paragraph"/>
+        </modelSequence>
+      </elementSpec>
+      
+      <elementSpec ident="opener" mode="add">
+        <modelSequence>
+          <model behaviour="paragraph" cssClass="not-indented-paragraph"/>
+          <model behaviour="inline">
+            <param name="content" value="@n"/>
+            <!-- inline? alternate? margin? -->
+          </model>
+          <model behaviour="anchor">
+            <param name="content" value="@xml:id"/>
+          </model>
+        </modelSequence>
+      </elementSpec>
+      
+      <elementSpec ident="salute" mode="add">
+        <model behaviour="inline"/>
+      </elementSpec>
+      
+      <elementSpec ident="dateline" mode="add">
+        <model behaviour="block"/>
+      </elementSpec>
+      
+      <elementSpec ident="add" mode="add">
+        <!-- letter level or geenric editem level ? -->
+        <modelSequence>
+          <model behaviour="inline" cssClass="addition"/>
+          <model behaviour="alt_text">
+            <param name="content" value="concat('Place: ' , @place)"/>
+          </model>
+        </modelSequence>
+      </elementSpec>
+      
+      <elementSpec ident="del" mode="add">
+        <!-- letter level or geenric editem level ? -->
+        <modelSequence>
+          <model behaviour="inline" cssClass="deletion"/>
+          <model behaviour="alt_text">
+            <param name="content" value="concat('Type od deletion: ' , @type)"/>
+          </model>
+        </modelSequence>
+      </elementSpec>
+      
+       <elementSpec ident="supplied">
+            <model behaviour="inline" cssClass="supplied-text"/>
+           <!-- within sqaure brackets -->
+          </elementSpec>
+      
+      <elementSpec ident="ptr" mode="add">
+        <model behaviour="link">
+          <param name="url" value="@target"/>
+          <param name="content" value="function"/>
+          <!-- function to be written.  -->
+        </model>
+      </elementSpec>
+      
+      
+        <elementSpec ident="ref" mode="add">
+        <model predicate="not(@target)" behaviour="inline"/>
+        <model predicate="@target" behaviour="link">
+          <param name="uri" value="@target"/>
+          <param name="content" value="."/>
+        </model>
+      </elementSpec>
+     
+
+      <elementSpec ident="choice" mode="add">
+        <modelSequence predicate="orig and reg">
+          <model behaviour="alternate">
+            <param name="default" value="reg[1]"/>
+            <param name="alternate" value="orig[1]"/>
+          </model>
+          <model behaviour="alt_text">
+            <param name="content" value="concat('Type of regularization: ' , @type)"/>
+          </model>
+        </modelSequence>
+        <model predicate="expan" behaviour="inline"/>
+      </elementSpec>
+      
+      <elementSpec ident="closer" mode="add">
+        <modelSequence>
+          <model behaviour="paragraph" cssClass="not-indented-paragraph"/>
+          <model behaviour="inline">
+            <!-- alternate? margin? -->
+            <param name="content" value="@n"/>
+          </model>
+          <model behaviour="anchor">
+            <param name="content" value="@xml:id"/>
+          </model>
+        </modelSequence>
+      </elementSpec>
+      
+      <elementSpec ident="address" mode="add">
+        <model behaviour="inline"/>
+      </elementSpec>
+      
+      <elementSpec ident="postscript" mode="add">
+        <model behaviour="block"/>
+      </elementSpec>
+      
+      <elementSpec ident="signed" mode="add">
+        <model behaviour="inline" cssClass="signature"/>
+      </elementSpec>
+      
+     
+      <elementSpec ident="metamark" mode="add">
+        <modelSequence>
+          <model behaviour="inline"/>
+          <model behaviour="alt_text">
+            <param name="content" value="concat('Place: ' , @place)"/>
+          </model>
+        </modelSequence>
+      </elementSpec>
+      
+      <elementSpec ident="hi" mode="add">
+        <modelSequence>
+          <model predicate="'underline' = tokenize(@rend)" behaviour="inline">
+            <outputRendition> font-style: italic; </outputRendition>
+          </model>
+          <model predicate="@rend='super'" behaviour="inline">
+            <outputRendition> vertical-align: super; </outputRendition>
+          </model>
+          <model predicate="@rend='italics'" behaviour="inline">
+            <outputRendition> font-style: italic; </outputRendition>
+            <!-- what's the difference 
+              between the two italic renditions? (underline and italics) -->
+          </model>
+          <model predicate="@rend='blockletter'" behaviour="inline">
+            <outputRendition> text-transform: uppercase; </outputRendition>
+          </model>
+          <model predicate="@rend='spaced'" behaviour="inline" cssClass="spaced-letters"/>
+        </modelSequence>
+      </elementSpec>
+      <elementSpec ident="rs">
+        <model behaviour="link">
+          <param name="url" value="function"/>
+          <!-- function to be written -->
+          <param name="content" value="."/>
+        </model>
+      </elementSpec>
+    </body>
+  </text>
+</TEI>
