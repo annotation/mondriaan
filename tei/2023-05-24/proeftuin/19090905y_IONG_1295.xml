@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    <?editem template="letter" adaptation="md"?>
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs>. Domburg, begin september 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Nederland</country>
+                        <settlement>Otterlo</settlement>
+                        <institution>Kröller Müller Museum</institution>
+                        <idno>KM 117.523</idno>
+                        <altIdentifier><idno type="letterId">19090905y_IONG_1295</idno></altIdentifier>
+                        <altIdentifier><idno type="def"/></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="brief"/>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <name>Piet Mondriaan</name>
+                    <date when="1909-09">begin september 1909</date>
+                    <placeName>Domburg</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <name key="iongh_aletta_de">Aletta de Iongh</name>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="wc">transcriptie: voltooid 21.7.15</change>
+            <change who="wc">collatie bron: voltooid 1.6.16</change>
+            <change who="wc">tweede collatie aan origineel: voltooid 26.11.19</change>
+            <change who="lj">invoer tweede collatie: voltooid 5.8.16</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+            <change who="ev">titel gecontroleerd 13.10.2020</change>
+            <change who="ev">personen getagd 13.10.2020</change>
+            <change who="ev">vertaling ingevoerd 16.2.2021</change>
+            <change who="ms">codering personen aangepast 15.3.2022</change>
+            <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1295/KM_117.523.tif"/>
+            <zone xml:id="z1r1">
+                <graphic url="/images/1295/KM_117.523_1r1.tif"/>
+            </zone>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1295/KM_117.523_02.tif"/>
+            <zone xml:id="z1v2">
+                <graphic url="/images/1295/KM_117.523_02_1v2.tif"/>
+            </zone>
+            <zone xml:id="z1v3">
+                <graphic url="/images/1295/KM_117.523_02_1v3.tif"/>
+            </zone>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                <opener xml:id="p.nl.1" n="1"><dateline>Domburg. Ooststraat
+                    4<hi rend="super">.a.</hi></dateline><ptr target="#OoststraatDomburg"/> <space unit="lines" dim="vertical" quantity="1" rend="norend"/> 
+                    <salute>Beste Zus,</salute></opener> <p xml:id="p.nl.2" n="2">je zult
+                        nu wel wêer in A'dam
+                        zijn en daarom schrijf
+                        ik je mijn adres<del rend="overwritten">.</del><add>,</add> opdat
+                        je me eens kan laten weten
+                        of er al in zake Engeland
+                        beslist is, en hoe je 't verder
+                        maakt.<ptr target="#inzakeEngeland"/> Ik ben
+                        hier heelemaal opgeknapt;
+                        't is hier erg gezond. Maar
+                        om te werken is 't weêr
+                        nog niet zoo heel best geweest:
+                        veel regen en koude.<ptr target="#weerDomburg"/></p> 
+                <p xml:id="p.nl.3" n="3">De zee is heerlijk,
+                    dat begrijp je. De heele
+                    landstreek is hier zoo
+                    <pb f="1v" n="2" facs="#z1v2"/>
+                    blij en rein. Ik denk
+                    nog wel mooie dingen
+                    van hier te zullen maken.</p>
+                <p xml:id="p.nl.4" n="4">Dezen maand blijf je
+                    nog in A'dam, heh?<ptr target="#inAmsterdam"/></p>
+                <closer xml:id="p.nl.5" n="5"><salute>Nu, dag! vele beste
+                    groeten van je</salute>
+                    <signed><hi rend="underline">Piet.</hi></signed></closer>
+                <space unit="lines" dim="vertical" quantity="1"/>
+                <postscript><p xml:id="p.nl.6" n="6">P.S.
+                    <rs ref="bio.xml#waldenburg_alfred" type="person">De poliep</rs> is bij me geweest
+                    — naar <rs ref="bio.xml#knap_gerrit_willem" type="person">Knap</rs> vertelde — kort
+                    voor mijn vertrek maar
+                    ik was niet thuis. Hij had
+                    ook <rs type="photograph">photo's van een dame</rs> — van 
+                    jouw — bij zich maar hij
+                    wilde niets laten zien aan
+                    Knap.<ptr target="#nietThuis"/> Ik heb hem geschreven
+                    dat hij ze maar bewaren
+                    moet, tot ik terug ben.</p>
+                    
+                    <pb f="1v" n="3" facs="#z1v3"/>
+                    <p xml:id="p.nl.7" n="7">Wil jij ze bij <rs ref="bio.xml#waldenburg_alfred" type="person">hem</rs> gaan
+                        halen, ook best. Hij woont
+                        Boerhavestraat 61. Dan
+                        kon je <del type="strikeover">de mijne </del>ze me
+                        opzenden, en dan zend ik
+                        de jouwe terug.<ptr target="#fotoosOpzenden"/> Doe maar
+                        wat je 't liefst wil. Zeg hem
+                        dan dat ik hem later een
+                        studie zal geven, zooals ik hem
+                        beloofde.<ptr target="#studieGeven"/></p> <closer xml:id="p.nl.8" n="8"><salute>Dag, lieve Zus,
+                            vele groeten van je</salute> <signed><hi rend="underline">Piet.</hi></signed></closer>
+                </postscript>
+            </div>
+            <div type="translation" xml:lang="en">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                <opener xml:id="p.en.1" n="1"><dateline>Domburg. Ooststraat 4-A.<ptr target="#OoststraatDomburg"/> </dateline> <space unit="lines" dim="vertical" quantity="1" rend="norend"/>
+                    <salute>Dear Zus,</salute></opener>
+                <p xml:id="p.en.2" n="2">You must be back in Amsterdam again and so I’m writing to tell you my address, so that you can let me know whether anything’s been decided about England yet, and how you’re getting on.<ptr target="#inzakeEngeland"/> I’ve completely recovered here; it’s very healthy here.
+                    But the weather’s not been very good for working: a lot of rain and cold.<ptr target="#weerDomburg"/></p>
+                <p xml:id="p.en.3" n="3">The sea is wonderful, as you know. The whole area here is so
+                    <pb f="1v" n="2" facs="#z1v2"/>
+                    happy and clean. I think I shall make some good things of here. You’re staying in Amsterdam this month, eh?<ptr target="#inAmsterdam"/></p>
+                <closer xml:id="p.en.4" n="4"><salute>Well, bye! With very best wishes from your</salute>
+                    <signed><hi rend="underline">Piet.</hi></signed></closer>
+                <space unit="lines" dim="vertical" quantity="1"/>
+                <postscript><p xml:id="p.en.5" n="5">P.S.
+                    <rs ref="bio.xml#waldenburg_alfred" type="person">The polyp</rs> has been round — so <rs ref="bio.xml#knap_gerrit_willem" type="person">Knap</rs> told me — shortly before I left but I was out.
+                    He also had <rs type="photograph">photographs of a woman — of you</rs> — with him but he wouldn’t show any of them to Knap.<ptr target="#nietThuis"/> I wrote and told him that he had to keep them until I get back.</p>
+                    
+                    <pb f="1v" n="3" facs="#z1v3"/>
+                    <p xml:id="p.en.6" n="6">If you want to go and fetch them from <rs ref="bio.xml#waldenburg_alfred" type="person">him</rs>, that’s fine. He lives at Boerhavestraat 61. Then you could send them to me, and then I’ll send yours back.<ptr target="#fotoosOpzenden"/> Do whichever you prefer.
+                        Tell him that I’ll give him a study later, as I promised him.<ptr target="#studieGeven"/></p>
+                    <closer xml:id="p.en.7" n="7"><salute>Bye, dear Zus, best wishes from your</salute>
+                        <signed><hi rend="underline">Piet.</hi></signed></closer>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="typednotes" xml:lang="nl">
+            
+            <note xml:id="n_transcrSource" type="transcrSource">Manuscript.</note>
+            <note xml:id="n_dating" type="dating">De brief is geschreven vanuit Pension Wisse in Domburg, waar Mondriaan vanaf circa half augustus 1909 verbleef, en voor de verhuizing 
+                van <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta De Iongh</rs> naar Den Haag (eind september 1909); zie <ref target="#inAmsterdam">n. "inAmsterdam"</ref>. Mondriaan lijkt al enige tijd in Zeeland
+                te verblijven (hij is inmiddels opgeknapt van zijn verkoudheid, <ref target="#p.nl.2 #p.en.2">par. .2</ref> en <ref target="19090807y_IONG_1296.xml#p.nl.3 19090807y_IONG_1296.xml#p.en.3">19090807y_IONG_1296, par. 3</ref>). Dat hij laat in augustus nog aan De Iongh zou vragen of zij inderdaad
+                de rest van de maand nog in Amsterdam blijft (<ref target="#p.nl.4 #p.en.4">par. 4</ref>) is niet plausibel; we veronderstellen daarom dat de brief van begin september 1909 moet dateren.
+                Gegevens om dit te precizeren, ontbreken.
+                
+            </note>
+        </listAnnotation>
+        <listAnnotation type="ogtnotes" xml:lang="nl">
+            
+            <note xml:id="ogt_1" n="1" type="ogtnote">Portretfoto's van <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> door <rs ref="bio.xml#waldenburg_alfred" type="person">Waldenburg</rs> (<ref target="19090421y_IONG_1304.xml#schedelmeter">19090421y_IONG_1304</ref>).</note>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="nl">
+            
+            <note n="1" xml:id="OoststraatDomburg">Voor Mondriaans verblijf in Domburg, zie <ref target="19090824y_KNAP_1747.xml#verblijfDomburg">brief 19090824y_KNAP_1747 n. "verblijfDomburg"</ref>.</note>
+            <note n="2" xml:id="inzakeEngeland"><rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs> reisde in september 1909 naar Engeland, vermoedelijk om haar daar woonachtige broer <rs ref="bio.xml#iongh_daniel_de" type="person">Daniël</rs> (1885-1965) 
+                te bezoeken. Cf. <!-- ***aanvullen*** --></note><!--** Wietse vraagt Marjan van Heteren naar de bron; vermoedelijk de nog steeds in Engeland wonende kleinzoon) -->
+            <note n="3" xml:id="weerDomburg">Vanwege het slechte weer was Mondriaan gedwongen binnen te werken. Omdat pensionhouder <rs ref="bio.xml#wisse_ko" type="person">Ko Wisse</rs> en <rs ref="bio.xml#wisse_adriana" type="person">diens dochter</rs> voor hem 
+                wilden poseren kreeg Mondriaan ondanks het slechte weer toch nog wat werk gedaan; cf. <rs type="artwork-m" key="https://rkd.nl/images/62319"><hi rend="italics">Zeeland farmer</hi></rs> (1909-1910, A675)
+                en <rs type="artwork-m" key="https://rkd.nl/images/68733"><hi rend="italics">Zeeland girl</hi></rs> (1909-1910, A676).</note>
+            <note n="4" xml:id="inAmsterdam"><rs ref="bio.xml#iongh_aletta_de" type="person">Aletta</rs> en <rs ref="bio.xml#iongh_anna_maria_de" type="person">Anna</rs> de Iongh verhuisden op 29 september 1909 van Amsterdam naar Den Haag, 
+                waar zij introkken bij <rs ref="bio.xml#iongh_de_frederika" type="person">hun moeder</rs> op het adres Weimarstraat 235 (<ref target="biblio.xml#Heteren2018">Van Heteren 2018</ref>, p. 55; noot 39).</note>
+            <note n="5" xml:id="nietThuis">Mondriaan deelde een voordeur met zijn bovenbuurman <rs ref="bio.xml#knap_gerrit_willem" type="person">Gerrit Knap</rs> (<ref target="biblio.xml#Scherphuis1994">Scherphuis 1994</ref>, p. 73).</note>
+            <note n="6" xml:id="fotoosOpzenden">Mogelijk wilde Mondriaan portretfoto's van <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> hebben in verband met <rs type="artwork-m" key="https://rkd.nl/images/277201">het krijtportret</rs> dat hij 
+                van haar maakte. Hij gebruikte vaker foto's als hulpmiddel bij het vervaardigen van (zelf)portretten; zie bijvoorbeeld <ref target="biblio.xml#Coppes2012">Coppes 2012</ref>, p. 264.</note>
+            <note n="7" xml:id="studieGeven">Het is niet bekend of Mondriaan inderdaad een studie aan <rs ref="bio.xml#waldenburg_alfred" type="person">Waldenburg</rs> gaf.</note>
+        </listAnnotation>
+    </standOff>
+    
+</TEI>

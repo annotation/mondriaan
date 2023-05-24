@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    <?editem template="letter" adaptation="md"?>
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs>. Amsterdam, maandag 26 april 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Nederland</country>
+                        <settlement>Otterlo</settlement>
+                        <institution>Kröller Müller Museum</institution>
+                        <idno>KM 118.535</idno>
+                        <altIdentifier><idno type="letterId">19090426y_IONG_1738</idno></altIdentifier>
+                        <altIdentifier><idno type="def"/></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="brief"/>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <name>Piet Mondriaan</name>
+                    <date when="1909-04-26">maandag 26 april 1909</date>
+                    <placeName>Amsterdam</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <name key="iongh_aletta_de">Aletta de Iongh</name>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="lj">transcriptie: voltooid 18.8.16</change>
+            <change who="lj">collatie bron: voltooid 18.8.16</change>
+            <change who="wc">tweede collatie: (scan) voltooid 26.3.18</change>
+            <change who="lj">invoer tweede collatie: voltooid 17.4.18</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: te doen / in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+            <change who="ev">titel gecontroleerd: in bewerking</change>
+            <change who="ev">personen getagd 12.10.2020</change>
+            <change who="ev">vertaling ingevoerd 16.2.2021</change>
+            <change who="ms">codering personen aangepast 16.2.2022</change>
+            <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1738/KM_118.535.tif"/>
+            <zone xml:id="z1r1">
+                <graphic url="/images/1738/KM_118.535_1r1.tif"/>
+            </zone>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1738/KM_118.535_02.tif"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#z1r1"/>                
+                <opener xml:id="p.nl.1" n="1"><salute> Lieve Zus,</salute></opener> <p xml:id="p.nl.2" n="2">gisteren morgen
+                    is <rs ref="bio.xml#waldenburg_alfred" type="person">de poliep</rs> niet geweest,
+                    maar s'avonds vond ik zijn
+                    kaartje in de bus. Ik zal hem
+                    schrijven. Best, dat je Woensdag
+                    komt. Voor elkeen zijn de
+                    theosof. lezingen toegankelijk
+                    s'Dinsdags, behalve den 1<hi rend="super underline2">e</hi> Dinsdag,
+                    van elken maand: dan
+                    alleen voor de leden.<ptr target="#theosofischeLezingen"/> Als je me
+                    dus Dinsdag om half acht
+                    wilt komen halen, kunnen
+                    we er heen. Als je om kwart
+                    voor 8 niet bij me ben, denk
+                    ik, dat je verhinderd was, en ga
+                    de deur uit.</p> <closer xml:id="p.nl.3" n="3"><salute>Dag! hartelijke
+                        groeten</salute> van <signed>je <hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+            <div type="translation" xml:lang="en">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                <opener xml:id="p.en.1" n="1"><dateline>Dear Zus,</dateline></opener>
+                <p xml:id="p.en.2" n="2"><rs ref="bio.xml#waldenburg_alfred" type="person">The polyp</rs> didn’t come yesterday morning, but I found his card in the letterbox in the evening. I shall write to him.
+                    It’s fine for you to come on Wednesday. The theosophical lectures are open to everyone on Tuesdays, apart from the first Tuesday of every month: then only to the members.<ptr target="#theosofischeLezingen"/>
+                    So if you want to come and pick me up around seven thirty, we can go. If you aren’t with me by a quarter to eight I’ll assume you can’t come and I’ll leave.</p>
+                <closer xml:id="p.en.3" n="3"><salute>Bye! Warm wishes</salute> from <signed>your
+                    <hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="typednotes" xml:lang="nl">
+            
+            <note xml:id="n_transcrSource" type="transcrSource">Manuscript.</note><!--** Het briefpapier komt overeen met dat van <ref target="MEP1739">MEP_1739</ref>. -->
+            <note xml:id="n_dating" type="dating">De brief lijkt samen te hangen met <ref target="19090421y_IONG_1304.xml">brief 19090421y_IONG_1304</ref>, door ons gedateerd tussen 19 en 23 april, waarin Mondriaan voorstelt dat
+                <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> naar zijn atelier komt voor een fotosessie met <rs ref="bio.xml#waldenburg_alfred" type="person">Alfred Waldenburg</rs>. De laatste had
+                een bezoek aan Mondriaan afgesproken op zondag 25 april (zie <ref target="19090421y_IONG_1304.xml#p.nl.2 19090421y_IONG_1304.xml#p.en.2">brief 19090421y_IONG_1304, par. 2</ref>. Waldenburg verscheen die
+                dag ('gisteren', zie <ref target="#p.nl.2 #p.en.2">par. 2</ref>) echter niet. De onderhavige brief dateren we daarom op maandag 26 april 1909.</note>
+        </listAnnotation>
+        <listAnnotation type="ogtnotes" xml:lang="nl">
+            
+            <note xml:id="ogt_1" n="1" type="ogtnote">Portretfoto's van <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> door <rs ref="bio.xml#waldenburg_alfred" type="person">Waldenburg</rs> (<ref target="19090421y_IONG_1304.xml#schedelmeter">19090421y_IONG_1304</ref>).</note>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="nl">
+            
+            <note n="1" xml:id="theosofischeLezingen">Mondriaan trad op 25 mei 1909 toe tot de <rs type="org">Theosofische Vereniging Nederland</rs> en kon pas vanaf 
+                dat moment als lid ook naar de niet-openbare lezingen (<ref target="biblio.xml#Bax2006">Bax 2006</ref>, p. 264). De lezingen van de Amsterdamse 
+                Loge waarvan Mondriaan lid was vonden doorgaans plaats in het logegebouw aan de Tolstraat of aan de Amsteldijk. Beide locaties waren lopend 
+                binnen vijftien minuten te bereiken vanuit Mondriaans atelier aan het Sarphatipark.</note>
+        </listAnnotation>
+    </standOff>
+    
+</TEI>

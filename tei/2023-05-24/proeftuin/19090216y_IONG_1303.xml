@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    <?editem template="letter" adaptation="md"?>
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs>. Amsterdam, dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Nederland</country>
+                        <settlement>Otterlo</settlement>
+                        <institution>Kröller Müller Museum</institution>
+                        <idno>KM 123.397</idno>
+                        <altIdentifier><idno type="letterId">19090216y_IONG_1303</idno></altIdentifier>
+                        <altIdentifier><idno type="def"/></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="correspondentiekaart"/>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <name>Piet Mondriaan</name>
+                    <date when="1909-02-16">dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909</date>
+                    <placeName>Amsterdam</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <name key="iongh_aletta_de">Aletta de Iongh</name>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="wc">transcriptie: voltooid 20.7.15</change>
+            <change who="wc">collatie bron: 6.6.16</change>
+            <change who="lj">tweede collatie aan het origineel: voltooid 26.11.19</change>
+            <change who="lj">invoer tweede collatie: voltooid 5.8.16</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+            <change who="ev">titel gecontroleerd 21.09.2020</change>
+            <change who="ev">personen getagd 12.10.2020</change>
+            <change who="ev">vertaling ingevoerd 16.2.2021</change>
+            <change who="ms">codering personen aangepast 16.2.2022</change>
+            <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1303/KM_123.397.tif"/>
+            <zone xml:id="z1r1">
+                <graphic url="/images/1303/KM_123.397_1r1.tif"/>
+            </zone>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1303/KM_123.397_02.tif"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                <opener xml:id="p.nl.1" n="1"><salute>Beste Zus,</salute></opener><ptr target="#Zus"/> <p xml:id="p.nl.2" n="2">kom je morgenavond
+                    (Woensdag) om kwart voor 
+                    acht ingang kleine zaal Concertgebouw<choice><orig/><reg>,</reg></choice>
+                    dan heb ik een plaats
+                    voor v<choice><orig/><reg>.</reg></choice> <rs ref="bio.xml#buhlig_richard" type="person">Bu<del type="overwritten">l</del><add>h</add>lig</rs> voor je.<ptr target="#plaatsBuhlig"/> En dan
+                    kunnen we een andere dan Donderdagmiddag
+                    afspreken want
+                    dan kan ik niet goed.</p> <closer xml:id="p.nl.3" n="3"><salute>Met vele
+                        beste groeten </salute><signed>je <hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+            <div type="translation" xml:lang="en">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                <opener xml:id="p.en.1" n="1"><salute>Dear Zus,<ptr target="#Zus"/></salute></opener><ptr target="#Zus"/>
+                <p xml:id="p.en.2" n="2">If you come to the entrance to the small auditorium in the Concertgebouw at a quarter to eight tomorrow (Wednesday) evening, I have a ticket for van <rs ref="bio.xml#buhlig_richard" type="person">Buhlig</rs> for you.<ptr target="#plaatsBuhlig"/>
+                    And then we can arrange a time other than Thursday afternoon because I can’t manage that.</p>
+                <closer xml:id="p.en.3" n="3"><salute>With my very best wishes,</salute> <signed>your
+                    <hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="typednotes" xml:lang="nl">
+            
+            <note xml:id="n_transcrSource" type="transcrSource">Manuscript.</note>
+            <note xml:id="n_dating" type="dating">De brief is geschreven op een dinsdag voorafgaand aan een van de drie woensdagen waarop <rs ref="bio.xml#buhlig_richard" type="person">Richard Buhlig</rs> in 1909
+                in de kleine zaal van het Concertgebouw een concert zou geven: 17 februari, 3 maart en 10 maart. Zie tevens <ref target="#plaatsBuhlig">n. "plaatsBuhlig"</ref>.</note>
+        </listAnnotation>
+        <listAnnotation type="ogtnotes" xml:lang="nl">
+            
+            <note xml:id="ogt_1_NL"/>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="nl">
+            
+            <note n="1" xml:id="Zus"><rs ref="bio.xml#iongh_aletta_de" type="person">Aletta</rs> werd binnen haar familie aangesproken met de koosnaam 'Zus' (<ref target="biblio.xml#Heteren2018">Heteren 2018</ref>, 
+                p. 25) Mondriaans gebruik van deze naam geeft aan dat hij op intieme voet stond met De Iongh.</note>
+            <note n="2" xml:id="plaatsBuhlig">De Amerikaanse pianist <rs ref="bio.xml#buhlig_richard" type="person">Richard Moritz Buhlig</rs> (1880-1952) gaf begin 1909 drie concerten in de kleine zaal van het Concertgebouw, 
+                op woensdag 17 februari, woensdag 3 maart en woensdag 10 maart. Het is niet bekend voor welke van deze concerten Mondriaan kaarten had.</note>
+        </listAnnotation>
+    </standOff>
+    
+</TEI>

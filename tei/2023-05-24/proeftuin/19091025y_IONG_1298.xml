@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    <?editem template="letter" adaptation="md"?>
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs>. Amsterdam, tussen dinsdag 19 oktober en c. woensdag 3 november 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Nederland</country>
+                        <settlement>Otterlo</settlement>
+                        <institution>Kröller Müller Museum</institution>
+                        <idno>KM 113.571</idno>
+                        <altIdentifier><idno type="letterId">19091025y_IONG_1298</idno></altIdentifier>
+                        <altIdentifier><idno type="def"/></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="brief"/>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <name>Piet Mondriaan</name>
+                    <date when="1909-10">tussen dinsdag 19 oktober en c. woensdag 3 november 1909</date>
+                    <placeName>Amsterdam[?]</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <name key="iongh_aletta_de">Aletta de Iongh</name>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="wc">transcriptie: voltooid 22.7.15</change>
+            <change who="wc">collatie bron: voltooid 2.6.16</change>
+            <change who="lj">tweede collatie aan origineel: voltooid 26.11.19</change>
+            <change who="lj">invoer tweede collatie: voltooid 5.8.16</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+            <change who="ev">titel gecontroleerd 21.9.2020</change>
+            <change who="ev">personen getagd 13.10.2020</change>
+            <change who="ev">vertaling ingevoerd 16.2.2021</change>
+            <change who="ms">codering personen aangepast 17.2.2022</change>
+            <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1298/KM_113.571.tif"/>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1298/KM_113.571_02.tif"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#s1r"/>
+                <opener xml:id="p.nl.1" n="1"><salute>Beste Zus,</salute></opener> <p xml:id="p.nl.2" n="2">ik zou je nog
+                    schrijven betreffende den
+                    prijs van kostuums voor
+                    't feest. Nu, 't is alles
+                    even duur. <rs type="firm">Helmhout</rs>
+                    gaf op f<choice><orig/><reg>.</reg></choice> 5 voor gewone en
+                    f<choice><orig/><reg>.</reg></choice> 7.50 voor kostbare pakken,
+                    <pb f="1v" n="2" facs="#s1v"/>
+                    nu zullen ze van <rs type="artistsassoc">Lucas</rs> er
+                    wat af zien te krijgen.<ptr target="#Helmhout"/></p>
+                <p xml:id="p.nl.3" n="3">Ik schrijf 't je maar, misschien
+                    weet je zelf goedkooper adres,
+                    of kom je ongekostumeerd.</p>
+                <p xml:id="p.nl.4" n="4">Mijn vorige brief heb je zeker
+                    ontvangen.</p> <closer xml:id="p.nl.5" n="5"><salute>Met vele beste
+                        groeten</salute> in haast, <signed>je toegen.
+                            <hi rend="right underline">Piet.</hi></signed></closer>
+            </div>
+            <div type="translation" xml:lang="en">
+                <pb f="1r" n="1" facs="#s1r"/>
+                <opener xml:id="p.en.1" n="1"><salute>Dear Zus,</salute></opener>
+                <p xml:id="p.en.2" n="2">I was supposed to write to you about the price of costumes for the party. Well, they’re all just as dear. <rs type="firm">Helmhout</rs> charges f 5 for ordinary and f 7.50 for expensive outfits,
+                    <pb f="1v" n="2" facs="#s1v"/>
+                    the <rs type="artistsassoc">Lucas</rs> people will see if they can get something off.<ptr target="#Helmhout"/></p>
+                <p xml:id="p.en.3" n="3">I just thought I’d let you know, you may know a cheaper place, or come without a costume. You must have received my last letter.</p>
+                <closer xml:id="p.en.4" n="4"><salute>With very best wishes,</salute> in haste, <signed>from your affectionate
+                    <hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="typednotes" xml:lang="nl">
+            
+            <note xml:id="n_transcrSource" type="transcrSource">Manuscript.</note>
+            <note xml:id="n_dating" type="dating">Mondriaan komt in deze brief terug op de belofte die hij deed in <ref target="19091024y_IONG_1297.xml">brief 19091024y_IONG_1297_1297</ref> betreffende
+                navraag naar kostuums voor het Spaanse Feest bij <rs type="artistsassoc">Sint Lucas</rs>. Die brief dateert op zijn vroegst van 18 oktober 1909; daarmee zal de onderhavige op
+                zijn vroegst op 19 oktober geschreven zijn (al kunnen uiteraard meer dan een dag tussen beide brieven verlopen zijn). De brief moet zijn verstuurd
+                voor brief <ref target="19091109yIONG_1299.xml">19091109y_IONG_1299</ref>, aangezien Mondriaan daarin na nog verder geïnformeerd te hebben de conclusie trekt dat de huurprijzen
+                voor feestkleding te hoog zijn en <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> aanraadt zelf voor kleding te zorgen. Omdat die brief op zijn vroegst op zondag 7 november is geschreven
+                en Mondriaans verder informeren waarschijnlijk (minimaal) enkele dagen in beslag genomen zal hebben, stellen we de terminus ante quem op c. woensdag
+                3 november. Daarom dateren we de onderhavige brief tussen dinsdag 19 oktober en c. woensdag 3 november.</note>
+        </listAnnotation>
+        <listAnnotation type="ogtnotes" xml:lang="nl">
+            
+            <note xml:id="ogt_1" n="1" type="ogtnote">Voorbereidingen voor het themafeest van Sint Lucas (<ref target="19091024y_IONG_1297#DertienNovember">19091024yIONG_1297, n. "13November"</ref>).</note>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="nl">
+            
+            <note n="1" xml:id="Helmhout">Verschillende leden van <rs type="artistsassoc">Sint Lucas</rs> huurden hun kostuum bij het <hi rend="italics">Nederlands 
+                Costuum-Magazijn Helmhout &amp; Co</hi>, gevestigd op Singel 153 (<ref target="biblio.xml#AlgemeenAdresboekAmsterdam">AAA</ref> 1909-1910).</note>            
+        </listAnnotation>
+    </standOff>
+    
+</TEI>

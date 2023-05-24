@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    <?editem template="letter" adaptation="md"?>
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs>. Amsterdam, donderdag 24 juni 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Nederland</country>
+                        <settlement>Otterlo</settlement>
+                        <institution>Kröller Müller Museum</institution>
+                        <idno>KM 114.029</idno>
+                        <altIdentifier><idno type="letterId">19090624_IONG_1294</idno></altIdentifier>
+                        <altIdentifier><idno type="def"/></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="brief"/>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                        <accMat>envelope</accMat>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <name>Piet Mondriaan</name>
+                    <date when="1909-06-24">donderdag 24 juni 1909</date>
+                    <placeName>Amsterdam</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <name key="iongh_aletta_de">Aletta de Iongh</name>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="wc">transcriptie: voltooid 20.7.15</change>
+            <change who="wc">collatie bron: voltooid 1.6.16</change>
+            <change who="lj">tweede collatie aan origineel: voltooid 26.11.19</change>
+            <change who="lj">invoer tweede collatie: voltooid 5.8.16</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: te doen / in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+            <change who="ev">titel gecontroleerd 12.10.2020</change>
+            <change who="ev">personen getagd 12.10.2020</change>
+            <change who="ev">vertaling ingevoerd 16.2.2021</change>
+            <change who="ms">codering personen aangepast 15.3.2022</change>
+            <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1294/KM_114.029-1.tif"/>
+            <zone xml:id="z1r1">
+                <graphic url="/images/1294/KM_114.029-1_1r1.tif"/>
+            </zone>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1294/KM_114.029-1_02.tif"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="/images/1294/KM_114.029-2.tif"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="/images/1294/KM_114.029-2_02.tif"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="postalData" xml:id="PD">
+                <pb n="er" facs="#ser"/>  
+                <address type="receiver">
+                    <addrLine>Mejuffrouw <hi rend="underline">Aletta de Jongh.</hi></addrLine>
+                    <addrLine>van Eeghenstraat <hi rend="underline">40</hi>.</addrLine> 
+                    <addrLine rend="center">Stad.</addrLine>
+                </address>
+                <md:postmark/>
+                <pb n="ev" facs="#sev"/>  
+            </div>
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                
+                <opener xml:id="p.nl.1" n="1"><salute>Beste Zus,</salute></opener> <p xml:id="p.nl.2" n="2">ik ga van middag
+                    met <rs ref="bio.xml#spoor_kees" type="person">Spoor</rs> even in Domburg kijken
+                    of we onderdak kunnen krijgen,
+                    <del>en <choice><unclear reason="strikeover">ben</unclear><unclear reason="strikeover">kan</unclear></choice> dus</del>kom dus niet deze
+                    week, de volgende week ben ik
+                    weêr hier.<ptr target="#SpoorDomburg"/> 't Komt jou Donderdag
+                    zeker 't beste uit, heh? Als ik
+                    dus niets hoor, denk ik dat je
+                    dan komt. 't Spijt me dat ik
+                    je nu eerst berichten k<choice><unclear>a</unclear><unclear>o</unclear></choice>n.</p> 
+                <closer xml:id="p.nl.3" n="3"><salute>Vele beste groeten<choice><orig/><reg>,</reg></choice> je toegen.</salute>
+                    <signed rend="right"><hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+            <div type="translation" xml:lang="en">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                
+                <opener xml:id="p.en.1" n="1"><salute>Dear Zus,</salute></opener>
+                <p xml:id="p.en.2" n="2">This afternoon I’m going to Domburg for a while with <rs ref="bio.xml#spoor_kees" type="person">Spoor</rs> to see if we can get lodgings, so don’t come this week, I shall be here again the week after.<ptr target="#SpoorDomburg"/>
+                    I suppose Thursday will work out best for you, eh? If I don’t hear anything, I’ll assume you’re coming. I’m sorry I couldn’t let you know before.</p>
+                <closer xml:id="p.en.3" n="3"><salute>With my very best wishes, your affectionate</salute>
+                    <signed><hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="typednotes" xml:lang="nl">
+            
+            <note xml:id="n_transcrSource" type="transcrSource">Manuscript.</note>
+            <note xml:id="n_dating" type="dating">Mondriaan schreef de kaart kort voor zijn vertrek naar Zeeland, waar hij op zaterdag 26 juni 1909 werd geregistreerd als 'aangekomen vreemdeling' 
+                (zie <ref target="#SpoorDomburg">n. "SpoorDomburg"</ref>). Omdat hij doorgaans op donderdagmiddag afsprak met <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> en haar middels deze kaart vraagt niet 
+                te komen, ligt het voor de hand dat de kaart op een donderdagochtend is geschreven. Daarom dateren we de brief op donderdag 24 juni 1909.
+                Het ontbreken van een postzegel op de envelop doet vermoeden dat Mondriaan de kaart voor zijn vertrek naar Zeeland zelf bij De Iongh in de bus heeft gedaan.</note>
+        </listAnnotation>
+        <listAnnotation type="ogtnotes" xml:lang="nl">
+            
+            <note xml:id="ogt_1_NL"/>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="nl">
+            
+            <note n="1" xml:id="SpoorDomburg">Mondriaan en <rs ref="bio.xml#spoor_kees" type="person">Kees Spoor</rs> werden in het <rs type="journal">Domburgsch Badnieuws</rs>
+                van 26 juni 1909 vermeld in de lijst met 'Aangekomen Vreemdelingen tot en met 24 Juni'; verblijvend in hotel Het Schuttershof.
+            </note>            
+        </listAnnotation>
+    </standOff>
+    
+</TEI>
