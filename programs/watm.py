@@ -107,7 +107,7 @@ class WATM:
                         wrongTargets.append((otype, start, end))
 
                     target = f"{start}-{end + 1}"
-                    aId = self.mkAnno(kind3, "tf", otype, target)
+                    aId = self.mkAnno(kind3, "tei", otype, target)
                     tlFromTf[n] = aId
                     self.mkAnno(kind1, "tf", n, aId)
 
