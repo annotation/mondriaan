@@ -15,7 +15,7 @@ generic:
   contributors3: |-
     "Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 extra:
-  manid:
+  msid:
     meta:
       description: >-
         The manuscript identifier of a letter; «base»

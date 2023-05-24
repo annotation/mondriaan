@@ -176,7 +176,7 @@ Note that edges can be traversed in both directions, see the
 ## Extra features
 
 
-## manid
+## msid
 
 
                     The values of this feature have type str.
@@ -441,7 +441,7 @@ with element/attribute names of the TEI.
 
             # Additional features
 
-            ## manid
+            ## msid
 
 
                     The values of this feature have type str.
