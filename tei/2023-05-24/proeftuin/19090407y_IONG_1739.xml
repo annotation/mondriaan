@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    <?editem template="letter" adaptation="md"?>
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs>. Amsterdam, woensdag 7 april 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Nederland</country>
+                        <settlement>Otterlo</settlement>
+                        <institution>Kröller Müller Museum</institution>
+                        <idno>KM 122.574</idno>
+                        <altIdentifier><idno type="letterId">19090407y_IONG_1739</idno></altIdentifier>
+                        <altIdentifier><idno type="def"/></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="brief"/>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <name>Piet Mondriaan</name>
+                    <date when="1909-04-07">woensdag 7 april 1909</date>
+                    <placeName>Amsterdam</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <name key="iongh_aletta_de">Aletta de Iongh</name>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="lj">transcriptie: voltooid 18.8.16</change>
+            <change who="lj">collatie bron: voltooid 18.8.16</change>
+            <change who="wc">tweede collatie aan origineel: voltooid 26.11.19</change>
+            <change who="wc">invoer tweede collatie: gb</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: te doen / in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+            <change who="ev">titel gecontroleerd 15.9.2020</change>
+            <change who="ev">personen getagd 12.10.2020</change>
+            <change who="ev">vertaling ingevoerd 16.2.2021</change>
+            <change who="ms">codering personen aangepast 16.2.2022</change>
+            <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1739/KM_122.574.tif"/>
+            <zone xml:id="z1r1">
+                <graphic url="/images/1739/KM_122.574_1r1.tif"/>
+            </zone>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1739/KM_122.574_02.tif"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#z1r1"/>                
+                <opener xml:id="p.nl.1" n="1"><salute> Lieve Zus,</salute></opener> <p xml:id="p.nl.2" n="2">neem me niet
+                    kwalijk dat ik je zoo'n gekreukte
+                    enveloppe zend<ptr target="#gekreukteEnveloppe"/>, maar ik had geen
+                    meer in huis, en ik moest je toch
+                    even zeggen dat ik morgen middag
+                    helaas in 't <rs type="museum">museum</rs> bij 't ophangen
+                    van schilderijen moet zijn, omdat
+                    ik in de jury van<rs type="artistsassoc"> S<hi rend="super underline">t</hi> Lucas</rs> ben.<ptr target="#jurySintLucas"/></p>
+                <p xml:id="p.nl.3" n="3">Ik ben er al een groot deel
+                    van de week geweest. Ik woû
+                    je wel graag tusschen 4 - 5 even
+                    komen opzoeken, anders zie ik
+                    je weer in een week denkelijk
+                    niet, want ik ga met de Paaschdagen
+                    naar Arnhem.<ptr target="#PaaschdagenArnhem"/> Ik kom
+                    dus morgen even zien of je thuis
+                    ben.</p> <closer xml:id="p.nl.4" n="4"><salute>Dag! Veel beste groeten</salute>
+                        <signed><hi rend="underline">je Piet.</hi></signed></closer>            
+            </div>
+            <div type="translation" xml:lang="en">
+                <pb f="1r" n="1" facs="#z1r1"/>
+                <opener xml:id="p.en.1" n="1"><dateline>Dear Zus,</dateline></opener>
+                <p xml:id="p.en.2" n="2">I’m sorry I’m sending you such a crumpled envelope,<ptr target="#gekreukteEnveloppe"/> but I didn’t have any more in the house, and I had to tell you that unfortunately I have to be in the <rs type="museum">museum</rs> tomorrow afternoon when the paintings are hung
+                    because I’m on the <rs type="artistsassoc">St Lucas</rs> jury.<ptr target="#jurySintLucas"/></p>
+                <p xml:id="p.en.3" n="3">I’ve already been there for a good part of the week. I’d like to come and see you between 4 and 5, otherwise I don’t think I’ll see you again in a week, because I ‘m going to Arnhem for Easter.<ptr target="#PaaschdagenArnhem"/>
+                    So I’ll call round tomorrow to see if you’re home.</p>
+                <closer xml:id="p.en.4" n="4"><salute>Bye! With my very best wishes,</salute>
+                    <signed><hi rend="underline">your Piet.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="typednotes" xml:lang="nl">
+            
+            <note xml:id="n_transcrSource" type="transcrSource">Manuscript.</note>
+            <note xml:id="n_dating" type="dating">De brief dateert van kort voor Pasen 1909 (zie <ref target="#p.nl.3 #p.en.3">par. 3</ref>), dat op 8 april viel. Omdat Mondriaan en <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> doorgaans afspraken op donderdagen
+                is het waarschijnlijk dat Mondriaan op de donderdag vóór Pasen wilde afspreken. Daarom dateren we de brief op woensdag 7 april 1909.</note>
+        </listAnnotation>
+        <listAnnotation type="ogtnotes" xml:lang="nl">
+            
+            <note xml:id="ogt_1_NL"/>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="nl">
+            
+            <note n="1" xml:id="gekreukteEnveloppe">De envelop is niet overgeleverd.</note>
+            <note n="2" xml:id="jurySintLucas">Mondriaan was in 1903 toegetreden tot de zaalbeheercommissie van <rs type="artistsassoc">kunstenaarsvereniging Sint Lucas</rs>. (<ref target="biblio.xml#Gorter2017">Gorter 2017</ref>, p. 19). De tentoonstelling die werd voorbereid was de 19e <ref target="expo.xml#sint_lucas_1909">Jaarlijksche
+                Tentoonstelling</ref>, die plaatshad in het <rs type="museum">Stedelijk Museum</rs> van 11 april tot 16 mei 1909.</note>
+            <note n="3" xml:id="PaaschdagenArnhem">In Arnhem bracht Mondriaan de paasdagen (zondag 11 en maandag 12 april) door bij <rs ref="bio.xml#mondriaan_pieter_senior" type="person">zijn vader</rs>. Om die reden kan hij
+                de opening van de <rs type="exhibition" key="expo.xml#sint_lucas_1909">Sint Lucas-tentoonstelling</rs> op zondag 11 april niet hebben bijgewoond.</note>           
+        </listAnnotation>
+    </standOff>
+    
+</TEI>

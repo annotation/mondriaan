@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    <?editem template="letter" adaptation="md"?>
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs>. Amsterdam, eerste helft augustus 1909.</title>
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Nederland</country>
+                        <settlement>Otterlo</settlement>
+                        <institution>Kröller Müller Museum</institution>
+                        <idno>KM 115.637</idno>
+                        <altIdentifier><idno type="letterId">19090807y_IONG_1296</idno></altIdentifier>
+                        <altIdentifier><idno type="def"/></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="brief"/>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <name>Piet Mondriaan</name>
+                    <date when="1909-08">eerste helft augustus 1909</date>
+                    <placeName>Amsterdam</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <name key="iongh_aletta_de">Aletta de Iongh</name>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="wc">transcriptie: voltooid 21.7.15</change>
+            <change who="wc">collatie bron: voltooid 2.6.16</change>
+            <change who="wc">tweede collatie aan origineel: voltooid 26.11.19</change>
+            <change who="lj">invoer tweede collatie: voltooid 5.8.16</change>
+            <change>bespreking eindversie: gb</change>
+            <change>markeren annotaties: in bewerking / voltooid</change>
+            <change type="editedText">gereed 17.4.2019</change>
+            <change who="ev">titel gecontroleerd 15.9.2020</change>
+            <change who="ev">personen getagd 12.10.2020</change>
+            <change who="ev">vertaling ingevoerd 16.2.2021</change>
+            <change who="ms">codering personen aangepast 16.2.2022</change>
+            <change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1296/KM_115.637.tif"/>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1296/KM_115.637_02.tif"/>
+        </surface>
+        <surface n="er" xml:id="ser">
+            <graphic url="dummy"/>
+        </surface>
+        <surface n="ev" xml:id="sev">
+            <graphic url="dummy"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="original" xml:lang="nl">
+                <pb f="1r" n="1" facs="#s1r"/>
+                
+                <opener xml:id="p.nl.1" n="1"><salute>Lieve Zus,</salute></opener> <p xml:id="p.nl.2" n="2">hartelijk dank voor
+                    je brief. 't Zou leuk zijn als
+                    je kwam. Maar wat 't komen
+                    bij mij betreft<del rend="overwritten">:</del><add>,</add> kon 't niet slechtter
+                    uitkomen daar Vrijdag den
+                    heelen dag iemand bij mij model
+                    schildert, (wat ik niet meer kan
+                    afzeggen, helaas!) en Zaterdag
+                    komt s'morgens <rs ref="bio.xml#calcar_reinder_van" type="person">die professor</rs>
+                    <pb f="1v" n="1" facs="#s1v"/>
+                    en s'middags weet ik niet
+                    hoe 't gaan zal, of ik nog uit moet.<ptr target="#dieProfessor"/></p>
+                <p xml:id="p.nl.3" n="3">Wel erg jammer dat 't zoo treft.
+                    Maar dan zie ik je toch Zaterdagavond. 
+                    Ik ben nu vreeselijk
+                    verkouden, maar 't zal dan wel
+                    weêr beter zijn<choice><orig/><reg>.</reg></choice> —</p> <closer xml:id="p.nl.4" n="4"><salute>Vele beste groeten
+                        in haast</salute> van <signed><hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+            <div type="translation" xml:lang="en">
+                <pb f="1r" n="1" facs="#s1r"/>
+                
+                <opener xml:id="p.en.1" n="1"><salute>Dear Zus,</salute></opener>
+                <p xml:id="p.en.2" n="2">Many thanks for your letter. It would be nice if you came. But as far as coming to me is concerned, it couldn’t work out worse because all day Friday someone is coming to paint a model with me
+                    (which I can’t put off any longer, unfortunately) and on Saturday <rs ref="bio.xml#calcar_reinder_van" type="person">that professor</rs> is coming in the morning
+                    <pb f="1v" n="1" facs="#s1v"/>
+                    and I don’t know what will happen in the afternoon, whether I’ll still have to go out.<ptr target="#dieProfessor"/></p>
+                <p xml:id="p.en.3" n="3">It’s a great shame it turns out this way. But then I’ll see you on Saturday evening anyway. I’ve got a dreadful cold at the moment, but I’m sure it will be better by then.</p>
+                <closer xml:id="p.en.4" n="4"><salute>Very best wishes in haste</salute> from 
+                    <signed><hi rend="underline">Piet.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="typednotes" xml:lang="nl">
+            
+            <note xml:id="n_transcrSource" type="transcrSource">Manuscript.</note>
+            <note xml:id="n_dating" type="dating">De brief biedt nauwelijks aanknopingspunten voor datering. Mogelijk is de door Mondriaan genoemde verkoudheid (<ref target="#p.nl.3 #p.en.3">par. 3</ref>) te verbinden
+                met <ref target="19090905y.IONG_1295.xml">brief 19090905y.IONG_1295</ref> van begin september, waarin hij schrijft 'erg te zijn opgeknapt'. Op basis van die opmerking 
+                dateren we de onderhavige brief in de eerste helft augustus, voorafgaand aan zijn vertrek naar Domburg.</note>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="nl">
+            
+            <note n="1" xml:id="dieProfessor">Het is niet bekend wie bij Mondriaan model kwam schilderen. Met 'die professor' bedoelt Mondriaan waarschijnlijk de 
+                Leidse professor in de bacteriologie <rs ref="bio.xml#calcar_reinder_van" type="person">R.P. van Calcar</rs>, voor wie hij in 1910-1911 in opdracht 
+                tekeningen van microscopische preparaten zou maken (cf. <ref target="19100707y_IONG_0019.xml#verblijfOegstgeest">19100707y_IONG_0019</ref>).</note>
+        </listAnnotation>
+    </standOff>
+    
+</TEI>
