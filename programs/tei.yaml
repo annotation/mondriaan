@@ -14,9 +14,65 @@ generic:
     Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
   contributors3: |-
     "Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
+extra:
+  manid:
+    meta:
+      description: >-
+        The manuscript identifier of a letter; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - idno
+      - msIdentifier
+      - msDesc
+      - sourceDesc
+    nodeType: letter
+  letterid:
+    meta:
+      description: >-
+        The identifier of a letter; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - idno:
+          type: letterId
+      - altIdentifier
+      - msIdentifier
+      - msDesc
+      - sourceDesc
+    nodeType: letter
+  country:
+    meta:
+      description: >-
+        The country of preservation of a letter; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - country
+      - msIdentifier
+      - msDesc
+      - sourceDesc
+    nodeType: letter
+  institution:
+    meta:
+      description: >-
+        The place where a letter is preserved; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - institution
+      - msIdentifier
+      - msDesc
+      - sourceDesc
+    nodeType: letter
 schema: MD
 prelim: true
 wordAsSlot: false
+procins: true
 parentEdges: true
 siblingEdges: true
 pageModel:

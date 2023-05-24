@@ -1,9 +1,12 @@
 import json
+from textwrap import dedent
+
 from tf.core.files import initTree, unexpanduser as ux
 from tf.parameters import OTYPE, OSLOTS
 
 
 TT_NAME = "watm"
+RKD_URL_BASE = "https://rkd.nl/explore/images/"
 
 
 class WATM:
@@ -52,13 +55,13 @@ class WATM:
             t = len(text) - 1
             tlFromTf[s] = t
 
-    def mkAnno(self, kind, body, target):
+    def mkAnno(self, kind, ns, body, target):
         annos = self.annos
         aId = f"a{len(annos):>06}"
-        annos.append((kind, aId, body, target))
+        annos.append((kind, aId, ns, body, target))
         return aId
 
-    def makeAnno(self, extra):
+    def makeAnno(self):
         E = self.E
         Es = self.Es
         F = self.F
@@ -93,7 +96,7 @@ class WATM:
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}"
-                    self.mkAnno(kind1, n, target)
+                    self.mkAnno(kind1, "tf", n, target)
                 else:
                     ws = E.oslots.s(n)
                     if skipMeta and (F.is_meta.v(ws[0]) or F.is_meta.v(ws[-1])):
@@ -104,12 +107,14 @@ class WATM:
                         wrongTargets.append((otype, start, end))
 
                     target = f"{start}-{end + 1}"
-                    aId = self.mkAnno(kind3, otype, target)
+                    aId = self.mkAnno(kind3, "tf", otype, target)
                     tlFromTf[n] = aId
-                    self.mkAnno(kind1, n, aId)
+                    self.mkAnno(kind1, "tf", n, aId)
 
         for feat in nodeFeatures:
+            ns = Fs(feat).meta["conversionCode"]
             parts = feat.split("_", 2)
+
             if len(parts) >= 2 and parts[0] == "rend":
                 for (n, val) in Fs(feat).items():
                     if not val or (skipMeta and F.is_meta.v(n)):
@@ -117,14 +122,14 @@ class WATM:
                     prop = parts[1]
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    self.mkAnno(kind5, prop, target)
+                    self.mkAnno(kind5, ns, prop, target)
             elif len(parts) == 2 and parts[0] == "is" and parts[1] == "note":
                 for (n, val) in Fs(feat).items():
                     if not val or (skipMeta and F.is_meta.v(n)):
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    self.mkAnno(kind5, "note", target)
+                    self.mkAnno(kind5, ns, "note", target)
             else:
                 for (n, val) in Fs(feat).items():
                     if skipMeta and F.is_meta.v(n):
@@ -133,9 +138,11 @@ class WATM:
                     if t is None:
                         continue
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    aId = self.mkAnno(kind4, f"{feat}={val}", target)
+                    aId = self.mkAnno(kind4, ns, f"{feat}={val}", target)
 
         for feat in edgeFeatures:
+            ns = Es(feat).meta["conversionCode"]
+
             for (fromNode, toNodes) in Es(feat).items():
                 if skipMeta and F.is_meta.v(fromNode):
                     continue
@@ -158,7 +165,7 @@ class WATM:
                             f"{toT}-{toT + 1}" if F.otype.v(toNode) == slotType else toT
                         )
                         target = f"{targetFrom}->{targetTo}"
-                        aId = self.mkAnno(kind2, f"{feat}={val}", target)
+                        aId = self.mkAnno(kind2, ns, f"{feat}={val}", target)
                 else:
                     for toNode in toNodes:
                         if skipMeta and F.is_meta.v(toNode):
@@ -167,12 +174,15 @@ class WATM:
                         if toT is None:
                             continue
                         target = f"{fromT}->{toT}"
-                        aId = self.mkAnno(kind2, feat, target)
+                        aId = self.mkAnno(kind2, ns, feat, target)
+
+        extra = {}
+        extra.update(self.getArtWorksUrl())
 
         for (n, value) in extra.items():
             t = tlFromTf[n]
             target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-            aId = self.mkAnno(kind6, str(value), target)
+            aId = self.mkAnno(kind6, "tt", str(value), target)
 
         if len(wrongTargets):
             print(f"WARNING: wrong targets, {len(wrongTargets)}x")
@@ -180,6 +190,16 @@ class WATM:
                 sega = text[start]
                 segb = text[end - 1]
                 print(f"{otype:>20} {start:>6} `{sega}` > {end - 1} `{segb}`")
+
+    def getArtWorksUrl(self):
+        A = self.app
+        F = self.F
+        query = dedent(
+            """
+            rs type=artwork-m key~[1-9]
+            """)
+        artworksWithRef = A.search(query)
+        return {r[0]: f"{RKD_URL_BASE}{F.key.v(r[0])}" for r in artworksWithRef}
 
     def writeAll(self):
         app = self.app
@@ -203,8 +223,8 @@ class WATM:
 
         with open(annoFile, "w") as fh:
             annoStore = {}
-            for (kind, aId, body, target) in annos:
-                annoStore[aId] = (kind, body, target)
+            for (kind, aId, ns, body, target) in annos:
+                annoStore[aId] = (kind, ns, body, target)
             json.dump(annoStore, fh, ensure_ascii=False, indent=1)
 
         info(f"Text file: {len(text):>7} segments to {ux(textFile)}", tm=False)

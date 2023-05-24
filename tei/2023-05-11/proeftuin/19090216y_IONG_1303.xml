@@ -17,24 +17,24 @@
                 <p/>
             </publicationStmt>
             
-            <sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<country>Nederland</country>
-						<settlement>Otterlo</settlement>
-						<institution>Kröller Müller Museum</institution>
-						<idno>KM 123.397</idno>
-						<altIdentifier><idno type="letterId">19090216y_IONG_1303</idno></altIdentifier>
-						<altIdentifier><idno type="def"/></altIdentifier>
-					</msIdentifier>
-					<physDesc>
-						<objectDesc form="correspondentiekaart"/>
-						<decoDesc>
-							<decoNote/>
-						</decoDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
+<sourceDesc>
+    <msDesc>
+        <msIdentifier>
+            <country>Nederland</country>
+            <settlement>Otterlo</settlement>
+            <institution>Kröller Müller Museum</institution>
+            <idno>KM 123.397</idno>
+            <altIdentifier><idno type="letterId">19090216y_IONG_1303</idno></altIdentifier>
+            <altIdentifier><idno type="def"/></altIdentifier>
+        </msIdentifier>
+        <physDesc>
+            <objectDesc form="correspondentiekaart"/>
+            <decoDesc>
+                <decoNote/>
+            </decoDesc>
+        </physDesc>
+    </msDesc>
+</sourceDesc>
         </fileDesc>
         
         
