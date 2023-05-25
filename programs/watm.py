@@ -21,6 +21,14 @@ NS_FROM_OTYPE = dict(
     sentence="nlp",
 )
 
+KIND_NODE = "node"
+KIND_EDGE = "edge"
+KIND_ELEM = "element"
+KIND_PI = "pi"
+KIND_ATTR = "attribute"
+KIND_FMT = "format"
+KIND_ANNO = "anno"
+
 
 class WATM:
     def __init__(self, app, skipMeta=False):
@@ -93,13 +101,6 @@ class WATM:
 
         wrongTargets = []
 
-        kind1 = "node"
-        kind2 = "edge"
-        kind3 = "element"
-        kind4 = "attribute"
-        kind5 = "format"
-        kind6 = "anno"
-
         for otype in otypes:
             isSlot = otype == slotType
 
@@ -109,7 +110,7 @@ class WATM:
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}"
-                    self.mkAnno(kind1, "tf", n, target)
+                    self.mkAnno(KIND_NODE, "tf", n, target)
                 else:
                     ws = E.oslots.s(n)
                     if skipMeta and (F.is_meta.v(ws[0]) or F.is_meta.v(ws[-1])):
@@ -121,10 +122,12 @@ class WATM:
 
                     target = f"{start}-{end + 1}"
                     aId = self.mkAnno(
-                        kind3, NS_FROM_OTYPE.get(otype, "tei"), otype, target
+                        KIND_PI, "tei", otype[1:], target
+                    ) if otype.startswith("?") else self.mkAnno(
+                        KIND_ELEM, NS_FROM_OTYPE.get(otype, "tei"), otype, target
                     )
                     tlFromTf[n] = aId
-                    self.mkAnno(kind1, "tf", n, aId)
+                    self.mkAnno(KIND_NODE, "tf", n, aId)
 
         for feat in nodeFeatures:
             ns = Fs(feat).meta["conversionCode"]
@@ -137,14 +140,14 @@ class WATM:
                     prop = parts[1]
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    self.mkAnno(kind5, ns, prop, target)
+                    self.mkAnno(KIND_FMT, ns, prop, target)
             elif len(parts) == 2 and parts[0] == "is" and parts[1] == "note":
                 for (n, val) in Fs(feat).items():
                     if not val or (skipMeta and F.is_meta.v(n)):
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    self.mkAnno(kind5, ns, "note", target)
+                    self.mkAnno(KIND_FMT, ns, "note", target)
             else:
                 for (n, val) in Fs(feat).items():
                     if skipMeta and F.is_meta.v(n):
@@ -153,7 +156,7 @@ class WATM:
                     if t is None:
                         continue
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-                    aId = self.mkAnno(kind4, ns, f"{feat}={val}", target)
+                    aId = self.mkAnno(KIND_ATTR, ns, f"{feat}={val}", target)
 
         for feat in edgeFeatures:
             ns = Es(feat).meta["conversionCode"]
@@ -180,7 +183,7 @@ class WATM:
                             f"{toT}-{toT + 1}" if F.otype.v(toNode) == slotType else toT
                         )
                         target = f"{targetFrom}->{targetTo}"
-                        aId = self.mkAnno(kind2, ns, f"{feat}={val}", target)
+                        aId = self.mkAnno(KIND_EDGE, ns, f"{feat}={val}", target)
                 else:
                     for toNode in toNodes:
                         if skipMeta and F.is_meta.v(toNode):
@@ -189,7 +192,7 @@ class WATM:
                         if toT is None:
                             continue
                         target = f"{fromT}->{toT}"
-                        aId = self.mkAnno(kind2, ns, feat, target)
+                        aId = self.mkAnno(KIND_EDGE, ns, feat, target)
 
         extra = {}
         extra.update(self.getArtWorksUrl())
@@ -197,7 +200,7 @@ class WATM:
         for (n, value) in extra.items():
             t = tlFromTf[n]
             target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-            aId = self.mkAnno(kind6, "tt", str(value), target)
+            aId = self.mkAnno(KIND_ANNO, "tt", str(value), target)
 
         if len(wrongTargets):
             print(f"WARNING: wrong targets, {len(wrongTargets)}x")
