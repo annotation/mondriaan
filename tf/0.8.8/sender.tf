@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T12:19:50Z
+@dateWritten=2023-05-25T14:40:19Z
 @description=The sender of the letter; the content is taken from profileDesc/correspDesc/correspAction[type=sent]/name
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T12:22:50Z
+@dateWritten=2023-05-25T14:41:07Z
 
 14171	Piet Mondriaan
 Piet Mondriaan

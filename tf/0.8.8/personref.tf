@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T12:19:50Z
+@dateWritten=2023-05-25T14:40:19Z
 @description=Reference key to the details of a person; the content is taken from rs@ref[type=person]
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T12:22:50Z
+@dateWritten=2023-05-25T14:41:07Z
 
 14804	bio.xml#iongh_aletta_de
 bio.xml#buhlig_richard
