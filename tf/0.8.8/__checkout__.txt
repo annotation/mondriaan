@@ -1,2 +1,2 @@
-v0.8.7
-gbad298f347a5b35aefd75c5b251b29fdefbd9925
+v0.8.8
+gbcffc39f10a99a4188cad6b252da3d00a2c2dd70
