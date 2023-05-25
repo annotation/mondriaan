@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 @description=whether text is to be rendered as italics
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,54 +15,54 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=int
 @version=0.8.7
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:56:03Z
+@dateWritten=2023-05-25T09:33:27Z
 
-5027	1
+5358	1
 1
-5038	1
+5369	1
 1
-7530	1
-1
-1
-1
-1
-1
-1
-7544	1
-7553	1
-7594	1
-1
-1
-7600	1
-1
-11142	1
+8696	1
 1
 1
 1
 1
 1
 1
-12611	1
-12615	1
+8710	1
+8719	1
+8760	1
 1
 1
-12712	1
-12848	1
-12930	1
+8766	1
+1
+11317	1
 1
 1
-13212	1
-13221	1
 1
-13239	1
 1
-13248	1
+1
+1
+12317	1
+12321	1
+1
+1
+12418	1
+12554	1
+12636	1
+1
+1
+13291	1
+13300	1
+1
+13318	1
+1
+13327	1
 1
 1
 1

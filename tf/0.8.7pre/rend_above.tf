@@ -14,18 +14,18 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=int
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-11599	1
+11773	1
 1
 1
 1
 1
 1
-66213	1
+66755	1
 1

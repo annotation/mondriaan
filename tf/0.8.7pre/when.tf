@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-62768	1909-02-16
+63281	1909-02-16
 1909-04-07
 1909-04
 1909-04-26
@@ -32,6 +32,6 @@
 1909-09
 1909-09
 1909-10-24
-62781	1909-10-24
+63294	1909-10-24
 1909-10
 1910-01-31

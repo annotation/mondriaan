@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 @description=this is TEI attribute type
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,30 +15,30 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:56:03Z
+@dateWritten=2023-05-25T09:33:27Z
 
-13371	receiver
+13464	receiver
 receiver
-13423	editedText
-13435	editedText
-13447	editedText
-13458	editedText
-13470	editedText
-13482	editedText
-13494	editedText
-13518	editedText
-13530	editedText
-13542	editedText
-13555	editedText
-13567	editedText
-13579	editedText
-13716	sent
+13516	editedText
+13528	editedText
+13540	editedText
+13551	editedText
+13563	editedText
+13575	editedText
+13587	editedText
+13611	editedText
+13623	editedText
+13635	editedText
+13648	editedText
+13660	editedText
+13672	editedText
+13823	sent
 received
 sent
 received
@@ -66,182 +66,168 @@ sent
 received
 sent
 received
-13821	overwritten
-13825	strikeover
+13929	overwritten
+13933	strikeover
 strikeover
 strikeover
 strikeover
 strikeover
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
-translation
-annotation
-typednotes
-ogtnotes
-notes
-original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
+translation
+original
 translation
 postalData
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-notes
 translation
 postalData
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
-annotation
+14153	letterId
+def
+14156	letterId
+def
+14159	letterId
+def
+14162	letterId
+def
+14165	letterId
+def
+14168	letterId
+def
+14171	letterId
+def
+14174	letterId
+def
+14177	letterId
+def
+14180	letterId
+def
+14183	letterId
+def
+14186	letterId
+def
+14189	letterId
+def
+14192	letterId
+def
+14227	typednotes
+ogtnotes
+notes
 typednotes
 ogtnotes
 notes
-14107	letterId
-def
-14110	letterId
-def
-14113	letterId
-def
-14116	letterId
-def
-14119	letterId
-def
-14122	letterId
-def
-14125	letterId
-def
-14128	letterId
-def
-14131	letterId
-def
-14134	letterId
-def
-14137	letterId
-def
-14140	letterId
-def
-14143	letterId
-def
-14146	letterId
-def
-14237	transcrSource
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+14329	transcrSource
 dating
-14241	transcrSource
+14334	transcrSource
 dating
-14246	transcrSource
+14340	transcrSource_NL
+dating_NL
+14345	transcrSource
 dating
-14250	transcrSource
-dating
-transcrSource
+14349	transcrSource
 dating
 ogtnote
-14256	transcrSource
+14353	transcrSource
 dating
 pubhistory
 ogtnote
-14263	transcrSource
+14360	transcrSource
 dating
-14266	transcrSource
+14364	transcrSource
 dating
-14269	transcrSource
+14367	transcrSource
 dating
 remarks
-14274	transcrSource
+14373	transcrSource
 dating
 ogtnote
-14284	transcrSource
+14383	transcrSource
 dating
 pubhistory
-14294	transcrSource
+14394	transcrSource
 dating
 pubhistory
-14300	transcrSource
+14400	transcrSource
 dating
-14307	transcrSource
+14408	transcrSource
 dating
 ogtnote
-14311	transcrSource
+14412	transcrSource_NL
+dating_NL
+pubhistory_NL
+14418	transcrSource
 dating
 pubhistory
-14316	transcrSource
-dating
-pubhistory
-14727	misprint
-14745	person
+14828	misprint
+14846	person
 person
 person
 person
 person
 person
 person
+museum
+artistsassoc
 museum
 artistsassoc
 person
@@ -249,11 +235,10 @@ artistsassoc
 museum
 person
 exhibition
-museum
-artistsassoc
 person
 person
 artwork-m
+person
 person
 person
 person
@@ -270,6 +255,7 @@ person
 person
 org
 person
+exhibition
 person
 exhibition
 person
@@ -280,7 +266,6 @@ exhibition
 artistsassoc
 museum
 museum
-exhibition
 person
 person
 person
@@ -303,6 +288,9 @@ person
 person
 person
 person
+photograph
+person
+person
 person
 photograph
 person
@@ -323,9 +311,8 @@ person
 artwork-m
 person
 person
-person
-photograph
-person
+exhibition
+exhibition
 person
 exhibition
 exhibition
@@ -357,12 +344,12 @@ artwork-m
 person
 person
 org
-exhibition
-exhibition
 person
 person
 person
 person
+person
+org
 article
 journal
 person
@@ -374,7 +361,13 @@ journal
 journal
 person
 person
-org
+person
+person
+person
+person
+artwork-m
+exhibition
+artwork-m
 person
 person
 person
@@ -396,21 +389,12 @@ artistsassoc
 firm
 artwork-m
 person
-person
-person
-person
-person
-artwork-m
-exhibition
-artwork-m
-person
-person
+firm
+artistsassoc
 firm
 artistsassoc
 artistsassoc
 person
-artistsassoc
-firm
 artistsassoc
 person
 person

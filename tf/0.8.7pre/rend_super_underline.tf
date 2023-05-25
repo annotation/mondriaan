@@ -14,11 +14,11 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=int
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-2953	1
+3022	1

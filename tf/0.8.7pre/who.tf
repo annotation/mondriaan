@@ -14,18 +14,18 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-62413	wc
+62912	wc
 wc
 lj
 lj
-62420	ev
+62919	ev
 ev
 ev
 ms
@@ -34,7 +34,7 @@ lj
 lj
 wc
 wc
-62432	ev
+62931	ev
 ev
 ev
 ms
@@ -43,7 +43,7 @@ wc
 wc
 lj
 lj
-62444	ev
+62943	ev
 ev
 ms
 lj
@@ -51,16 +51,7 @@ lj
 lj
 wc
 lj
-62455	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-62467	ev
+62954	ev
 ev
 ev
 ms
@@ -69,7 +60,16 @@ wc
 wc
 lj
 lj
-62479	ev
+62966	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+lj
+62978	ev
 ev
 ev
 ms
@@ -78,7 +78,7 @@ wc
 wc
 wc
 lj
-62491	ev
+62990	ev
 ev
 ev
 ms
@@ -87,8 +87,8 @@ gr
 wc
 lj
 lj
-62501	XX
-62503	ev
+63000	XX
+63002	ev
 ev
 ev
 ms
@@ -97,7 +97,7 @@ wc
 wc
 wc
 lj
-62515	ev
+63014	ev
 ev
 ev
 ms
@@ -106,7 +106,7 @@ wc
 wc
 lj
 wc
-62527	ev
+63026	ev
 ev
 ev
 ms
@@ -115,7 +115,7 @@ wc
 wc
 lj
 wc
-62539	ev
+63038	ev
 ev
 ev
 ms
@@ -125,7 +125,7 @@ wc
 wc
 lj
 ev
-62552	ev
+63051	ev
 ev
 ev
 ms
@@ -134,7 +134,7 @@ wc
 wc
 lj
 lj
-62564	ev
+63063	ev
 ev
 ev
 ms
@@ -143,7 +143,7 @@ wc
 wc
 lj
 wc
-62576	ev
+63075	ev
 ev
 ev
 ms

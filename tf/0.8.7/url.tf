@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 @description=this is TEI attribute url
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,15 +15,15 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:56:03Z
+@dateWritten=2023-05-25T09:33:27Z
 
-13981	/images/1303/KM_123.397.tif
+14027	/images/1303/KM_123.397.tif
 /images/1303/KM_123.397_1r1.tif
 /images/1303/KM_123.397_02.tif
 dummy

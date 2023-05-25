@@ -136,7 +136,7 @@ Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 
 ## teiVersion
 
-2023-05-11
+2023-05-24
 
 
 ## schema

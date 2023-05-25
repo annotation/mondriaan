@@ -8,6 +8,19 @@ from tf.parameters import OTYPE, OSLOTS
 TT_NAME = "watm"
 RKD_URL_BASE = "https://rkd.nl/explore/images/"
 
+NS_FROM_OTYPE = dict(
+    page="tf",
+    file="tf",
+    folder="tf",
+    letter="tf",
+    chapter="tf",
+    chunk="tf",
+    word="tf",
+    char="tf",
+    token="nlp",
+    sentence="nlp",
+)
+
 
 class WATM:
     def __init__(self, app, skipMeta=False):
@@ -107,7 +120,9 @@ class WATM:
                         wrongTargets.append((otype, start, end))
 
                     target = f"{start}-{end + 1}"
-                    aId = self.mkAnno(kind3, "tei", otype, target)
+                    aId = self.mkAnno(
+                        kind3, NS_FROM_OTYPE.get(otype, "tei"), otype, target
+                    )
                     tlFromTf[n] = aId
                     self.mkAnno(kind1, "tf", n, aId)
 
@@ -197,7 +212,8 @@ class WATM:
         query = dedent(
             """
             rs type=artwork-m key~[1-9]
-            """)
+            """
+        )
         artworksWithRef = A.search(query)
         return {r[0]: f"{RKD_URL_BASE}{F.key.v(r[0])}" for r in artworksWithRef}
 

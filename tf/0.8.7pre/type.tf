@@ -14,29 +14,29 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-62367	receiver
+62866	receiver
 receiver
-62419	editedText
-62431	editedText
-62443	editedText
-62454	editedText
-62466	editedText
-62478	editedText
-62490	editedText
-62514	editedText
-62526	editedText
-62538	editedText
-62551	editedText
-62563	editedText
-62575	editedText
-62712	sent
+62918	editedText
+62930	editedText
+62942	editedText
+62953	editedText
+62965	editedText
+62977	editedText
+62989	editedText
+63013	editedText
+63025	editedText
+63037	editedText
+63050	editedText
+63062	editedText
+63074	editedText
+63225	sent
 received
 sent
 received
@@ -64,182 +64,168 @@ sent
 received
 sent
 received
-62817	overwritten
-62821	strikeover
+63331	overwritten
+63335	strikeover
 strikeover
 strikeover
 strikeover
 strikeover
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
-translation
-annotation
-typednotes
-ogtnotes
-notes
-original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
+translation
+original
 translation
 postalData
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-notes
 translation
 postalData
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
 original
-annotation
-typednotes
-ogtnotes
-notes
 translation
-annotation
+63555	letterId
+def
+63558	letterId
+def
+63561	letterId
+def
+63564	letterId
+def
+63567	letterId
+def
+63570	letterId
+def
+63573	letterId
+def
+63576	letterId
+def
+63579	letterId
+def
+63582	letterId
+def
+63585	letterId
+def
+63588	letterId
+def
+63591	letterId
+def
+63594	letterId
+def
+63629	typednotes
+ogtnotes
+notes
 typednotes
 ogtnotes
 notes
-63103	letterId
-def
-63106	letterId
-def
-63109	letterId
-def
-63112	letterId
-def
-63115	letterId
-def
-63118	letterId
-def
-63121	letterId
-def
-63124	letterId
-def
-63127	letterId
-def
-63130	letterId
-def
-63133	letterId
-def
-63136	letterId
-def
-63139	letterId
-def
-63142	letterId
-def
-63233	transcrSource
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+63731	transcrSource
 dating
-63237	transcrSource
+63736	transcrSource
 dating
-63242	transcrSource
+63742	transcrSource_NL
+dating_NL
+63747	transcrSource
 dating
-63246	transcrSource
-dating
-transcrSource
+63751	transcrSource
 dating
 ogtnote
-63252	transcrSource
+63755	transcrSource
 dating
 pubhistory
 ogtnote
-63259	transcrSource
+63762	transcrSource
 dating
-63262	transcrSource
+63766	transcrSource
 dating
-63265	transcrSource
+63769	transcrSource
 dating
 remarks
-63270	transcrSource
+63775	transcrSource
 dating
 ogtnote
-63280	transcrSource
+63785	transcrSource
 dating
 pubhistory
-63290	transcrSource
+63796	transcrSource
 dating
 pubhistory
-63296	transcrSource
+63802	transcrSource
 dating
-63303	transcrSource
+63810	transcrSource
 dating
 ogtnote
-63307	transcrSource
+63814	transcrSource_NL
+dating_NL
+pubhistory_NL
+63820	transcrSource
 dating
 pubhistory
-63312	transcrSource
-dating
-pubhistory
-63723	misprint
-63741	person
+64230	misprint
+64248	person
 person
 person
 person
 person
 person
 person
+museum
+artistsassoc
 museum
 artistsassoc
 person
@@ -247,11 +233,10 @@ artistsassoc
 museum
 person
 exhibition
-museum
-artistsassoc
 person
 person
 artwork-m
+person
 person
 person
 person
@@ -268,6 +253,7 @@ person
 person
 org
 person
+exhibition
 person
 exhibition
 person
@@ -278,7 +264,6 @@ exhibition
 artistsassoc
 museum
 museum
-exhibition
 person
 person
 person
@@ -301,6 +286,9 @@ person
 person
 person
 person
+photograph
+person
+person
 person
 photograph
 person
@@ -321,9 +309,8 @@ person
 artwork-m
 person
 person
-person
-photograph
-person
+exhibition
+exhibition
 person
 exhibition
 exhibition
@@ -355,12 +342,12 @@ artwork-m
 person
 person
 org
-exhibition
-exhibition
 person
 person
 person
 person
+person
+org
 article
 journal
 person
@@ -372,7 +359,13 @@ journal
 journal
 person
 person
-org
+person
+person
+person
+person
+artwork-m
+exhibition
+artwork-m
 person
 person
 person
@@ -394,21 +387,12 @@ artistsassoc
 firm
 artwork-m
 person
-person
-person
-person
-person
-artwork-m
-exhibition
-artwork-m
-person
-person
+firm
+artistsassoc
 firm
 artistsassoc
 artistsassoc
 person
-artistsassoc
-firm
 artistsassoc
 person
 person

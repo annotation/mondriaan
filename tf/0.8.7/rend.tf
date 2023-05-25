@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 @description=this is TEI attribute rend
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,19 +15,19 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:56:03Z
+@dateWritten=2023-05-25T09:33:27Z
 
-13358	above
-13367	center
-13823	overwritten
+13451	above
+13460	center
+13931	overwritten
 overwritten
-14044	underline
+14090	underline
 underline
 super underline
 underline
@@ -52,10 +52,13 @@ underline
 super
 underline
 underline
-italics
-italics
 underline
 underline
+italics
+italics
+spaced
+spaced
+blockletter
 spaced
 spaced
 blockletter
@@ -64,17 +67,14 @@ italics
 italics
 italics
 italics
-spaced
-spaced
-blockletter
 underline
 super
 underline
 underline
 underline
 right underline
-italics
 underline
+italics
 underline
 underline
 underline2
@@ -89,9 +89,9 @@ italics
 italics
 italics
 italics
-14545	upsidedown
-15015	right
-15049	norend
-15051	norend
+14648	upsidedown
+15116	right
+15150	norend
+15152	norend
 norend
-15054	norend
+15155	norend

@@ -14,18 +14,18 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-62354	above
-62363	center
-62819	overwritten
+62853	above
+62862	center
+63333	overwritten
 overwritten
-63040	underline
+63492	underline
 underline
 super underline
 underline
@@ -50,10 +50,13 @@ underline
 super
 underline
 underline
-italics
-italics
 underline
 underline
+italics
+italics
+spaced
+spaced
+blockletter
 spaced
 spaced
 blockletter
@@ -62,17 +65,14 @@ italics
 italics
 italics
 italics
-spaced
-spaced
-blockletter
 underline
 super
 underline
 underline
 underline
 right underline
-italics
 underline
+italics
 underline
 underline
 underline2
@@ -87,9 +87,9 @@ italics
 italics
 italics
 italics
-63541	upsidedown
-64011	right
-64045	norend
-64047	norend
+64050	upsidedown
+64518	right
+64552	norend
+64554	norend
 norend
-64050	norend
+64557	norend

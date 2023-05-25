@@ -69,6 +69,123 @@ extra:
       - msDesc
       - sourceDesc
     nodeType: letter
+  correspondent:
+    meta:
+      description: >-
+        The person that Mondriaan corresponded with; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - name
+      - correspAction:
+          type: received
+      - correspDesc
+      - profileDesc
+    nodeType: letter
+  sender:
+    meta:
+      description: >-
+        The sender of the letter; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - name
+      - correspAction:
+          type: sent
+      - correspDesc
+      - profileDesc
+    nodeType: letter
+  period:
+    meta:
+      description: >-
+        The date of the letter in YYYY-MM-DD; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - date@when
+      - correspAction:
+          type: sent
+      - correspDesc
+      - profileDesc
+    nodeType: letter
+  periodlong:
+    meta:
+      description: >-
+        The date of the letter as description; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - date
+      - correspAction:
+          type: sent
+      - correspDesc
+      - profileDesc
+    nodeType: letter
+  location:
+    meta:
+      description: >-
+        The place from where the letter is sent; «base»
+      valueType: str 
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - placeName
+      - correspAction:
+          type: sent
+      - correspDesc
+      - profileDesc
+    nodeType: letter
+  personref:
+    meta:
+      description: >-
+        Reference key to the details of a person; «base»
+      valueType: str
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - rs@ref:
+          type: person
+    nodeType: rs
+  artmondriaanref:
+    meta:
+      description: >-
+        Reference key to the details of an artwork by Mondriaan; «base»
+      valueType: str
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - rs@key:
+          type: artwork-m
+    nodeType: rs
+
+  artref:
+    meta:
+      description: >-
+        Reference key to the details of an artwork; «base»
+      valueType: str
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - rs@key:
+          type: artwork
+    nodeType: rs
+
+  exhibitionref:
+    meta:
+      description: >-
+        Reference key to the details of an exhibition; «base»
+      valueType: str
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - rs@key:
+          type: exhibition
+    nodeType: rs
+
 schema: MD
 prelim: true
 wordAsSlot: false

@@ -216,6 +216,96 @@ Note that edges can be traversed in both directions, see the
 
 
 
+## correspondent
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The person that Mondriaan corresponded with; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['name', {'correspAction': {'type': 'received'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## sender
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The sender of the letter; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['name', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## period
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The date of the letter in YYYY-MM-DD; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['date@when', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## periodlong
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The date of the letter as description; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['date', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## location
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The place from where the letter is sent; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['placeName', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## personref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of a person; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@ref': {'type': 'person'}}]
+* `nodeType`: rs
+
+
+
+## artmondriaanref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of an artwork by Mondriaan; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@key': {'type': 'artwork-m'}}]
+* `nodeType`: rs
+
+
+
+## artref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of an artwork; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@key': {'type': 'artwork'}}]
+* `nodeType`: rs
+
+
+
+## exhibitionref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of an exhibition; ', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@key': {'type': 'exhibition'}}]
+* `nodeType`: rs
+
+
+
 
 The conversion has not generated extra features by means of custom code.
 
@@ -478,6 +568,96 @@ with element/attribute names of the TEI.
                     * `meta`: {'description': 'The place where a letter is preserved; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
 * `path`: ['institution', 'msIdentifier', 'msDesc', 'sourceDesc']
 * `nodeType`: letter
+
+
+
+## correspondent
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The person that Mondriaan corresponded with; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['name', {'correspAction': {'type': 'received'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## sender
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The sender of the letter; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['name', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## period
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The date of the letter in YYYY-MM-DD; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['date@when', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## periodlong
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The date of the letter as description; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['date', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## location
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'The place from where the letter is sent; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: ['placeName', {'correspAction': {'type': 'sent'}}, 'correspDesc', 'profileDesc']
+* `nodeType`: letter
+
+
+
+## personref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of a person; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@ref': {'type': 'person'}}]
+* `nodeType`: rs
+
+
+
+## artmondriaanref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of an artwork by Mondriaan; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@key': {'type': 'artwork-m'}}]
+* `nodeType`: rs
+
+
+
+## artref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of an artwork; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@key': {'type': 'artwork'}}]
+* `nodeType`: rs
+
+
+
+## exhibitionref
+
+
+                    The values of this feature have type str.
+                    * `meta`: {'description': 'Reference key to the details of an exhibition; «base»', 'conversionMethod': 'derived', 'conversionCode': 'tt'}
+* `path`: [{'rs@key': {'type': 'exhibition'}}]
+* `nodeType`: rs
 
 
 

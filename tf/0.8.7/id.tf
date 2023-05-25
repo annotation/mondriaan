@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 @description=this is TEI attribute id
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,15 +15,15 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:56:03Z
+@dateWritten=2023-05-25T09:33:27Z
 
-13686	p.nl.3
+13793	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -53,9 +53,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-13864	PD
-13876	PD
-13922	wc
+13948	PD
+13953	PD
+13968	wc
 lj
 wc
 lj
@@ -83,47 +83,100 @@ wc
 lj
 wc
 lj
-14239	Zus
+14329	n_transcrSource
+n_dating
+ogt_1_NL
+Zus
 plaatsBuhlig
-14243	gekreukteEnveloppe
+n_transcrSource
+n_dating
+ogt_1_NL
+gekreukteEnveloppe
 jurySintLucas
 PaaschdagenArnhem
-14248	schedelmeter
-14255	theosofischeLezingen
-14260	koolteer
+n_transcrSource_NL
+n_dating_NL
+ogt_1_NL
+schedelmeter
+14345	n_transcrSource
+n_dating
+ogt_1
+note_1
+n_transcrSource
+n_dating
+ogt_1
+theosofischeLezingen
+n_transcrSource
+n_dating
+n_pubhistory
+ogt_1
+koolteer
 sluitingSintLucas
 kioskBaerlestraat
-14265	SpoorDomburg
-14268	dieProfessor
-14272	WaardeVrienden
+n_transcrSource
+n_dating
+ogt_1_NL
+SpoorDomburg
+n_transcrSource
+n_dating
+dieProfessor
+n_transcrSource
+n_dating
+n_remarks
+ogt_1_NL
+WaardeVrienden
 verblijfDomburg
-14277	OoststraatDomburg
+n_transcrSource
+n_dating
+ogt_1
+OoststraatDomburg
 inzakeEngeland
 weerDomburg
 inAmsterdam
 nietThuis
 fotoosOpzenden
 studieGeven
-14287	ditGedeelte
+n_transcrSource
+n_dating
+n_pubhistory
+ogt_1_NL
+ditGedeelte
 ArnhemGeweigerd
 naarBrussel
 doorTeirlinck
 verkeerdUitgedrukt
 grootWerk
 occulteKennis
-14297	Fernhout
+n_transcrSource
+n_dating
+n_pubhistory
+Fernhout
 deDames
-14302	nieuweOmgeving
+14400	n_transcrSource
+n_dating
+ogt_1_NL
+nieuweOmgeving
 werkHoofdzaak
 DertienNovember
 dingenZeeland
 bloemetjeArti
-14310	Helmhout
-14314	werkTonen_NL
+n_transcrSource
+n_dating
+ogt_1
+Helmhout
+n_transcrSource_NL
+n_dating_NL
+n_pubhistory_NL
+ogt_1_NL
+werkTonen_NL
 godWorden_NL
-14319	werkTonen
+n_transcrSource
+n_dating
+n_pubhistory
+ogt_1
+werkTonen
 godWorden
-14335	p.nl.1
+14438	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -151,33 +204,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-14375	p.nl.2
+14478	p.nl.2
 p.en.2
-14378	p.nl.2
+14481	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14383	p.nl.2
+14486	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14388	p.nl.2
+14491	p.nl.2
 p.en.2
-14391	p.nl.2
+14494	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-14398	p.nl.2
+14501	p.nl.2
 p.en.2
-14401	p.nl.2
+14504	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14406	p.nl.2
+14509	p.nl.2
 p.en.2
-14409	p.nl.2
+14512	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -186,7 +239,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-14419	p.nl.2
+14522	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -200,11 +253,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-14434	p.nl.2
+14537	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-14439	p.nl.2
+14542	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -212,12 +265,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-14448	p.nl.2
+14551	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-14454	p.nl.2
+14557	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -227,7 +280,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-15072	s1r
+15187	s1r
 s1v
 ser
 sev
@@ -276,7 +329,7 @@ ser
 sev
 s1r
 s1v
-15181	z1r1
+15296	z1r1
 z1r1
 z1r1
 z1v2

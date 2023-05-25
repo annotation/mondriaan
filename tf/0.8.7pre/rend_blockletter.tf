@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=int
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-30972	1
+31317	1
 1
 1
 1
@@ -36,7 +36,7 @@
 1
 1
 1
-41314	1
+36519	1
 1
 1
 1
@@ -51,7 +51,7 @@
 1
 1
 1
-69598	1
+70159	1
 1
-71338	1
+71112	1
 1

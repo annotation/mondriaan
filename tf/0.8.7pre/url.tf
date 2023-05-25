@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-62977	/images/1303/KM_123.397.tif
+63429	/images/1303/KM_123.397.tif
 /images/1303/KM_123.397_1r1.tif
 /images/1303/KM_123.397_02.tif
 dummy

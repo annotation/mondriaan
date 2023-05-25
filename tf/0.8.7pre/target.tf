@@ -14,15 +14,16 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-63561	#Zus
+64070	#Zus
 #plaatsBuhlig
+#Zus
 #Zus
 #plaatsBuhlig
 #gekreukteEnveloppe
@@ -47,9 +48,9 @@
 #dieProfessor
 #Sarphatiepark
 #WaardeVrienden
-verblijfDomburg
+#verblijfDomburg
 #WaardeVrienden
-#weerOpknapt
+#verblijfDomburg
 #OoststraatDomburg
 #inzakeEngeland
 #weerDomburg
@@ -98,7 +99,7 @@ verblijfDomburg
 #godWorden
 #werkTonen
 #godWorden
-63652	#plaatsBuhlig
+64162	#plaatsBuhlig
 biblio.xml#Heteren2018
 #p.nl.3 #p.en.3
 biblio.xml#Gorter2017
@@ -119,7 +120,7 @@ biblio.xml#CR1998
 #p.nl.3 #p.en.3
 19090905y.IONG_1295.xml
 19100707y_IONG_0019.xml#verblijfOegstgeest
-63674	19090905_IONG_1295.xml
+19090905_IONG_1295.xml
 places.xml#Sarphatiepark42
 biblio.xml#Bax1994-2
 biblio.xml#CR
@@ -133,7 +134,7 @@ biblio.xml#Henkels1988
 biblio.xml#Heteren2018
 biblio.xml#Scherphuis1994
 biblio.xml#Coppes2012
-63689	#ditGedeelte
+#ditGedeelte
 biblio.xml#Sketchbooks1969
 19081224_BenW_5066.xml#conservator
 biblio.xml#Faassen2013
@@ -153,7 +154,6 @@ expo.xml#arti_1909
 19091109yIONG_1299.xml
 19091024y_IONG_1297#DertienNovember
 biblio.xml#AlgemeenAdresboekAmsterdam
-#MEP1297
 biblio.xml#HoltzmanJames1986
 #p.nl.4 #p.en.4
 9101006y_IONG_1309.xml

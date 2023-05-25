@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 
-63163	19090216y_IONG_1303
+63615	19090216y_IONG_1303
 19090407y_IONG_1739
 19090421y_IONG_1304
 19090426y_IONG_1738

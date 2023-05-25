@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-24T13:55:34Z
+@dateWritten=2023-05-25T09:28:11Z
 @description=this is TEI attribute who
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,19 +15,19 @@
 @language=nl
 @schema=TEI + MD
 @sourceFormat=TEI
-@teiVersion=2023-05-11
+@teiVersion=2023-05-24
 @title=Letters
 @valueType=str
 @version=0.8.7
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-24T13:56:03Z
+@dateWritten=2023-05-25T09:33:27Z
 
-13417	wc
+13510	wc
 wc
 lj
 lj
-13424	ev
+13517	ev
 ev
 ev
 ms
@@ -36,7 +36,7 @@ lj
 lj
 wc
 wc
-13436	ev
+13529	ev
 ev
 ev
 ms
@@ -45,7 +45,7 @@ wc
 wc
 lj
 lj
-13448	ev
+13541	ev
 ev
 ms
 lj
@@ -53,16 +53,7 @@ lj
 lj
 wc
 lj
-13459	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-13471	ev
+13552	ev
 ev
 ev
 ms
@@ -71,7 +62,16 @@ wc
 wc
 lj
 lj
-13483	ev
+13564	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+lj
+13576	ev
 ev
 ev
 ms
@@ -80,7 +80,7 @@ wc
 wc
 wc
 lj
-13495	ev
+13588	ev
 ev
 ev
 ms
@@ -89,8 +89,8 @@ gr
 wc
 lj
 lj
-13505	XX
-13507	ev
+13598	XX
+13600	ev
 ev
 ev
 ms
@@ -99,7 +99,7 @@ wc
 wc
 wc
 lj
-13519	ev
+13612	ev
 ev
 ev
 ms
@@ -108,7 +108,7 @@ wc
 wc
 lj
 wc
-13531	ev
+13624	ev
 ev
 ev
 ms
@@ -117,7 +117,7 @@ wc
 wc
 lj
 wc
-13543	ev
+13636	ev
 ev
 ev
 ms
@@ -127,7 +127,7 @@ wc
 wc
 lj
 ev
-13556	ev
+13649	ev
 ev
 ev
 ms
@@ -136,7 +136,7 @@ wc
 wc
 lj
 lj
-13568	ev
+13661	ev
 ev
 ev
 ms
@@ -145,7 +145,7 @@ wc
 wc
 lj
 wc
-13580	ev
+13673	ev
 ev
 ev
 ms
