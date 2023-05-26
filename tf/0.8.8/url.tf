@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 @description=this is TEI attribute url
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:41:07Z
+@dateWritten=2023-05-26T10:06:52Z
 
-13985	/images/1303/KM_123.397.tif
+14170	/images/1303/KM_123.397.tif
 /images/1303/KM_123.397_1r1.tif
 /images/1303/KM_123.397_02.tif
 dummy

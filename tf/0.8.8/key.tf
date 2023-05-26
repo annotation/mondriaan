@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 @description=this is TEI attribute key
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,39 +21,39 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:41:07Z
+@dateWritten=2023-05-26T10:06:52Z
 
-14260	iongh_aletta_de
-14262	iongh_aletta_de
-14264	iongh_aletta_de
-14266	iongh_aletta_de
-14268	iongh_aletta_de
-14270	iongh_aletta_de
-14272	iongh_aletta_de
-14274	knap_gerrit_willem
-14276	iongh_aletta_de
-14278	querido_israel
-14280	spoor_kees
-14282	iongh_aletta_de
-14284	iongh_aletta_de
-14286	saalborn_arnold
-14819	expo.xml#sint_lucas_1909
-14828	htpps://rkd.nl/images/217669
+14445	iongh_aletta_de
+14447	iongh_aletta_de
+14449	iongh_aletta_de
+14451	iongh_aletta_de
+14453	iongh_aletta_de
+14455	iongh_aletta_de
+14457	iongh_aletta_de
+14459	knap_gerrit_willem
+14461	iongh_aletta_de
+14463	querido_israel
+14465	spoor_kees
+14467	iongh_aletta_de
+14469	iongh_aletta_de
+14471	saalborn_arnold
+15004	expo.xml#sint_lucas_1909
+15013	htpps://rkd.nl/images/217669
 https://rkd.nl/images/277201
 htpps://rkd.nl/images/68554
-14840	expo.xml#sint_lucas_1909
-14842	expo.xml#sint_lucas_1909
-14847	expo.xml#sint_lucas_1909
-14886	https://rkd.nl/images/62319
+15025	expo.xml#sint_lucas_1909
+15027	expo.xml#sint_lucas_1909
+15032	expo.xml#sint_lucas_1909
+15071	https://rkd.nl/images/62319
 https://rkd.nl/images/68733
-14893	https://rkd.nl/images/277201
-14913	expo.xml#spoor_mondriaan_sluijters_1909
-14917	expo.xml#doe_stil_voort_1909
-14919	https://rkd.nl/images/194515
+15078	https://rkd.nl/images/277201
+15098	expo.xml#spoor_mondriaan_sluijters_1909
+15102	expo.xml#doe_stil_voort_1909
+15104	https://rkd.nl/images/194515
 https://krd.nl/images/268821
 https://rkd.nl/images/268881
-14925	https://rkd.nl/images/62324
-14963	arti_1909
-14972	https://rkd.nl/images/68728
-14985	https://rkd.nl/images/268864
-14992	https://rkd.nl/images/268864
+15110	https://rkd.nl/images/62324
+15148	arti_1909
+15157	https://rkd.nl/images/68728
+15170	https://rkd.nl/images/268864
+15177	https://rkd.nl/images/268864

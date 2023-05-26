@@ -4,7 +4,7 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
@@ -18,74 +18,75 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:41:07Z
+@dateWritten=2023-05-26T10:06:52Z
 
-1-13390	token
-13391-13404	?editem
-13405-13406	abbr
-13407	accMat
-13408-13415	add
-13416-13421	addrLine
-13422-13425	address
-13426-13453	altIdentifier
-13454-13467	body
-13468-13635	change
-13636-13650	choice
-13651-13750	chunk
-13751-13780	closer
-13781-13808	correspAction
-13809-13822	correspDesc
-13823-13836	country
-13837-13852	date
-13853-13858	dateline
-13859-13872	decoDesc
-13873-13886	decoNote
-13887-13895	del
-13896-13925	div
-13926-13953	editor
-13954-13955	expan
-13956-13969	facsimile
-13970-13983	fileDesc
-13984	folder
-13985-14047	graphic
-14048-14109	hi
-14110-14151	idno
-14152-14165	institution
-14166-14170	lb
-14171-14184	letter
-14185-14230	listAnnotation
-14231-14244	msDesc
-14245-14258	msIdentifier
-14259-14286	name
-14287-14381	note
-14382-14395	objectDesc
-14396-14423	opener
-14424-14434	orig
-14435-14524	p
-14525-14575	page
-14576-14589	physDesc
-14590-14603	placeName
-14604-14605	postmark
-14606-14611	postscript
-14612-14625	profileDesc
-14626-14703	ptr
-14704-14717	publicationStmt
-14718-14778	ref
-14779-14789	reg
-14790-14803	revisionDesc
-14804-14993	rs
-14994-15049	salute
-15050-15063	settlement
-15064-15093	signed
-15094-15107	sourceDesc
-15108-15116	space
-15117-15130	sponsor
-15131-15144	standOff
-15145-15193	surface
-15194-15207	teiHeader
-15208-15221	text
-15222-15235	title
-15236-15249	titleStmt
-15250-15253	unclear
-15254-15267	zone
-15268-16317	sentence
+1-13575	t
+13576-13589	?editem
+13590-13591	abbr
+13592	accMat
+13593-13600	add
+13601-13606	addrLine
+13607-13610	address
+13611-13638	altIdentifier
+13639-13652	body
+13653-13820	change
+13821-13835	choice
+13836-13935	chunk
+13936-13965	closer
+13966-13993	correspAction
+13994-14007	correspDesc
+14008-14021	country
+14022-14037	date
+14038-14043	dateline
+14044-14057	decoDesc
+14058-14071	decoNote
+14072-14080	del
+14081-14110	div
+14111-14138	editor
+14139-14140	expan
+14141-14154	facsimile
+14155-14168	fileDesc
+14169	folder
+14170-14232	graphic
+14233-14294	hi
+14295-14336	idno
+14337-14350	institution
+14351-14355	lb
+14356-14369	letter
+14370-14415	listAnnotation
+14416-14429	msDesc
+14430-14443	msIdentifier
+14444-14471	name
+14472-14566	note
+14567-14580	objectDesc
+14581-14608	opener
+14609-14619	orig
+14620-14709	p
+14710-14760	page
+14761-14774	physDesc
+14775-14788	placeName
+14789-14790	postmark
+14791-14796	postscript
+14797-14810	profileDesc
+14811-14888	ptr
+14889-14902	publicationStmt
+14903-14963	ref
+14964-14974	reg
+14975-14988	revisionDesc
+14989-15178	rs
+15179-15234	salute
+15235-15248	settlement
+15249-15278	signed
+15279-15292	sourceDesc
+15293-15301	space
+15302-15315	sponsor
+15316-15329	standOff
+15330-15378	surface
+15379-15392	teiHeader
+15393-15406	text
+15407-15420	title
+15421-15434	titleStmt
+15435-15438	unclear
+15439-15452	zone
+15453-16603	sentence
+16604-29631	token

@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 @description=this is TEI attribute id
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:41:07Z
+@dateWritten=2023-05-26T10:06:52Z
 
-13751	p.nl.3
+13936	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -53,9 +53,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-13906	PD
-13911	PD
-13926	wc
+14091	PD
+14096	PD
+14111	wc
 lj
 wc
 lj
@@ -83,7 +83,7 @@ wc
 lj
 wc
 lj
-14287	n_transcrSource
+14472	n_transcrSource
 n_dating
 ogt_1_NL
 Zus
@@ -98,7 +98,7 @@ n_transcrSource_NL
 n_dating_NL
 ogt_1_NL
 schedelmeter
-14303	n_transcrSource
+14488	n_transcrSource
 n_dating
 ogt_1
 note_1
@@ -152,7 +152,7 @@ n_dating
 n_pubhistory
 Fernhout
 deDames
-14358	n_transcrSource
+14543	n_transcrSource
 n_dating
 ogt_1_NL
 nieuweOmgeving
@@ -176,7 +176,7 @@ n_pubhistory
 ogt_1
 werkTonen
 godWorden
-14396	p.nl.1
+14581	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -204,33 +204,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-14436	p.nl.2
+14621	p.nl.2
 p.en.2
-14439	p.nl.2
+14624	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14444	p.nl.2
+14629	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14449	p.nl.2
+14634	p.nl.2
 p.en.2
-14452	p.nl.2
+14637	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-14459	p.nl.2
+14644	p.nl.2
 p.en.2
-14462	p.nl.2
+14647	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14467	p.nl.2
+14652	p.nl.2
 p.en.2
-14470	p.nl.2
+14655	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -239,7 +239,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-14480	p.nl.2
+14665	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -253,11 +253,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-14495	p.nl.2
+14680	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-14500	p.nl.2
+14685	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -265,12 +265,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-14509	p.nl.2
+14694	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-14515	p.nl.2
+14700	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -280,7 +280,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-15145	s1r
+15330	s1r
 s1v
 ser
 sev
@@ -329,7 +329,7 @@ ser
 sev
 s1r
 s1v
-15254	z1r1
+15439	z1r1
 z1r1
 z1r1
 z1v2

@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 @description=The date of the letter as description; the content is taken from profileDesc/correspDesc/correspAction[type=sent]/date
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:41:07Z
+@dateWritten=2023-05-26T10:06:52Z
 
-14171	dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909
+14356	dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909
 woensdag 7 april 1909
 tussen maandag 19 en vrijdag 23 april 1909
 maandag 26 april 1909

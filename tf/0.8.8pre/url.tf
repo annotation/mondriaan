@@ -19,7 +19,7 @@
 @valueType=str
 @version=0.8.8pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 
 62981	/images/1303/KM_123.397.tif
 /images/1303/KM_123.397_1r1.tif

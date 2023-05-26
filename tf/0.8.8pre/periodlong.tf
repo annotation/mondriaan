@@ -19,7 +19,7 @@
 @valueType=str
 @version=0.8.8pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 
 63167	dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909
 woensdag 7 april 1909

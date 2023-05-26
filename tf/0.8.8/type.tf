@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-05-25T14:40:19Z
+@dateWritten=2023-05-26T05:13:12Z
 @description=this is TEI attribute type
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,24 +21,24 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-25T14:41:07Z
+@dateWritten=2023-05-26T10:06:52Z
 
-13422	receiver
+13607	receiver
 receiver
-13474	editedText
-13486	editedText
-13498	editedText
-13509	editedText
-13521	editedText
-13533	editedText
-13545	editedText
-13569	editedText
-13581	editedText
-13593	editedText
-13606	editedText
-13618	editedText
-13630	editedText
-13781	sent
+13659	editedText
+13671	editedText
+13683	editedText
+13694	editedText
+13706	editedText
+13718	editedText
+13730	editedText
+13754	editedText
+13766	editedText
+13778	editedText
+13791	editedText
+13803	editedText
+13815	editedText
+13966	sent
 received
 sent
 received
@@ -66,8 +66,8 @@ sent
 received
 sent
 received
-13887	overwritten
-13891	strikeover
+14072	overwritten
+14076	strikeover
 strikeover
 strikeover
 strikeover
@@ -102,35 +102,35 @@ original
 translation
 original
 translation
-14111	letterId
+14296	letterId
 def
-14114	letterId
+14299	letterId
 def
-14117	letterId
+14302	letterId
 def
-14120	letterId
+14305	letterId
 def
-14123	letterId
+14308	letterId
 def
-14126	letterId
+14311	letterId
 def
-14129	letterId
+14314	letterId
 def
-14132	letterId
+14317	letterId
 def
-14135	letterId
+14320	letterId
 def
-14138	letterId
+14323	letterId
 def
-14141	letterId
+14326	letterId
 def
-14144	letterId
+14329	letterId
 def
-14147	letterId
+14332	letterId
 def
-14150	letterId
+14335	letterId
 def
-14185	typednotes
+14370	typednotes
 ogtnotes
 notes
 typednotes
@@ -176,50 +176,50 @@ notes
 typednotes
 ogtnotes
 notes
-14287	transcrSource
+14472	transcrSource
 dating
-14292	transcrSource
+14477	transcrSource
 dating
-14298	transcrSource_NL
+14483	transcrSource_NL
 dating_NL
-14303	transcrSource
+14488	transcrSource
 dating
-14307	transcrSource
+14492	transcrSource
 dating
 ogtnote
-14311	transcrSource
+14496	transcrSource
 dating
 pubhistory
 ogtnote
-14318	transcrSource
+14503	transcrSource
 dating
-14322	transcrSource
+14507	transcrSource
 dating
-14325	transcrSource
+14510	transcrSource
 dating
 remarks
-14331	transcrSource
+14516	transcrSource
 dating
 ogtnote
-14341	transcrSource
+14526	transcrSource
 dating
 pubhistory
-14352	transcrSource
+14537	transcrSource
 dating
 pubhistory
-14358	transcrSource
+14543	transcrSource
 dating
-14366	transcrSource
+14551	transcrSource
 dating
 ogtnote
-14370	transcrSource_NL
+14555	transcrSource_NL
 dating_NL
 pubhistory_NL
-14376	transcrSource
+14561	transcrSource
 dating
 pubhistory
-14786	misprint
-14804	person
+14971	misprint
+14989	person
 person
 person
 person
