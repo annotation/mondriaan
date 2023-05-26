@@ -21,24 +21,24 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-26T10:06:52Z
+@dateWritten=2023-05-26T12:31:53Z
 
-13607	receiver
+13437	receiver
 receiver
-13659	editedText
-13671	editedText
-13683	editedText
-13694	editedText
-13706	editedText
-13718	editedText
-13730	editedText
-13754	editedText
-13766	editedText
-13778	editedText
-13791	editedText
-13803	editedText
-13815	editedText
-13966	sent
+13489	editedText
+13501	editedText
+13513	editedText
+13524	editedText
+13536	editedText
+13548	editedText
+13560	editedText
+13584	editedText
+13596	editedText
+13608	editedText
+13621	editedText
+13633	editedText
+13645	editedText
+13796	sent
 received
 sent
 received
@@ -66,8 +66,8 @@ sent
 received
 sent
 received
-14072	overwritten
-14076	strikeover
+13902	overwritten
+13906	strikeover
 strikeover
 strikeover
 strikeover
@@ -102,35 +102,35 @@ original
 translation
 original
 translation
-14296	letterId
+14126	letterId
 def
-14299	letterId
+14129	letterId
 def
-14302	letterId
+14132	letterId
 def
-14305	letterId
+14135	letterId
 def
-14308	letterId
+14138	letterId
 def
-14311	letterId
+14141	letterId
 def
-14314	letterId
+14144	letterId
 def
-14317	letterId
+14147	letterId
 def
-14320	letterId
+14150	letterId
 def
-14323	letterId
+14153	letterId
 def
-14326	letterId
+14156	letterId
 def
-14329	letterId
+14159	letterId
 def
-14332	letterId
+14162	letterId
 def
-14335	letterId
+14165	letterId
 def
-14370	typednotes
+14200	typednotes
 ogtnotes
 notes
 typednotes
@@ -176,50 +176,50 @@ notes
 typednotes
 ogtnotes
 notes
-14472	transcrSource
+14302	transcrSource
 dating
-14477	transcrSource
+14307	transcrSource
 dating
-14483	transcrSource_NL
+14313	transcrSource_NL
 dating_NL
-14488	transcrSource
+14318	transcrSource
 dating
-14492	transcrSource
+14322	transcrSource
 dating
 ogtnote
-14496	transcrSource
+14326	transcrSource
 dating
 pubhistory
 ogtnote
-14503	transcrSource
+14333	transcrSource
 dating
-14507	transcrSource
+14337	transcrSource
 dating
-14510	transcrSource
+14340	transcrSource
 dating
 remarks
-14516	transcrSource
+14346	transcrSource
 dating
 ogtnote
-14526	transcrSource
+14356	transcrSource
 dating
 pubhistory
-14537	transcrSource
+14367	transcrSource
 dating
 pubhistory
-14543	transcrSource
+14373	transcrSource
 dating
-14551	transcrSource
+14381	transcrSource
 dating
 ogtnote
-14555	transcrSource_NL
+14385	transcrSource_NL
 dating_NL
 pubhistory_NL
-14561	transcrSource
+14391	transcrSource
 dating
 pubhistory
-14971	misprint
-14989	person
+14801	misprint
+14819	person
 person
 person
 person

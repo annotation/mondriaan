@@ -21,9 +21,9 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-26T10:06:52Z
+@dateWritten=2023-05-26T12:31:53Z
 
-14811	#Zus
+14641	#Zus
 #plaatsBuhlig
 #Zus
 #Zus
@@ -101,7 +101,7 @@
 #godWorden
 #werkTonen
 #godWorden
-14903	#plaatsBuhlig
+14733	#plaatsBuhlig
 biblio.xml#Heteren2018
 #p.nl.3 #p.en.3
 biblio.xml#Gorter2017

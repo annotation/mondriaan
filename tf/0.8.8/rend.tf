@@ -21,13 +21,13 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-26T10:06:52Z
+@dateWritten=2023-05-26T12:31:53Z
 
-13594	above
-13603	center
-14074	overwritten
+13424	above
+13433	center
+13904	overwritten
 overwritten
-14233	underline
+14063	underline
 underline
 super underline
 underline
@@ -89,9 +89,9 @@ italics
 italics
 italics
 italics
-14791	upsidedown
-15259	right
-15293	norend
-15295	norend
+14621	upsidedown
+15089	right
+15123	norend
+15125	norend
 norend
-15298	norend
+15128	norend

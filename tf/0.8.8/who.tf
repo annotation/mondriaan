@@ -21,13 +21,13 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-26T10:06:52Z
+@dateWritten=2023-05-26T12:31:53Z
 
-13653	wc
+13483	wc
 wc
 lj
 lj
-13660	ev
+13490	ev
 ev
 ev
 ms
@@ -36,7 +36,7 @@ lj
 lj
 wc
 wc
-13672	ev
+13502	ev
 ev
 ev
 ms
@@ -45,7 +45,7 @@ wc
 wc
 lj
 lj
-13684	ev
+13514	ev
 ev
 ms
 lj
@@ -53,16 +53,7 @@ lj
 lj
 wc
 lj
-13695	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-13707	ev
+13525	ev
 ev
 ev
 ms
@@ -71,7 +62,16 @@ wc
 wc
 lj
 lj
-13719	ev
+13537	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+lj
+13549	ev
 ev
 ev
 ms
@@ -80,7 +80,7 @@ wc
 wc
 wc
 lj
-13731	ev
+13561	ev
 ev
 ev
 ms
@@ -89,8 +89,8 @@ gr
 wc
 lj
 lj
-13741	XX
-13743	ev
+13571	XX
+13573	ev
 ev
 ev
 ms
@@ -99,7 +99,7 @@ wc
 wc
 wc
 lj
-13755	ev
+13585	ev
 ev
 ev
 ms
@@ -108,7 +108,7 @@ wc
 wc
 lj
 wc
-13767	ev
+13597	ev
 ev
 ev
 ms
@@ -117,7 +117,7 @@ wc
 wc
 lj
 wc
-13779	ev
+13609	ev
 ev
 ev
 ms
@@ -127,7 +127,7 @@ wc
 wc
 lj
 ev
-13792	ev
+13622	ev
 ev
 ev
 ms
@@ -136,7 +136,7 @@ wc
 wc
 lj
 lj
-13804	ev
+13634	ev
 ev
 ev
 ms
@@ -145,7 +145,7 @@ wc
 wc
 lj
 wc
-13816	ev
+13646	ev
 ev
 ev
 ms

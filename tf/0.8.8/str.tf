@@ -21,7 +21,7 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-26T10:06:52Z
+@dateWritten=2023-05-26T12:31:53Z
 
 ​
 Brief
@@ -167,9 +167,7 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
 ​
 \n
@@ -214,12 +212,10 @@ Bu
 l
 h
 lig
- 
 voor
 je
 .
 ​
- 
 En
 dan
 kunnen
@@ -283,12 +279,10 @@ ticket
 for
 van
 Buhlig
- 
 for
 you
 .
 ​
- 
 And
 then
 we
@@ -314,7 +308,6 @@ very
 best
 wishes
 ,
- 
 your
 Piet
 .
@@ -595,9 +588,7 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
 ​
 \n
@@ -648,7 +639,6 @@ in
 '
 t
 museum
- 
 bij
 '
 t
@@ -664,12 +654,9 @@ in
 de
 jury
 van
- 
 S
 t
- 
 Lucas
- 
 ben
 .
 ​
@@ -720,7 +707,6 @@ naar
 Arnhem
 .
 ​
- 
 Ik
 kom
 dus
@@ -738,7 +724,6 @@ Dag
 Veel
 beste
 groeten
- 
 je
 Piet
 .
@@ -761,7 +746,6 @@ crumpled
 envelope
 ,
 ​
- 
 but
 I
 did
@@ -788,7 +772,6 @@ be
 in
 the
 museum
- 
 tomorrow
 afternoon
 when
@@ -803,7 +786,6 @@ on
 the
 St
 Lucas
- 
 jury
 .
 ​
@@ -859,7 +841,6 @@ for
 Easter
 .
 ​
- 
 So
 I
 ’ll
@@ -882,7 +863,6 @@ very
 best
 wishes
 ,
- 
 your
 Piet
 .
@@ -1179,14 +1159,10 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
 ​
- 
 ​
- 
 \n
 ​
 \n
@@ -1205,7 +1181,6 @@ de
 "
 schedelmeter
 "
- 
 bij
 me
 ,
@@ -1213,7 +1188,6 @@ hij
 zag
 de
 schetsen
- 
 naar
 jouw
 en
@@ -1240,7 +1214,6 @@ woû
 opnemen
 .
 ​
- 
 Hij
 komt
 Zondag
@@ -1356,7 +1329,6 @@ beste
 lieve
 Zus
 ,
- 
 je
 Piet
 .
@@ -1372,7 +1344,6 @@ The
 skull
 measurer
 ”
- 
 came
 round
 this
@@ -1407,7 +1378,6 @@ of
 you
 .
 ​
- 
 He
 ’s
 coming
@@ -1931,9 +1901,7 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
 ​
 \n
@@ -1952,7 +1920,6 @@ morgen
 is
 de
 poliep
- 
 niet
 geweest
 ,
@@ -1992,7 +1959,6 @@ behalve
 den
 1
 e
- 
 Dinsdag
 ,
 van
@@ -2006,7 +1972,6 @@ de
 leden
 .
 ​
- 
 Als
 je
 me
@@ -2054,7 +2019,6 @@ Dag
 !
 hartelijke
 groeten
- 
 van
 je
 Piet
@@ -2067,7 +2031,6 @@ Zus
 \n
 The
 polyp
- 
 did
 n’t
 come
@@ -2128,7 +2091,6 @@ the
 members
 .
 ​
- 
 So
 if
 you
@@ -2175,7 +2137,6 @@ Bye
 !
 Warm
 wishes
- 
 from
 your
 Piet
@@ -2493,9 +2454,7 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
 ​
 \n
@@ -2568,7 +2527,6 @@ week
 En
 kan
 je
- 
 Zaterdag
 na
 de
@@ -2578,9 +2536,7 @@ me
 naar
 S
 t
- 
 Lucas
- 
 gaan
 ?
 Want
@@ -2591,7 +2547,6 @@ laatste
 dag
 .
 ​
- 
 Mij
 komt
 '
@@ -2646,7 +2601,6 @@ groeten
 van
 je
 toegenegen
- 
 Piet
 .
 \n
@@ -2655,7 +2609,6 @@ heb
 van
 de
 poliep
- 
 nog
 geen
 portretten
@@ -2737,7 +2690,6 @@ me
 to
 St
 Lucas
- 
 on
 Saturday
 after
@@ -2751,7 +2703,6 @@ last
 day
 .
 ​
- 
 Two
 o’clock
 works
@@ -2805,7 +2756,6 @@ wishes
 from
 your
 affectionate
- 
 Piet
 .
 \n
@@ -3136,9 +3086,7 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
 ​
 \n
@@ -3153,15 +3101,12 @@ Aletta
 de
 Jongh
 .
- 
 van
 Eeghenstraat
 40
 .
- 
 Stad
 .
- 
 \n
 ​
 \n
@@ -3175,7 +3120,6 @@ van
 middag
 met
 Spoor
- 
 even
 in
 Domburg
@@ -3206,7 +3150,6 @@ weêr
 hier
 .
 ​
- 
 '
 t
 Komt
@@ -3257,7 +3200,6 @@ groeten
 je
 toegen
 .
- 
 Piet
 .
 \n
@@ -3278,7 +3220,6 @@ a
 while
 with
 Spoor
- 
 to
 see
 if
@@ -3304,7 +3245,6 @@ week
 after
 .
 ​
- 
 I
 suppose
 Thursday
@@ -3351,7 +3291,6 @@ wishes
 ,
 your
 affectionate
- 
 Piet
 .
 \n
@@ -3672,7 +3611,6 @@ mij
 betreft
 :
 ,
- 
 kon
 '
 t
@@ -3707,7 +3645,6 @@ komt
 s'morgens
 die
 professor
- 
  
 en
 s'middags
@@ -3770,7 +3707,6 @@ beste
 groeten
 in
 haast
- 
 van
 Piet
 .
@@ -3840,7 +3776,6 @@ on
 Saturday
 that
 professor
- 
 is
 coming
 in
@@ -3919,7 +3854,6 @@ best
 wishes
 in
 haste
- 
 from
 Piet
 .
@@ -4195,23 +4129,18 @@ Mijnheer
 G.
 Knap
 .
- 
 Sarphatiepark
 42
 II
 ​
- 
 Amsterdam
 .
- 
 \n
 ​
 \n
 W.
-Vr
-.
+Vr.
 n
- 
 Vrienden
 ​
 \n
@@ -4243,7 +4172,6 @@ Spoor
 je
 vr
 .
- 
 Piet
 .
 \n
@@ -4282,7 +4210,6 @@ Spoor
 your
 friend
 ,
- 
 Piet
 .
 \n
@@ -4630,18 +4557,13 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
 ​
- 
 ​
- 
 \n
  
 ​
- 
 \n
 ​
 \n
@@ -4655,9 +4577,7 @@ Ooststraat
 .a
 .
 ​
- 
 ​
- 
 Beste
 Zus
 ,
@@ -4679,7 +4599,6 @@ mijn
 adres
 .
 ,
- 
 opdat
 je
 me
@@ -4705,7 +4624,6 @@ verder
 maakt
 .
 ​
- 
 Ik
 ben
 hier
@@ -4795,7 +4713,6 @@ beste
 groeten
 van
 je
- 
 Piet
 .
 \n
@@ -4803,7 +4720,6 @@ Piet
 P.S.
 De
 poliep
- 
 is
 bij
 me
@@ -4811,7 +4727,6 @@ geweest
 —
 naar
 Knap
- 
 vertelde
 —
 kort
@@ -4832,7 +4747,6 @@ photo
 van
 een
 dame
- 
 —
 van
 jouw
@@ -4849,7 +4763,6 @@ aan
 Knap
 .
 ​
- 
 Ik
 heb
 hem
@@ -4872,7 +4785,6 @@ jij
 ze
 bij
 hem
- 
 gaan
 halen
 ,
@@ -4902,7 +4814,6 @@ jouwe
 terug
 .
 ​
- 
 Doe
 maar
 wat
@@ -4940,7 +4851,6 @@ vele
 groeten
 van
 je
- 
 Piet
 .
 \n
@@ -4953,9 +4863,7 @@ Ooststraat
 A.
 ​
  
- 
 ​
- 
 Dear
 Zus
 ,
@@ -5002,7 +4910,6 @@ getting
 on
 .
 ​
- 
 I
 ’ve
 completely
@@ -5088,7 +4995,6 @@ best
 wishes
 from
 your
- 
 Piet
 .
 \n
@@ -5096,14 +5002,12 @@ Piet
 P.S.
 The
 polyp
- 
 has
 been
 round
 —
 so
 Knap
- 
 told
 me
 —
@@ -5126,7 +5030,6 @@ woman
 —
 of
 you
- 
 —
 with
 him
@@ -5142,7 +5045,6 @@ to
 Knap
 .
 ​
- 
 I
 wrote
 and
@@ -5198,7 +5100,6 @@ yours
 back
 .
 ​
- 
 Do
 whichever
 you
@@ -5231,7 +5132,6 @@ best
 wishes
 from
 your
- 
 Piet
 .
 \n
@@ -5762,7 +5662,6 @@ ik
 dit
 ;
 ​
- 
 u
 zegt
 daar
@@ -5790,17 +5689,14 @@ de
 jaarlijksche
 te
 Arnhem
- 
 één
 schilderij
 ,
 dat
 geweigerd
- 
 werd
 ;
 ​
- 
 naar
 ​
 Brussel
@@ -5853,12 +5749,10 @@ schilders
 gewaardeerd
 .
 ​
- 
 Dat
 ze
 door
 Teirlinck
- 
 gewaardeerd
 werden
 ,
@@ -5872,7 +5766,6 @@ uwe
 waardeering
 .
 ​
- 
 Zoo'n
 letterkundige
 hebben
@@ -5964,7 +5857,6 @@ doen
 uitdrukken
 .
 ​
- 
 Ik
 heb
 alleen
@@ -6201,7 +6093,6 @@ tijd
 ,
 veel
 anders
- 
 zal
 moeten
 uitgebeeld
@@ -6841,7 +6732,6 @@ met
 veel
 hartelijks
 ,
- 
 Piet
 Mondriaan
 .
@@ -6868,7 +6758,6 @@ the
 first
 ;
 ​
- 
 in
 it
 you
@@ -6907,10 +6796,8 @@ was
 rejected
 ;
 ​
- 
 to
 Brussels
- 
 four
 of
 the
@@ -6958,7 +6845,6 @@ various
 painters
 .
 ​
- 
 In
 your
 appreciation
@@ -6975,7 +6861,6 @@ shown
 Teirlinck
 .
 ​
- 
 So
 we
 do
@@ -7070,7 +6955,6 @@ of
 prayer
 .
 ​
- 
 All
 I
 meant
@@ -7958,7 +7842,6 @@ very
 warm
 regards
 ,
- 
 Piet
 Mondriaan
 .
@@ -9128,7 +9011,6 @@ emendaties
 \n
 Zondagavond
 .
- 
 Kees
 ,
 \n
@@ -9170,13 +9052,11 @@ morgen
 —
 vele
 groeten
- 
 van
 Piet
 .
 \n
 Fernhout
- 
 zou
 jou
 komen
@@ -9200,7 +9080,6 @@ in
 t
 Concertgebouw
 ​
- 
 —
 Wacht
 dus
@@ -9213,7 +9092,6 @@ me
 Sunday
 evening
 .
- 
 Kees
 ,
 \n
@@ -9261,13 +9139,11 @@ tomorrow
 very
 best
 regards
- 
 from
 Piet
 .
 \n
 Fernhout
- 
 should
 pick
 you
@@ -9292,7 +9168,6 @@ Concertgebouw
 .
 –
 ​
- 
 So
 do
 n’t
@@ -9733,22 +9608,16 @@ emendaties
 \n
 \n
 ​
- 
 ​
- 
 \n
  
 ​
- 
 \n
 ​
- 
 ​
- 
 \n
  
 ​
- 
 \n
 ​
 \n
@@ -9782,7 +9651,6 @@ hooren
 Gelukkig
 dat
 jelui
- 
 '
 t
 zoo
@@ -9793,7 +9661,6 @@ en
 t
 niet
 te
- 
 erg
 tegenvalt
 ,
@@ -9803,14 +9670,12 @@ omgeving
 etc
 .
 ​
- 
 '
 t
 Zal
 voor
 je
 Moe
- 
 wel
 prettig
 en
@@ -9864,7 +9729,6 @@ de
 Philippona
 's
  
- 
 geweest
 :
 ze
@@ -9876,7 +9740,6 @@ erg
 jammer
 dat
 jelui
- 
 weg
 zijn
 en
@@ -9896,7 +9759,6 @@ jelui
 13
 Nov.
 ber
- 
 hier
 komen
 ;
@@ -9930,7 +9792,6 @@ gezien
 heb
 .
 ​
- 
 Ik
 denk
 in
@@ -9999,7 +9860,6 @@ Ik
 zal
 probeeren
 Reinier
- 
 ook
 als
 stierenvechter
@@ -10019,12 +9879,10 @@ Zeeland
 bezig
 .
 ​
- 
 Ik
 heb
 eenige
 bloemen
- 
 gemaakt
 ,
 (
@@ -10043,7 +9901,6 @@ bezig
 met
 eenige
 schilderijtjes
- 
 die
 ik
 verkoopen
@@ -10178,7 +10035,6 @@ Annie
 ,
 je
 vriendje
- 
 Piet
 .
 \n
@@ -10208,7 +10064,6 @@ It
 good
 that
 you
- 
 can
 adjust
 so
@@ -10219,7 +10074,6 @@ it
 ’s
 not
 too
- 
 disappointing
 ,
 the
@@ -10228,7 +10082,6 @@ surroundings
 etc
 .
 ​
- 
 It
 will
 be
@@ -10237,7 +10090,6 @@ nice
 for
 your
 Ma
- 
 to
 have
 you
@@ -10292,7 +10144,6 @@ the
 Philipponas
 ’
  
- 
 a
 few
 times
@@ -10307,7 +10158,6 @@ great
 pity
 that
 you
- 
 have
 both
 gone
@@ -10358,7 +10208,6 @@ seen
 that
 .
 ​
- 
 I
 ’m
 thinking
@@ -10431,7 +10280,6 @@ try
 to
 get
 Reinier
- 
 as
 a
 matador
@@ -10450,14 +10298,12 @@ Zeeland
 yet
 .
 ​
- 
 I
 have
 made
 a
 few
 flowers
- 
 (
 one
 of
@@ -10465,7 +10311,6 @@ them
 is
 at
 Arti
- 
 now
 )
 ,
@@ -10478,7 +10323,6 @@ on
 some
 small
 paintings
- 
 I
 can
 sell
@@ -10603,7 +10447,6 @@ too
 ,
 your
 friend
- 
 Piet
 .
 \n
@@ -11096,7 +10939,6 @@ even
 duur
 .
 Helmhout
- 
 gaf
 op
 f
@@ -11122,7 +10964,6 @@ zullen
 ze
 van
 Lucas
- 
 er
 wat
 af
@@ -11165,7 +11006,6 @@ Met
 vele
 beste
 groeten
- 
 in
 haast
 ,
@@ -11206,7 +11046,6 @@ as
 dear
 .
 Helmhout
- 
 charges
 f
 5
@@ -11222,7 +11061,6 @@ outfits
  
 the
 Lucas
- 
 people
 will
 see
@@ -11271,7 +11109,6 @@ very
 best
 wishes
 ,
- 
 in
 haste
 ,
@@ -11660,7 +11497,6 @@ niet
 "
 mijnheer
 "
- 
 schrijven
 ,
 ik
@@ -11703,7 +11539,6 @@ laten
 zien
 .
 ​
- 
 Maar
 daar
 ik
@@ -12172,7 +12007,6 @@ God
 worden
 .
 ​
- 
 Hoe
 zou
 dit
@@ -12216,7 +12050,6 @@ veel
 beste
 groeten
 van
- 
 Piet
 Mondriaan
 .
@@ -12283,7 +12116,6 @@ my
 work
 .
 ​
- 
 But
 since
 I
@@ -12582,7 +12414,6 @@ the
 artist
 should
 not
- 
 do
 that
 .
@@ -12759,7 +12590,6 @@ becoming
 God
 .
 ​
- 
 How
 can
 this
@@ -13598,7 +13428,7 @@ consciousness
 .
 \n
 \n
-16604	Brief
+16333	Brief
 aan
 Aletta
 de
@@ -13664,7 +13494,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 20.7.15
@@ -13730,7 +13561,7 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
+\n
 \n
 \n
 Beste
@@ -13759,15 +13590,12 @@ ik
 een
 plaats
 voor
-v
-.
+v.
  
 Buhlig
- 
 voor
 je
 .
- 
 En
 dan
 kunnen
@@ -13829,11 +13657,9 @@ ticket
 for
 van
 Buhlig
- 
 for
 you
 .
- 
 And
 then
 we
@@ -13847,7 +13673,8 @@ Thursday
 afternoon
 because
 I
-can’t
+ca
+n’t
 manage
 that
 .
@@ -13858,7 +13685,6 @@ very
 best
 wishes
 ,
- 
 your
 Piet
 .
@@ -13914,7 +13740,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 18.8.16
@@ -13982,7 +13809,7 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
+\n
 \n
 \n
  
@@ -14026,7 +13853,6 @@ in
 '
 t
 museum
- 
 bij
 '
 t
@@ -14042,11 +13868,8 @@ in
 de
 jury
 van
- 
 St
- 
 Lucas
- 
 ben
 .
 \n
@@ -14095,7 +13918,6 @@ Paaschdagen
 naar
 Arnhem
 .
- 
 Ik
 kom
 dus
@@ -14113,7 +13935,6 @@ Dag
 Veel
 beste
 groeten
- 
 je
 Piet
 .
@@ -14123,9 +13944,11 @@ Dear
 Zus
 ,
 \n
-I’m
+I
+’m
 sorry
-I’m
+I
+’m
 sending
 you
 such
@@ -14133,10 +13956,10 @@ a
 crumpled
 envelope
 ,
- 
 but
 I
-didn’t
+did
+n’t
 have
 any
 more
@@ -14159,7 +13982,6 @@ be
 in
 the
 museum
- 
 tomorrow
 afternoon
 when
@@ -14168,16 +13990,17 @@ paintings
 are
 hung
 because
-I’m
+I
+’m
 on
 the
 St
 Lucas
- 
 jury
 .
 \n
-I’ve
+I
+’ve
 already
 been
 there
@@ -14189,7 +14012,8 @@ of
 the
 week
 .
-I’d
+I
+’d
 like
 to
 come
@@ -14203,9 +14027,11 @@ and
 ,
 otherwise
 I
-don’t
+do
+n’t
 think
-I’ll
+I
+’ll
 see
 you
 again
@@ -14223,16 +14049,17 @@ Arnhem
 for
 Easter
 .
- 
 So
-I’ll
+I
+’ll
 call
 round
 tomorrow
 to
 see
 if
-you’re
+you
+’re
 home
 .
 \n
@@ -14244,7 +14071,6 @@ very
 best
 wishes
 ,
- 
 your
 Piet
 .
@@ -14311,7 +14137,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 21.7.15
@@ -14370,8 +14197,8 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
- 
+\n
+\n
 \n
 Beste
 Zus
@@ -14384,7 +14211,6 @@ de
 "
 schedelmeter
 "
- 
 bij
 me
 ,
@@ -14392,7 +14218,6 @@ hij
 zag
 de
 schetsen
- 
 naar
 jouw
 en
@@ -14418,7 +14243,6 @@ je
 woû
 opnemen
 .
- 
 Hij
 komt
 Zondag
@@ -14531,7 +14355,6 @@ beste
 lieve
 Zus
 ,
- 
 je
 Piet
 .
@@ -14546,7 +14369,6 @@ The
 skull
 measurer
 ”
- 
 came
 round
 this
@@ -14580,8 +14402,8 @@ photograph
 of
 you
 .
- 
-He’s
+He
+’s
 coming
 here
 again
@@ -14605,21 +14427,24 @@ at
 o’clock
 ,
 otherwise
-I’ll
+I
+’ll
 just
 write
 and
 tell
 him
 you
-can’t
+ca
+n’t
 come
 ,
 in
 the
 event
 that
-you’d
+you
+’d
 rather
 decline
 .
@@ -14638,7 +14463,8 @@ from
 him
 and
 perhaps
-he’ll
+he
+’ll
 put
 you
 in
@@ -14646,7 +14472,8 @@ a
 book
 later
 :
-I’m
+I
+’m
 just
 warning
  
@@ -14661,12 +14488,14 @@ you
 wish
 .
 \n
-Let’s
+Let
+’s
 agree
 that
 if
 you
-don’t
+do
+n’t
 have
 the
 inclination
@@ -14751,7 +14580,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 18.8.16
@@ -14823,7 +14653,7 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
+\n
 \n
 \n
  
@@ -14836,7 +14666,6 @@ morgen
 is
 de
 poliep
- 
 niet
 geweest
 ,
@@ -14875,7 +14704,6 @@ s'Dinsdags
 behalve
 den
 1e
- 
 Dinsdag
 ,
 van
@@ -14888,7 +14716,6 @@ voor
 de
 leden
 .
- 
 Als
 je
 me
@@ -14936,7 +14763,6 @@ Dag
 !
 hartelijke
 groeten
- 
 van
 je
 Piet
@@ -14949,8 +14775,8 @@ Zus
 \n
 The
 polyp
- 
-didn’t
+did
+n’t
 come
 yesterday
 morning
@@ -14973,7 +14799,8 @@ write
 to
 him
 .
-It’s
+It
+’s
 fine
 for
 you
@@ -15007,7 +14834,6 @@ to
 the
 members
 .
- 
 So
 if
 you
@@ -15028,7 +14854,8 @@ go
 .
 If
 you
-aren’t
+are
+n’t
 with
 me
 by
@@ -15036,13 +14863,16 @@ a
 quarter
 to
 eight
-I’ll
+I
+’ll
 assume
 you
-can’t
+ca
+n’t
 come
 and
-I’ll
+I
+’ll
 leave
 .
 \n
@@ -15050,7 +14880,6 @@ Bye
 !
 Warm
 wishes
- 
 from
 your
 Piet
@@ -15108,7 +14937,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 20.7.15
@@ -15174,7 +15004,7 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
+\n
 \n
 \n
 Beste
@@ -15240,7 +15070,6 @@ week
 En
 kan
 je
- 
 Zaterdag
 na
 de
@@ -15249,9 +15078,7 @@ met
 me
 naar
 St
- 
 Lucas
- 
 gaan
 ?
 Want
@@ -15261,7 +15088,6 @@ de
 laatste
 dag
 .
- 
 Mij
 komt
 '
@@ -15315,7 +15141,6 @@ groeten
 van
 je
 toegenegen
- 
 Piet
 .
 \n
@@ -15324,7 +15149,6 @@ heb
 van
 de
 poliep
- 
 nog
 geen
 portretten
@@ -15371,7 +15195,8 @@ headache
 ,
 and
 so
-I’m
+I
+’m
 getting
 out
 myself
@@ -15404,7 +15229,6 @@ me
 to
 St
 Lucas
- 
 on
 Saturday
 after
@@ -15417,7 +15241,6 @@ the
 last
 day
 .
- 
 Two
 o’clock
 works
@@ -15426,7 +15249,8 @@ best
 for
 me
 :
-I’m
+I
+’m
 free
 until
 3.30
@@ -15437,7 +15261,8 @@ can
 ,
 and
 I
-haven’t
+have
+n’t
 heard
 from
 you
@@ -15468,13 +15293,13 @@ wishes
 from
 your
 affectionate
- 
 Piet
 .
 \n
 I
 still
-haven’t
+have
+n’t
 got
 any
 portraits
@@ -15484,7 +15309,8 @@ polyp
 ;
 but
 I
-haven’t
+have
+n’t
 been
 home
 much
@@ -15531,7 +15357,8 @@ KM
 \n
 \n
 \n
-envelopePiet
+envelope
+Piet
 Mondriaan
 \n
 donderdag
@@ -15543,7 +15370,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 20.7.15
@@ -15612,7 +15440,7 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
+\n
 \n
 \n
  
@@ -15621,14 +15449,13 @@ Aletta
 de
 Jongh
 .
- 
 van
 Eeghenstraat
 40
 .
- 
 Stad
 .
+\n
 \n
 Beste
 Zus
@@ -15640,7 +15467,6 @@ van
 middag
 met
 Spoor
- 
 even
 in
 Domburg
@@ -15665,7 +15491,6 @@ ik
 weêr
 hier
 .
- 
 '
 t
 Komt
@@ -15714,7 +15539,6 @@ groeten
 je
 toegen
 .
- 
 Piet
 .
 \n
@@ -15725,7 +15549,8 @@ Zus
 \n
 This
 afternoon
-I’m
+I
+’m
 going
 to
 Domburg
@@ -15734,7 +15559,6 @@ a
 while
 with
 Spoor
- 
 to
 see
 if
@@ -15744,7 +15568,8 @@ get
 lodgings
 ,
 so
-don’t
+do
+n’t
 come
 this
 week
@@ -15758,7 +15583,6 @@ the
 week
 after
 .
- 
 I
 suppose
 Thursday
@@ -15773,19 +15597,24 @@ eh
 ?
 If
 I
-don’t
+do
+n’t
 hear
 anything
 ,
-I’ll
+I
+’ll
 assume
-you’re
+you
+’re
 coming
 .
-I’m
+I
+’m
 sorry
 I
-couldn’t
+could
+n’t
 let
 you
 know
@@ -15800,7 +15629,6 @@ wishes
 ,
 your
 affectionate
- 
 Piet
 .
 \n
@@ -15855,7 +15683,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 21.7.15
@@ -15952,7 +15781,6 @@ bij
 mij
 betreft
 ,
- 
 kon
 '
 t
@@ -15986,7 +15814,9 @@ Zaterdag
 komt
 s'morgens
 die
-professoren
+professor
+ 
+en
 s'middags
 weet
 ik
@@ -16045,7 +15875,6 @@ beste
 groeten
 in
 haast
- 
 van
 Piet
 .
@@ -16080,7 +15909,8 @@ is
 concerned
 ,
 it
-couldn’t
+could
+n’t
 work
 out
 worse
@@ -16100,7 +15930,8 @@ me
 (
 which
 I
-can’t
+ca
+n’t
 put
 off
 any
@@ -16113,7 +15944,6 @@ on
 Saturday
 that
 professor
- 
 is
 coming
 in
@@ -16122,7 +15952,8 @@ morning
  
 and
 I
-don’t
+do
+n’t
 know
 what
 will
@@ -16132,7 +15963,8 @@ the
 afternoon
 ,
 whether
-I’ll
+I
+’ll
 still
 have
 to
@@ -16140,7 +15972,8 @@ go
 out
 .
 \n
-It’s
+It
+’s
 a
 great
 shame
@@ -16152,7 +15985,8 @@ way
 .
 But
 then
-I’ll
+I
+’ll
 see
 you
 on
@@ -16160,7 +15994,8 @@ Saturday
 evening
 anyway
 .
-I’ve
+I
+’ve
 got
 a
 dreadful
@@ -16170,7 +16005,8 @@ the
 moment
 ,
 but
-I’m
+I
+’m
 sure
 it
 will
@@ -16185,7 +16021,6 @@ best
 wishes
 in
 haste
- 
 from
 Piet
 .
@@ -16244,7 +16079,8 @@ Zoutelande
 \n
 Gerrit
 Willem
-Knaptranscriptie
+Knap
+transcriptie
 :
 voltooid
 \n
@@ -16326,18 +16162,14 @@ Mijnheer
 G.
 Knap
 .
- 
 Sarphatiepark
 42II
- 
 Amsterdam
 .
 \n
+\n
 W.
-Vr
-.
-n
- 
+Vr.n
 Vrienden
 \n
 hier
@@ -16367,7 +16199,6 @@ Spoor
 je
 vr
 .
- 
 Piet
 .
 \n
@@ -16404,7 +16235,6 @@ Spoor
 your
 friend
 ,
- 
 Piet
 .
 \n
@@ -16457,7 +16287,8 @@ Domburg
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 21.7.15
@@ -16523,16 +16354,14 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
- 
+\n
+\n
 \n
 Domburg
 .
 Ooststraat
 4.a
 .
- 
- 
 Beste
 Zus
 ,
@@ -16553,7 +16382,6 @@ je
 mijn
 adres
 ,
- 
 opdat
 je
 me
@@ -16578,7 +16406,6 @@ t
 verder
 maakt
 .
- 
 Ik
 ben
 hier
@@ -16666,14 +16493,12 @@ beste
 groeten
 van
 je
- 
 Piet
 .
 \n
 P.S.
 De
 poliep
- 
 is
 bij
 me
@@ -16681,7 +16506,6 @@ geweest
 —
 naar
 Knap
- 
 vertelde
 —
 kort
@@ -16697,11 +16521,11 @@ thuis
 Hij
 had
 ook
-photo's
+photo
+'s
 van
 een
 dame
- 
 —
 van
 jouw
@@ -16717,7 +16541,6 @@ zien
 aan
 Knap
 .
- 
 Ik
 heb
 hem
@@ -16740,7 +16563,6 @@ jij
 ze
 bij
 hem
- 
 gaan
 halen
 ,
@@ -16767,7 +16589,6 @@ de
 jouwe
 terug
 .
- 
 Doe
 maar
 wat
@@ -16804,7 +16625,6 @@ vele
 groeten
 van
 je
- 
 Piet
 .
 \n
@@ -16829,7 +16649,8 @@ Amsterdam
 again
 and
 so
-I’m
+I
+’m
 writing
 to
 tell
@@ -16845,7 +16666,8 @@ let
 me
 know
 whether
-anything’s
+anything
+’s
 been
 decided
 about
@@ -16854,24 +16676,27 @@ yet
 ,
 and
 how
-you’re
+you
+’re
 getting
 on
 .
- 
-I’ve
+I
+’ve
 completely
 recovered
 here
 ;
-it’s
+it
+’s
 very
 healthy
 here
 .
 But
 the
-weather’s
+weather
+’s
 not
 been
 very
@@ -16918,7 +16743,8 @@ things
 of
 here
 .
-You’re
+You
+’re
 staying
 in
 Amsterdam
@@ -16938,21 +16764,18 @@ best
 wishes
 from
 your
- 
 Piet
 .
 \n
 P.S.
 The
 polyp
- 
 has
 been
 round
 —
 so
 Knap
- 
 told
 me
 —
@@ -16975,13 +16798,13 @@ woman
 —
 of
 you
- 
 —
 with
 him
 but
 he
-wouldn’t
+would
+n’t
 show
 any
 of
@@ -16989,7 +16812,6 @@ them
 to
 Knap
 .
- 
 I
 wrote
 and
@@ -17018,7 +16840,8 @@ them
 from
 him
 ,
-that’s
+that
+’s
 fine
 .
 He
@@ -17037,12 +16860,12 @@ me
 ,
 and
 then
-I’ll
+I
+’ll
 send
 yours
 back
 .
- 
 Do
 whichever
 you
@@ -17051,7 +16874,8 @@ prefer
 Tell
 him
 that
-I’ll
+I
+’ll
 give
 him
 a
@@ -17073,7 +16897,6 @@ best
 wishes
 from
 your
- 
 Piet
 .
 \n
@@ -17125,7 +16948,8 @@ september
 Domburg
 \n
 Israël
-Queridotranscriptie
+Querido
+transcriptie
 :
 voltooid
 6.8.18
@@ -17194,7 +17018,8 @@ aanpassing
 afkortingen
 en
 emendaties
-21.4.2023Waarde
+21.4.2023
+Waarde
 Querido
 .
 \n
@@ -17216,7 +17041,6 @@ vind
 ik
 dit
 ;
- 
 u
 zegt
 daar
@@ -17244,16 +17068,13 @@ de
 jaarlijksche
 te
 Arnhem
- 
 één
 schilderij
 ,
 dat
 geweigerd
- 
 werd
 ;
- 
 naar
 Brussel
 vier
@@ -17304,12 +17125,10 @@ verscheidene
 schilders
 gewaardeerd
 .
- 
 Dat
 ze
 door
 Teirlinck
- 
 gewaardeerd
 werden
 ,
@@ -17322,7 +17141,6 @@ door
 uwe
 waardeering
 .
- 
 Zoo'n
 letterkundige
 hebben
@@ -17412,7 +17230,6 @@ wilde
 doen
 uitdrukken
 .
- 
 Ik
 heb
 alleen
@@ -17648,7 +17465,6 @@ tijd
 ,
 veel
 anders
- 
 zal
 moeten
 uitgebeeld
@@ -18284,7 +18100,6 @@ met
 veel
 hartelijks
 ,
- 
 Piet
 Mondriaan
 .
@@ -18310,7 +18125,6 @@ than
 the
 first
 ;
- 
 in
 it
 you
@@ -18348,10 +18162,8 @@ which
 was
 rejected
 ;
- 
 to
 Brussels
- 
 four
 of
 the
@@ -18398,7 +18210,6 @@ by
 various
 painters
 .
- 
 In
 your
 appreciation
@@ -18414,7 +18225,6 @@ appreciation
 shown
 Teirlinck
 .
- 
 So
 we
 do
@@ -18508,7 +18318,6 @@ act
 of
 prayer
 .
- 
 All
 I
 meant
@@ -18593,7 +18402,8 @@ that
 respect
 ;
 I
-don’t
+do
+n’t
 want
 to
 do
@@ -18712,7 +18522,8 @@ either
 ,
 that
 I
-cannot
+can
+not
 find
 it
 beautiful
@@ -19392,7 +19203,6 @@ very
 warm
 regards
 ,
- 
 Piet
 Mondriaan
 .
@@ -19443,7 +19253,8 @@ oktober
 Amsterdam
 \n
 Cornelis
-Spoortranscriptie
+Spoor
+transcriptie
 :
 voltooid
 24.5.16
@@ -19514,7 +19325,6 @@ emendaties
 \n
 Zondagavond
 .
- 
 Kees
 ,
 \n
@@ -19555,13 +19365,11 @@ morgen
 —
 vele
 groeten
- 
 van
 Piet
 .
 \n
 Fernhout
- 
 zou
 jou
 komen
@@ -19584,7 +19392,6 @@ in
 '
 t
 Concertgebouw
- 
 —
 Wacht
 dus
@@ -19597,12 +19404,12 @@ me
 Sunday
 evening
 .
- 
 Kees
 ,
 \n
 Since
-I’ve
+I
+’ve
 had
 no
 opportunity
@@ -19612,7 +19419,8 @@ them
 to
 you
 ,
-I’m
+I
+’m
 sending
 you
 the
@@ -19642,19 +19450,18 @@ tomorrow
 very
 best
 regards
- 
 from
 Piet
 .
 \n
 Fernhout
- 
 should
 pick
 you
 up
 ;
-I’ll
+I
+’ll
 fetch
 the
 ladies
@@ -19671,9 +19478,9 @@ the
 Concertgebouw
 .
 –
- 
 So
-don’t
+do
+n’t
 wait
 for
 me
@@ -19749,7 +19556,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 21.7.15
@@ -19820,8 +19628,8 @@ afkortingen
 en
 emendaties
 21.4.2023
- 
- 
+\n
+\n
 \n
 Sarphatiep
 .
@@ -19849,7 +19657,6 @@ hooren
 Gelukkig
 dat
 jelui
- 
 '
 t
 zoo
@@ -19860,7 +19667,6 @@ en
 t
 niet
 te
- 
 erg
 tegenvalt
 ,
@@ -19869,14 +19675,12 @@ nieuwe
 omgeving
 etc
 .
- 
 '
 t
 Zal
 voor
 je
 Moe
- 
 wel
 prettig
 en
@@ -19926,7 +19730,10 @@ paar
 maal
 bij
 de
-Philippona'sgeweest
+Philippona
+'s
+ 
+geweest
 :
 ze
 vinden
@@ -19937,7 +19744,6 @@ erg
 jammer
 dat
 jelui
- 
 weg
 zijn
 en
@@ -19956,7 +19762,6 @@ als
 jelui
 13
 Nov.ber
- 
 hier
 komen
 ;
@@ -19989,7 +19794,6 @@ dat
 gezien
 heb
 .
- 
 Ik
 denk
 in
@@ -20058,7 +19862,6 @@ Ik
 zal
 probeeren
 Reinier
- 
 ook
 als
 stierenvechter
@@ -20077,12 +19880,10 @@ uit
 Zeeland
 bezig
 .
- 
 Ik
 heb
 eenige
 bloemen
- 
 gemaakt
 ,
 (
@@ -20101,7 +19902,6 @@ bezig
 met
 eenige
 schilderijtjes
- 
 die
 ik
 verkoopen
@@ -20235,7 +20035,6 @@ Annie
 ,
 je
 vriendje
- 
 Piet
 .
 \n
@@ -20259,21 +20058,21 @@ from
 you
 again
 .
-It’s
+It
+’s
 good
 that
 you
- 
 can
 adjust
 so
 well
 and
 that
-it’s
+it
+’s
 not
 too
- 
 disappointing
 ,
 the
@@ -20281,7 +20080,6 @@ new
 surroundings
 etc
 .
- 
 It
 will
 be
@@ -20290,7 +20088,6 @@ nice
 for
 your
 Ma
- 
 to
 have
 you
@@ -20316,10 +20113,12 @@ all
 ,
 and
 when
-you’re
+you
+’re
 busy
 you
-don’t
+do
+n’t
 miss
 a
 lot
@@ -20333,13 +20132,15 @@ or
 desirable
 !
 \n
-I’ve
+I
+’ve
 already
 been
 to
 the
 Philipponas
 ’
+ 
 a
 few
 times
@@ -20347,18 +20148,19 @@ times
 they
 also
 think
-it’s
+it
+’s
 a
 great
 pity
 that
 you
- 
 have
 both
 gone
 and
-they’re
+they
+’re
 still
 doing
 all
@@ -20379,7 +20181,8 @@ November
 ;
 I
 think
-you’ll
+you
+’ll
 enjoy
 it
 .
@@ -20396,12 +20199,13 @@ together
 a
 bullfight
 because
-I’ve
+I
+’ve
 seen
 that
 .
- 
-I’m
+I
+’m
 thinking
 of
 going
@@ -20411,25 +20215,29 @@ velvet
 ,
 if
 it
-doesn’t
+does
+n’t
 work
 out
 too
 dear
 .
-I’ll
+I
+’ll
 find
 out
 for
 you
 what
 a
-lady’s
+lady
+’s
 costume
 costs
 ,
 because
-I’ve
+I
+’ve
 heard
 we
 can
@@ -20443,7 +20251,8 @@ a
 combination
 .
 So
-I’ll
+I
+’ll
 write
 to
 you
@@ -20467,7 +20276,6 @@ try
 to
 get
 Reinier
- 
 as
 a
 matador
@@ -20475,7 +20283,8 @@ too
 .
 \n
 I
-haven’t
+have
+n’t
 started
 on
 the
@@ -20484,14 +20293,12 @@ from
 Zeeland
 yet
 .
- 
 I
 have
 made
 a
 few
 flowers
- 
 (
 one
 of
@@ -20499,19 +20306,18 @@ them
 is
 at
 Arti
- 
 now
 )
 ,
 and
 now
-I’m
+I
+’m
 working
 on
 some
 small
 paintings
- 
 I
 can
 sell
@@ -20533,7 +20339,8 @@ people
 want
 ,
 but
-it’s
+it
+’s
 pecuniae
 causa
 .
@@ -20548,7 +20355,8 @@ that
 velvet
 tie
 !
-Don’t
+Do
+n’t
 make
 it
 as
@@ -20607,7 +20415,8 @@ child
 I
 hope
 you
-won’t
+wo
+n’t
 have
 to
 spend
@@ -20632,7 +20441,6 @@ too
 ,
 your
 friend
- 
 Piet
 .
 \n
@@ -20702,7 +20510,8 @@ Amsterdam
 \n
 Aletta
 de
-Ionghtranscriptie
+Iongh
+transcriptie
 :
 voltooid
 22.7.15
@@ -20800,18 +20609,15 @@ even
 duur
 .
 Helmhout
- 
 gaf
 op
-f
-.
+f.
  
 5
 voor
 gewone
 en
-f
-.
+f.
  
 7.50
 voor
@@ -20824,7 +20630,6 @@ zullen
 ze
 van
 Lucas
- 
 er
 wat
 af
@@ -20866,7 +20671,6 @@ Met
 vele
 beste
 groeten
- 
 in
 haast
 ,
@@ -20899,14 +20703,14 @@ party
 .
 Well
 ,
-they’re
+they
+’re
 all
 just
 as
 dear
 .
 Helmhout
- 
 charges
 f
 5
@@ -20922,7 +20726,6 @@ outfits
  
 the
 Lucas
- 
 people
 will
 see
@@ -20937,7 +20740,8 @@ off
 I
 just
 thought
-I’d
+I
+’d
 let
 you
 know
@@ -20969,7 +20773,6 @@ very
 best
 wishes
 ,
- 
 in
 haste
 ,
@@ -21041,7 +20844,8 @@ januari
 Amsterdam
 \n
 Arnold
-Saalborntranscriptie
+Saalborn
+transcriptie
 :
 voltooid
 25.1.16
@@ -21127,7 +20931,6 @@ niet
 "
 mijnheer
 "
- 
 schrijven
 ,
 ik
@@ -21169,7 +20972,6 @@ werk
 laten
 zien
 .
- 
 Maar
 daar
 ik
@@ -21629,7 +21431,6 @@ eindelijk
 God
 worden
 .
- 
 Hoe
 zou
 dit
@@ -21672,7 +21473,6 @@ veel
 beste
 groeten
 van
- 
 Piet
 Mondriaan
 .
@@ -21738,7 +21538,6 @@ of
 my
 work
 .
- 
 But
 since
 I
@@ -21782,7 +21581,8 @@ work
 to
 do
 .
-That’s
+That
+’s
 why
 I
 must
@@ -21810,7 +21610,8 @@ things
 ,
 but
 I
-don’t
+do
+n’t
 think
 that
 writing
@@ -21915,7 +21716,8 @@ people
 and
 artists
 ,
-don’t
+do
+n’t
 you
 agree
 ?
@@ -21957,7 +21759,8 @@ can
 live
 anyway
 ;
-that’s
+that
+’s
 just
 one
 example
@@ -22033,7 +21836,6 @@ the
 artist
 should
 not
- 
 do
 that
 .
@@ -22209,7 +22011,6 @@ end
 becoming
 God
 .
- 
 How
 can
 this
@@ -22225,7 +22026,8 @@ differently
 ,
 and
 so
-that’s
+that
+’s
 why
 I
 think
@@ -22255,15 +22057,22 @@ Mondriaan
 .
 \n
 \n
-len
-benkan
+l
+en
+ben
+kan
  
 dus
 :
 .
 de
-mijneniet
-denenidanManuscript
+mijne
+niet
+den
+en
+i
+dan
+Manuscript
 .
 \n
 De
@@ -22724,7 +22533,8 @@ Mondriaan
 Hoewel
 er
 enkele
-portretfoto's
+portretfoto
+'s
 van
 De
 Iongh
@@ -22901,7 +22711,8 @@ april
 1909
 .
 \n
-Portretfoto's
+Portretfoto
+'s
 van
 De
 Iongh
@@ -23052,7 +22863,8 @@ p.
 25
 .
 \n
-Portretfoto's
+Portretfoto
+'s
 van
 De
 Iongh
@@ -23774,7 +23586,8 @@ precizeren
 ontbreken
 .
 \n
-Portretfoto's
+Portretfoto
+'s
 van
 De
 Iongh
@@ -23958,7 +23771,8 @@ p.
 Mogelijk
 wilde
 Mondriaan
-portretfoto's
+portretfoto
+'s
 van
 De
 Iongh
@@ -23979,7 +23793,8 @@ maakte
 Hij
 gebruikte
 vaker
-foto's
+foto
+'s
 als
 hulpmiddel
 bij
@@ -24520,7 +24335,8 @@ Jan
 Sluijters
 .
  
-Querido's
+Querido
+'s
 artikel
 met
 Mondriaans
@@ -24587,7 +24403,8 @@ p.
 263
 .
 \n
-Querido's
+Querido
+'s
 artikelenreeks
 '
 Van
@@ -24926,7 +24743,8 @@ over
 de
 Doe
 Stil
-Voort-tentoonstelling
+Voort
+-tentoonstelling
  
 (
 Algemeen
@@ -26420,7 +26238,8 @@ a
 brief
 visit
 to
-Mondrian’s
+Mondrian
+’s
 studio
 at
 Sarphatipark

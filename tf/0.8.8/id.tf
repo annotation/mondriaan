@@ -21,9 +21,9 @@
 @version=0.8.8
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-26T10:06:52Z
+@dateWritten=2023-05-26T12:31:53Z
 
-13936	p.nl.3
+13766	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -53,9 +53,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-14091	PD
-14096	PD
-14111	wc
+13921	PD
+13926	PD
+13941	wc
 lj
 wc
 lj
@@ -83,7 +83,7 @@ wc
 lj
 wc
 lj
-14472	n_transcrSource
+14302	n_transcrSource
 n_dating
 ogt_1_NL
 Zus
@@ -98,7 +98,7 @@ n_transcrSource_NL
 n_dating_NL
 ogt_1_NL
 schedelmeter
-14488	n_transcrSource
+14318	n_transcrSource
 n_dating
 ogt_1
 note_1
@@ -152,7 +152,7 @@ n_dating
 n_pubhistory
 Fernhout
 deDames
-14543	n_transcrSource
+14373	n_transcrSource
 n_dating
 ogt_1_NL
 nieuweOmgeving
@@ -176,7 +176,7 @@ n_pubhistory
 ogt_1
 werkTonen
 godWorden
-14581	p.nl.1
+14411	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -204,33 +204,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-14621	p.nl.2
+14451	p.nl.2
 p.en.2
-14624	p.nl.2
+14454	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14629	p.nl.2
+14459	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14634	p.nl.2
+14464	p.nl.2
 p.en.2
-14637	p.nl.2
+14467	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-14644	p.nl.2
+14474	p.nl.2
 p.en.2
-14647	p.nl.2
+14477	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-14652	p.nl.2
+14482	p.nl.2
 p.en.2
-14655	p.nl.2
+14485	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -239,7 +239,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-14665	p.nl.2
+14495	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -253,11 +253,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-14680	p.nl.2
+14510	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-14685	p.nl.2
+14515	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -265,12 +265,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-14694	p.nl.2
+14524	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-14700	p.nl.2
+14530	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -280,7 +280,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-15330	s1r
+15160	s1r
 s1v
 ser
 sev
@@ -329,7 +329,7 @@ ser
 sev
 s1r
 s1v
-15439	z1r1
+15269	z1r1
 z1r1
 z1r1
 z1v2
