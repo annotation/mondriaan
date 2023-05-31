@@ -14,6 +14,7 @@ generic:
     Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
   contributors3: |-
     "Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
+
 extra:
   msid:
     meta:
@@ -208,3 +209,9 @@ sectionModel:
   - folder
   - letter
   - chunk
+
+backmatter:
+  folder: references
+  templates:
+    - bibliography
+

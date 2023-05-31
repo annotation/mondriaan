@@ -1,0 +1,257 @@
+@node
+@author=Piet Mondriaan
+@contributors1=Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+@contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+@contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
+@conversionCode=tf
+@conversionMethod=provided
+@converter=Dirk Roorda (Text-Fabric)
+@dateWritten=2023-05-31T12:43:28Z
+@description=whether a slot has been inserted in an empty element
+@descriptionTf=Critical edition
+@institute1=HuC (Humanities Cluster) Amsterdam
+@institute2=Huygens Instituut Amsterdam
+@institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
+@language=nl
+@schema=TEI + MD
+@sourceFormat=TEI
+@teiVersion=2023-05-24
+@title=Letters
+@valueType=int
+@version=0.8.10
+@writtenBy=Text-Fabric
+@writtenBy=Text-Fabric
+@dateWritten=2023-05-31T12:44:46Z
+
+1
+47	1
+49	1
+1
+144	1
+1
+147	1
+149	1
+151	1
+158	1
+173	1
+183	1
+193	1
+223	1
+225	1
+260	1
+343	1
+436	1
+474	1
+476	1
+1
+565	1
+1
+568	1
+570	1
+572	1
+591	1
+637	1
+684	1
+723	1
+766	1
+818	1
+905	1
+1005	1
+1047	1
+1049	1
+1
+1136	1
+1
+1139	1
+1
+1142	1
+1144	1
+1151	1
+1191	1
+1259	1
+1270	1
+1316	1
+1355	1
+1592	1
+1733	1
+1738	1
+1740	1
+1742	1
+1745	1
+1783	1
+1785	1
+1
+1878	1
+1
+1881	1
+1883	1
+1885	1
+1949	1
+2068	1
+2304	1
+2342	1
+2344	1
+1
+2431	1
+1
+2434	1
+2436	1
+2438	1
+2480	1
+2524	1
+2568	1
+2639	1
+2680	1
+2723	1
+2931	1
+2969	1
+2971	1
+1
+3063	1
+1
+3066	1
+3068	1
+3070	1
+3092	1
+3133	1
+3178	1
+3228	1
+3390	1
+3430	1
+3468	1
+3470	1
+1
+3557	1
+3559	1
+3561	1
+3563	1
+3647	1
+3681	1
+3787	1
+3964	1
+4003	1
+4005	1
+1
+4101	1
+4103	1
+4118	1
+4126	1
+4132	1
+4149	1
+4169	1
+4187	1
+4301	1
+4421	1
+4458	1
+4460	1
+1
+4546	1
+1
+4549	1
+1
+4553	1
+4555	1
+4557	1
+4566	1
+1
+4613	1
+4647	1
+4692	1
+4706	1
+4752	1
+4803	1
+4830	1
+4851	1
+4853	1
+4899	1
+4930	1
+4973	1
+4988	1
+5034	1
+5089	1
+5111	1
+5499	1
+5536	1
+5538	1
+1
+5626	1
+5651	1
+5686	1
+5688	1
+5738	1
+5755	1
+5774	1
+5846	1
+5901	1
+6269	1
+6597	1
+6747	1
+6785	1
+6834	1
+6850	1
+6944	1
+7370	1
+7688	1
+8412	1
+8868	1
+8902	1
+8904	1
+1
+8990	1
+8992	1
+8994	1
+8996	1
+9035	1
+9069	1
+9120	1
+9157	1
+9444	1
+9447	1
+9487	1
+9489	1
+9597	1
+1
+9601	1
+9603	1
+1
+9607	1
+9609	1
+9611	1
+9621	1
+9659	1
+9706	1
+9781	1
+9868	1
+9921	1
+10034	1
+10071	1
+10123	1
+10197	1
+10287	1
+10339	1
+10508	1
+10749	1
+10793	1
+10795	1
+1
+10891	1
+10893	1
+10895	1
+10897	1
+10932	1
+10940	1
+10961	1
+11061	1
+11325	1
+11328	1
+11375	1
+11377	1
+1
+11470	1
+11472	1
+11528	1
+11996	1
+12105	1
+12579	1
+12810	1
+13203	1

@@ -8,17 +8,22 @@ from tf.parameters import OTYPE, OSLOTS
 TT_NAME = "watm"
 RKD_URL_BASE = "https://rkd.nl/explore/images/"
 
+NS_TF = "tf"
+NS_TEI = "tei"
+NS_NLP = "nlp"
+NS_TT = "tt"
+
 NS_FROM_OTYPE = dict(
-    page="tf",
-    file="tf",
-    folder="tf",
-    letter="tf",
-    chapter="tf",
-    chunk="tf",
-    word="tf",
-    char="tf",
-    token="nlp",
-    sentence="nlp",
+    page=NS_TF,
+    file=NS_TF,
+    folder=NS_TF,
+    letter=NS_TF,
+    chapter=NS_TF,
+    chunk=NS_TF,
+    word=NS_TF,
+    char=NS_TF,
+    token=NS_NLP,
+    sentence=NS_NLP,
 )
 
 KIND_NODE = "node"
@@ -77,6 +82,19 @@ class WATM:
             tlFromTf[s] = t
 
     def mkAnno(self, kind, ns, body, target):
+        """Make an annotation and return its id.
+
+        Parameters
+        ----------
+        kind: string
+            The kind of annotation.
+        ns: string
+            The namespace of the annotation.
+        body: string
+            The body of the annotation.
+        target: string  or tuple of strings
+            The target of the annotation.
+        """
         annos = self.annos
         aId = f"a{len(annos):>06}"
         annos.append((kind, aId, ns, body, target))
@@ -110,7 +128,7 @@ class WATM:
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}"
-                    self.mkAnno(KIND_NODE, "tf", n, target)
+                    self.mkAnno(KIND_NODE, NS_TF, n, target)
                 else:
                     ws = E.oslots.s(n)
                     if skipMeta and (F.is_meta.v(ws[0]) or F.is_meta.v(ws[-1])):
@@ -122,12 +140,12 @@ class WATM:
 
                     target = f"{start}-{end + 1}"
                     aId = self.mkAnno(
-                        KIND_PI, "tei", otype[1:], target
+                        KIND_PI, NS_TEI, otype[1:], target
                     ) if otype.startswith("?") else self.mkAnno(
-                        KIND_ELEM, NS_FROM_OTYPE.get(otype, "tei"), otype, target
+                        KIND_ELEM, NS_FROM_OTYPE.get(otype, NS_TEI), otype, target
                     )
                     tlFromTf[n] = aId
-                    self.mkAnno(KIND_NODE, "tf", n, aId)
+                    self.mkAnno(KIND_NODE, NS_TF, n, aId)
 
         for feat in nodeFeatures:
             ns = Fs(feat).meta["conversionCode"]
@@ -200,7 +218,7 @@ class WATM:
         for (n, value) in extra.items():
             t = tlFromTf[n]
             target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
-            aId = self.mkAnno(KIND_ANNO, "tt", str(value), target)
+            aId = self.mkAnno(KIND_ANNO, NS_TT, str(value), target)
 
         if len(wrongTargets):
             print(f"WARNING: wrong targets, {len(wrongTargets)}x")

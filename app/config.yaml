@@ -24,7 +24,7 @@ provenanceSpec:
   doi: 10.5281/zenodo.notyet
   graphicsRelative: illustrations
   moduleSpecs: []
-  version: 0.8.9
+  version: 0.8.10
   webBase: https://public.{org}.org/{repo}
   webHint: Show this on the website
   webLang: en
