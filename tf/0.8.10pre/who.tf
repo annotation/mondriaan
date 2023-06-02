@@ -19,13 +19,13 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-62470	wc
+76231	wc
 wc
 lj
 lj
-62477	ev
+76238	ev
 ev
 ev
 ms
@@ -34,7 +34,7 @@ lj
 lj
 wc
 wc
-62489	ev
+76250	ev
 ev
 ev
 ms
@@ -43,7 +43,7 @@ wc
 wc
 lj
 lj
-62501	ev
+76262	ev
 ev
 ms
 lj
@@ -51,16 +51,7 @@ lj
 lj
 wc
 lj
-62512	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-62524	ev
+76273	ev
 ev
 ev
 ms
@@ -69,7 +60,16 @@ wc
 wc
 lj
 lj
-62536	ev
+76285	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+lj
+76297	ev
 ev
 ev
 ms
@@ -78,7 +78,7 @@ wc
 wc
 wc
 lj
-62548	ev
+76309	ev
 ev
 ev
 ms
@@ -87,8 +87,8 @@ gr
 wc
 lj
 lj
-62558	XX
-62560	ev
+76319	XX
+76321	ev
 ev
 ev
 ms
@@ -97,7 +97,7 @@ wc
 wc
 wc
 lj
-62572	ev
+76333	ev
 ev
 ev
 ms
@@ -106,7 +106,7 @@ wc
 wc
 lj
 wc
-62584	ev
+76345	ev
 ev
 ev
 ms
@@ -115,7 +115,7 @@ wc
 wc
 lj
 wc
-62596	ev
+76357	ev
 ev
 ev
 ms
@@ -125,7 +125,7 @@ wc
 wc
 lj
 ev
-62609	ev
+76370	ev
 ev
 ev
 ms
@@ -134,7 +134,7 @@ wc
 wc
 lj
 lj
-62621	ev
+76382	ev
 ev
 ev
 ms
@@ -143,7 +143,7 @@ wc
 wc
 lj
 wc
-62633	ev
+76394	ev
 ev
 ev
 ms

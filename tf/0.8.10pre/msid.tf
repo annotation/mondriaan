@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-63173	KM 123.397
+76961	KM 123.397
 KM 122.574
 KM 120.999
 KM 118.535

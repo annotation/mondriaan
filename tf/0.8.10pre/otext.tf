@@ -10,14 +10,14 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@levelConstraints=note < chunk, p; salute < opener, closer; profileDesc < chunk; facsimile < chunk; fileDesc < chunk; revisionDesc < chunk; standOff < chunk; div < chunk
+@levelConstraints=note < chunk, p; salute < opener, closer; div < chunk; fileDesc < chunk
 @schema=TEI + MD
-@sectionFeatures=folder,letter,chunk
-@sectionTypes=folder,letter,chunk
+@sectionFeatures=folder,file,chunk
+@sectionTypes=folder,file,chunk
 @sourceFormat=TEI
 @teiVersion=2023-05-24
 @title=Letters
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 

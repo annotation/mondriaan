@@ -3,7 +3,7 @@
 <?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
 <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
-    <?editem template="letter" adaptation="md"?>
+    <?editem template="letter" adaptation="MD"?>
     
     <teiHeader>
         <fileDesc>
@@ -229,7 +229,7 @@
                 in de kustprovincie. In Amsterdam zou hij de schetsen uitwerken tot volwaardige schilderijen. Daarvan zou hij er enkele tentoonstellen in de voorjaarstentoonstelling bij Sint Lucas in 1910;
                 zie <ref target="19100130_IONG_0017.xml#SintLucas">brief 19100130_IONG_0017, n. "SintLucas"</ref>.</note>
             <note n="5" xml:id="bloemetjeArti">Op de tentoonstelling <ref target="expo.xml#arti_1909">Teekeningen en Beeldhouwwerken van leden van Arti et Amicitiae</ref> (17 oktober - 21 november) stelde Mondriaan de
-                tekening <rs type="artwork-m" key="https://rkd.nl/images/68728">Lily</rs>  (1909, A619) tentoon.
+                tekening <rs type="artwork-m" key="68728">Lily</rs>  (1909, A619) tentoon.
                 <lb/>'Pecuniae causa' (Latijn): 'omwille van het geld'.</note>
         </listAnnotation>
     </standOff>

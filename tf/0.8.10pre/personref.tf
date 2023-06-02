@@ -19,43 +19,43 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-63806	bio.xml#iongh_aletta_de
+77607	bio.xml#iongh_aletta_de
 bio.xml#buhlig_richard
 bio.xml#buhlig_richard
 bio.xml#buhlig_richard
 bio.xml#iongh_aletta_de
 bio.xml#buhlig_richard
 bio.xml#iongh_aletta_de
-63817	bio.xml#iongh_aletta_de
-63820	bio.xml#mondriaan_pieter_senior
-63822	bio.xml#iongh_aletta_de
+77618	bio.xml#iongh_aletta_de
+77621	bio.xml#mondriaan_pieter_senior
+77623	bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
-63825	bio.xml#waldenburg_alfred
+77626	bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
 bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
-63833	bio.xml#iongh_aletta_de
+77634	bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
 bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
-63841	bio.xml#iongh_aletta_de
-63843	bio.xml#waldenburg_alfred
-63845	bio.xml#waldenburg_alfred
+77642	bio.xml#iongh_aletta_de
+77644	bio.xml#waldenburg_alfred
+77646	bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
-63853	bio.xml#iongh_aletta_de
+77654	bio.xml#iongh_aletta_de
 bio.xml#spoor_kees
 bio.xml#spoor_kees
 bio.xml#iongh_aletta_de
 bio.xml#spoor_kees
-63859	bio.xml#iongh_aletta_de
+77660	bio.xml#iongh_aletta_de
 bio.xml#calcar_reinder_van
 bio.xml#calcar_reinder_van
 bio.xml#calcar_reinder_van
@@ -71,10 +71,10 @@ bio.xml#briel_albert_van_den
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
 bio.xml#knap_gerrit_willem
-63876	bio.xml#waldenburg_alfred
+77677	bio.xml#waldenburg_alfred
 bio.xml#waldenburg_alfred
 bio.xml#knap_gerrit_willem
-63880	bio.xml#waldenburg_alfred
+77681	bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
@@ -82,54 +82,54 @@ bio.xml#iongh_aletta_de
 bio.xml#iongh_daniel_de
 bio.xml#wisse_ko
 bio.xml#wisse_adriana
-63890	bio.xml#iongh_aletta_de
+77691	bio.xml#iongh_aletta_de
 bio.xml#iongh_anna_maria_de
 bio.xml#iongh_de_frederika
 bio.xml#knap_gerrit_willem
 bio.xml#iongh_aletta_de
-63896	bio.xml#waldenburg_alfred
+77697	bio.xml#waldenburg_alfred
 bio.xml#querido_israel
-63900	bio.xml#teirlinck_herman
-63903	bio.xml#teirlinck_herman
-63905	bio.xml#querido_israel
+77701	bio.xml#teirlinck_herman
+77704	bio.xml#teirlinck_herman
+77706	bio.xml#querido_israel
 bio.xml#teirlinck_herman
-63908	bio.xml#querido_israel
-63910	bio.xml#sluijters_jan
-63913	bio.xml#querido_israel
-63924	bio.xml#teirlinck_herman
-63928	bio.xml#querido_israel
+77709	bio.xml#querido_israel
+77711	bio.xml#sluijters_jan
+77714	bio.xml#querido_israel
+77725	bio.xml#teirlinck_herman
+77729	bio.xml#querido_israel
 bio.xml#querido_israel
-63931	bio.xml#spoor_kees
+77732	bio.xml#spoor_kees
 bio.xml#fernhout_henk
 bio.xml#fernhout_henk
 bio.xml#fernhout_henk
 bio.xml#fernhout_henk
-63939	bio.xml#fernhout_henk
+77740	bio.xml#fernhout_henk
 bio.xml#spoor_kees
 bio.xml#toorop_charley
 bio.xml#besant_annie
-63946	bio.xml#iongh_aletta_de
+77747	bio.xml#iongh_aletta_de
 bio.xml#iongh_anna_de
 bio.xml#iongh_de_frederika
 bio.xml#philippona_reinier philippona_mien
 bio.xml#iongh_anna_de
 bio.xml#philippona_reinier
-63955	bio.xml#iongh_anna_de
+77756	bio.xml#iongh_anna_de
 bio.xml#iongh_anna_de
 bio.xml#iongh_de_frederika
 bio.xml#philippona_reinier philippona_mien
 bio.xml#iongh_anna_de
 bio.xml#philippona_reinier
-63964	bio.xml#iongh_anna_de
-63968	bio.xml#iongh_aletta_de
+77765	bio.xml#iongh_anna_de
+77769	bio.xml#iongh_aletta_de
 bio.xml#iongh_aletta_de
 bio.xml#iongh_anna_de
-63975	bio.xml#iongh_aletta_de
-63981	bio.xml#iongh_aletta_de
-63983	bio.xml#saalborn_arnold
+77776	bio.xml#iongh_aletta_de
+77782	bio.xml#iongh_aletta_de
+77784	bio.xml#saalborn_arnold
 bio.xml#saalborn_arnold
-63986	bio.xml#saalborn_arnold
-63991	bio.xml#iongh_aletta_de
+77787	bio.xml#saalborn_arnold
+77792	bio.xml#iongh_aletta_de
 bio.xml#saalborn_arnold
 bio.xml#saalborn_arnold
-63995	bio.xml#iongh_aletta_de
+77796	bio.xml#iongh_aletta_de

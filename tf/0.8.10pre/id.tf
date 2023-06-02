@@ -19,9 +19,114 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-62753	p.nl.3
+76110	Andersen1861
+Auct.cat.Paris1886
+VanTilborgh2007
+VanTilborghetal2013
+Jansen2010
+AlgemeenAdresboekAmsterdam
+Adrichem1993
+Adrichem1994
+Adrichem2001
+Almering2018
+Balk2006
+Bax2006
+Bax1994-1
+Bax1994-2
+Bloem1996
+Blotkamp1990
+Blotkamp1994
+Bosma2008
+Bremmer1914
+Broekhuizen2010
+VanBurkom2019
+Coppes2012
+Coppes2015
+CoppesJansen2017
+Ex.cat.Amsterdam2017
+Coppes2018
+CoppesJansen2019
+Coppes2020-1
+LeCoultre2015
+CR
+DakeWichman1915
+Dam1990
+DenningerSchreuder2003
+Domselaer1959
+Domselaer1968
+Domselaer1971
+DortOuden1999
+ExHoek1985
+Exh.cat.Amsterdam1916
+Exh.cat.Amsterdam1946
+Exh.cat.Amsterdam1985
+Exh.cat.Amsterdam1994
+Exh.cat.Arnhem2016
+Exh.cat.Bergen2006
+Exh.cat.DenHaag2017
+Exh.cat.Parijs2009
+Exh.cat.Parijs2019
+Exh.cat.Rotterdam2008
+Exh.cat.Tokyo1987
+Exh.cat.Zandvoort1981
+Faassen2013
+Faassen2015
+Faassen2017
+Fineberg1979
+FoxWeber2018
+Gard2006
+Ginneken1970-1
+Ginneken1970-2
+Gorter1998-1
+Gorter2017
+Gorter1998-2
+Groot2001
+Hammacher1947
+Hanssen2015
+Henkels1988
+Heteren2018
+Heyting1994
+Hoek2000
+HoltzmanJames1986
+Hilhorst2017
+Huisman2017
+Huygen1992
+JagerMatthes1992
+JanssenTabak1999
+Janssen2014
+Janssen2016-1
+Janssen2016-2
+JohnsonSweeney1945
+Jooren2016
+Joosten1968-1
+Joosten1968-2
+Joosten1968-3
+Joosten1973-1
+Joosten1973-2
+Koning2001
+Leijerzapf1984
+Loosjes1959
+Malietal1994
+MeesterObreen1915
+Moeyes2001
+Osborn2004
+Ottevanger2008
+Postma1995
+Prins2010
+RoodenburgSchadd2015
+Rooij2015
+Sanders1979
+Scherphuis1994
+Schoenmaekers1916
+Seuphor1956
+Sketchbooks1969
+Spoor1917
+Stap2011
+Steenhoff1918
+Venema1980
+76516	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -51,9 +156,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-62908	PD
-62913	PD
-62928	wc
+76671	PD
+76676	PD
+76692	wc
 lj
 wc
 lj
@@ -81,7 +186,7 @@ wc
 lj
 wc
 lj
-63289	n_transcrSource
+77079	n_transcrSource
 n_dating
 ogt_1_NL
 Zus
@@ -96,7 +201,7 @@ n_transcrSource_NL
 n_dating_NL
 ogt_1_NL
 schedelmeter
-63305	n_transcrSource
+77095	n_transcrSource
 n_dating
 ogt_1
 note_1
@@ -150,7 +255,7 @@ n_dating
 n_pubhistory
 Fernhout
 deDames
-63360	n_transcrSource
+77150	n_transcrSource
 n_dating
 ogt_1_NL
 nieuweOmgeving
@@ -174,7 +279,7 @@ n_pubhistory
 ogt_1
 werkTonen
 godWorden
-63398	p.nl.1
+77188	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -202,33 +307,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-63438	p.nl.2
+77228	p.nl.2
 p.en.2
-63441	p.nl.2
+77231	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-63446	p.nl.2
+77236	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-63451	p.nl.2
+77241	p.nl.2
 p.en.2
-63454	p.nl.2
+77244	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-63461	p.nl.2
+77251	p.nl.2
 p.en.2
-63464	p.nl.2
+77254	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-63469	p.nl.2
+77259	p.nl.2
 p.en.2
-63472	p.nl.2
+77262	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -237,7 +342,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-63482	p.nl.2
+77272	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -251,11 +356,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-63497	p.nl.2
+77287	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-63502	p.nl.2
+77292	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -263,12 +368,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-63511	p.nl.2
+77301	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-63517	p.nl.2
+77307	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -278,7 +383,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-64147	s1r
+77949	s1r
 s1v
 ser
 sev
@@ -327,7 +432,7 @@ ser
 sev
 s1r
 s1v
-75102	z1r1
+91093	z1r1
 z1r1
 z1r1
 z1v2

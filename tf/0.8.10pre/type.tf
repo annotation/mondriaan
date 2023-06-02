@@ -19,24 +19,24 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-62424	receiver
+76078	receiver
 receiver
-62476	editedText
-62488	editedText
-62500	editedText
-62511	editedText
-62523	editedText
-62535	editedText
-62547	editedText
-62571	editedText
-62583	editedText
-62595	editedText
-62608	editedText
-62620	editedText
-62632	editedText
-62783	sent
+76237	editedText
+76249	editedText
+76261	editedText
+76272	editedText
+76284	editedText
+76296	editedText
+76308	editedText
+76332	editedText
+76344	editedText
+76356	editedText
+76369	editedText
+76381	editedText
+76393	editedText
+76546	sent
 received
 sent
 received
@@ -64,8 +64,8 @@ sent
 received
 sent
 received
-62889	overwritten
-62893	strikeover
+76652	overwritten
+76656	strikeover
 strikeover
 strikeover
 strikeover
@@ -100,35 +100,35 @@ original
 translation
 original
 translation
-63113	letterId
+76901	letterId
 def
-63116	letterId
+76904	letterId
 def
-63119	letterId
+76907	letterId
 def
-63122	letterId
+76910	letterId
 def
-63125	letterId
+76913	letterId
 def
-63128	letterId
+76916	letterId
 def
-63131	letterId
+76919	letterId
 def
-63134	letterId
+76922	letterId
 def
-63137	letterId
+76925	letterId
 def
-63140	letterId
+76928	letterId
 def
-63143	letterId
+76931	letterId
 def
-63146	letterId
+76934	letterId
 def
-63149	letterId
+76937	letterId
 def
-63152	letterId
+76940	letterId
 def
-63187	typednotes
+76975	typednotes
 ogtnotes
 notes
 typednotes
@@ -174,50 +174,50 @@ notes
 typednotes
 ogtnotes
 notes
-63289	transcrSource
+77079	transcrSource
 dating
-63294	transcrSource
+77084	transcrSource
 dating
-63300	transcrSource_NL
+77090	transcrSource_NL
 dating_NL
-63305	transcrSource
+77095	transcrSource
 dating
-63309	transcrSource
+77099	transcrSource
 dating
 ogtnote
-63313	transcrSource
+77103	transcrSource
 dating
 pubhistory
 ogtnote
-63320	transcrSource
+77110	transcrSource
 dating
-63324	transcrSource
+77114	transcrSource
 dating
-63327	transcrSource
+77117	transcrSource
 dating
 remarks
-63333	transcrSource
+77123	transcrSource
 dating
 ogtnote
-63343	transcrSource
+77133	transcrSource
 dating
 pubhistory
-63354	transcrSource
+77144	transcrSource
 dating
 pubhistory
-63360	transcrSource
+77150	transcrSource
 dating
-63368	transcrSource
+77158	transcrSource
 dating
 ogtnote
-63372	transcrSource_NL
+77162	transcrSource_NL
 dating_NL
 pubhistory_NL
-63378	transcrSource
+77168	transcrSource
 dating
 pubhistory
-63788	misprint
-63806	person
+77589	misprint
+77607	person
 person
 person
 person

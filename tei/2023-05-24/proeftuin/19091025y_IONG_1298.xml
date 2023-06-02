@@ -3,7 +3,7 @@
 <?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
 <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
-    <?editem template="letter" adaptation="md"?>
+    <?editem template="letter" adaptation="MD"?>
     
     <teiHeader>
         <fileDesc>

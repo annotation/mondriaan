@@ -76,7 +76,7 @@ feature | description
 --- | ---
 `folder` | name of the subfolder
 
-### node type `letter`
+### node type `file`
 
 *The type of individual TEI documents.*
 
@@ -86,7 +86,7 @@ feature | description
 
 feature | description
 --- | ---
-`letter` | name of the file, without the `.xml` extension. Other extensions are included.
+`file` | name of the file, without the `.xml` extension. Other extensions are included.
 
 
 
@@ -108,7 +108,7 @@ feature | description
 
 feature | description
 --- | ---
-`chunk` | sequence number of the chunk within the letter, starting with 1.
+`chunk` | sequence number of the chunk within the file, starting with 1.
 
 
 
@@ -336,13 +336,13 @@ There are three section levels:
 
 *   *folder* Level 1 heading corresponding to folders with TEI files;
     heading: the name of the folder;
-*   *letter* Level 2 heading corresponding to individual TEI files;
+*   *file* Level 2 heading corresponding to individual TEI files;
     heading: the name of the file;
 *   *chunk* Level 3 heading corresponding to top-level divisions in a TEI file;
     heading: the sequence number of the chunk within the file.
 
 All section headings are stored in a feature with the same name as the type of the section:
-*folder*, *letter*, *chunk*.
+*folder*, *file*, *chunk*.
 
 #### Details
 
@@ -356,9 +356,9 @@ All section headings are stored in a feature with the same name as the type of t
     *   immediate children of the text structure elements are chunks,
     *   but not necessarily empty elements such as `<lb/>` and `<pb/>`.
 
-1.  letters and folder are sorted in the lexicographic ordering of their names;
+1.  files and folder are sorted in the lexicographic ordering of their names;
 1.  the folder `__ignore__` is ignored.
-1.  the headings consist of the names of the letters and folders
+1.  the headings consist of the names of the files and folders
 1.  the slots generated for empty elements are linked to the current chunk if there is
     a current chunk; otherwise they will be linked to the upcoming chunk.
 

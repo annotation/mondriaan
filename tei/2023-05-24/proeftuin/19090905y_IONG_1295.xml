@@ -3,7 +3,7 @@
 <?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
 <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
-    <?editem template="letter" adaptation="md"?>
+    <?editem template="letter" adaptation="MD"?>
     
     <teiHeader>
         <fileDesc>
@@ -199,12 +199,12 @@
             <note n="2" xml:id="inzakeEngeland"><rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs> reisde in september 1909 naar Engeland, vermoedelijk om haar daar woonachtige broer <rs ref="bio.xml#iongh_daniel_de" type="person">Daniël</rs> (1885-1965) 
                 te bezoeken. Cf. <!-- ***aanvullen*** --></note><!--** Wietse vraagt Marjan van Heteren naar de bron; vermoedelijk de nog steeds in Engeland wonende kleinzoon) -->
             <note n="3" xml:id="weerDomburg">Vanwege het slechte weer was Mondriaan gedwongen binnen te werken. Omdat pensionhouder <rs ref="bio.xml#wisse_ko" type="person">Ko Wisse</rs> en <rs ref="bio.xml#wisse_adriana" type="person">diens dochter</rs> voor hem 
-                wilden poseren kreeg Mondriaan ondanks het slechte weer toch nog wat werk gedaan; cf. <rs type="artwork-m" key="https://rkd.nl/images/62319"><hi rend="italics">Zeeland farmer</hi></rs> (1909-1910, A675)
-                en <rs type="artwork-m" key="https://rkd.nl/images/68733"><hi rend="italics">Zeeland girl</hi></rs> (1909-1910, A676).</note>
+                wilden poseren kreeg Mondriaan ondanks het slechte weer toch nog wat werk gedaan; cf. <rs type="artwork-m" key="62319"><hi rend="italics">Zeeland farmer</hi></rs> (1909-1910, A675)
+                en <rs type="artwork-m" key="68733"><hi rend="italics">Zeeland girl</hi></rs> (1909-1910, A676).</note>
             <note n="4" xml:id="inAmsterdam"><rs ref="bio.xml#iongh_aletta_de" type="person">Aletta</rs> en <rs ref="bio.xml#iongh_anna_maria_de" type="person">Anna</rs> de Iongh verhuisden op 29 september 1909 van Amsterdam naar Den Haag, 
                 waar zij introkken bij <rs ref="bio.xml#iongh_de_frederika" type="person">hun moeder</rs> op het adres Weimarstraat 235 (<ref target="biblio.xml#Heteren2018">Van Heteren 2018</ref>, p. 55; noot 39).</note>
             <note n="5" xml:id="nietThuis">Mondriaan deelde een voordeur met zijn bovenbuurman <rs ref="bio.xml#knap_gerrit_willem" type="person">Gerrit Knap</rs> (<ref target="biblio.xml#Scherphuis1994">Scherphuis 1994</ref>, p. 73).</note>
-            <note n="6" xml:id="fotoosOpzenden">Mogelijk wilde Mondriaan portretfoto's van <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> hebben in verband met <rs type="artwork-m" key="https://rkd.nl/images/277201">het krijtportret</rs> dat hij 
+            <note n="6" xml:id="fotoosOpzenden">Mogelijk wilde Mondriaan portretfoto's van <rs ref="bio.xml#iongh_aletta_de" type="person">De Iongh</rs> hebben in verband met <rs type="artwork-m" key="277201">het krijtportret</rs> dat hij 
                 van haar maakte. Hij gebruikte vaker foto's als hulpmiddel bij het vervaardigen van (zelf)portretten; zie bijvoorbeeld <ref target="biblio.xml#Coppes2012">Coppes 2012</ref>, p. 264.</note>
             <note n="7" xml:id="studieGeven">Het is niet bekend of Mondriaan inderdaad een studie aan <rs ref="bio.xml#waldenburg_alfred" type="person">Waldenburg</rs> gaf.</note>
         </listAnnotation>

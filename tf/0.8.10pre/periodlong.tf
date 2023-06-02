@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-63173	dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909
+76961	dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909
 woensdag 7 april 1909
 tussen maandag 19 en vrijdag 23 april 1909
 maandag 26 april 1909

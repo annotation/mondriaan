@@ -3,7 +3,7 @@
 <?xml-stylesheet type="application/xslt+xml" href="https://xmlschema.huygens.knaw.nl/simplerend.xsl"?>
 <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
-    <?editem template="letter" adaptation="md"?>
+    <?editem template="letter" adaptation="MD"?>
     
     <teiHeader>
         <fileDesc>
@@ -162,7 +162,7 @@
                 Mondriaan. Hoewel er enkele portretfoto's van De Iongh zijn overgeleverd, is geen daarvan met zekerheid toe te schrijven aan Waldenburg. 
                 Correspondentie tussen Mondriaan en Waldenburg is niet overgeleverd.
                 <lb/>De enige bewaard gebleven tekening van Mondriaan waarvan met zekerheid kan worden gesteld dat De Iongh er model voor stond is de krijttekening 
-                <rs type="artwork-m" key="https://rkd.nl/images/277201">Meisjeskop</rs> (1910, UA38). Mogelijk stond zij ook model voor de tekening <rs type="artwork-m" key="htpps://rkd.nl/images/68554">Female 
+                <rs type="artwork-m" key="277201">Meisjeskop</rs> (1910, UA38). Mogelijk stond zij ook model voor de tekening <rs type="artwork-m" key="htpps://rkd.nl/images/68554">Female 
                     nude: bust portrait</rs> (c. 1909-1911, A645).</note>
             <note n="2"/>
         </listAnnotation>

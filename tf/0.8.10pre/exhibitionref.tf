@@ -19,20 +19,20 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-63821	expo.xml#sint_lucas_1909
-63842	expo.xml#sint_lucas_1909
-63844	expo.xml#sint_lucas_1909
-63849	expo.xml#sint_lucas_1909
-63898	
+77622	expo.xml#sint_lucas_1909
+77643	expo.xml#sint_lucas_1909
+77645	expo.xml#sint_lucas_1909
+77650	expo.xml#sint_lucas_1909
+77699	
 
-63901	
+77702	
 
-63915	expo.xml#spoor_mondriaan_sluijters_1909
-63918	
+77716	expo.xml#spoor_mondriaan_sluijters_1909
+77719	
 expo.xml#doe_stil_voort_1909
-63926	
-63953	
-63962	
-63965	arti_1909
+77727	
+77754	
+77763	
+77766	arti_1909

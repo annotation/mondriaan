@@ -187,7 +187,13 @@ extra:
           type: exhibition
     nodeType: rs
 
-schema: MD
+adaptations:
+  - MD
+templates:
+  - letter
+  - biblio
+adaptationTrigger: "?editem@adaptation"
+templateTrigger: "?editem@template"
 prelim: true
 wordAsSlot: false
 procins: true
@@ -207,11 +213,6 @@ sectionModel:
   model: I
   levels:
   - folder
-  - letter
+  - file
   - chunk
-
-backmatter:
-  folder: references
-  templates:
-    - bibliography
-
+  backMatter: backmatter

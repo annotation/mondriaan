@@ -25,7 +25,7 @@
             <!-- if desired: a note giving explanations about the conventions used in the bibliography -->
             
             <p>
-               <hi rend="ital">Note to the reader</hi>
+               <hi rend="italics">Note to the reader</hi>
             </p>
             <p rend="indent">The prefixes of personal names (de, van, van de, ter, etc.) are
                ignored in the alphabetization. Thus Jean de la Fontaine will be found under <hi
@@ -64,11 +64,11 @@
                   Translated by Caroline Peachey. 3rd ed. London 1861.</bibl>
                
                <!-- a book without an author -->
-               <bibl xml:id="Auct.cat.Paris1886"><title>Tableaux modernes de premier ordre. Collection John Saulnier de
+                <bibl xml:id="Auct.cat.Paris1886"><title level="m">Tableaux modernes de premier ordre. Collection John Saulnier de
                      Bordeaux. Vente après décès (Hôtel Drouot).</title> Auct. cat. Paris 1886.</bibl>
                
                <!-- an article/chapter in a book -->
-               <bibl xml:id="VanTilborgh2007">Tilborgh, Louis van, <title level="a">Van Gogh in Cormon&#x2019;s
+               <bibl xml:id="VanTilborgh2007" >Tilborgh, Louis van, <title level="a">Van Gogh in Cormon&#x2019;s
                   studio: a chronological puzzle</title>, in <title level="m">Current issues in
                      19th-century art</title>. <title level="s">Van Gogh Studies</title> 1. Zwolle and Amsterdam 2007,
                   pp. 52-71.</bibl>
@@ -82,7 +82,7 @@
                      Burlington Magazine</title> 155 (2013), pp. 696-705.</bibl>
                
                <!-- the title becomes clickable-->
-               <bibl>Leo Jansen, Hans Luijten, Nienke Bakker (eds.) (2009),
+               <bibl xml:id="Jansen2010">Leo Jansen, Hans Luijten, Nienke Bakker (eds.) (2009),
                   <ref target="http://vangoghletters.org"><title level="m">Vincent van Gogh - The Letters</title></ref>.
                   Version: December 2010. Amsterdam &amp; The Hague: Van Gogh Museum &amp; Huygens ING.</bibl>
             </listBibl>
@@ -148,7 +148,7 @@
                <bibl xml:id="Coppes2015">Wietse Coppes, <title level="a">&#x2018;"I'm the Same Just
                      a Bit More Balanced, If I Don't Deceive Myself". A biographical sketch of Piet
                      Mondrian in the period 1909-12, based on the letters send to Aletta de
-                     Iongh&#x2019;</title>, in <ref target="Rooij2015">Rooij 2015</ref>, pp.
+                     Iongh&#x2019;</title>, in <ref target="#Rooij2015">Rooij 2015</ref>, pp.
                   8-14.</bibl>
                <bibl xml:id="CoppesJansen2017">Wietse Coppes, Leo Jansen, <title level="a">Cubism As
                      a Cataclyst: Mondrian's Cautious Quest for the Universal</title>, in <bibl
@@ -156,7 +156,7 @@
                         1789-1914.</title> Ed. Mayken Jonkman. Amsterdam (Van Gogh Museum) and Paris
                      (Petit Palais) 2017-2018. Bussum etc. 2017</bibl>, pp.222-245.</bibl>
                <bibl xml:id="Coppes2018">Wietse Coppes, <title level="a">Mondrian as
-                     toreador</title>, in <ref target="Bleyerveld2018">Ed. Yvonne Bleyerveld
+                     toreador</title>, in <ref target="#Bleyerveld2018">Ed. Yvonne Bleyerveld
                      a.o.</ref>, <title level="m">Treasures of the RKD Netherlands Intitute for Art
                      History</title>, Haarlem 2018, pp. 124-125.</bibl>
                <bibl xml:id="CoppesJansen2019">Wietse Coppes, Leo Jansen, <title level="a">Sal Slijper and Piet Mondrian: a balanced friendschip?</title>,
@@ -232,7 +232,7 @@
                      nr. 1, 2015, p. 43-49.</bibl>
                <bibl xml:id="Faassen2017">Sjoerd van Faassen en Hans Renders, <title level="a">Theo
                      van Doesburg en de oprichting van <hi rend="italics">De Stijl</hi></title>, in
-                     <ref target="biblio.xml#Exh.cat.DenHaag2017">Exh.cat. Den Haag (Gemeentemuseum)
+                     <ref target="#Exh.cat.DenHaag2017">Exh.cat. Den Haag (Gemeentemuseum)
                      2017</ref>, p. 117-145.</bibl>
                   <bibl xml:id="Fineberg1979">Jonathan Fineberg, <title level="a">Les tendances nouvelles, the Union internationale
                      des beaux-arts, des lettres, des sciences et de l'industrie and Kandinsky</title>, in <title level="j">Art History</title>,
@@ -252,7 +252,7 @@
                   <bibl xml:id="Gorter2017">Paul Gorter, <title level="m">Kunstenaarsvereniging St. Lucas. De onbekende jaren 1885-1908.</title>
                      Vorden 2017.</bibl>
                   <bibl xml:id="Gorter1998-2">Paul Gorter m.m.v. Joop Joosten, <title level="a">'Mies Maris' vergeten "Mondriana'</title>,
-                     in <hi rend="italics">Jong Holland</hi> 14 (1998) nr. 3, p. 35-47.</bibl>
+                      in <title level="j">Jong Holland</title> 14 (1998) nr. 3, p. 35-47.</bibl>
                <bibl xml:id="Groot2001">Marjan Groot, <title level="a">Phoenixhaantjes, mantissen,
                      poliepen en aalvissen. Adriaan en Christine van Zeegen</title>, in <title
                      level="j">Jong Holland</title> (2001) nr. 4, p. 29-39.</bibl>
@@ -276,9 +276,9 @@
                <bibl xml:id="Hilhorst2017">Cees Hilhorst, <title level="a">'Chronologie. (Bart van der 
                      Leck)'</title>, in (exh.cat.) <title level="m">'De uitvinding van een nieuwe kunst. 
                      Piet Mondriaan en Bart van der Leck. Laren 1916-1918'</title>, Den Haag (Gemeentemuseum) 2017, p. 13-53.</bibl>
-               <bibl xml:id="Huisman2017">Lotte Huisman, <title level="u"><hi rend="italics">De opkomst van de
+               <bibl xml:id="Huisman2017">Lotte Huisman, <title level="u">De opkomst van de
                      Nederlandse Vegetariërsbond. Thesis over de invloed van andere organisaties en
-                     de tijd op de opkomst van de Nederlandse Vegetariërsbond in 1894</hi>.</title>,
+                     de tijd op de opkomst van de Nederlandse Vegetariërsbond in 1894.</title>,
                   Universiteit Leiden, 2017.</bibl>
                <bibl xml:id="Huygen1992">Frederike Huygen, <title level="m">Het Museum Boymans van
                      Hannema. Gebouw, geschiedenis, architectuur / The Boymans Museum and director
@@ -300,7 +300,7 @@
                      <title level="j">The Bulletin of the Museum of Modern Art</title>, 12 91945), nr. 4 (lente), p. 2-12.</bibl>
                <bibl xml:id="Jooren2016">Marieke Jooren, <title level="a">Alma, lotgeval van De
                      Stijl? Ontmoetingen, raakvlakken, discussies en bewondering</title>, in
-                     <ref target="biblio.xml#Exh.cat.Arnhem2016">Exh.cat. Arnhem 2016</ref>, p. 8-24.</bibl>
+                     <ref target="#Exh.cat.Arnhem2016">Exh.cat. Arnhem 2016</ref>, p. 8-24.</bibl>
                <bibl xml:id="Joosten1968-1">Joop Joosten, <title level="a">Documentatie over
                      Mondriaan: 26 brieven van Piet Mondriaan aan Lod. Schelfhout en H.P. Bremmer
                      1910-1918 (deel 1: 10 brieven 1910-1914)</title>, in <title level="j" rend="italics"
@@ -322,7 +322,7 @@
                <bibl xml:id="Koning2001">Joseline de Koning, <title level="u" rend="italics">Edle (Alma-) Saxlund:
                      een coloriste op zoek naar innerlijk evenwich en universele harmonie.</title> 3
                      vols. MA thesis, unpublished. Leiden 2001.</bibl>
-               <bibl xml:id="Leijerzapf1984">I. Leijerzapf e.a. (eds), <title>Geschiedenis van de
+               <bibl xml:id="Leijerzapf1984">I. Leijerzapf e.a. (eds), <title level="m">Geschiedenis van de
                      Nederlandse fotografie in monografieën en thema-artikelen</title>. 8 dln.
                   Alphen aan de Rijn 1984-...</bibl>
                <bibl xml:id="Loosjes1959">A.B. Loosjes-Terpstra, <title level="m">Moderne Kunst in
@@ -370,10 +370,9 @@
                <bibl xml:id="Venema1980">Adriaan Venema, <title level="m">Nederlandse schilders in Parijs 1900-1940</title>. Baarn 1980.</bibl>
             </listBibl>
             
-            
-                        
-            
          </div>
       </body>
   </text>
 </TEI>
+
+

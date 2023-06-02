@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.10pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-05-31T12:43:28Z
+@dateWritten=2023-06-01T12:29:43Z
 
-63628	#Zus
+77422	#Zus
 #plaatsBuhlig
 #Zus
 #Zus
@@ -99,7 +99,7 @@
 #godWorden
 #werkTonen
 #godWorden
-63720	#plaatsBuhlig
+77515	#plaatsBuhlig
 biblio.xml#Heteren2018
 #p.nl.3 #p.en.3
 biblio.xml#Gorter2017
@@ -160,3 +160,9 @@ biblio.xml#HoltzmanJames1986
 biblio.xml#HoltzmanJames1986
 #p.nl.4 #p.en.4
 9101006y_IONG_1309.xml
+http://vangoghletters.org
+#Rooij2015
+#Bleyerveld2018
+#Exh.cat.Parijs2019
+#Exh.cat.DenHaag2017
+#Exh.cat.Arnhem2016
