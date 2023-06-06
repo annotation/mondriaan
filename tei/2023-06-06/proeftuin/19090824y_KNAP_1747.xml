@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/schematron-md-other-rules.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/">
+    
+	<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Briefkaart aan <rs ref="bio.xml#knap_gerrit_willem" type="person">Gerrit Willem Knap</rs>. Zoutelande, c. dinsdag 24 augustus 1909.</title><!-- MS: Is de briefkaart ook gericht aan mevrouw Knap? Dat maak ik op uit de <address type="receiver"> -->
+                <editor xml:id="wc">Wietse Coppes</editor>
+                <editor xml:id="lj">Leo Jansen</editor>
+                <sponsor>Mondriaan Editieproject</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            
+            <sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Nederland</country>
+						<settlement>-</settlement>
+						<institution>-</institution>
+						<idno>Privécollectie Chris Smeenk</idno>
+						<altIdentifier><idno type="letterId">19090824y_KNAP_1747</idno></altIdentifier>
+						<altIdentifier><idno type="def"/></altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="briefkaart"/>
+						<decoDesc>
+							<decoNote/>
+						</decoDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+        </fileDesc>
+        
+    
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<name>Piet Mondriaan</name>
+					<date when="1909-08-24">c. dinsdag 24 augustus 1909</date>
+					<placeName>Zoutelande</placeName>
+				</correspAction>
+				<correspAction type="received">
+				    <name key="knap_gerrit_willem">Gerrit Willem Knap</name><!-- MS: Is de briefkaart ook gericht aan mevrouw Knap? Dat maak ik op uit de <address type="receiver"> -->
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+            <change who="gr">transcriptie: voltooid</change>
+            <change who="wc">collatie bron: voltooid 7.8.2017</change>
+            <change who="lj">tweede collatie: voltooid 14.8.17</change>
+            <change who="lj">invoer tweede collatie: voltooid 14.8.17</change>
+            <change>bespreking eindversie: gb</change>
+            <change who="XX">invoer emendaties: te doen / in bewerking / voltooid</change>
+            <change>markeren annotaties: te doen / in bewerking / voltooid</change>
+		    <change who="ev">titel gecontroleerd 15.9.2020</change>
+		    <change who="ev">personen getagd 13.10.2020</change>
+		    <change who="ev">vertaling ingevoerd 28.1.2021</change>
+		    <change who="ms">codering personen aangepast 16.2.2022</change>
+			<change who="lj">controle/aanpassing afkortingen en emendaties 21.4.2023</change>
+        </revisionDesc>
+	</teiHeader>
+    
+    <facsimile>
+        <surface n="1r" xml:id="s1r">
+            <graphic url="/images/1747/1747_DSC08214_recto_100_iso.JPG"/>
+        </surface>
+        <surface n="1v" xml:id="s1v">
+            <graphic url="/images/1747/1747_DSC08213_verso_100_iso.JPG"/>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="postalData" xml:id="PD">
+                <pb f="1v" n="1" facs="#s1v"/>
+                <address type="receiver">
+                    <addrLine>Mevrouw en Mijnheer
+                        G. Knap<!-- MS: Mevrouw Knap is niet geïdentificeerd -->.</addrLine>
+                    <addrLine>Sarphatiepark 42<hi rend="super">II</hi><ptr target="#Sarphatiepark"/></addrLine>
+                    <addrLine>Amsterdam.</addrLine>
+                </address>
+                    
+                <md:postmark><!-- onleesbaar door verwijderde postzegel --></md:postmark>
+            </div>
+            <div type="original" xml:lang="nl">
+                <pb f="1v" n="2" facs="#s1v"/>
+                <opener xml:id="p.nl.1" n="1"><salute>W. <choice><abbr>Vr.<hi rend="super">n</hi></abbr><expan>Vrienden</expan></choice></salute><ptr target="#WaardeVrienden"/></opener> <p xml:id="p.nl.2" n="2">hier alles
+                wèl, maar ik
+                hoop dat 't wêer
+                een beetje opknapt.<ptr target="#verblijfDomburg"/></p>                
+        <closer xml:id="p.nl.3" n="3"><salute>Vele beste groeten,
+                ook van <rs ref="bio.xml#spoor_kees" type="person">Spoor</rs>,
+                je vr.</salute>
+                <signed><hi rend="underline">Piet.</hi></signed></closer>
+                <pb f="1r" n="3-4" facs="#s1r"/>
+            </div>
+            <div type="translation" xml:lang="en">
+			        <pb f="1v" n="2" facs="#s1v"/>
+			        <opener xml:id="p.en.1" n="1"><salute>Dear friends,<ptr target="#WaardeVrienden"/></salute></opener>
+			    	<p xml:id="p.en.2" n="2">All is well here, but I hope the weather will cheer up a bit.<ptr target="#verblijfDomburg"/></p>
+			        <closer xml:id="p.en.3" n="3"><salute>Very best regards, also from <rs ref="bio.xml#spoor_kees" type="person">Spoor</rs>, your friend,</salute>
+			        <signed><hi rend="underline">Piet.</hi></signed></closer>
+			        <pb f="1r" n="3-4" facs="#s1r"/>
+			    </div>
+</body>
+    </text>
+<standOff>
+            <listAnnotation type="typednotes" xml:lang="nl">
+			    <note xml:id="n_transcrSource" type="transcrSource">Scan van manuscript.</note>
+				<note xml:id="n_dating" type="dating">De postzegel en daarmee vrijwel het gehele datumstempel zijn verwijderd. Mondriaan verbleef tussen 24 en 28 juni en tussen half augustus en eind september 1909 met <rs ref="bio.xml#spoor_kees" type="person">Kees Spoor</rs> in Domburg.
+			        In een <ref target="19090905_IONG_1295.xml">brief aan <rs ref="bio.xml#iongh_aletta_de" type="person">Aletta de Iongh</rs></ref> van 24 augustus klaagt Mondriaan over het slechte weer, evenals in de onderhavige. Bij gebrek aan
+				    nadere gegevens dateren we die daarom eveneens op c. dinsdag 24 augustus 1909.</note><!-- LJ: maar om dezelfde reden zouden we deze briefkaart dus in de buurt van de volgende kunnen plaatsen. Datering wijzigen in
+				    eind augustus-begin september?-->
+				<note xml:id="n_remarks" type="remarks">Beeldzijde: mannen en vrouwen in Zeeuwse klederdracht bij het uitgaan van een kerk in Zoutelande.</note>
+			</listAnnotation>
+            <listAnnotation type="ogtnotes" xml:lang="nl">
+                    <note xml:id="ogt_1_NL"/>
+            </listAnnotation>
+            <listAnnotation type="notes" xml:lang="nl">
+				<note n="1" xml:id="WaardeVrienden">Het hier aangeschreven echtpaar <rs ref="bio.xml#knap_gerrit_willem" type="person">Knap</rs> bewoonde een etage boven Mondriaan aan het <ref target="places.xml#Sarphatiepark42">Sarphatipark</ref>
+					in Amsterdam. Het gezin telde éen dochter jonge dochter, <rs ref="bio.xml#smeenk_josina" type="person">Josina</rs> (<ref target="biblio.xml#Bax1994-2">Bax/Welsh 1994</ref>, p. 52).</note>
+				<note n="2" xml:id="verblijfDomburg">Mondriaan verbleef van circa half augustus tot half oktober 1909 met <rs ref="bio.xml#spoor_kees" type="person">Kees Spoor</rs> in 
+					Pension Wisse op het adres Ooststraat 4a te Domburg (<ref target="biblio.xml#CR">CR</ref> I, p. 128). Tijdens dit verblijf voegde ook Mondriaans 
+					vriend <rs ref="bio.xml#briel_albert_van_den" type="person">Albert van den Briel</rs> zich gedurende drie weken bij hen (<ref target="biblio.xml#Henkels1988">Henkels 1988</ref>, p. 88). Het nazomerweer viel in deze periode tegen
+					waardoor Mondriaan minder buiten kon werken dan hij gewild had.</note>
+                
+            </listAnnotation>
+</standOff>
+
+</TEI>
