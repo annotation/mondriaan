@@ -14,29 +14,29 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-78301	receiver
+81455	receiver
 receiver
-78520	editedText
-78532	editedText
-78544	editedText
-78555	editedText
-78567	editedText
-78579	editedText
-78591	editedText
-78615	editedText
-78627	editedText
-78639	editedText
-78652	editedText
-78664	editedText
-78676	editedText
-78950	sent
+81674	editedText
+81686	editedText
+81698	editedText
+81709	editedText
+81721	editedText
+81733	editedText
+81745	editedText
+81769	editedText
+81781	editedText
+81793	editedText
+81806	editedText
+81818	editedText
+81830	editedText
+82104	sent
 received
 sent
 received
@@ -64,7 +64,7 @@ sent
 received
 sent
 received
-79022	creation
+82176	creation
 creation
 creation
 creation
@@ -74,13 +74,13 @@ creation
 creation
 creation
 creation
-79066	overwritten
-79070	strikeover
+82220	overwritten
+82224	strikeover
 strikeover
 strikeover
 strikeover
 strikeover
-79085	original
+82239	original
 translation
 original
 translation
@@ -110,7 +110,7 @@ original
 translation
 original
 translation
-79258	thumb
+82412	thumb
 thumb
 thumb
 thumb
@@ -120,35 +120,35 @@ thumb
 thumb
 thumb
 thumb
-79348	letterId
+82503	letterId
 def
-79351	letterId
+82506	letterId
 def
-79354	letterId
+82509	letterId
 def
-79357	letterId
+82512	letterId
 def
-79360	letterId
+82515	letterId
 def
-79363	letterId
+82518	letterId
 def
-79366	letterId
+82521	letterId
 def
-79369	letterId
+82524	letterId
 def
-79372	letterId
+82527	letterId
 def
-79375	letterId
+82530	letterId
 def
-79378	letterId
+82533	letterId
 def
-79381	letterId
+82536	letterId
 def
-79384	letterId
+82539	letterId
 def
-79387	letterId
+82542	letterId
 def
-79422	typednotes
+82578	typednotes
 ogtnotes
 notes
 typednotes
@@ -170,6 +170,12 @@ typednotes
 ogtnotes
 notes
 typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
 notes
 typednotes
 ogtnotes
@@ -194,49 +200,53 @@ notes
 typednotes
 ogtnotes
 notes
-79547	transcrSource
-dating
-79552	transcrSource
-dating
-79558	transcrSource_NL
+82709	transcrSource_NL
 dating_NL
-79563	transcrSource
+82714	transcrSource
 dating
-79567	transcrSource
+82719	transcrSource_NL
+dating_NL
+82725	transcrSource
+dating
+82731	transcrSource_NL
+dating_NL
+82736	transcrSource
+dating
+82740	transcrSource
 dating
 ogtnote
-79571	transcrSource
+82744	transcrSource
 dating
 pubhistory
 ogtnote
-79578	transcrSource
+82751	transcrSource
 dating
-79582	transcrSource
+82755	transcrSource
 dating
-79585	transcrSource
+82758	transcrSource
 dating
 remarks
-79591	transcrSource
+82764	transcrSource
 dating
 ogtnote
-79601	transcrSource
+82774	transcrSource
 dating
 pubhistory
-79612	transcrSource
+82785	transcrSource
 dating
 pubhistory
-79618	transcrSource
+82791	transcrSource
 dating
-79626	transcrSource
+82799	transcrSource
 dating
 ogtnote
-79630	transcrSource_NL
+82803	transcrSource_NL
 dating_NL
 pubhistory_NL
-79636	transcrSource
+82809	transcrSource
 dating
 pubhistory
-79642	collection
+82815	collection
 collection
 collection
 collection
@@ -246,8 +256,11 @@ collection
 collection
 collection
 collection
-80074	misprint
-80102	person
+83255	misprint
+83283	person
+person
+person
+person
 person
 person
 person
@@ -264,9 +277,21 @@ museum
 person
 exhibition
 person
+artistsassoc
+museum
+person
+exhibition
+person
 person
 artwork-m
 person
+person
+person
+person
+person
+photograph
+artwork-m
+artwork-m
 person
 person
 person

@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 @description=this is TEI attribute id
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,15 +15,15 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-17166	a68733
+17761	a68733
 a277201
 a62324
 a68554
@@ -33,12 +33,11 @@ a268821
 a194515
 a62319
 a268881
-17182	Andersen1861
+17777	Andersen1861
 Auct.cat.Paris1886
 VanTilborgh2007
 VanTilborghetal2013
-Jansen2010
-AlgemeenAdresboekAmsterdam
+17782	AlgemeenAdresboekAmsterdam
 Adrichem1993
 Adrichem1994
 Adrichem2001
@@ -138,7 +137,7 @@ Spoor1917
 Stap2011
 Steenhoff1918
 Venema1980
-17753	p.nl.3
+18348	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -168,9 +167,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-17928	PD
-17933	PD
-17949	wc
+18523	PD
+18528	PD
+18544	wc
 lj
 wc
 lj
@@ -198,25 +197,37 @@ wc
 lj
 wc
 lj
-18380	n_transcrSource
-n_dating
+18983	n_transcrSource_NL
+n_dating_NL
 ogt_1_NL
-Zus
-plaatsBuhlig
+Zus_NL
+plaatsBuhlig_NL
 n_transcrSource
 n_dating
+ogt_1
+Zus
+plaatsBuhlig
+n_transcrSource_NL
+n_dating_NL
 ogt_1_NL
+gekreukteEnveloppe_NL
+jurySintLucas_NL
+PaaschdagenArnhem_NL
+n_transcrSource
+n_dating
+ogt_1
 gekreukteEnveloppe
 jurySintLucas
 PaaschdagenArnhem
 n_transcrSource_NL
 n_dating_NL
 ogt_1_NL
-schedelmeter
-18396	n_transcrSource
+schedelmeter_NL
+abc2
+n_transcrSource
 n_dating
 ogt_1
-note_1
+schedelmeter
 n_transcrSource
 n_dating
 ogt_1
@@ -267,7 +278,8 @@ n_dating
 n_pubhistory
 Fernhout
 deDames
-18451	n_transcrSource
+abc3
+n_transcrSource
 n_dating
 ogt_1_NL
 nieuweOmgeving
@@ -291,7 +303,7 @@ n_pubhistory
 ogt_1
 werkTonen
 godWorden
-18499	p.nl.1
+19113	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -319,33 +331,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-18539	p.nl.2
+19153	p.nl.2
 p.en.2
-18542	p.nl.2
+19156	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-18547	p.nl.2
+19161	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-18552	p.nl.2
+19166	p.nl.2
 p.en.2
-18555	p.nl.2
+19169	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-18562	p.nl.2
+19176	p.nl.2
 p.en.2
-18565	p.nl.2
+19179	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-18570	p.nl.2
+19184	p.nl.2
 p.en.2
-18573	p.nl.2
+19187	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -354,7 +366,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-18583	p.nl.2
+19197	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -368,11 +380,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-18598	p.nl.2
+19212	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-18603	p.nl.2
+19217	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -380,12 +392,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-18612	p.nl.2
+19226	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-18618	p.nl.2
+19232	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -395,7 +407,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-19278	s1r
+19915	s1r
 s1v
 ser
 sev
@@ -448,7 +460,7 @@ OBJALG
 DRAGER
 MATERTECHN
 VORM
-19542	z1r1
+20179	z1r1
 z1r1
 z1r1
 z1v2

@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 
-79085	nl
+82239	nl
 en
 nl
 en
@@ -31,15 +31,11 @@ nl
 en
 nl
 en
-79096	nl
+82250	nl
 en
 nl
 en
-79101	nl
-en
-nl
-en
-nl
+82255	nl
 en
 nl
 en
@@ -49,7 +45,11 @@ nl
 en
 nl
 en
-79269	en
+nl
+en
+nl
+en
+82423	en
 en
 en
 en
@@ -59,12 +59,18 @@ en
 en
 en
 en
-79422	nl
+82578	nl
+nl
+nl
+en
+en
+en
 nl
 nl
 nl
-nl
-nl
+en
+en
+en
 nl
 nl
 nl

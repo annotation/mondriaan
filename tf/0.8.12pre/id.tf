@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 
-78333	a68733
+81487	a68733
 a277201
 a62324
 a68554
@@ -31,12 +31,11 @@ a268821
 a194515
 a62319
 a268881
-78349	Andersen1861
+81503	Andersen1861
 Auct.cat.Paris1886
 VanTilborgh2007
 VanTilborghetal2013
-Jansen2010
-AlgemeenAdresboekAmsterdam
+81508	AlgemeenAdresboekAmsterdam
 Adrichem1993
 Adrichem1994
 Adrichem2001
@@ -136,7 +135,7 @@ Spoor1917
 Stap2011
 Steenhoff1918
 Venema1980
-78920	p.nl.3
+82074	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -166,9 +165,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-79095	PD
-79100	PD
-79116	wc
+82249	PD
+82254	PD
+82270	wc
 lj
 wc
 lj
@@ -196,25 +195,37 @@ wc
 lj
 wc
 lj
-79547	n_transcrSource
-n_dating
+82709	n_transcrSource_NL
+n_dating_NL
 ogt_1_NL
-Zus
-plaatsBuhlig
+Zus_NL
+plaatsBuhlig_NL
 n_transcrSource
 n_dating
+ogt_1
+Zus
+plaatsBuhlig
+n_transcrSource_NL
+n_dating_NL
 ogt_1_NL
+gekreukteEnveloppe_NL
+jurySintLucas_NL
+PaaschdagenArnhem_NL
+n_transcrSource
+n_dating
+ogt_1
 gekreukteEnveloppe
 jurySintLucas
 PaaschdagenArnhem
 n_transcrSource_NL
 n_dating_NL
 ogt_1_NL
-schedelmeter
-79563	n_transcrSource
+schedelmeter_NL
+abc2
+n_transcrSource
 n_dating
 ogt_1
-note_1
+schedelmeter
 n_transcrSource
 n_dating
 ogt_1
@@ -265,7 +276,8 @@ n_dating
 n_pubhistory
 Fernhout
 deDames
-79618	n_transcrSource
+abc3
+n_transcrSource
 n_dating
 ogt_1_NL
 nieuweOmgeving
@@ -289,7 +301,7 @@ n_pubhistory
 ogt_1
 werkTonen
 godWorden
-79666	p.nl.1
+82839	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -317,33 +329,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-79706	p.nl.2
+82879	p.nl.2
 p.en.2
-79709	p.nl.2
+82882	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-79714	p.nl.2
+82887	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-79719	p.nl.2
+82892	p.nl.2
 p.en.2
-79722	p.nl.2
+82895	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-79729	p.nl.2
+82902	p.nl.2
 p.en.2
-79732	p.nl.2
+82905	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-79737	p.nl.2
+82910	p.nl.2
 p.en.2
-79740	p.nl.2
+82913	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -352,7 +364,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-79750	p.nl.2
+82923	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -366,11 +378,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-79765	p.nl.2
+82938	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-79770	p.nl.2
+82943	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -378,12 +390,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-79779	p.nl.2
+82952	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-79785	p.nl.2
+82958	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -393,7 +405,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-80445	s1r
+83641	s1r
 s1v
 ser
 sev
@@ -446,7 +458,7 @@ OBJALG
 DRAGER
 MATERTECHN
 VORM
-93941	z1r1
+97603	z1r1
 z1r1
 z1r1
 z1v2

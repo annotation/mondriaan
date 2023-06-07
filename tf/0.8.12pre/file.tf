@@ -14,16 +14,16 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 
-78343	artwork
-78454	biblio
-79161	19090216y_IONG_1303
+81497	artwork
+81608	biblio
+82315	19090216y_IONG_1303
 19090407y_IONG_1739
 19090421y_IONG_1304
 19090426y_IONG_1738
@@ -39,7 +39,7 @@
 19100131_SAAL_ARNO_0018
 artwork
 biblio
-79408	19090216y_IONG_1303
+82564	19090216y_IONG_1303
 19090407y_IONG_1739
 19090421y_IONG_1304
 19090426y_IONG_1738

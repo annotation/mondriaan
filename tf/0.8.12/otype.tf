@@ -4,7 +4,7 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
@@ -12,97 +12,96 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-1-17101	t
-17102-17116	?editem
-17117-17118	abbr
-17119	accMat
-17120-17127	add
-17128-17133	addrLine
-17134-17137	address
-17138-17165	altIdentifier
-17166-17175	artwork
-17176	artworks
-17177	author
-17178-17286	bibl
-17287	biblio
-17288-17303	body
-17304-17346	catRef
-17347-17514	change
-17515-17529	choice
-17530-17751	chunk
-17752	classDecl
-17753-17782	closer
-17783-17810	correspAction
-17811-17824	correspDesc
-17825-17838	country
-17839-17864	date
-17865-17870	dateline
-17871-17884	decoDesc
-17885-17898	decoNote
-17899-17907	del
-17908-17917	desc
-17918-17948	div
-17949-17976	editor
-17977	encodingDesc
-17978-17979	expan
-17980-17993	facsimile
-17994-18009	file
-18010-18025	fileDesc
-18026-18027	folder
-18028-18100	graphic
-18101-18114	head
-18115-18179	hi
-18180-18221	idno
-18222-18235	institution
-18236-18240	lb
-18241-18254	letter
-18255-18300	listAnnotation
-18301-18302	listBibl
-18303	listObject
-18304-18323	measure
-18324-18337	msDesc
-18338-18351	msIdentifier
-18352-18379	name
-18380-18484	note
-18485-18498	objectDesc
-18499-18526	opener
-18527-18537	orig
-18538-18633	p
-18634-18684	page
-18685-18698	physDesc
-18699-18712	placeName
-18713-18714	postmark
-18715-18720	postscript
-18721-18734	profileDesc
-18735-18816	ptr
-18817-18832	publicationStmt
-18833-18899	ref
-18900-18910	reg
-18911-18920	relation
-18921-18934	revisionDesc
-18935-19124	rs
-19125-19180	salute
-19181-19194	settlement
-19195-19224	signed
-19225-19240	sourceDesc
-19241-19249	space
-19250-19263	sponsor
-19264-19277	standOff
-19278-19326	surface
-19327-19330	taxonomy
-19331-19346	teiHeader
-19347-19362	text
-19363-19521	title
-19522-19537	titleStmt
-19538-19541	unclear
-19542-19555	zone
-19556-20949	sentence
-20950-37855	token
+1-17711	t
+17712-17713	abbr
+17714	accMat
+17715-17722	add
+17723-17728	addrLine
+17729-17732	address
+17733-17760	altIdentifier
+17761-17770	artwork
+17771	artworklist
+17772	author
+17773-17881	bibl
+17882	bibliolist
+17883-17898	body
+17899-17941	catRef
+17942-18109	change
+18110-18124	choice
+18125-18346	chunk
+18347	classDecl
+18348-18377	closer
+18378-18405	correspAction
+18406-18419	correspDesc
+18420-18433	country
+18434-18459	date
+18460-18465	dateline
+18466-18479	decoDesc
+18480-18493	decoNote
+18494-18502	del
+18503-18512	desc
+18513-18543	div
+18544-18571	editor
+18572	encodingDesc
+18573-18574	expan
+18575-18588	facsimile
+18589-18604	file
+18605-18620	fileDesc
+18621-18622	folder
+18623-18695	graphic
+18696-18709	head
+18710-18775	hi
+18776-18817	idno
+18818-18831	institution
+18832-18837	lb
+18838-18851	letter
+18852-18903	listAnnotation
+18904-18905	listBibl
+18906	listObject
+18907-18926	measure
+18927-18940	msDesc
+18941-18954	msIdentifier
+18955-18982	name
+18983-19098	note
+19099-19112	objectDesc
+19113-19140	opener
+19141-19151	orig
+19152-19247	p
+19248-19298	page
+19299-19312	physDesc
+19313-19326	placeName
+19327-19328	postmark
+19329-19334	postscript
+19335-19348	profileDesc
+19349-19430	ptr
+19431-19446	publicationStmt
+19447-19521	ref
+19522-19532	reg
+19533-19542	relation
+19543-19556	revisionDesc
+19557-19761	rs
+19762-19817	salute
+19818-19831	settlement
+19832-19861	signed
+19862-19877	sourceDesc
+19878-19886	space
+19887-19900	sponsor
+19901-19914	standOff
+19915-19963	surface
+19964-19967	taxonomy
+19968-19983	teiHeader
+19984-19999	text
+20000-20158	title
+20159-20174	titleStmt
+20175-20178	unclear
+20179-20192	zone
+20193-21644	sentence
+21645-39160	token

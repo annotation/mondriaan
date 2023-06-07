@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" xmlns:artwork="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="artwork.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="artwork">
+    <xs:annotation>
+      <xs:documentation/>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="tei:idno"/>
+        <xs:element ref="tei:head"/>
+        <xs:element minOccurs="0" ref="tei:desc"/>
+        <xs:element minOccurs="0" ref="tei:date"/>
+        <xs:element minOccurs="0" ref="tei:relation"/>
+        <xs:element minOccurs="0" ref="tei:graphic"/>
+        <xs:sequence>
+          <xs:element minOccurs="0" ref="tei:measure"/>
+          <xs:sequence minOccurs="0">
+            <xs:element ref="tei:measure"/>
+            <xs:element minOccurs="0" ref="tei:measure"/>
+          </xs:sequence>
+        </xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:catRef"/>
+        <xs:element minOccurs="0" ref="tei:note"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="xml:id1"/>
+      <xs:attribute name="type">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:pattern value="[^\p{C}\p{Z}]+"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="source">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:anyURI">
+            <xs:pattern value="\S+"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="corresp">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:anyURI">
+            <xs:pattern value="\S+"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

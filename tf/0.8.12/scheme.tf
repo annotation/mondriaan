@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 @description=this is TEI attribute scheme
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,15 +15,15 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-17304	#OBJALG
+17899	#OBJALG
 #VORM
 #DRAGER
 #MATERTECHN

@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 @description=Reference key to the details of a person; the content is taken from rs@ref[type=person]
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,49 +15,58 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-18935	bio.xml#iongh_aletta_de
+19557	bio.xml#iongh_aletta_de
 bio.xml#buhlig_richard
 bio.xml#buhlig_richard
 bio.xml#buhlig_richard
 bio.xml#iongh_aletta_de
 bio.xml#buhlig_richard
+bio.xml#buhlig_richard
 bio.xml#iongh_aletta_de
-18946	bio.xml#iongh_aletta_de
-18949	bio.xml#mondriaan_pieter_senior
-18951	bio.xml#iongh_aletta_de
-bio.xml#waldenburg_alfred
-18954	bio.xml#waldenburg_alfred
+bio.xml#buhlig_richard
 bio.xml#iongh_aletta_de
+19571	bio.xml#iongh_aletta_de
+19574	bio.xml#mondriaan_pieter_senior
+19576	bio.xml#iongh_aletta_de
+19579	bio.xml#mondriaan_pieter_senior
+19581	bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
-bio.xml#waldenburg_alfred
-bio.xml#iongh_aletta_de
-18962	bio.xml#iongh_aletta_de
-bio.xml#waldenburg_alfred
-bio.xml#waldenburg_alfred
+19584	bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
+bio.xml#waldenburg_alfred
+bio.xml#iongh_aletta_de
+19592	bio.xml#iongh_aletta_de
+bio.xml#waldenburg_alfred
+bio.xml#waldenburg_alfred
+bio.xml#iongh_aletta_de
+19599	bio.xml#iongh_aletta_de
+bio.xml#waldenburg_alfred
+bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
-18970	bio.xml#iongh_aletta_de
-18972	bio.xml#waldenburg_alfred
-18974	bio.xml#waldenburg_alfred
+bio.xml#iongh_aletta_de
+bio.xml#waldenburg_alfred
+19607	bio.xml#iongh_aletta_de
+19609	bio.xml#waldenburg_alfred
+19611	bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
-18982	bio.xml#iongh_aletta_de
+19619	bio.xml#iongh_aletta_de
 bio.xml#spoor_kees
 bio.xml#spoor_kees
 bio.xml#iongh_aletta_de
 bio.xml#spoor_kees
-18988	bio.xml#iongh_aletta_de
+19625	bio.xml#iongh_aletta_de
 bio.xml#calcar_reinder_van
 bio.xml#calcar_reinder_van
 bio.xml#calcar_reinder_van
@@ -73,10 +82,10 @@ bio.xml#briel_albert_van_den
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
 bio.xml#knap_gerrit_willem
-19005	bio.xml#waldenburg_alfred
+19642	bio.xml#waldenburg_alfred
 bio.xml#waldenburg_alfred
 bio.xml#knap_gerrit_willem
-19009	bio.xml#waldenburg_alfred
+19646	bio.xml#waldenburg_alfred
 bio.xml#iongh_aletta_de
 bio.xml#iongh_aletta_de
 bio.xml#waldenburg_alfred
@@ -84,54 +93,54 @@ bio.xml#iongh_aletta_de
 bio.xml#iongh_daniel_de
 bio.xml#wisse_ko
 bio.xml#wisse_adriana
-19019	bio.xml#iongh_aletta_de
+19656	bio.xml#iongh_aletta_de
 bio.xml#iongh_anna_maria_de
 bio.xml#iongh_de_frederika
 bio.xml#knap_gerrit_willem
 bio.xml#iongh_aletta_de
-19025	bio.xml#waldenburg_alfred
+19662	bio.xml#waldenburg_alfred
 bio.xml#querido_israel
-19029	bio.xml#teirlinck_herman
-19032	bio.xml#teirlinck_herman
-19034	bio.xml#querido_israel
+19666	bio.xml#teirlinck_herman
+19669	bio.xml#teirlinck_herman
+19671	bio.xml#querido_israel
 bio.xml#teirlinck_herman
-19037	bio.xml#querido_israel
-19039	bio.xml#sluijters_jan
-19042	bio.xml#querido_israel
-19053	bio.xml#teirlinck_herman
-19057	bio.xml#querido_israel
+19674	bio.xml#querido_israel
+19676	bio.xml#sluijters_jan
+19679	bio.xml#querido_israel
+19690	bio.xml#teirlinck_herman
+19694	bio.xml#querido_israel
 bio.xml#querido_israel
-19060	bio.xml#spoor_kees
+19697	bio.xml#spoor_kees
 bio.xml#fernhout_henk
 bio.xml#fernhout_henk
 bio.xml#fernhout_henk
 bio.xml#fernhout_henk
-19068	bio.xml#fernhout_henk
+19705	bio.xml#fernhout_henk
 bio.xml#spoor_kees
 bio.xml#toorop_charley
 bio.xml#besant_annie
-19075	bio.xml#iongh_aletta_de
+19712	bio.xml#iongh_aletta_de
 bio.xml#iongh_anna_de
 bio.xml#iongh_de_frederika
 bio.xml#philippona_reinier philippona_mien
 bio.xml#iongh_anna_de
 bio.xml#philippona_reinier
-19084	bio.xml#iongh_anna_de
+19721	bio.xml#iongh_anna_de
 bio.xml#iongh_anna_de
 bio.xml#iongh_de_frederika
 bio.xml#philippona_reinier philippona_mien
 bio.xml#iongh_anna_de
 bio.xml#philippona_reinier
-19093	bio.xml#iongh_anna_de
-19097	bio.xml#iongh_aletta_de
+19730	bio.xml#iongh_anna_de
+19734	bio.xml#iongh_aletta_de
 bio.xml#iongh_aletta_de
 bio.xml#iongh_anna_de
-19104	bio.xml#iongh_aletta_de
-19110	bio.xml#iongh_aletta_de
-19112	bio.xml#saalborn_arnold
+19741	bio.xml#iongh_aletta_de
+19747	bio.xml#iongh_aletta_de
+19749	bio.xml#saalborn_arnold
 bio.xml#saalborn_arnold
-19115	bio.xml#saalborn_arnold
-19120	bio.xml#iongh_aletta_de
+19752	bio.xml#saalborn_arnold
+19757	bio.xml#iongh_aletta_de
 bio.xml#saalborn_arnold
 bio.xml#saalborn_arnold
-19124	bio.xml#iongh_aletta_de
+19761	bio.xml#iongh_aletta_de

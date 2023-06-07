@@ -1,0 +1,362 @@
+Inventory of tags and attributes in the source XML file(s).
+Contains the following sections:
+	Formatting Attributes
+	Keyword Attributes
+	Remaining Attributes and Elements
+
+
+
+Formatting Attributes
+
+	<add>              place=          1x above
+	                          "                      1x below
+	                          "                      1x inline
+	                   rend=           1x above
+
+	<addrLine>         rend=           1x center
+
+	<del>              rend=           2x overwritten
+
+	<hi>               rend=           2x blockletter
+	                          "                      1x bold
+	                          "                     20x italics
+	                          "                      1x right
+	                          "                      4x spaced
+	                          "                      7x super
+	                          "                     32x underline
+	                          "                      3x underline2
+
+	<p>                rend=           1x indent
+
+	<postscript>       rend=           1x upsidedown
+
+	<signed>           rend=           1x right
+
+	<space>            dim=            9x vertical
+	                   rend=           4x norend
+
+	<title>            level=         41x a
+	                          "                     26x j
+	                          "                     67x m
+	                          "                      6x s
+	                          "                      2x u
+	                   rend=           8x italics
+
+Keyword Attributes
+
+	<address>          type=           2x receiver
+
+	<change>           type=          13x editedText
+	                   who=            1x XX
+	                          "                     42x ev
+	                          "                      1x gr
+	                          "                     37x lj
+	                          "                     14x ms
+	                          "                     32x wc
+
+	<correspAction>    type=          14x received
+	                          "                     14x sent
+
+	<date>             type=          10x creation
+
+	<del>              type=           1x overwritten
+	                          "                      5x strikeover
+
+	<div>              lang=          14x en
+	                          "                     14x nl
+	                   type=          14x original
+	                          "                      2x postalData
+	                          "                     14x translation
+
+	<graphic>          type=          10x thumb
+
+	<head>             lang=          10x en
+
+	<idno>             type=          14x def
+	                          "                     14x letterId
+
+	<listAnnotation>   lang=          12x en
+	                          "                     40x nl
+	                   type=          18x notes
+	                          "                     16x ogtnotes
+	                          "                     18x typednotes
+
+	<measure>          unit=          14x cm
+	                          "                      6x mm
+
+	<note>             type=          10x collection
+	                          "                     14x dating
+	                          "                      4x dating_NL
+	                          "                      4x ogtnote
+	                          "                      4x pubhistory
+	                          "                      1x pubhistory_NL
+	                          "                      1x remarks
+	                          "                     14x transcrSource
+	                          "                      4x transcrSource_NL
+
+	<objectDesc>       form=          12x brief
+	                          "                      1x briefkaart
+	                          "                      1x correspondentiekaart
+
+	<pb>               facs=          11x #s1r
+	                          "                      7x #s1v
+	                          "                      1x #ser
+	                          "                      1x #sev
+	                          "                     16x #z1r1
+	                          "                      2x #z1r4
+	                          "                      6x #z1v2
+	                          "                      4x #z1v3
+
+	<reg>              type=           1x misprint
+
+	<rs>               type=           3x article
+	                          "                     12x artistsassoc
+	                          "                     20x artwork-m
+	                          "                     16x exhibition
+	                          "                      3x firm
+	                          "                     12x journal
+	                          "                      8x museum
+	                          "                      6x org
+	                          "                    121x person
+	                          "                      4x photograph
+
+	<space>            unit=           1x chars
+	                          "                      8x lines
+
+	<unclear>          reason=         2x strikeover
+
+Remaining Attributes and Elements
+
+	<TEI>                             16x 
+
+	<abbr>                             2x 
+
+	<accMat>                           1x 
+
+	<add>                              4x 
+
+	<addrLine>                         5x 
+
+	<address>                          2x 
+
+	<altIdentifier>                   28x 
+
+	<artwork>          corresp=        5x https://rkd.nl/en/images/NNNNN
+	                          "                      5x https://rkd.nl/en/images/NNNNNN
+	                   id=            10x X
+	                   source=         5x https://rkd.nl/en/images/NNNNN
+	                          "                      5x https://rkd.nl/en/images/NNNNNN
+
+	<author>                           1x 
+
+	<bibl>                             5x 
+	                   id=           104x X
+
+	<body>                            16x 
+
+	<catRef>           scheme=        10x #DRAGER
+	                          "                     13x #MATERTECHN
+	                          "                     10x #OBJALG
+	                          "                     10x #VORM
+	                   target=        43x X
+
+	<change>                          28x 
+
+	<choice>                          15x 
+
+	<classDecl>                        1x 
+
+	<closer>           id=            30x X
+	                   n=             30x N
+
+	<correspDesc>                     14x 
+
+	<country>                         14x 
+
+	<date>                             2x 
+	                   when=           5x NNNN-NN
+	                          "                      9x NNNN-NN-NN
+
+	<dateline>                         6x 
+
+	<decoDesc>                        14x 
+
+	<decoNote>                        14x 
+
+	<del>                              1x 
+
+	<desc>                            10x 
+
+	<div>                              1x 
+	                   id=             2x X
+
+	<editor>           id=            28x X
+
+	<encodingDesc>                     1x 
+
+	<expan>                            2x 
+
+	<facsimile>                       14x 
+
+	<fileDesc>                        16x 
+
+	<graphic>          url=            2x /images/NNNN/KM_NNN.NNN-N.tif
+	                          "                      2x /images/NNNN/KM_NNN.NNN-N_NN.tif
+	                          "                      1x /images/NNNN/KM_NNN.NNN-N_NrN.tif
+	                          "                      9x /images/NNNN/KM_NNN.NNN.tif
+	                          "                      9x /images/NNNN/KM_NNN.NNN_NN.tif
+	                          "                      5x /images/NNNN/KM_NNN.NNN_NN_NvN.tif
+	                          "                      8x /images/NNNN/KM_NNN.NNN_NrN.tif
+	                          "                      1x /images/NNNN/NNNN.tif
+	                          "                      1x /images/NNNN/NNNNCN_NNNNNNNN_bladN_pNN.jpg
+	                          "                      1x /images/NNNN/NNNN_DSCNNNNN_recto_NNN_iso.JPG
+	                          "                      1x /images/NNNN/NNNN_DSCNNNNN_verso_NNN_iso.JPG
+	                          "                     23x dummy
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/NNNNNNNb-NdaN-dNNN-NNbe-NNNNbNNNNNNN.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/NNNfNNeN-NNNN-NcNN-bNcN-ecNNNNNNNeNN.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/NNedaNNN-NaNN-NbNN-NbNN-NNeNcNNdNNcN.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/NNfNcNNN-dNab-NNNN-NaNN-bNbNdNdNNdff.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/NeNNeNNN-NNcN-NdNN-NaeN-NNNNdeNNaNNN.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/bNNNNfNN-aNae-NNaN-NbNN-NNaaNbNNNNNe.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/cNfNNfNb-NfNa-NNNN-NNNe-NaNcNNddNNNN.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/dNeNNNeN-NNaN-NfNc-cNNa-NNbNbNNNNNNN.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/eNNNNNNa-ddbN-cNNc-fNda-NNNfNfNNdNef.jpg
+	                          "                      1x https://images.rkd.nl/rkd/thumb/NNNxNNN/eedbNNaN-cNNN-NNfN-aNeb-NNNbNNbeNNNa.jpg
+
+	<head>                             4x 
+
+	<idno>                            14x 
+
+	<institution>                     14x 
+
+	<lb>                               6x 
+
+	<listBibl>                         2x 
+
+	<listObject>                       1x 
+
+	<measure>          commodity=     10x size-hor
+	                          "                     10x size-ver
+	                   quantity=      10x NN
+	                          "                      1x NN.N
+	                          "                      9x NNN
+
+	<msDesc>                          14x 
+
+	<msIdentifier>                    14x 
+
+	<name>                            14x 
+	                   key=           14x X
+
+	<note>             id=           106x X
+	                   n=             52x N
+
+	<opener>           id=            28x X
+	                   n=             28x N
+
+	<orig>                            11x 
+
+	<p>                               19x 
+	                   id=            76x X
+	                   n=             76x N
+
+	<pb>                               3x 
+	                   f=             29x Nr
+	                          "                     17x Nv
+	                   n=             44x N
+	                          "                      2x N-N
+	                          "                      1x er
+	                          "                      1x ev
+
+	<physDesc>                        14x 
+
+	<placeName>                       14x 
+
+	<postmark>                         2x 
+
+	<postscript>                       5x 
+
+	<profileDesc>                     14x 
+
+	<ptr>              target=        82x X
+
+	<publicationStmt>                 16x 
+
+	<ref>              target=        75x X
+
+	<reg>                             10x 
+
+	<relation>         name=          10x creator
+	                   ref=           10x bio.xml#mondriaan_pieter_junior
+
+	<revisionDesc>                    14x 
+
+	<rs>               key=            2x X
+	                   ref=            1x arti_NNNN
+	                          "                      6x artwork.xml#aNNNNN
+	                          "                      8x artwork.xml#aNNNNNN
+	                          "                      1x bio.xml#besant_annie
+	                          "                      1x bio.xml#briel_albert_van_den
+	                          "                      6x bio.xml#buhlig_richard
+	                          "                      3x bio.xml#calcar_reinder_van
+	                          "                      5x bio.xml#fernhout_henk
+	                          "                     34x bio.xml#iongh_aletta_de
+	                          "                      7x bio.xml#iongh_anna_de
+	                          "                      1x bio.xml#iongh_anna_maria_de
+	                          "                      1x bio.xml#iongh_daniel_de
+	                          "                      3x bio.xml#iongh_de_frederika
+	                          "                      5x bio.xml#knap_gerrit_willem
+	                          "                      2x bio.xml#mondriaan_pieter_senior
+	                          "                      2x bio.xml#philippona_reinier
+	                          "                      2x bio.xml#philippona_reinier philippona_mien
+	                          "                      6x bio.xml#querido_israel
+	                          "                      5x bio.xml#saalborn_arnold
+	                          "                      1x bio.xml#sluijters_jan
+	                          "                      1x bio.xml#smeenk_josina
+	                          "                      9x bio.xml#spoor_kees
+	                          "                      4x bio.xml#teirlinck_herman
+	                          "                      1x bio.xml#toorop_charley
+	                          "                     19x bio.xml#waldenburg_alfred
+	                          "                      1x bio.xml#wisse_adriana
+	                          "                      1x bio.xml#wisse_ko
+	                          "                      1x expo.xml#doe_stil_voort_NNNN
+	                          "                      5x expo.xml#sint_lucas_NNNN
+	                          "                      1x expo.xml#spoor_mondriaan_sluijters_NNNN
+
+	<salute>                          56x 
+
+	<settlement>                      14x 
+
+	<signed>                          29x 
+
+	<sourceDesc>                      16x 
+
+	<space>            quantity=       9x N
+
+	<sponsor>                         14x 
+
+	<standOff>                        14x 
+
+	<surface>          id=            49x X
+	                   n=             14x Nr
+	                          "                     13x Nv
+	                          "                     11x er
+	                          "                     11x ev
+
+	<taxonomy>         id=             4x X
+	                   n=              1x Medium
+	                          "                      1x Object type
+	                          "                      1x Shape
+	                          "                      1x Support
+
+	<teiHeader>                       16x 
+
+	<text>                            16x 
+
+	<title>                           17x 
+
+	<titleStmt>                       16x 
+
+	<unclear>                          2x 
+
+	<zone>             id=            14x X

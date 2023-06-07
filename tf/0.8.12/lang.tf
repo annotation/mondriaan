@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 @description=this is TEI attribute lang
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,15 +15,15 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-17918	nl
+18513	nl
 en
 nl
 en
@@ -33,15 +33,11 @@ nl
 en
 nl
 en
-17929	nl
+18524	nl
 en
 nl
 en
-17934	nl
-en
-nl
-en
-nl
+18529	nl
 en
 nl
 en
@@ -51,7 +47,11 @@ nl
 en
 nl
 en
-18102	en
+nl
+en
+nl
+en
+18697	en
 en
 en
 en
@@ -61,12 +61,18 @@ en
 en
 en
 en
-18255	nl
+18852	nl
+nl
+nl
+en
+en
+en
 nl
 nl
 nl
-nl
-nl
+en
+en
+en
 nl
 nl
 nl

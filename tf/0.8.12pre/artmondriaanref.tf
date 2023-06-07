@@ -14,28 +14,30 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 
-80120	
-80127	277201
-htpps://rkd.nl/images/68554
-80184	62319
-68733
-80191	277201
-80217	194515
-https://krd.nl/images/268821
-268881
-80223	62324
-80248	
-80250	
-80257	
-80259	
-80270	68728
-80281	
-80283	268864
-80290	268864
+83309	
+83316	
+
+83323	
+
+83380	
+
+83387	
+83413	
+
+
+83419	
+83444	
+83446	
+83453	
+83455	
+83466	
+83477	
+83479	
+83486	

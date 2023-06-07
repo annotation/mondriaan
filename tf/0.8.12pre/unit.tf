@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-79471	cm
+82633	cm
 cm
 mm
 mm
@@ -41,7 +41,7 @@ cm
 cm
 cm
 cm
-80408	lines
+83604	lines
 chars
 lines
 lines

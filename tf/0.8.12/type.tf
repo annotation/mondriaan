@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 @description=this is TEI attribute type
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,30 +15,30 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-17134	receiver
+17729	receiver
 receiver
-17353	editedText
-17365	editedText
-17377	editedText
-17388	editedText
-17400	editedText
-17412	editedText
-17424	editedText
-17448	editedText
-17460	editedText
-17472	editedText
-17485	editedText
-17497	editedText
-17509	editedText
-17783	sent
+17948	editedText
+17960	editedText
+17972	editedText
+17983	editedText
+17995	editedText
+18007	editedText
+18019	editedText
+18043	editedText
+18055	editedText
+18067	editedText
+18080	editedText
+18092	editedText
+18104	editedText
+18378	sent
 received
 sent
 received
@@ -66,7 +66,7 @@ sent
 received
 sent
 received
-17855	creation
+18450	creation
 creation
 creation
 creation
@@ -76,13 +76,13 @@ creation
 creation
 creation
 creation
-17899	overwritten
-17903	strikeover
+18494	overwritten
+18498	strikeover
 strikeover
 strikeover
 strikeover
 strikeover
-17918	original
+18513	original
 translation
 original
 translation
@@ -112,7 +112,7 @@ original
 translation
 original
 translation
-18091	thumb
+18686	thumb
 thumb
 thumb
 thumb
@@ -122,35 +122,35 @@ thumb
 thumb
 thumb
 thumb
-18181	letterId
+18777	letterId
 def
-18184	letterId
+18780	letterId
 def
-18187	letterId
+18783	letterId
 def
-18190	letterId
+18786	letterId
 def
-18193	letterId
+18789	letterId
 def
-18196	letterId
+18792	letterId
 def
-18199	letterId
+18795	letterId
 def
-18202	letterId
+18798	letterId
 def
-18205	letterId
+18801	letterId
 def
-18208	letterId
+18804	letterId
 def
-18211	letterId
+18807	letterId
 def
-18214	letterId
+18810	letterId
 def
-18217	letterId
+18813	letterId
 def
-18220	letterId
+18816	letterId
 def
-18255	typednotes
+18852	typednotes
 ogtnotes
 notes
 typednotes
@@ -172,6 +172,12 @@ typednotes
 ogtnotes
 notes
 typednotes
+ogtnotes
+notes
+typednotes
+ogtnotes
+notes
+typednotes
 notes
 typednotes
 ogtnotes
@@ -196,49 +202,53 @@ notes
 typednotes
 ogtnotes
 notes
-18380	transcrSource
-dating
-18385	transcrSource
-dating
-18391	transcrSource_NL
+18983	transcrSource_NL
 dating_NL
-18396	transcrSource
+18988	transcrSource
 dating
-18400	transcrSource
+18993	transcrSource_NL
+dating_NL
+18999	transcrSource
+dating
+19005	transcrSource_NL
+dating_NL
+19010	transcrSource
+dating
+19014	transcrSource
 dating
 ogtnote
-18404	transcrSource
+19018	transcrSource
 dating
 pubhistory
 ogtnote
-18411	transcrSource
+19025	transcrSource
 dating
-18415	transcrSource
+19029	transcrSource
 dating
-18418	transcrSource
+19032	transcrSource
 dating
 remarks
-18424	transcrSource
+19038	transcrSource
 dating
 ogtnote
-18434	transcrSource
+19048	transcrSource
 dating
 pubhistory
-18445	transcrSource
+19059	transcrSource
 dating
 pubhistory
-18451	transcrSource
+19065	transcrSource
 dating
-18459	transcrSource
+19073	transcrSource
 dating
 ogtnote
-18463	transcrSource_NL
+19077	transcrSource_NL
 dating_NL
 pubhistory_NL
-18469	transcrSource
+19083	transcrSource
 dating
 pubhistory
-18475	collection
+19089	collection
 collection
 collection
 collection
@@ -248,8 +258,11 @@ collection
 collection
 collection
 collection
-18907	misprint
-18935	person
+19529	misprint
+19557	person
+person
+person
+person
 person
 person
 person
@@ -266,9 +279,21 @@ museum
 person
 exhibition
 person
+artistsassoc
+museum
+person
+exhibition
+person
 person
 artwork-m
 person
+person
+person
+person
+person
+photograph
+artwork-m
+artwork-m
 person
 person
 person

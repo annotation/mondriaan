@@ -1,4 +1,4 @@
-@node
+@edge
 @author=Piet Mondriaan
 @contributors1=Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
@@ -14,202 +14,78 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-78471	74324
-62515
-62542
-37107
-74319
-62515
-62580
-59009
-74324
-62515
-62542
-37107
-74319
-62501
-62580
-45101
-61120
-74319
-62501
-62580
-45101
-61120
-61279
-74324
-62515
-53721
-37107
-74324
-62501
-62542
-37107
-74324
-62515
-62542
-37107
-74324
-62515
-62542
-37107
-74324
-62515
-62542
-37107
-79902	#Zus
-#plaatsBuhlig
-#Zus
-#Zus
-#plaatsBuhlig
-#gekreukteEnveloppe
-#jurySintLucas
-#PaaschdagenArnhem
-#gekreukteEnveloppe
-#jurySintLucas
-#PaaschdagenArnhem
-#schedelmeter
-#schedelmeter
-#theosofischeLezingen
-#theosofischeLezingen
-#koolteer
-#sluitingSintLucas
-#kioskBaerlestraat
-#koolteer
-#sluitingSintLucas
-#kioskBaerlestraat
-#SpoorDomburg
-#SpoorDomburg
-#dieProfessor
-#dieProfessor
-#Sarphatiepark
-#WaardeVrienden
-#verblijfDomburg
-#WaardeVrienden
-#verblijfDomburg
-#OoststraatDomburg
-#inzakeEngeland
-#weerDomburg
-#inAmsterdam
-#nietThuis
-#fotoosOpzenden
-#studieGeven
-#OoststraatDomburg
-#inzakeEngeland
-#weerDomburg
-#inAmsterdam
-#nietThuis
-#fotoosOpzenden
-#studieGeven
-#ditGedeelte
-#ArnhemGeweigerd
-#naarBrussel
-#doorTeirlinck
-#verkeerdUitgedrukt
-#grootWerk
-#occulteKennis
-#ditGedeelte
-#ArnhemGeweigerd
-#naarBrussel
-#doorTeirlinck
-#verkeerdUitgedrukt
-#grootWerk
-#occulteKennis
-#Fernhout
-#deDames
-#Fernhout
-#deDames
-#nieuweOmgeving
-#werkHoofdzaak
-#DertienNovember
-#dingenZeeland
-#bloemetjeArti
-#nieuweOmgeving
-#werkHoofdzaak
-#DertienNovember
-#dingenZeeland
-#bloemetjeArti
-#Helmhout
-#Helmhout
-#werkTonen
-#godWorden
-#werkTonen
-#godWorden
-https://rkd.nl/en/explore/thesaurus?domain=OBJALG&language=en-GB&term=79320
-https://rkd.nl/en/explore/thesaurus?domain=DRAGER&language=en-GB&term=97857
-https://rkd.nl/en/explore/thesaurus?domain=MATERTECHN&language=en-GB&term=97846
-https://rkd.nl/en/explore/thesaurus?domain=VORM&language=en-GB&term=74840
-80000	#plaatsBuhlig
-biblio.xml#Heteren2018
-#p.nl.3 #p.en.3
-biblio.xml#Gorter2017
-expo.xml#sint_lucas_1909
-19090513y_IONG_1293.xml
-19090426y_IONG_1738.xml
-19090513y_IONG_1295.xml
-19090421y_IONG_1304.xml
-19090421y_IONG_1304.xml#p.nl.2 19090421y_IONG_1304.xml#p.en.2
-#p.nl.2 #p.en.2
-19090421y_IONG_1304.xml#schedelmeter
-biblio.xml#Bax2006
-#sluitingSintLucas
-biblio.xml#Heteren2018
-19090421y_IONG_1304.xml#schedelmeter
-biblio.xml#CR1998
-#SpoorDomburg
-#p.nl.3 #p.en.3
-19090905y.IONG_1295.xml
-19100707y_IONG_0019.xml#verblijfOegstgeest
-19090905_IONG_1295.xml
-places.xml#Sarphatiepark42
-biblio.xml#Bax1994-2
-biblio.xml#CR
-biblio.xml#Henkels1988
-#inAmsterdam
-#p.nl.2 #p.en.2
-19090807y_IONG_1296.xml#p.nl.3 19090807y_IONG_1296.xml#p.en.3
-#p.nl.4 #p.en.4
-19090421y_IONG_1304.xml#schedelmeter
-19090824y_KNAP_1747.xml#verblijfDomburg
-biblio.xml#Heteren2018
-biblio.xml#Scherphuis1994
-biblio.xml#Coppes2012
-#ditGedeelte
-biblio.xml#Sketchbooks1969
-19081224_BenW_5066.xml#conservator
-biblio.xml#Faassen2013
-biblio.xml#Bax2006
-biblio.xml#Ginneken1970
-#p.nl.1 #p.en.1
-biblio.xml#Ginneken1970
-biblio.xml#Exh.cat.Rotterdam2008
-#p.nl.4 #p.en.4
-19090905y_IONG_1295.xml#inAmsterdam
-biblio.xml#Heteren2018
-Gorter1998-1
-biblio.xml#Coppes2018
-19100130_IONG_0017.xml#SintLucas
-expo.xml#arti_1909
-19091024y_IONG_1297.xml
-19091109yIONG_1299.xml
-19091024y_IONG_1297#DertienNovember
-biblio.xml#AlgemeenAdresboekAmsterdam
-biblio.xml#HoltzmanJames1986
-#p.nl.4 #p.en.4
-9101006y_IONG_1309.xml
-biblio.xml#HoltzmanJames1986
-#p.nl.4 #p.en.4
-9101006y_IONG_1309.xml
-http://vangoghletters.org
-#Rooij2015
-#Bleyerveld2018
-#Exh.cat.Parijs2019
-#Exh.cat.DenHaag2017
-#Exh.cat.Arnhem2016
+83078	82717
+83083	82728
+82729
+82730
+83089	82743
+83093	82748
+83095	82750
+83099	82757
+83103	82762
+83112	82767
+82768
+82769
+83116	82771
+82772
+82773
+83127	82779
+82780
+82781
+82782
+82783
+82784
+83135	82788
+82789
+83142	82794
+82795
+82796
+82797
+82798
+83148	82802
+83151	82813
+82814
+83175	82718
+83180	82883,82885
+81562
+83186	82319
+82318
+83189	82317
+82887,82889
+82892-82893
+83194	82749
+83198	82754
+83204	81516
+81532
+81567
+83208	82913,82918
+82906,82908
+82092,82915
+82739
+82763
+83214	81600
+81524
+82778
+81603
+83219	81553
+81514
+83222	82859-82860
+83224	81550
+82939,82941
+82770
+81568
+83229	81528
+83232	82326
+83235	81508
+83239	81571
+82960,82965
+83245	81549
+81547
+81545

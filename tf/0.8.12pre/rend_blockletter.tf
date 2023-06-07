@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=int
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-30988	1
+34163	1
 1
 1
 1
@@ -36,7 +36,7 @@
 1
 1
 1
-36190	1
+39365	1
 1
 1
 1
@@ -51,7 +51,7 @@
 1
 1
 1
-86136	1
+89803	1
 1
-87089	1
+90756	1
 1

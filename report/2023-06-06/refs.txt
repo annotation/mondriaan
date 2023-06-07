@@ -1,0 +1,83 @@
+19090216y_IONG_1303.xml
+	dangling     6 x bio.xml # buhlig_richard
+	dangling     3 x bio.xml # iongh_aletta_de
+19090407y_IONG_1739.xml
+	dangling     3 x bio.xml # iongh_aletta_de
+	dangling     2 x bio.xml # mondriaan_pieter_senior
+	dangling     4 x expo.xml # sint_lucas_1909
+19090421y_IONG_1304.xml
+	dangling     2 x 19090426y_IONG_1738.xml # 
+	dangling     2 x 19090513y_IONG_1293.xml # 
+	dangling     2 x 19090513y_IONG_1295.xml # 
+	dangling     5 x bio.xml # iongh_aletta_de
+	dangling     6 x bio.xml # waldenburg_alfred
+19090426y_IONG_1738.xml
+	dangling     1 x 19090421y_IONG_1304.xml # 
+	dangling     3 x bio.xml # iongh_aletta_de
+	dangling     4 x bio.xml # waldenburg_alfred
+19090513y_IONG_1293.xml
+	dangling     1 x biblio.xml # CR1998
+	dangling     3 x bio.xml # iongh_aletta_de
+	dangling     3 x bio.xml # waldenburg_alfred
+	dangling     3 x expo.xml # sint_lucas_1909
+19090624_IONG_1294.xml
+	dangling     2 x bio.xml # iongh_aletta_de
+	dangling     3 x bio.xml # spoor_kees
+19090807y_IONG_1296.xml
+	dangling     1 x 19090905y.IONG_1295.xml # 
+	dangling     1 x 19100707y_IONG_0019.xml # verblijfOegstgeest
+	dangling     3 x bio.xml # calcar_reinder_van
+	dangling     1 x bio.xml # iongh_aletta_de
+19090824y_KNAP_1747.xml
+	dangling     1 x 19090824y_KNAP_1747.xml # Sarphatiepark
+	dangling     1 x 19090905_IONG_1295.xml # 
+	dangling     1 x bio.xml # briel_albert_van_den
+	dangling     1 x bio.xml # iongh_aletta_de
+	dangling     2 x bio.xml # knap_gerrit_willem
+	dangling     1 x bio.xml # smeenk_josina
+	dangling     4 x bio.xml # spoor_kees
+	dangling     1 x places.xml # Sarphatiepark42
+19090905y_IONG_1295.xml
+	dangling     6 x bio.xml # iongh_aletta_de
+	dangling     1 x bio.xml # iongh_anna_maria_de
+	dangling     1 x bio.xml # iongh_daniel_de
+	dangling     1 x bio.xml # iongh_de_frederika
+	dangling     3 x bio.xml # knap_gerrit_willem
+	dangling     6 x bio.xml # waldenburg_alfred
+	dangling     1 x bio.xml # wisse_adriana
+	dangling     1 x bio.xml # wisse_ko
+190909XX_QUER_1654.xml
+	dangling     1 x 19081224_BenW_5066.xml # conservator
+	dangling     6 x bio.xml # querido_israel
+	dangling     1 x bio.xml # sluijters_jan
+	dangling     4 x bio.xml # teirlinck_herman
+	dangling     1 x expo.xml # doe_stil_voort_1909
+	dangling     1 x expo.xml # spoor_mondriaan_sluijters_1909
+19091024_SPOO_0016.xml
+	dangling     2 x biblio.xml # Ginneken1970
+	dangling     1 x bio.xml # besant_annie
+	dangling     5 x bio.xml # fernhout_henk
+	dangling     2 x bio.xml # spoor_kees
+	dangling     1 x bio.xml # toorop_charley
+19091024y_IONG_1297.xml
+	dangling     1 x 19100130_IONG_0017.xml # SintLucas
+	dangling     1 x Gorter1998-1 # 
+	dangling     1 x arti_1909 # 
+	dangling     3 x bio.xml # iongh_aletta_de
+	dangling     7 x bio.xml # iongh_anna_de
+	dangling     2 x bio.xml # iongh_de_frederika
+	dangling     4 x bio.xml # philippona_reinier
+	dangling     1 x expo.xml # arti_1909
+	dangling     2 x philippona_mien # 
+19091025y_IONG_1298.xml
+	dangling     1 x 19091024y_IONG_1297 # DertienNovember
+	dangling     1 x 19091024y_IONG_1297.xml # 
+	dangling     1 x 19091109yIONG_1299.xml # 
+	dangling     2 x bio.xml # iongh_aletta_de
+19100131_SAAL_ARNO_0018.xml
+	dangling     2 x 9101006y_IONG_1309.xml # 
+	dangling     2 x bio.xml # iongh_aletta_de
+	dangling     5 x bio.xml # saalborn_arnold
+biblio.xml
+	dangling     1 x Bleyerveld2018 # 
+	dangling     1 x Rooij2015 # 

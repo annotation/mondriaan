@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 @description=Reference key to the details of an exhibition; the content is taken from rs@key[type=exhibition]
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,26 +15,27 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-18950	expo.xml#sint_lucas_1909
-18971	expo.xml#sint_lucas_1909
-18973	expo.xml#sint_lucas_1909
-18978	expo.xml#sint_lucas_1909
-19027	
+19575	
+19580	
+19608	
+19610	
+19615	
+19664	
 
-19030	
+19667	
 
-19044	expo.xml#spoor_mondriaan_sluijters_1909
-19047	
-expo.xml#doe_stil_voort_1909
-19055	
-19082	
-19091	
-19094	arti_1909
+19681	
+19684	
+
+19692	
+19719	
+19728	
+19731	

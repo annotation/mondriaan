@@ -14,14 +14,14 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-79006	1909-02-16
+82160	1909-02-16
 1909-04-07
 1909-04
 1909-04-26
@@ -32,6 +32,6 @@
 1909-09
 1909-09
 1909-10-24
-79019	1909-10-24
+82173	1909-10-24
 1909-10
 1910-01-31

@@ -20,8 +20,8 @@ models:
   - artwork
 templates:
   - letter
-  - biblio
-  - artworks
+  - bibliolist
+  - artworklist
 adaptations:
   - md
 templateTrigger: "?editem@template"

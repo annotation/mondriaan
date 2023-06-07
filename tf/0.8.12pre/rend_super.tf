@@ -14,22 +14,22 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=int
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-19113	1
+22290	1
 1
-19139	1
-21191	1
-1
-1
-45340	1
+22316	1
+24367	1
 1
 1
-84049	1
-84392	1
-88560	1
+48513	1
+1
+1
+87718	1
+88060	1
+92225	1

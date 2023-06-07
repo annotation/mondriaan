@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 @description=this is TEI attribute rend
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -15,19 +15,19 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:53Z
+@dateWritten=2023-06-07T14:44:51Z
 
-17121	above
-17130	center
-17901	overwritten
+17716	above
+17725	center
+18496	overwritten
 overwritten
-18115	underline
+18710	underline
 underline
 super underline
 underline
@@ -92,18 +92,19 @@ italics
 italics
 bold
 italics
-18633	indent
-18715	upsidedown
-19205	right
-19241	norend
-19243	norend
-norend
-19246	norend
-19477	italics
-19485	italics
-19487	italics
-19489	italics
-19491	italics
-19493	italics
 italics
-19512	italics
+19247	indent
+19329	upsidedown
+19842	right
+19878	norend
+19880	norend
+norend
+19883	norend
+20114	italics
+20122	italics
+20124	italics
+20126	italics
+20128	italics
+20130	italics
+italics
+20149	italics

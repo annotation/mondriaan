@@ -14,18 +14,18 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-78288	above
-78297	center
-79068	overwritten
+81442	above
+81451	center
+82222	overwritten
 overwritten
-79282	underline
+82436	underline
 underline
 super underline
 underline
@@ -90,18 +90,19 @@ italics
 italics
 bold
 italics
-79800	indent
-79882	upsidedown
-80372	right
-80408	norend
-80410	norend
-norend
-80413	norend
-80644	italics
-80652	italics
-80654	italics
-80656	italics
-80658	italics
-80660	italics
 italics
-80679	italics
+82973	indent
+83055	upsidedown
+83568	right
+83604	norend
+83606	norend
+norend
+83609	norend
+83840	italics
+83848	italics
+83850	italics
+83852	italics
+83854	italics
+83856	italics
+italics
+83875	italics

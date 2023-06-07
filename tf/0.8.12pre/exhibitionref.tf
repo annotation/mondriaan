@@ -14,25 +14,26 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:08Z
 
-80117	expo.xml#sint_lucas_1909
-80138	expo.xml#sint_lucas_1909
-80140	expo.xml#sint_lucas_1909
-80145	expo.xml#sint_lucas_1909
-80194	
+83301	
+83306	
+83334	
+83336	
+83341	
+83390	
 
-80197	
+83393	
 
-80211	expo.xml#spoor_mondriaan_sluijters_1909
-80214	
-expo.xml#doe_stil_voort_1909
-80222	
-80249	
-80258	
-80261	arti_1909
+83407	
+83410	
+
+83418	
+83445	
+83454	
+83457	

@@ -14,18 +14,18 @@
 @language=nl
 @schema=TEI + MD + artwork
 @sourceFormat=TEI
-@teiVersion=2023-05-24
+@teiVersion=2023-06-06
 @title=Letters
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-05T09:45:32Z
+@dateWritten=2023-06-07T14:43:09Z
 
-78514	wc
+81668	wc
 wc
 lj
 lj
-78521	ev
+81675	ev
 ev
 ev
 ms
@@ -34,7 +34,7 @@ lj
 lj
 wc
 wc
-78533	ev
+81687	ev
 ev
 ev
 ms
@@ -43,7 +43,7 @@ wc
 wc
 lj
 lj
-78545	ev
+81699	ev
 ev
 ms
 lj
@@ -51,16 +51,7 @@ lj
 lj
 wc
 lj
-78556	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-78568	ev
+81710	ev
 ev
 ev
 ms
@@ -69,7 +60,16 @@ wc
 wc
 lj
 lj
-78580	ev
+81722	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+lj
+81734	ev
 ev
 ev
 ms
@@ -78,7 +78,7 @@ wc
 wc
 wc
 lj
-78592	ev
+81746	ev
 ev
 ev
 ms
@@ -87,8 +87,8 @@ gr
 wc
 lj
 lj
-78602	XX
-78604	ev
+81756	XX
+81758	ev
 ev
 ev
 ms
@@ -97,7 +97,7 @@ wc
 wc
 wc
 lj
-78616	ev
+81770	ev
 ev
 ev
 ms
@@ -106,7 +106,7 @@ wc
 wc
 lj
 wc
-78628	ev
+81782	ev
 ev
 ev
 ms
@@ -115,7 +115,7 @@ wc
 wc
 lj
 wc
-78640	ev
+81794	ev
 ev
 ev
 ms
@@ -125,7 +125,7 @@ wc
 wc
 lj
 ev
-78653	ev
+81807	ev
 ev
 ev
 ms
@@ -134,7 +134,7 @@ wc
 wc
 lj
 lj
-78665	ev
+81819	ev
 ev
 ev
 ms
@@ -143,7 +143,7 @@ wc
 wc
 lj
 wc
-78677	ev
+81831	ev
 ev
 ev
 ms

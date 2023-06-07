@@ -21,12 +21,23 @@ def imageCls(app, n):
     api = app.api
     F = api.F
     nType = F.otype.v(n)
-    key = F.key.v(n)
+    ref = F.ref.v(n)
     typ = F.type.v(n)
 
-    if nType != "rs" or not key or typ != ARTWORK_LABEL:
+    key = None
+
+    if nType == "rs":
+        ref = F.ref.v(n)
+        if ref and typ == ARTWORK_LABEL:
+            key = ref.split("#")[1]
+    elif nType == "artwork":
+        key = F.id.v(n)
+        typ = ARTWORK_LABEL
+
+    if key is None:
         return (nType, None, None, None)
 
+    key = key.removeprefix("a")
     return (nType, typ, key, f"{key}.{ARTWORK_EXT}")
 
 
