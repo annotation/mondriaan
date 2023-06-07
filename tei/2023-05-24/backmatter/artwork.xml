@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="artworks"?>
+<?xml-model href="artwork.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="artwork.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of (Mondrian?) artworks identified in the Mondrian Papers Project</title>
+            <author>Mondrian Papers Project</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Generated on the basis of identifiers in letters and writings form data at rkd.nl</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="OBJALG" n="Object type">
+               <bibl><ptr target="https://rkd.nl/en/explore/thesaurus?domain=OBJALG&amp;language=en-GB&amp;term=79320"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="DRAGER" n="Support">
+               <bibl><ptr target="https://rkd.nl/en/explore/thesaurus?domain=DRAGER&amp;language=en-GB&amp;term=97857"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="MATERTECHN" n="Medium">
+               <bibl><ptr target="https://rkd.nl/en/explore/thesaurus?domain=MATERTECHN&amp;language=en-GB&amp;term=97846"/></bibl>
+            </taxonomy>
+            <taxonomy xml:id="VORM" n="Shape">
+               <bibl><ptr target="https://rkd.nl/en/explore/thesaurus?domain=VORM&amp;language=en-GB&amp;term=74840"/></bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+<listObject>
+  <head>List of (Mondrian?) artworks identified in the Mondrian Papers Project</head>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/68733" corresp="https://rkd.nl/en/images/68733" xml:id="a68733">
+    <head1 xml:lang="en">Zeeland girl</head1>
+    <desc>child portrait, girl, bust-length portrait, head frontal, body facing left, facing front, regional dress, mutche</desc>
+    <date type="creation">1909-early 1910</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/31eda488-8a04-9b05-4b24-91e2c49d05c3.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="cm" quantity="48"/>
+    <measure commodity="size-ver" unit="cm" quantity="63"/>
+    <catRef target="74324" scheme="#OBJALG">painting</catRef>
+    <catRef target="62515" scheme="#VORM">rectangle (portrait format)</catRef>
+    <catRef target="62542" scheme="#DRAGER">canvas</catRef>
+    <catRef target="37107" scheme="#MATERTECHN">oil paint</catRef>
+    <note type="collection">private collection Kirk Douglas (Mr. en Mrs.), Palm Springs (Californië)</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/277201" corresp="https://rkd.nl/en/images/277201" xml:id="a277201">
+    <head xml:lang="en">Meisjeskop</head>
+    <desc>girl's portrait, facing front</desc>
+    <date type="creation">1910</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/c9f12f7b-2f7a-9018-364e-1a7c18dd7008.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="mm" quantity="507"/>
+    <measure commodity="size-ver" unit="mm" quantity="677"/>
+    <catRef target="74319" scheme="#OBJALG">drawing</catRef>
+    <catRef target="62515" scheme="#VORM">rectangle (portrait format)</catRef>
+    <catRef target="62580" scheme="#DRAGER">paper</catRef>
+    <catRef target="59009" scheme="#MATERTECHN">conté</catRef>
+    <note type="collection">Stedelijk Museum Alkmaar, Alkmaar , inv./cat.nr 020961</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/62324" corresp="https://rkd.nl/en/images/62324" xml:id="a62324">
+    <head xml:lang="en">Devotion</head>
+    <desc>girl, bust-length portrait, profile, flower (plant material), looking up, devotion</desc>
+    <date type="creation">1908</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/8447485b-7da7-d886-83be-2896b8687822.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="cm" quantity="61"/>
+    <measure commodity="size-ver" unit="cm" quantity="94"/>
+    <catRef target="74324" scheme="#OBJALG">painting</catRef>
+    <catRef target="62515" scheme="#VORM">rectangle (portrait format)</catRef>
+    <catRef target="62542" scheme="#DRAGER">canvas</catRef>
+    <catRef target="37107" scheme="#MATERTECHN">oil paint</catRef>
+    <note type="collection">Kunstmuseum Den Haag, The Hague , inv./cat.nr 128-1971 / 0334286</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/68554" corresp="https://rkd.nl/en/images/68554" xml:id="a68554">
+    <head xml:lang="en">Female nude: bust portrait</head>
+    <desc>woman's portrait, nude, bust-length portrait</desc>
+    <date type="creation">c. 1909-1911</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/b8134f83-a2ae-77a2-6b04-69aa2b17396e.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="mm" quantity="405"/>
+    <measure commodity="size-ver" unit="mm" quantity="335"/>
+    <catRef target="74319" scheme="#OBJALG">drawing</catRef>
+    <catRef target="62501" scheme="#VORM">rectangle (landscape format)</catRef>
+    <catRef target="62580" scheme="#DRAGER">paper</catRef>
+    <catRef target="45101" scheme="#MATERTECHN">charcoal</catRef>
+    <catRef target="61120" scheme="#MATERTECHN">black chalk</catRef>
+    <note type="collection">Private collection</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/68728" corresp="https://rkd.nl/en/images/68728" xml:id="a68728">
+    <head xml:lang="en">Lily</head>
+    <desc>botanical representation, tiger lily</desc>
+    <date type="creation">late 1909</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/44f5c630-d2ab-0051-0a68-b2b6d3d30dff.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="mm" quantity="440"/>
+    <measure commodity="size-ver" unit="mm" quantity="350"/>
+    <catRef target="74319" scheme="#OBJALG">drawing</catRef>
+    <catRef target="62501" scheme="#VORM">rectangle (landscape format)</catRef>
+    <catRef target="62580" scheme="#DRAGER">paper</catRef>
+    <catRef target="45101" scheme="#MATERTECHN">charcoal</catRef>
+    <catRef target="61120" scheme="#MATERTECHN">black chalk</catRef>
+    <catRef target="61279" scheme="#MATERTECHN">black wash</catRef>
+    <note type="collection">Kunstmuseum Den Haag, The Hague , inv./cat.nr T122-1971 / 0016556</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/268864" corresp="https://rkd.nl/en/images/268864" xml:id="a268864">
+    <head xml:lang="en">Dying sunflower II</head>
+    <desc>flower piece, sunflower, death</desc>
+    <date type="creation">1908</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/eedb51a3-c739-87f9-a9eb-584b89be343a.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="cm" quantity="34"/>
+    <measure commodity="size-ver" unit="cm" quantity="65"/>
+    <catRef target="74324" scheme="#OBJALG">painting</catRef>
+    <catRef target="62515" scheme="#VORM">rectangle (portrait format)</catRef>
+    <catRef target="53721" scheme="#DRAGER">cardboard</catRef>
+    <catRef target="37107" scheme="#MATERTECHN">oil paint</catRef>
+    <note type="collection">Kunstmuseum Den Haag, The Hague , inv./cat.nr 124-1971 / 0334282</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/268821" corresp="https://rkd.nl/en/images/268821" xml:id="a268821">
+    <head xml:lang="en">Woods</head>
+    <desc>forest landscape, sunset</desc>
+    <date type="creation">1908</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/7e45e378-87c4-9d70-5ae7-7359de82a047.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="cm" quantity="158"/>
+    <measure commodity="size-ver" unit="cm" quantity="128"/>
+    <catRef target="74324" scheme="#OBJALG">painting</catRef>
+    <catRef target="62501" scheme="#VORM">rectangle (landscape format)</catRef>
+    <catRef target="62542" scheme="#DRAGER">canvas</catRef>
+    <catRef target="37107" scheme="#MATERTECHN">oil paint</catRef>
+    <note type="collection">Kunstmuseum Den Haag, The Hague , inv./cat.nr 126-1971 / 0334284</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/194515" corresp="https://rkd.nl/en/images/194515" xml:id="a194515">
+    <head xml:lang="en">Mill in sunlight : the Winkel mill</head>
+    <desc>landscape (genre), mill, sunlight</desc>
+    <date type="creation">1908</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/246f58e9-8131-0c82-b9c4-ec4511046e02.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="cm" quantity="87"/>
+    <measure commodity="size-ver" unit="cm" quantity="114"/>
+    <catRef target="74324" scheme="#OBJALG">painting</catRef>
+    <catRef target="62515" scheme="#VORM">rectangle (portrait format)</catRef>
+    <catRef target="62542" scheme="#DRAGER">canvas</catRef>
+    <catRef target="37107" scheme="#MATERTECHN">oil paint</catRef>
+    <note type="collection">Kunstmuseum Den Haag, The Hague , inv./cat.nr 130-1971 / 0334288</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/62319" corresp="https://rkd.nl/en/images/62319" xml:id="a62319">
+    <head xml:lang="en">Zeeland farmer</head>
+    <desc>man's portrait, peasant, head and shoulders painting, head frontal, cap</desc>
+    <date type="creation">1909-early 1910</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/e249074a-ddb1-c35c-f2da-868f6f54d6ef.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="cm" quantity="53"/>
+    <measure commodity="size-ver" unit="cm" quantity="69"/>
+    <catRef target="74324" scheme="#OBJALG">painting</catRef>
+    <catRef target="62515" scheme="#VORM">rectangle (portrait format)</catRef>
+    <catRef target="62542" scheme="#DRAGER">canvas</catRef>
+    <catRef target="37107" scheme="#MATERTECHN">oil paint</catRef>
+    <note type="collection">Kunstmuseum Den Haag, The Hague , inv./cat.nr 140-1971 / 0334298</note>
+  </aw:artwork>
+  <aw:artwork xmlns:aw="http://xmlschema.huygens.knaw.nl/ns/editem/artwork" source="https://rkd.nl/en/images/268881" corresp="https://rkd.nl/en/images/268881" xml:id="a268881">
+    <head xml:lang="en">Flower</head>
+    <desc>botanical representation, chrysanthemum</desc>
+    <date type="creation">1908</date>
+    <relation name="creator" ref="bio.xml#mondriaan_pieter_junior"/>
+    <graphic url="https://images.rkd.nl/rkd/thumb/650x650/d4e792e7-38a9-1f2c-c76a-04b4b6341964.jpg" type="thumb"/>
+    <measure commodity="size-hor" unit="cm" quantity="54"/>
+    <measure commodity="size-ver" unit="cm" quantity="84.5"/>
+    <catRef target="74324" scheme="#OBJALG">painting</catRef>
+    <catRef target="62515" scheme="#VORM">rectangle (portrait format)</catRef>
+    <catRef target="62542" scheme="#DRAGER">canvas</catRef>
+    <catRef target="37107" scheme="#MATERTECHN">oil paint</catRef>
+    <note type="collection">Kunstmuseum Den Haag, The Hague , inv./cat.nr 125-1971 / 0334283</note>
+  </aw:artwork>
+</listObject>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,545 @@
+backmatter
+	artwork.xml:41
+		174: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:42
+		26: error element "head1" not allowed anywhere; expected the element end-tag or text
+backmatter
+	artwork.xml:43
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:44
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:45
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:46
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:47
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:48
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:49
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:49
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:50
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:50
+		70: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:51
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:51
+		51: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:52
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:52
+		58: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:53
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:55
+		177: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:56
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:57
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:58
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:59
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:60
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:61
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:62
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:63
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:63
+		52: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:64
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:64
+		70: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:65
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:65
+		50: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:66
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:66
+		54: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:67
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:69
+		174: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:70
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:71
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:72
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:73
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:74
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:75
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:76
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:77
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:77
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:78
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:78
+		70: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:79
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:79
+		51: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:80
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:80
+		58: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:81
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:83
+		174: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:84
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:85
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:86
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:87
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:88
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:89
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:90
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:91
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:91
+		52: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:92
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:92
+		71: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:93
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:93
+		50: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:94
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:94
+		57: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:95
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:95
+		60: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:96
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:98
+		174: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:99
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:100
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:101
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:102
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:103
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:104
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:105
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:106
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:106
+		52: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:107
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:107
+		71: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:108
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:108
+		50: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:109
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:109
+		57: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:110
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:110
+		60: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:111
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:111
+		59: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:112
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:114
+		177: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:115
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:116
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:117
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:118
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:119
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:120
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:121
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:122
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:122
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:123
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:123
+		70: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:124
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:124
+		54: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:125
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:125
+		58: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:126
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:128
+		177: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:129
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:130
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:131
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:132
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:133
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:134
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:135
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:136
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:136
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:137
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:137
+		71: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:138
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:138
+		51: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:139
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:139
+		58: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:140
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:142
+		177: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:143
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:144
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:145
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:146
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:147
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:148
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:149
+		61: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:150
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:150
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:151
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:151
+		70: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:152
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:152
+		51: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:153
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:153
+		58: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:154
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:156
+		174: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:157
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:158
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:159
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:160
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:161
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:162
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:163
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:164
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:164
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:165
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:165
+		70: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:166
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:166
+		51: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:167
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:167
+		58: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:168
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:170
+		177: error element "aw:artwork" not allowed here; expected element "desc", "head",
+			"listObject", "listRelation", "object" or "relation"
+backmatter
+	artwork.xml:171
+		25: error element "head" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:172
+		11: error element "desc" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:173
+		27: error element "date" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:174
+		69: error element "relation" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:175
+		115: error element "graphic" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:176
+		60: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:177
+		62: error element "measure" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:178
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:178
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:179
+		43: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:179
+		70: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:180
+		45: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:180
+		51: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:181
+		49: error element "catRef" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:181
+		53: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:181
+		58: error text not allowed here; expected the element end-tag
+backmatter
+	artwork.xml:182
+		29: error element "note" not allowed here; expected the element end-tag or text
+backmatter
+	artwork.xml:184
+		14: error element "listObject" incomplete; expected element "desc", "head", "listObject",
+			"listRelation", "object" or "relation"

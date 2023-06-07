@@ -15,6 +15,40 @@ generic:
   contributors3: |-
     "Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 
+models:
+  - MD
+  - artwork
+templates:
+  - letter
+  - biblio
+  - artworks
+adaptations:
+  - md
+templateTrigger: "?editem@template"
+adaptationTrigger: "?editem@adaptation"
+prelim: true
+wordAsSlot: false
+procins: true
+parentEdges: true
+siblingEdges: true
+pageModel:
+  model: II
+  element: div
+  attributes:
+    type:
+    - original
+    - translation
+    - postalData
+  pbAtTop: true
+  nodeType: page
+sectionModel: 
+  model: I
+  levels:
+  - folder
+  - file
+  - chunk
+  backMatter: backmatter
+
 extra:
   msid:
     meta:
@@ -186,33 +220,3 @@ extra:
       - rs@key:
           type: exhibition
     nodeType: rs
-
-adaptations:
-  - MD
-templates:
-  - letter
-  - biblio
-adaptationTrigger: "?editem@adaptation"
-templateTrigger: "?editem@template"
-prelim: true
-wordAsSlot: false
-procins: true
-parentEdges: true
-siblingEdges: true
-pageModel:
-  model: II
-  element: div
-  attributes:
-    type:
-    - original
-    - translation
-    - postalData
-  pbAtTop: true
-  nodeType: page
-sectionModel: 
-  model: I
-  levels:
-  - folder
-  - file
-  - chunk
-  backMatter: backmatter

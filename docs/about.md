@@ -131,7 +131,7 @@ Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 
 ## version
 
-0.8.11
+0.8.12
 
 
 ## teiVersion
@@ -141,7 +141,7 @@ Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 
 ## schema
 
-TEI + MD
+TEI + MD + artwork
 
 
 ## Conversion
