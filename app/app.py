@@ -3,7 +3,7 @@ from tf.advanced.app import App
 
 from tf.advanced.find import loadModule
 
-KNOWN_RENDS = {'spaced', 'sup', 'super', 'below', 'b', 'h3', 'bold', 'large', 'h6', 'margin', 'italics', 'underline', 'small_caps', 'h4', 'h2', 'above', 'spat', 'h5', 'sub', 'italic', 'smallcaps', 'center', 'sc', 'h1', 'ul', 'i'}
+KNOWN_RENDS = {'h6', 'italics', 'sup', 'small_caps', 'h2', 'spat', 'b', 'bold', 'sub', 'above', 'i', 'large', 'ul', 'h4', 'spaced', 'super', 'italic', 'sc', 'smallcaps', 'h3', 'h5', 'underline', 'center', 'margin', 'h1', 'below'}
 
 
 def fmt_layout(app, n, **kwargs):

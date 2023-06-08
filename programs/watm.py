@@ -71,10 +71,11 @@ class WATM:
             if skipMeta and F.is_meta.v(s):
                 continue
 
+            after = F.after.v(s) or ""
+
             if F.empty.v(s):
-                value = ""
+                value = after
             else:
-                after = F.after.v(s) or ""
                 value = f"{F.str.v(s)}{after}"
 
             text.append(value)
