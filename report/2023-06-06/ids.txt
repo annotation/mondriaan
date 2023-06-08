@@ -1,4 +1,5 @@
 19090216y_IONG_1303.xml
+	1x       0refs    
 	1x       0refs    Zus_NL
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -20,11 +21,12 @@
 	1x       0refs    sev
 	1x       0refs    wc
 	1x       0refs    z1r1
-	0 non-unique id(s)
-	21 unused id(s)
-	23 unique id(s)
-	2 referenced id(s)
+	Unique:       24
+	Non-unique:    0
+	Unused:       22
+	Referenced:    7 x    2
 19090407y_IONG_1739.xml
+	1x       0refs    
 	1x       0refs    PaaschdagenArnhem_NL
 	1x       0refs    gekreukteEnveloppe_NL
 	1x       0refs    jurySintLucas_NL
@@ -47,10 +49,10 @@
 	1x       0refs    sev
 	1x       0refs    wc
 	1x       0refs    z1r1
-	0 non-unique id(s)
-	22 unused id(s)
-	27 unique id(s)
-	5 referenced id(s)
+	Unique:       28
+	Non-unique:    0
+	Unused:       23
+	Referenced:   10 x    5
 19090421y_IONG_1304.xml
 	1x       0refs    abc2
 	1x       0refs    lj
@@ -74,10 +76,10 @@
 	1x       0refs    wc
 	1x       0refs    z1r1
 	1x       0refs    z1v2
-	0 non-unique id(s)
-	22 unused id(s)
-	25 unique id(s)
-	3 referenced id(s)
+	Unique:       26
+	Non-unique:    0
+	Unused:       22
+	Referenced:    8 x    4
 19090426y_IONG_1738.xml
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -93,10 +95,10 @@
 	1x       0refs    sev
 	1x       0refs    wc
 	1x       0refs    z1r1
-	0 non-unique id(s)
-	14 unused id(s)
-	17 unique id(s)
-	3 referenced id(s)
+	Unique:       18
+	Non-unique:    0
+	Unused:       14
+	Referenced:    6 x    4
 19090513y_IONG_1293.xml
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -119,11 +121,12 @@
 	1x       0refs    sev
 	1x       0refs    wc
 	1x       0refs    z1r1
-	0 non-unique id(s)
-	21 unused id(s)
-	24 unique id(s)
-	3 referenced id(s)
+	Unique:       25
+	Non-unique:    0
+	Unused:       21
+	Referenced:    9 x    4
 19090624_IONG_1294.xml
+	1x       0refs    
 	1x       0refs    PD
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -141,11 +144,12 @@
 	1x       0refs    sev
 	1x       0refs    wc
 	1x       0refs    z1r1
-	0 non-unique id(s)
-	17 unused id(s)
-	18 unique id(s)
-	1 referenced id(s)
+	Unique:       19
+	Non-unique:    0
+	Unused:       18
+	Referenced:    3 x    1
 19090807y_IONG_1296.xml
+	1x       0refs    
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
@@ -160,11 +164,12 @@
 	1x       0refs    ser
 	1x       0refs    sev
 	1x       0refs    wc
-	0 non-unique id(s)
-	14 unused id(s)
-	17 unique id(s)
-	3 referenced id(s)
+	Unique:       18
+	Non-unique:    0
+	Unused:       15
+	Referenced:    6 x    3
 19090824y_KNAP_1747.xml
+	1x       0refs    
 	1x       0refs    PD
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -180,11 +185,12 @@
 	1x       0refs    s1r
 	1x       0refs    s1v
 	1x       0refs    wc
-	0 non-unique id(s)
-	15 unused id(s)
-	17 unique id(s)
-	2 referenced id(s)
+	Unique:       18
+	Non-unique:    0
+	Unused:       16
+	Referenced:    5 x    2
 19090905y_IONG_1295.xml
+	1x       0refs    
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
@@ -208,11 +214,12 @@
 	1x       0refs    z1r1
 	1x       0refs    z1v2
 	1x       0refs    z1v3
-	0 non-unique id(s)
-	23 unused id(s)
-	34 unique id(s)
-	11 referenced id(s)
+	Unique:       35
+	Non-unique:    0
+	Unused:       24
+	Referenced:   20 x   11
 190909XX_QUER_1654.xml
+	1x       0refs    
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_pubhistory
@@ -238,11 +245,12 @@
 	1x       0refs    p.nl.9
 	1x       0refs    s1r
 	1x       0refs    wc
-	0 non-unique id(s)
-	25 unused id(s)
-	32 unique id(s)
-	7 referenced id(s)
+	Unique:       33
+	Non-unique:    0
+	Unused:       26
+	Referenced:   15 x    7
 19091024_SPOO_0016.xml
+	1x       0refs    
 	1x       0refs    abc3
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -257,10 +265,10 @@
 	1x       0refs    ser
 	1x       0refs    sev
 	1x       0refs    wc
-	0 non-unique id(s)
-	14 unused id(s)
-	20 unique id(s)
-	6 referenced id(s)
+	Unique:       21
+	Non-unique:    0
+	Unused:       15
+	Referenced:    8 x    6
 19091024y_IONG_1297.xml
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -287,11 +295,12 @@
 	1x       0refs    z1r4
 	1x       0refs    z1v2
 	1x       0refs    z1v3
-	0 non-unique id(s)
-	25 unused id(s)
-	30 unique id(s)
-	5 referenced id(s)
+	Unique:       31
+	Non-unique:    0
+	Unused:       25
+	Referenced:   11 x    6
 19091025y_IONG_1298.xml
+	1x       0refs    
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
@@ -310,11 +319,12 @@
 	1x       0refs    ser
 	1x       0refs    sev
 	1x       0refs    wc
-	0 non-unique id(s)
-	18 unused id(s)
-	19 unique id(s)
-	1 referenced id(s)
+	Unique:       20
+	Non-unique:    0
+	Unused:       19
+	Referenced:    2 x    1
 19100131_SAAL_ARNO_0018.xml
+	1x       0refs    
 	1x       0refs    godWorden_NL
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -341,20 +351,22 @@
 	1x       0refs    s1v
 	1x       0refs    wc
 	1x       0refs    werkTonen_NL
-	0 non-unique id(s)
-	26 unused id(s)
-	30 unique id(s)
-	4 referenced id(s)
+	Unique:       31
+	Non-unique:    0
+	Unused:       27
+	Referenced:    8 x    4
 artwork.xml
+	1x       0refs    
 	1x       0refs    DRAGER
 	1x       0refs    MATERTECHN
 	1x       0refs    OBJALG
 	1x       0refs    VORM
-	0 non-unique id(s)
-	4 unused id(s)
-	14 unique id(s)
-	10 referenced id(s)
+	Unique:       15
+	Non-unique:    0
+	Unused:        5
+	Referenced:   14 x   10
 biblio.xml
+	1x       0refs    
 	1x       0refs    Adrichem1993
 	1x       0refs    Adrichem1994
 	1x       0refs    Adrichem2001
@@ -442,7 +454,7 @@ biblio.xml
 	1x       0refs    VanTilborgh2007
 	1x       0refs    VanTilborghetal2013
 	1x       0refs    Venema1980
-	0 non-unique id(s)
-	87 unused id(s)
-	104 unique id(s)
-	17 referenced id(s)
+	Unique:      105
+	Non-unique:    0
+	Unused:       88
+	Referenced:   24 x   17

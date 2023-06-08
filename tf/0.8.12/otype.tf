@@ -4,7 +4,7 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-07T14:43:08Z
+@dateWritten=2023-06-08T08:55:36Z
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
@@ -18,7 +18,7 @@
 @version=0.8.12
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-07T14:44:51Z
+@dateWritten=2023-06-08T08:55:53Z
 
 1-17711	t
 17712-17713	abbr

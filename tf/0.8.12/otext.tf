@@ -4,14 +4,14 @@
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-07T14:43:09Z
+@dateWritten=2023-06-08T08:55:36Z
 @descriptionTf=Critical edition
 @fmt:text-orig-full={str}{after}
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
 @institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 @language=nl
-@levelConstraints=note < chunk, p; salute < opener, closer; head < chunk; p < chunk; teiHeader < chunk; bibl < chunk
+@levelConstraints=note < chunk, p; salute < opener, closer; head < chunk; bibl < chunk; p < chunk; teiHeader < chunk
 @schema=TEI + MD + artwork
 @sectionFeatures=folder,file,chunk
 @sectionTypes=folder,file,chunk
@@ -21,5 +21,5 @@
 @version=0.8.12pre
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-07T14:44:51Z
+@dateWritten=2023-06-08T08:55:53Z
 

@@ -19,7 +19,7 @@
 @valueType=str
 @version=0.8.12pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-07T14:43:09Z
+@dateWritten=2023-06-08T08:55:36Z
 
 83283	bio.xml#iongh_aletta_de
 bio.xml#buhlig_richard
