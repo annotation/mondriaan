@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-08T10:29:11Z
+@dateWritten=2023-06-14T09:33:04Z
 @description=The date of the letter in YYYY-MM-DD; the content is taken from profileDesc/correspDesc/correspAction[type=sent]/date@when
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-08T10:29:19Z
+@dateWritten=2023-06-14T09:34:47Z
 
 18838	1909-02-16
 1909-04-07

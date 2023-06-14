@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-08T10:29:10Z
+@dateWritten=2023-06-14T09:33:04Z
 @description=Reference key to the details of an exhibition; the content is taken from rs@key[type=exhibition]
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-08T10:29:19Z
+@dateWritten=2023-06-14T09:34:47Z
 
 19575	
 19580	

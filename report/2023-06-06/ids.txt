@@ -1,5 +1,6 @@
 19090216y_IONG_1303.xml
 	1x       0refs    
+	1x       3refs    Zus
 	1x       0refs    Zus_NL
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -14,6 +15,7 @@
 	1x       0refs    p.nl.1
 	1x       0refs    p.nl.2
 	1x       0refs    p.nl.3
+	1x       4refs    plaatsBuhlig
 	1x       0refs    plaatsBuhlig_NL
 	1x       0refs    s1r
 	1x       0refs    s1v
@@ -27,8 +29,11 @@
 	Referenced:    7 x    2
 19090407y_IONG_1739.xml
 	1x       0refs    
+	1x       2refs    PaaschdagenArnhem
 	1x       0refs    PaaschdagenArnhem_NL
+	1x       2refs    gekreukteEnveloppe
 	1x       0refs    gekreukteEnveloppe_NL
+	1x       2refs    jurySintLucas
 	1x       0refs    jurySintLucas_NL
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -39,9 +44,11 @@
 	1x       0refs    ogt_1_NL
 	1x       0refs    p.en.1
 	1x       0refs    p.en.2
+	1x       2refs    p.en.3
 	1x       0refs    p.en.4
 	1x       0refs    p.nl.1
 	1x       0refs    p.nl.2
+	1x       2refs    p.nl.3
 	1x       0refs    p.nl.4
 	1x       0refs    s1r
 	1x       0refs    s1v
@@ -54,6 +61,7 @@
 	Unused:       23
 	Referenced:   10 x    5
 19090421y_IONG_1304.xml
+	1x       1ref     
 	1x       0refs    abc2
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -63,13 +71,16 @@
 	1x       0refs    ogt_1
 	1x       0refs    ogt_1_NL
 	1x       0refs    p.en.1
+	1x       1ref     p.en.2
 	1x       0refs    p.en.3
 	1x       0refs    p.en.4
 	1x       0refs    p.nl.1
+	1x       1ref     p.nl.2
 	1x       0refs    p.nl.3
 	1x       0refs    p.nl.4
 	1x       0refs    s1r
 	1x       0refs    s1v
+	1x       5refs    schedelmeter
 	1x       0refs    schedelmeter_NL
 	1x       0refs    ser
 	1x       0refs    sev
@@ -81,18 +92,22 @@
 	Unused:       22
 	Referenced:    8 x    4
 19090426y_IONG_1738.xml
+	1x       2refs    
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
 	1x       0refs    ogt_1
 	1x       0refs    p.en.1
+	1x       1ref     p.en.2
 	1x       0refs    p.en.3
 	1x       0refs    p.nl.1
+	1x       1ref     p.nl.2
 	1x       0refs    p.nl.3
 	1x       0refs    s1r
 	1x       0refs    s1v
 	1x       0refs    ser
 	1x       0refs    sev
+	1x       2refs    theosofischeLezingen
 	1x       0refs    wc
 	1x       0refs    z1r1
 	Unique:       18
@@ -100,6 +115,9 @@
 	Unused:       14
 	Referenced:    6 x    4
 19090513y_IONG_1293.xml
+	1x       2refs    
+	1x       2refs    kioskBaerlestraat
+	1x       2refs    koolteer
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_pubhistory
@@ -119,6 +137,7 @@
 	1x       0refs    s1v
 	1x       0refs    ser
 	1x       0refs    sev
+	1x       3refs    sluitingSintLucas
 	1x       0refs    wc
 	1x       0refs    z1r1
 	Unique:       25
@@ -128,6 +147,7 @@
 19090624_IONG_1294.xml
 	1x       0refs    
 	1x       0refs    PD
+	1x       3refs    SpoorDomburg
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
@@ -150,14 +170,17 @@
 	Referenced:    3 x    1
 19090807y_IONG_1296.xml
 	1x       0refs    
+	1x       2refs    dieProfessor
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
 	1x       0refs    p.en.1
 	1x       0refs    p.en.2
+	1x       2refs    p.en.3
 	1x       0refs    p.en.4
 	1x       0refs    p.nl.1
 	1x       0refs    p.nl.2
+	1x       2refs    p.nl.3
 	1x       0refs    p.nl.4
 	1x       0refs    s1r
 	1x       0refs    s1v
@@ -171,6 +194,7 @@
 19090824y_KNAP_1747.xml
 	1x       0refs    
 	1x       0refs    PD
+	1x       2refs    WaardeVrienden
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_remarks
@@ -184,6 +208,7 @@
 	1x       0refs    p.nl.3
 	1x       0refs    s1r
 	1x       0refs    s1v
+	1x       3refs    verblijfDomburg
 	1x       0refs    wc
 	Unique:       18
 	Non-unique:    0
@@ -191,17 +216,26 @@
 	Referenced:    5 x    2
 19090905y_IONG_1295.xml
 	1x       0refs    
+	1x       2refs    OoststraatDomburg
+	1x       2refs    fotoosOpzenden
+	1x       4refs    inAmsterdam
+	1x       2refs    inzakeEngeland
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
+	1x       2refs    nietThuis
 	1x       0refs    ogt_1
 	1x       0refs    p.en.1
+	1x       1ref     p.en.2
 	1x       0refs    p.en.3
+	1x       1ref     p.en.4
 	1x       0refs    p.en.5
 	1x       0refs    p.en.6
 	1x       0refs    p.en.7
 	1x       0refs    p.nl.1
+	1x       1ref     p.nl.2
 	1x       0refs    p.nl.3
+	1x       1ref     p.nl.4
 	1x       0refs    p.nl.5
 	1x       0refs    p.nl.6
 	1x       0refs    p.nl.7
@@ -210,7 +244,9 @@
 	1x       0refs    s1v
 	1x       0refs    ser
 	1x       0refs    sev
+	1x       2refs    studieGeven
 	1x       0refs    wc
+	1x       2refs    weerDomburg
 	1x       0refs    z1r1
 	1x       0refs    z1v2
 	1x       0refs    z1v3
@@ -220,10 +256,16 @@
 	Referenced:   20 x   11
 190909XX_QUER_1654.xml
 	1x       0refs    
+	1x       2refs    ArnhemGeweigerd
+	1x       3refs    ditGedeelte
+	1x       2refs    doorTeirlinck
+	1x       2refs    grootWerk
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_pubhistory
 	1x       0refs    n_transcrSource
+	1x       2refs    naarBrussel
+	1x       2refs    occulteKennis
 	1x       0refs    ogt_1_NL
 	1x       0refs    p.en.1
 	1x       0refs    p.en.2
@@ -244,6 +286,7 @@
 	1x       0refs    p.nl.8
 	1x       0refs    p.nl.9
 	1x       0refs    s1r
+	1x       2refs    verkeerdUitgedrukt
 	1x       0refs    wc
 	Unique:       33
 	Non-unique:    0
@@ -251,15 +294,21 @@
 	Referenced:   15 x    7
 19091024_SPOO_0016.xml
 	1x       0refs    
+	1x       2refs    Fernhout
 	1x       0refs    abc3
+	1x       2refs    deDames
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_pubhistory
 	1x       0refs    n_transcrSource
+	1x       1ref     p.en.1
 	1x       0refs    p.en.2
 	1x       0refs    p.en.3
+	1x       1ref     p.en.4
+	1x       1ref     p.nl.1
 	1x       0refs    p.nl.2
 	1x       0refs    p.nl.3
+	1x       1ref     p.nl.4
 	1x       0refs    s1r
 	1x       0refs    s1v
 	1x       0refs    ser
@@ -270,9 +319,14 @@
 	Unused:       15
 	Referenced:    8 x    6
 19091024y_IONG_1297.xml
+	1x       1ref     
+	1x       2refs    DertienNovember
+	1x       2refs    bloemetjeArti
+	1x       2refs    dingenZeeland
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
+	1x       2refs    nieuweOmgeving
 	1x       0refs    ogt_1_NL
 	1x       0refs    p.en.1
 	1x       0refs    p.en.2
@@ -291,6 +345,7 @@
 	1x       0refs    ser
 	1x       0refs    sev
 	1x       0refs    wc
+	1x       2refs    werkHoofdzaak
 	1x       0refs    z1r1
 	1x       0refs    z1r4
 	1x       0refs    z1v2
@@ -301,6 +356,7 @@
 	Referenced:   11 x    6
 19091025y_IONG_1298.xml
 	1x       0refs    
+	1x       2refs    Helmhout
 	1x       0refs    lj
 	1x       0refs    n_dating
 	1x       0refs    n_transcrSource
@@ -325,6 +381,7 @@
 	Referenced:    2 x    1
 19100131_SAAL_ARNO_0018.xml
 	1x       0refs    
+	1x       2refs    godWorden
 	1x       0refs    godWorden_NL
 	1x       0refs    lj
 	1x       0refs    n_dating
@@ -338,18 +395,21 @@
 	1x       0refs    p.en.1
 	1x       0refs    p.en.2
 	1x       0refs    p.en.3
+	1x       2refs    p.en.4
 	1x       0refs    p.en.5
 	1x       0refs    p.en.6
 	1x       0refs    p.en.7
 	1x       0refs    p.nl.1
 	1x       0refs    p.nl.2
 	1x       0refs    p.nl.3
+	1x       2refs    p.nl.4
 	1x       0refs    p.nl.5
 	1x       0refs    p.nl.6
 	1x       0refs    p.nl.7
 	1x       0refs    s1r
 	1x       0refs    s1v
 	1x       0refs    wc
+	1x       2refs    werkTonen
 	1x       0refs    werkTonen_NL
 	Unique:       31
 	Non-unique:    0
@@ -361,6 +421,16 @@ artwork.xml
 	1x       0refs    MATERTECHN
 	1x       0refs    OBJALG
 	1x       0refs    VORM
+	1x       1ref     a194515
+	1x       1ref     a268821
+	1x       2refs    a268864
+	1x       1ref     a268881
+	1x       3refs    a277201
+	1x       1ref     a62319
+	1x       1ref     a62324
+	1x       2refs    a68554
+	1x       1ref     a68728
+	1x       1ref     a68733
 	Unique:       15
 	Non-unique:    0
 	Unused:        5
@@ -370,18 +440,24 @@ biblio.xml
 	1x       0refs    Adrichem1993
 	1x       0refs    Adrichem1994
 	1x       0refs    Adrichem2001
+	1x       1ref     AlgemeenAdresboekAmsterdam
 	1x       0refs    Almering2018
 	1x       0refs    Andersen1861
 	1x       0refs    Auct.cat.Paris1886
 	1x       0refs    Balk2006
 	1x       0refs    Bax1994-1
+	1x       1ref     Bax1994-2
+	1x       2refs    Bax2006
 	1x       0refs    Bloem1996
 	1x       0refs    Blotkamp1990
 	1x       0refs    Blotkamp1994
 	1x       0refs    Bosma2008
 	1x       0refs    Bremmer1914
 	1x       0refs    Broekhuizen2010
+	1x       1ref     CR
+	1x       1ref     Coppes2012
 	1x       0refs    Coppes2015
+	1x       1ref     Coppes2018
 	1x       0refs    Coppes2020-1
 	1x       0refs    CoppesJansen2017
 	1x       0refs    CoppesJansen2019
@@ -398,10 +474,15 @@ biblio.xml
 	1x       0refs    Exh.cat.Amsterdam1946
 	1x       0refs    Exh.cat.Amsterdam1985
 	1x       0refs    Exh.cat.Amsterdam1994
+	1x       1ref     Exh.cat.Arnhem2016
 	1x       0refs    Exh.cat.Bergen2006
+	1x       1ref     Exh.cat.DenHaag2017
 	1x       0refs    Exh.cat.Parijs2009
+	1x       1ref     Exh.cat.Parijs2019
+	1x       1ref     Exh.cat.Rotterdam2008
 	1x       0refs    Exh.cat.Tokyo1987
 	1x       0refs    Exh.cat.Zandvoort1981
+	1x       1ref     Faassen2013
 	1x       0refs    Faassen2015
 	1x       0refs    Faassen2017
 	1x       0refs    Fineberg1979
@@ -411,12 +492,16 @@ biblio.xml
 	1x       0refs    Ginneken1970-2
 	1x       0refs    Gorter1998-1
 	1x       0refs    Gorter1998-2
+	1x       2refs    Gorter2017
 	1x       0refs    Groot2001
 	1x       0refs    Hammacher1947
 	1x       0refs    Hanssen2015
+	1x       1ref     Henkels1988
+	1x       5refs    Heteren2018
 	1x       0refs    Heyting1994
 	1x       0refs    Hilhorst2017
 	1x       0refs    Hoek2000
+	1x       2refs    HoltzmanJames1986
 	1x       0refs    Huisman2017
 	1x       0refs    Huygen1992
 	1x       0refs    JagerMatthes1992
@@ -445,8 +530,10 @@ biblio.xml
 	1x       0refs    RoodenburgSchadd2015
 	1x       0refs    Rooij2015
 	1x       0refs    Sanders1979
+	1x       1ref     Scherphuis1994
 	1x       0refs    Schoenmaekers1916
 	1x       0refs    Seuphor1956
+	1x       1ref     Sketchbooks1969
 	1x       0refs    Spoor1917
 	1x       0refs    Stap2011
 	1x       0refs    Steenhoff1918

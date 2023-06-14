@@ -1,38 +1,69 @@
 19090216y_IONG_1303.xml
+	ok             3 x 19090216y_IONG_1303.xml # Zus
+	ok             4 x 19090216y_IONG_1303.xml # plaatsBuhlig
+	ok             2 x biblio.xml # Heteren2018
 	dangling       6 x bio.xml # buhlig_richard
 	dangling       3 x bio.xml # iongh_aletta_de
 	Dangling:      9 x    2
 	Resolvable:    9 x    3
 19090407y_IONG_1739.xml
+	ok             2 x 19090407y_IONG_1739.xml # PaaschdagenArnhem
+	ok             2 x 19090407y_IONG_1739.xml # gekreukteEnveloppe
+	ok             2 x 19090407y_IONG_1739.xml # jurySintLucas
+	ok             2 x 19090407y_IONG_1739.xml # p.en.3
+	ok             2 x 19090407y_IONG_1739.xml # p.nl.3
+	ok             2 x biblio.xml # Gorter2017
 	dangling       3 x bio.xml # iongh_aletta_de
 	dangling       2 x bio.xml # mondriaan_pieter_senior
 	dangling       4 x expo.xml # sint_lucas_1909
 	Dangling:      9 x    2
 	Resolvable:   12 x    6
 19090421y_IONG_1304.xml
+	ok             2 x 19090421y_IONG_1304.xml # schedelmeter
+	ok             2 x 19090426y_IONG_1738.xml # 
+	ok             2 x 19090513y_IONG_1293.xml # 
 	dangling       2 x 19090513y_IONG_1295.xml # 
+	ok             2 x artwork.xml # a277201
+	ok             2 x artwork.xml # a68554
 	dangling       5 x bio.xml # iongh_aletta_de
 	dangling       6 x bio.xml # waldenburg_alfred
 	Dangling:     13 x    2
 	Resolvable:   10 x    5
 19090426y_IONG_1738.xml
+	ok             1 x 19090421y_IONG_1304.xml # 
+	ok             1 x 19090421y_IONG_1304.xml # p.en.2
+	ok             1 x 19090421y_IONG_1304.xml # p.nl.2
+	ok             1 x 19090421y_IONG_1304.xml # schedelmeter
+	ok             1 x 19090426y_IONG_1738.xml # p.en.2
+	ok             1 x 19090426y_IONG_1738.xml # p.nl.2
+	ok             2 x 19090426y_IONG_1738.xml # theosofischeLezingen
+	ok             1 x biblio.xml # Bax2006
 	dangling       3 x bio.xml # iongh_aletta_de
 	dangling       4 x bio.xml # waldenburg_alfred
 	Dangling:      7 x    0
 	Resolvable:    9 x    7
 19090513y_IONG_1293.xml
+	ok             1 x 19090421y_IONG_1304.xml # schedelmeter
+	ok             2 x 19090513y_IONG_1293.xml # kioskBaerlestraat
+	ok             2 x 19090513y_IONG_1293.xml # koolteer
+	ok             3 x 19090513y_IONG_1293.xml # sluitingSintLucas
 	dangling       1 x biblio.xml # CR1998
+	ok             1 x biblio.xml # Heteren2018
 	dangling       3 x bio.xml # iongh_aletta_de
 	dangling       3 x bio.xml # waldenburg_alfred
 	dangling       3 x expo.xml # sint_lucas_1909
 	Dangling:     10 x    1
 	Resolvable:    9 x    3
 19090624_IONG_1294.xml
+	ok             3 x 19090624_IONG_1294.xml # SpoorDomburg
 	dangling       2 x bio.xml # iongh_aletta_de
 	dangling       3 x bio.xml # spoor_kees
 	Dangling:      5 x    1
 	Resolvable:    3 x    1
 19090807y_IONG_1296.xml
+	ok             2 x 19090807y_IONG_1296.xml # dieProfessor
+	ok             1 x 19090807y_IONG_1296.xml # p.en.3
+	ok             1 x 19090807y_IONG_1296.xml # p.nl.3
 	dangling       1 x 19090905y.IONG_1295.xml # 
 	dangling       1 x 19100707y_IONG_0019.xml # verblijfOegstgeest
 	dangling       3 x bio.xml # calcar_reinder_van
@@ -41,7 +72,12 @@
 	Resolvable:    4 x    3
 19090824y_KNAP_1747.xml
 	dangling       1 x 19090824y_KNAP_1747.xml # Sarphatiepark
+	ok             2 x 19090824y_KNAP_1747.xml # WaardeVrienden
+	ok             2 x 19090824y_KNAP_1747.xml # verblijfDomburg
 	dangling       1 x 19090905_IONG_1295.xml # 
+	ok             1 x biblio.xml # Bax1994-2
+	ok             1 x biblio.xml # CR
+	ok             1 x biblio.xml # Henkels1988
 	dangling       1 x bio.xml # briel_albert_van_den
 	dangling       1 x bio.xml # iongh_aletta_de
 	dangling       2 x bio.xml # knap_gerrit_willem
@@ -51,6 +87,27 @@
 	Dangling:     12 x    6
 	Resolvable:    7 x    5
 19090905y_IONG_1295.xml
+	ok             1 x 19090421y_IONG_1304.xml # schedelmeter
+	ok             1 x 19090807y_IONG_1296.xml # p.en.3
+	ok             1 x 19090807y_IONG_1296.xml # p.nl.3
+	ok             1 x 19090824y_KNAP_1747.xml # verblijfDomburg
+	ok             2 x 19090905y_IONG_1295.xml # OoststraatDomburg
+	ok             2 x 19090905y_IONG_1295.xml # fotoosOpzenden
+	ok             3 x 19090905y_IONG_1295.xml # inAmsterdam
+	ok             2 x 19090905y_IONG_1295.xml # inzakeEngeland
+	ok             2 x 19090905y_IONG_1295.xml # nietThuis
+	ok             1 x 19090905y_IONG_1295.xml # p.en.2
+	ok             1 x 19090905y_IONG_1295.xml # p.en.4
+	ok             1 x 19090905y_IONG_1295.xml # p.nl.2
+	ok             1 x 19090905y_IONG_1295.xml # p.nl.4
+	ok             2 x 19090905y_IONG_1295.xml # studieGeven
+	ok             2 x 19090905y_IONG_1295.xml # weerDomburg
+	ok             1 x artwork.xml # a277201
+	ok             1 x artwork.xml # a62319
+	ok             1 x artwork.xml # a68733
+	ok             1 x biblio.xml # Coppes2012
+	ok             1 x biblio.xml # Heteren2018
+	ok             1 x biblio.xml # Scherphuis1994
 	dangling       6 x bio.xml # iongh_aletta_de
 	dangling       1 x bio.xml # iongh_anna_maria_de
 	dangling       1 x bio.xml # iongh_daniel_de
@@ -63,6 +120,20 @@
 	Resolvable:   29 x   15
 190909XX_QUER_1654.xml
 	dangling       1 x 19081224_BenW_5066.xml # conservator
+	ok             2 x 190909XX_QUER_1654.xml # ArnhemGeweigerd
+	ok             3 x 190909XX_QUER_1654.xml # ditGedeelte
+	ok             2 x 190909XX_QUER_1654.xml # doorTeirlinck
+	ok             2 x 190909XX_QUER_1654.xml # grootWerk
+	ok             2 x 190909XX_QUER_1654.xml # naarBrussel
+	ok             2 x 190909XX_QUER_1654.xml # occulteKennis
+	ok             2 x 190909XX_QUER_1654.xml # verkeerdUitgedrukt
+	ok             1 x artwork.xml # a194515
+	ok             1 x artwork.xml # a268821
+	ok             1 x artwork.xml # a268881
+	ok             1 x artwork.xml # a62324
+	ok             1 x biblio.xml # Bax2006
+	ok             1 x biblio.xml # Faassen2013
+	ok             1 x biblio.xml # Sketchbooks1969
 	dangling       6 x bio.xml # querido_israel
 	dangling       1 x bio.xml # sluijters_jan
 	dangling       4 x bio.xml # teirlinck_herman
@@ -71,6 +142,13 @@
 	Dangling:     14 x    6
 	Resolvable:   22 x   13
 19091024_SPOO_0016.xml
+	ok             2 x 19091024_SPOO_0016.xml # Fernhout
+	ok             2 x 19091024_SPOO_0016.xml # deDames
+	ok             1 x 19091024_SPOO_0016.xml # p.en.1
+	ok             1 x 19091024_SPOO_0016.xml # p.en.4
+	ok             1 x 19091024_SPOO_0016.xml # p.nl.1
+	ok             1 x 19091024_SPOO_0016.xml # p.nl.4
+	ok             1 x biblio.xml # Exh.cat.Rotterdam2008
 	dangling       2 x biblio.xml # Ginneken1970
 	dangling       1 x bio.xml # besant_annie
 	dangling       5 x bio.xml # fernhout_henk
@@ -79,9 +157,18 @@
 	Dangling:     11 x    4
 	Resolvable:    9 x    7
 19091024y_IONG_1297.xml
+	ok             1 x 19090905y_IONG_1295.xml # inAmsterdam
+	ok             2 x 19091024y_IONG_1297.xml # DertienNovember
+	ok             2 x 19091024y_IONG_1297.xml # bloemetjeArti
+	ok             2 x 19091024y_IONG_1297.xml # dingenZeeland
+	ok             2 x 19091024y_IONG_1297.xml # nieuweOmgeving
+	ok             2 x 19091024y_IONG_1297.xml # werkHoofdzaak
 	dangling       1 x 19100130_IONG_0017.xml # SintLucas
 	dangling       1 x Gorter1998-1 # 
 	dangling       1 x arti_1909 # 
+	ok             1 x artwork.xml # a68728
+	ok             1 x biblio.xml # Coppes2018
+	ok             1 x biblio.xml # Heteren2018
 	dangling       3 x bio.xml # iongh_aletta_de
 	dangling       7 x bio.xml # iongh_anna_de
 	dangling       2 x bio.xml # iongh_de_frederika
@@ -92,12 +179,21 @@
 	Resolvable:   14 x    7
 19091025y_IONG_1298.xml
 	dangling       1 x 19091024y_IONG_1297 # DertienNovember
+	ok             1 x 19091024y_IONG_1297.xml # 
+	ok             2 x 19091025y_IONG_1298.xml # Helmhout
 	dangling       1 x 19091109yIONG_1299.xml # 
+	ok             1 x biblio.xml # AlgemeenAdresboekAmsterdam
 	dangling       2 x bio.xml # iongh_aletta_de
 	Dangling:      4 x    2
 	Resolvable:    4 x    3
 19100131_SAAL_ARNO_0018.xml
+	ok             2 x 19100131_SAAL_ARNO_0018.xml # godWorden
+	ok             2 x 19100131_SAAL_ARNO_0018.xml # p.en.4
+	ok             2 x 19100131_SAAL_ARNO_0018.xml # p.nl.4
+	ok             2 x 19100131_SAAL_ARNO_0018.xml # werkTonen
 	dangling       2 x 9101006y_IONG_1309.xml # 
+	ok             2 x artwork.xml # a268864
+	ok             2 x biblio.xml # HoltzmanJames1986
 	dangling       2 x bio.xml # iongh_aletta_de
 	dangling       5 x bio.xml # saalborn_arnold
 	Dangling:      9 x    2
@@ -105,5 +201,8 @@
 biblio.xml
 	dangling       1 x Bleyerveld2018 # 
 	dangling       1 x Rooij2015 # 
+	ok             1 x biblio.xml # Exh.cat.Arnhem2016
+	ok             1 x biblio.xml # Exh.cat.DenHaag2017
+	ok             1 x biblio.xml # Exh.cat.Parijs2019
 	Dangling:      2 x    2
 	Resolvable:    3 x    3
