@@ -19,13 +19,13 @@
 @valueType=str
 @version=0.8.13pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:44:03Z
+@dateWritten=2023-11-09T20:30:08Z
 
-81442	above
-81451	center
-82222	overwritten
+81478	above
+81487	center
+82371	overwritten
 overwritten
-82436	underline
+82585	underline
 underline
 super underline
 underline
@@ -91,18 +91,18 @@ italics
 bold
 italics
 italics
-82973	indent
-83055	upsidedown
-83568	right
-83604	norend
-83606	norend
+83122	indent
+83255	upsidedown
+83768	right
+83804	norend
+83806	norend
 norend
-83609	norend
-83840	italics
-83848	italics
-83850	italics
-83852	italics
-83854	italics
-83856	italics
+83809	norend
+84040	italics
+84048	italics
+84050	italics
+84052	italics
+84054	italics
+84056	italics
 italics
-83875	italics
+84075	italics

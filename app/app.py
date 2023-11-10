@@ -1,9 +1,9 @@
 import types
 from tf.advanced.app import App
 
-from tf.advanced.find import loadModule
+# INSERT import
 
-KNOWN_RENDS = {'center', 'b', 'h5', 'margin', 'italics', 'below', 'h1', 'sc', 'h6', 'h2', 'super', 'smallcaps', 'h3', 'small_caps', 'ul', 'bold', 'spat', 'i', 'sup', 'spaced', 'sub', 'h4', 'underline', 'above', 'large', 'italic'}
+KNOWN_RENDS = {'italics', 'h1', 'spaced', 'sc', 'below', 'h2', 'h6', 'above', 'super', 'center', 'h4', 'smallcaps', 'ul', 'b', 'italic', 'small_caps', 'h5', 'sup', 'margin', 'h3', 'large', 'underline', 'bold', 'i', 'sub', 'spat'}
 
 
 def fmt_layout(app, n, **kwargs):
@@ -19,9 +19,7 @@ class TfApp(App):
         )
         app.isFeatures = tuple(f for f in app.api.Fall() if f.startswith("is_"))
 
-        app.image = loadModule("image", *args)
-        app.image.getImagery(app, app.silent, checkout=kwargs.get("checkout", ""))
-        app.reinit()
+    # INSERT init
 
     def _wrapHtml(app, n):
         rendFeatures = app.rendFeatures
@@ -29,7 +27,7 @@ class TfApp(App):
         api = app.api
         F = api.F
         Fs = api.Fs
-        material = f'{F.str.v(n) or ""}{F.after.v(n) or ""}'
+        material = F.ch.v(n) or ""
         rClses = " ".join(
             f"r_{r}" if r in KNOWN_RENDS else "r_"
             for (fr, r) in rendFeatures
@@ -40,24 +38,5 @@ class TfApp(App):
             material = f'<span class="{rClses} {iClses}">{material}</span>'
         return material
 
-    # GRAPHICS Support
-
-    def getGraphics(app, isPretty, n, nType, outer):
-        result = ""
-
-        if True:
-            theGraphics = app.image.getImages(
-                app,
-                n,
-                kind=nType,
-                _asString=True,
-                warning=False,
-            )
-            if theGraphics:
-                result = f"<div>{theGraphics}</div>" if isPretty else f" {theGraphics}"
-
-        return result
-
-    def imagery(app, objectType, kind):
-        return set(app._imagery.get(objectType, {}).get(kind, {}))
+    # INSERT extra
 

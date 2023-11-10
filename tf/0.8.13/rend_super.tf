@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=whether text is to be rendered as super
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,10 +21,10 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-4732	1
-4745	1
-5178	1
+4744	1
+4758	1
+5193	1
 1
-10357	1
+10384	1

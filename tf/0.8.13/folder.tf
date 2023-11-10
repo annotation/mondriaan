@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=provided
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=name of source folder
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-18621	proeftuin
+18770	proeftuin
 backmatter

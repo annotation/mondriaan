@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.13pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:44:03Z
+@dateWritten=2023-11-09T20:30:08Z
 
-81487	a68733
+81523	a68733
 a277201
 a62324
 a68554
@@ -31,11 +31,11 @@ a268821
 a194515
 a62319
 a268881
-81503	Andersen1861
+81539	Andersen1861
 Auct.cat.Paris1886
 VanTilborgh2007
 VanTilborghetal2013
-81508	AlgemeenAdresboekAmsterdam
+81544	AlgemeenAdresboekAmsterdam
 Adrichem1993
 Adrichem1994
 Adrichem2001
@@ -135,7 +135,7 @@ Spoor1917
 Stap2011
 Steenhoff1918
 Venema1980
-82074	p.nl.3
+82223	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -165,9 +165,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-82249	PD
-82254	PD
-82270	wc
+82398	PD
+82403	PD
+82419	wc
 lj
 wc
 lj
@@ -195,7 +195,7 @@ wc
 lj
 wc
 lj
-82709	n_transcrSource_NL
+82858	n_transcrSource_NL
 n_dating_NL
 ogt_1_NL
 Zus_NL
@@ -301,7 +301,7 @@ n_pubhistory
 ogt_1
 werkTonen
 godWorden
-82839	p.nl.1
+82988	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -329,33 +329,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-82879	p.nl.2
+83028	p.nl.2
 p.en.2
-82882	p.nl.2
+83031	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-82887	p.nl.2
+83036	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-82892	p.nl.2
+83041	p.nl.2
 p.en.2
-82895	p.nl.2
+83044	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-82902	p.nl.2
+83051	p.nl.2
 p.en.2
-82905	p.nl.2
+83054	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-82910	p.nl.2
+83059	p.nl.2
 p.en.2
-82913	p.nl.2
+83062	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -364,7 +364,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-82923	p.nl.2
+83072	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -378,11 +378,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-82938	p.nl.2
+83087	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-82943	p.nl.2
+83092	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -390,12 +390,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-82952	p.nl.2
+83101	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-82958	p.nl.2
+83107	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -405,7 +405,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-83641	s1r
+83841	s1r
 s1v
 ser
 sev
@@ -458,7 +458,7 @@ OBJALG
 DRAGER
 MATERTECHN
 VORM
-97603	z1r1
+97837	z1r1
 z1r1
 z1r1
 z1v2

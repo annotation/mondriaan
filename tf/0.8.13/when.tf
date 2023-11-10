@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=this is TEI attribute when
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-18434	1909-02-16
+18583	1909-02-16
 1909-04-07
 1909-04
 1909-04-26
@@ -34,6 +34,6 @@
 1909-09
 1909-09
 1909-10-24
-18447	1909-10-24
+18596	1909-10-24
 1909-10
 1910-01-31

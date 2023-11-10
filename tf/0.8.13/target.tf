@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=this is TEI attribute target
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-17899	74324
+17935	74324
 62515
 62542
 37107
@@ -66,7 +66,7 @@
 62515
 62542
 37107
-19349	#Zus
+19549	#Zus
 #plaatsBuhlig
 #Zus
 #Zus
@@ -148,7 +148,7 @@ https://rkd.nl/en/explore/thesaurus?domain=OBJALG&language=en-GB&term=79320
 https://rkd.nl/en/explore/thesaurus?domain=DRAGER&language=en-GB&term=97857
 https://rkd.nl/en/explore/thesaurus?domain=MATERTECHN&language=en-GB&term=97846
 https://rkd.nl/en/explore/thesaurus?domain=VORM&language=en-GB&term=74840
-19447	#plaatsBuhlig
+19647	#plaatsBuhlig
 biblio.xml#Heteren2018
 #plaatsBuhlig
 biblio.xml#Heteren2018

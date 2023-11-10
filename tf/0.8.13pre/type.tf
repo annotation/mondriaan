@@ -19,24 +19,24 @@
 @valueType=str
 @version=0.8.13pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:44:03Z
+@dateWritten=2023-11-09T20:30:08Z
 
-81455	receiver
+81491	receiver
 receiver
-81674	editedText
-81686	editedText
-81698	editedText
-81709	editedText
-81721	editedText
-81733	editedText
+81710	editedText
+81722	editedText
+81734	editedText
 81745	editedText
+81757	editedText
 81769	editedText
 81781	editedText
-81793	editedText
-81806	editedText
-81818	editedText
-81830	editedText
-82104	sent
+81805	editedText
+81817	editedText
+81829	editedText
+81842	editedText
+81854	editedText
+81866	editedText
+82253	sent
 received
 sent
 received
@@ -64,7 +64,7 @@ sent
 received
 sent
 received
-82176	creation
+82325	creation
 creation
 creation
 creation
@@ -74,13 +74,13 @@ creation
 creation
 creation
 creation
-82220	overwritten
-82224	strikeover
+82369	overwritten
+82373	strikeover
 strikeover
 strikeover
 strikeover
 strikeover
-82239	original
+82388	original
 translation
 original
 translation
@@ -110,7 +110,7 @@ original
 translation
 original
 translation
-82412	thumb
+82561	thumb
 thumb
 thumb
 thumb
@@ -120,35 +120,35 @@ thumb
 thumb
 thumb
 thumb
-82503	letterId
+82652	letterId
 def
-82506	letterId
+82655	letterId
 def
-82509	letterId
+82658	letterId
 def
-82512	letterId
+82661	letterId
 def
-82515	letterId
+82664	letterId
 def
-82518	letterId
+82667	letterId
 def
-82521	letterId
+82670	letterId
 def
-82524	letterId
+82673	letterId
 def
-82527	letterId
+82676	letterId
 def
-82530	letterId
+82679	letterId
 def
-82533	letterId
+82682	letterId
 def
-82536	letterId
+82685	letterId
 def
-82539	letterId
+82688	letterId
 def
-82542	letterId
+82691	letterId
 def
-82578	typednotes
+82727	typednotes
 ogtnotes
 notes
 typednotes
@@ -200,53 +200,53 @@ notes
 typednotes
 ogtnotes
 notes
-82709	transcrSource_NL
+82858	transcrSource_NL
 dating_NL
-82714	transcrSource
+82863	transcrSource
 dating
-82719	transcrSource_NL
+82868	transcrSource_NL
 dating_NL
-82725	transcrSource
+82874	transcrSource
 dating
-82731	transcrSource_NL
+82880	transcrSource_NL
 dating_NL
-82736	transcrSource
+82885	transcrSource
 dating
-82740	transcrSource
+82889	transcrSource
 dating
 ogtnote
-82744	transcrSource
+82893	transcrSource
 dating
 pubhistory
 ogtnote
-82751	transcrSource
+82900	transcrSource
 dating
-82755	transcrSource
+82904	transcrSource
 dating
-82758	transcrSource
+82907	transcrSource
 dating
 remarks
-82764	transcrSource
+82913	transcrSource
 dating
 ogtnote
-82774	transcrSource
+82923	transcrSource
 dating
 pubhistory
-82785	transcrSource
+82934	transcrSource
 dating
 pubhistory
-82791	transcrSource
+82940	transcrSource
 dating
-82799	transcrSource
+82948	transcrSource
 dating
 ogtnote
-82803	transcrSource_NL
+82952	transcrSource_NL
 dating_NL
 pubhistory_NL
-82809	transcrSource
+82958	transcrSource
 dating
 pubhistory
-82815	collection
+82964	collection
 collection
 collection
 collection
@@ -256,8 +256,8 @@ collection
 collection
 collection
 collection
-83255	misprint
-83283	person
+83455	misprint
+83483	person
 person
 person
 person

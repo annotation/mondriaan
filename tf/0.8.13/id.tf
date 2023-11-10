@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=this is TEI attribute id
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-17761	a68733
+17797	a68733
 a277201
 a62324
 a68554
@@ -33,11 +33,11 @@ a268821
 a194515
 a62319
 a268881
-17777	Andersen1861
+17813	Andersen1861
 Auct.cat.Paris1886
 VanTilborgh2007
 VanTilborghetal2013
-17782	AlgemeenAdresboekAmsterdam
+17818	AlgemeenAdresboekAmsterdam
 Adrichem1993
 Adrichem1994
 Adrichem2001
@@ -137,7 +137,7 @@ Spoor1917
 Stap2011
 Steenhoff1918
 Venema1980
-18348	p.nl.3
+18497	p.nl.3
 p.en.3
 p.nl.4
 p.en.4
@@ -167,9 +167,9 @@ p.nl.5
 p.en.4
 p.nl.7
 p.en.7
-18523	PD
-18528	PD
-18544	wc
+18672	PD
+18677	PD
+18693	wc
 lj
 wc
 lj
@@ -197,7 +197,7 @@ wc
 lj
 wc
 lj
-18983	n_transcrSource_NL
+19132	n_transcrSource_NL
 n_dating_NL
 ogt_1_NL
 Zus_NL
@@ -303,7 +303,7 @@ n_pubhistory
 ogt_1
 werkTonen
 godWorden
-19113	p.nl.1
+19262	p.nl.1
 p.en.1
 p.nl.1
 p.en.1
@@ -331,33 +331,33 @@ p.nl.1
 p.en.1
 p.nl.1
 p.en.1
-19153	p.nl.2
+19302	p.nl.2
 p.en.2
-19156	p.nl.2
+19305	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-19161	p.nl.2
+19310	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-19166	p.nl.2
+19315	p.nl.2
 p.en.2
-19169	p.nl.2
+19318	p.nl.2
 p.nl.3
 p.nl.5
 p.en.2
 p.en.3
 p.en.5
-19176	p.nl.2
+19325	p.nl.2
 p.en.2
-19179	p.nl.2
+19328	p.nl.2
 p.nl.3
 p.en.2
 p.en.3
-19184	p.nl.2
+19333	p.nl.2
 p.en.2
-19187	p.nl.2
+19336	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.6
@@ -366,7 +366,7 @@ p.en.2
 p.en.3
 p.en.5
 p.en.6
-19197	p.nl.2
+19346	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -380,11 +380,11 @@ p.en.5
 p.en.6
 p.en.7
 p.en.8
-19212	p.nl.2
+19361	p.nl.2
 p.nl.4
 p.en.2
 p.en.4
-19217	p.nl.2
+19366	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -392,12 +392,12 @@ p.en.2
 p.en.3
 p.en.4
 p.en.5
-19226	p.nl.2
+19375	p.nl.2
 p.nl.3
 p.nl.4
 p.en.2
 p.en.3
-19232	p.nl.2
+19381	p.nl.2
 p.nl.3
 p.nl.4
 p.nl.5
@@ -407,7 +407,7 @@ p.en.3
 p.en.4
 p.en.5
 p.en.6
-19915	s1r
+20115	s1r
 s1v
 ser
 sev
@@ -460,7 +460,7 @@ OBJALG
 DRAGER
 MATERTECHN
 VORM
-20179	z1r1
+20379	z1r1
 z1r1
 z1r1
 z1v2

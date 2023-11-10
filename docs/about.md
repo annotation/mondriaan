@@ -69,84 +69,84 @@ to see how we did that.
 
 # Corpus annotation - mondriaan
 
-## author
+## `author`
 
 Piet Mondriaan
 
 
-## title
+## `title`
 
 Letters
 
 
-## language
+## `language`
 
 nl
 
 
-## converter
+## `converter`
 
 Dirk Roorda (Text-Fabric)
 
 
-## sourceFormat
+## `sourceFormat`
 
 TEI
 
 
-## descriptionTf
+## `descriptionTf`
 
 Critical edition
 
 
-## institute1
+## `institute1`
 
 HuC (Humanities Cluster) Amsterdam
 
 
-## institute2
+## `institute2`
 
 Huygens Instituut Amsterdam
 
 
-## institute3
+## `institute3`
 
 RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
 
 
-## contributors1
+## `contributors1`
 
 Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
 
 
-## contributors2
+## `contributors2`
 
 Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 
 
-## contributors3
+## `contributors3`
 
 "Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
 
 
-## version
+## `version`
 
-0.8.13
+0.8.13pre
 
 
-## teiVersion
+## `teiVersion`
 
 2023-06-06
 
 
-## schema
+## `schema`
 
 TEI + MD + artwork
 
 
 ## Conversion
 
-Converted from TEI to Text-Fabric
+Converted from TEI to TF
 
 ## See also
 

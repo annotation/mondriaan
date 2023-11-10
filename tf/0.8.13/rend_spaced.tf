@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=whether text is to be rendered as spaced
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-6296	1
-6694	1
-7395	1
-7807	1
+6319	1
+6717	1
+7418	1
+7830	1

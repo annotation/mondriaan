@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=whether text is to be rendered as underline
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,64 +21,64 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-213	1
+214	1
 1
-284	1
+285	1
 1
-870	1
-1
-1
-1009	1
+871	1
 1
 1
-1668	1
-1
-2619	1
-1
-2737	1
-1
-3198	1
-1
-3353	1
-1
-3693	1
+1010	1
 1
 1
+1672	1
+1
+2625	1
+1
+2743	1
+1
+3204	1
+1
+3360	1
 1
 3701	1
-3802	1
 1
-3893	1
 1
-4308	1
 1
-4455	1
+3709	1
+3812	1
 1
-4777	1
+3903	1
 1
-4815	1
+4319	1
 1
-5317	1
+4467	1
 1
-5455	1
+4790	1
 1
-5599	1
+4829	1
 1
-5736	1
+5333	1
 1
-10259	1
-10634	1
+5473	1
 1
-10672	1
-11046	1
+5619	1
 1
-11711	1
+5758	1
 1
-12322	1
-12326	1
-12560	1
-12644	1
+10285	1
+10663	1
+1
+10702	1
+11079	1
+1
+11746	1
+1
+12358	1
+12362	1
+12598	1
+12682	1
 1
 1

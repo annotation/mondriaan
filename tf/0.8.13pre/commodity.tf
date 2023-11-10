@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.13pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:44:03Z
+@dateWritten=2023-11-09T20:30:08Z
 
-82633	size-hor
+82782	size-hor
 size-ver
 size-hor
 size-ver

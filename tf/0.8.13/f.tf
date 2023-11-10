@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=this is TEI attribute f
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-19248	1r
+19397	1r
 1r
 1r
 1r
@@ -35,7 +35,53 @@
 1r
 1r
 1r
-19262	1r
+19411	1r
+1r
+1r
+1v
+1r
+1v
+1v
+1v
+1r
+1v
+1r
+1r
+1v
+1v
+1r
+1v
+1v
+1r
+1r
+1r
+1r
+1r
+1v
+1v
+1r
+1r
+1v
+1v
+1r
+1r
+1v
+1r
+1v
+1r
+19448	1r
+1r
+1r
+1r
+1r
+1v
+1r
+1v
+1r
+1r
+1r
+1r
+19462	1r
 1r
 1r
 1v

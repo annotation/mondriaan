@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.13pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:44:03Z
+@dateWritten=2023-11-09T20:30:08Z
 
-81625	74324
+81661	74324
 62515
 62542
 37107
@@ -64,7 +64,7 @@
 62515
 62542
 37107
-83075	#Zus
+83275	#Zus
 #plaatsBuhlig
 #Zus
 #Zus
@@ -146,7 +146,7 @@ https://rkd.nl/en/explore/thesaurus?domain=OBJALG&language=en-GB&term=79320
 https://rkd.nl/en/explore/thesaurus?domain=DRAGER&language=en-GB&term=97857
 https://rkd.nl/en/explore/thesaurus?domain=MATERTECHN&language=en-GB&term=97846
 https://rkd.nl/en/explore/thesaurus?domain=VORM&language=en-GB&term=74840
-83173	#plaatsBuhlig
+83373	#plaatsBuhlig
 biblio.xml#Heteren2018
 #plaatsBuhlig
 biblio.xml#Heteren2018

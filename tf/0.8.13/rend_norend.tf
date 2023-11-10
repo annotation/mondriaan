@@ -6,7 +6,8 @@
 @conversionCode=tf
 @conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@description=whether text is to be rendered as upsidedown
+@dateWritten=2023-11-02T18:05:18Z
+@description=whether text is to be rendered as norend
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
@@ -17,98 +18,10 @@
 @teiVersion=2023-06-06
 @title=Letters
 @valueType=int
-@version=0.8.13pre
+@version=0.8.13
 @writtenBy=Text-Fabric
-@dateWritten=2023-11-09T20:30:08Z
+@writtenBy=Text-Fabric
+@dateWritten=2023-11-02T18:08:01Z
 
-15111	1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-86697	1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
+1513	1
+1681	1

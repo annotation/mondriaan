@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=this is TEI attribute type
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,24 +21,24 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-17729	receiver
+17765	receiver
 receiver
-17948	editedText
-17960	editedText
-17972	editedText
-17983	editedText
-17995	editedText
-18007	editedText
+17984	editedText
+17996	editedText
+18008	editedText
 18019	editedText
+18031	editedText
 18043	editedText
 18055	editedText
-18067	editedText
-18080	editedText
-18092	editedText
-18104	editedText
-18378	sent
+18079	editedText
+18091	editedText
+18103	editedText
+18116	editedText
+18128	editedText
+18140	editedText
+18527	sent
 received
 sent
 received
@@ -66,7 +66,7 @@ sent
 received
 sent
 received
-18450	creation
+18599	creation
 creation
 creation
 creation
@@ -76,13 +76,13 @@ creation
 creation
 creation
 creation
-18494	overwritten
-18498	strikeover
+18643	overwritten
+18647	strikeover
 strikeover
 strikeover
 strikeover
 strikeover
-18513	original
+18662	original
 translation
 original
 translation
@@ -112,7 +112,7 @@ original
 translation
 original
 translation
-18686	thumb
+18835	thumb
 thumb
 thumb
 thumb
@@ -122,35 +122,35 @@ thumb
 thumb
 thumb
 thumb
-18777	letterId
+18926	letterId
 def
-18780	letterId
+18929	letterId
 def
-18783	letterId
+18932	letterId
 def
-18786	letterId
+18935	letterId
 def
-18789	letterId
+18938	letterId
 def
-18792	letterId
+18941	letterId
 def
-18795	letterId
+18944	letterId
 def
-18798	letterId
+18947	letterId
 def
-18801	letterId
+18950	letterId
 def
-18804	letterId
+18953	letterId
 def
-18807	letterId
+18956	letterId
 def
-18810	letterId
+18959	letterId
 def
-18813	letterId
+18962	letterId
 def
-18816	letterId
+18965	letterId
 def
-18852	typednotes
+19001	typednotes
 ogtnotes
 notes
 typednotes
@@ -202,53 +202,53 @@ notes
 typednotes
 ogtnotes
 notes
-18983	transcrSource_NL
+19132	transcrSource_NL
 dating_NL
-18988	transcrSource
+19137	transcrSource
 dating
-18993	transcrSource_NL
+19142	transcrSource_NL
 dating_NL
-18999	transcrSource
+19148	transcrSource
 dating
-19005	transcrSource_NL
+19154	transcrSource_NL
 dating_NL
-19010	transcrSource
+19159	transcrSource
 dating
-19014	transcrSource
+19163	transcrSource
 dating
 ogtnote
-19018	transcrSource
+19167	transcrSource
 dating
 pubhistory
 ogtnote
-19025	transcrSource
+19174	transcrSource
 dating
-19029	transcrSource
+19178	transcrSource
 dating
-19032	transcrSource
+19181	transcrSource
 dating
 remarks
-19038	transcrSource
+19187	transcrSource
 dating
 ogtnote
-19048	transcrSource
+19197	transcrSource
 dating
 pubhistory
-19059	transcrSource
+19208	transcrSource
 dating
 pubhistory
-19065	transcrSource
+19214	transcrSource
 dating
-19073	transcrSource
+19222	transcrSource
 dating
 ogtnote
-19077	transcrSource_NL
+19226	transcrSource_NL
 dating_NL
 pubhistory_NL
-19083	transcrSource
+19232	transcrSource
 dating
 pubhistory
-19089	collection
+19238	collection
 collection
 collection
 collection
@@ -258,8 +258,8 @@ collection
 collection
 collection
 collection
-19529	misprint
-19557	person
+19729	misprint
+19757	person
 person
 person
 person

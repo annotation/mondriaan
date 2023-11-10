@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=this is TEI attribute who
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,13 +21,13 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-17942	wc
+17978	wc
 wc
 lj
 lj
-17949	ev
+17985	ev
 ev
 ev
 ms
@@ -36,7 +36,7 @@ lj
 lj
 wc
 wc
-17961	ev
+17997	ev
 ev
 ev
 ms
@@ -45,39 +45,12 @@ wc
 wc
 lj
 lj
-17973	ev
+18009	ev
 ev
 ms
 lj
 lj
 lj
-wc
-lj
-17984	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-17996	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-18008	ev
-ev
-ev
-ms
-lj
-wc
-wc
 wc
 lj
 18020	ev
@@ -85,11 +58,10 @@ ev
 ev
 ms
 lj
-gr
+wc
 wc
 lj
 lj
-18030	XX
 18032	ev
 ev
 ev
@@ -97,7 +69,7 @@ ms
 lj
 wc
 wc
-wc
+lj
 lj
 18044	ev
 ev
@@ -106,17 +78,18 @@ ms
 lj
 wc
 wc
-lj
 wc
+lj
 18056	ev
 ev
 ev
 ms
 lj
-wc
+gr
 wc
 lj
-wc
+lj
+18066	XX
 18068	ev
 ev
 ev
@@ -126,17 +99,7 @@ wc
 wc
 wc
 lj
-ev
-18081	ev
-ev
-ev
-ms
-lj
-wc
-wc
-lj
-lj
-18093	ev
+18080	ev
 ev
 ev
 ms
@@ -145,7 +108,44 @@ wc
 wc
 lj
 wc
-18105	ev
+18092	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+wc
+18104	ev
+ev
+ev
+ms
+lj
+wc
+wc
+wc
+lj
+ev
+18117	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+lj
+18129	ev
+ev
+ev
+ms
+lj
+wc
+wc
+lj
+wc
+18141	ev
 ev
 ev
 ms

@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=whether a slot or word is in the teiHeader element
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
 1
 1
@@ -423,7 +423,7 @@
 1
 1
 1
-2366	1
+2371	1
 1
 1
 1
@@ -555,7 +555,7 @@
 1
 1
 1
-2924	1
+2929	1
 1
 1
 1
@@ -681,7 +681,7 @@
 1
 1
 1
-3550	1
+3557	1
 1
 1
 1
@@ -812,7 +812,7 @@
 1
 1
 1
-4048	1
+4057	1
 1
 1
 1
@@ -938,7 +938,7 @@
 1
 1
 1
-4580	1
+4591	1
 1
 1
 1
@@ -1074,7 +1074,7 @@
 1
 1
 1
-5036	1
+5050	1
 1
 1
 1
@@ -1198,7 +1198,7 @@
 1
 1
 1
-6113	1
+6135	1
 1
 1
 1
@@ -1324,7 +1324,7 @@
 1
 1
 1
-9480	1
+9502	1
 1
 1
 1
@@ -1445,7 +1445,7 @@
 1
 1
 1
-10058	1
+10082	1
 1
 1
 1
@@ -1594,7 +1594,7 @@
 1
 1
 1
-11358	1
+11390	1
 1
 1
 1
@@ -1735,7 +1735,7 @@
 1
 1
 1
-11931	1
+11965	1
 1
 1
 1
@@ -1879,7 +1879,7 @@
 1
 1
 1
-14022	1
+14058	1
 1
 1
 1
@@ -1924,7 +1924,7 @@
 1
 1
 1
-14568	1
+14604	1
 1
 1
 1

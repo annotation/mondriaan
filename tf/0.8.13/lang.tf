@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=this is TEI attribute lang
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,9 +21,9 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-18513	nl
+18662	nl
 en
 nl
 en
@@ -33,15 +33,11 @@ nl
 en
 nl
 en
-18524	nl
+18673	nl
 en
 nl
 en
-18529	nl
-en
-nl
-en
-nl
+18678	nl
 en
 nl
 en
@@ -51,7 +47,11 @@ nl
 en
 nl
 en
-18697	en
+nl
+en
+nl
+en
+18846	en
 en
 en
 en
@@ -61,7 +61,7 @@ en
 en
 en
 en
-18852	nl
+19001	nl
 nl
 nl
 en

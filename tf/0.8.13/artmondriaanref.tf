@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=Reference key to the details of an artwork by Mondriaan; the content is taken from rs@key[type=artwork-m]
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,25 +21,25 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-19583	
-19590	
+19783	
+19790	
 
-19597	
+19797	
 
-19654	
+19854	
 
-19661	
-19687	
+19861	
+19887	
 
 
-19693	
-19718	
-19720	
-19727	
-19729	
-19740	
-19751	
-19753	
-19760	
+19893	
+19918	
+19920	
+19927	
+19929	
+19940	
+19951	
+19953	
+19960	

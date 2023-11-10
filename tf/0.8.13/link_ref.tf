@@ -6,7 +6,7 @@
 @conversionCode=tei
 @conversionMethod=literal-processed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=links to node identified by xml:id in attribute ref
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,19 +21,19 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-19590	17762
-17764
-19597	17762
-17764
-19654	17769
-17761
-19661	17762
-19687	17768
-17767
-17770
-19693	17763
-19740	17765
-19753	17766
-19760	17766
+19790	17798
+17800
+19797	17798
+17800
+19854	17805
+17797
+19861	17798
+19887	17804
+17803
+17806
+19893	17799
+19940	17801
+19953	17802
+19960	17802

@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.13pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:44:03Z
+@dateWritten=2023-11-09T20:30:08Z
 
-83905	Brief
+84105	Brief
 aan
 Aletta
 de
@@ -145,6 +145,7 @@ emendaties
 ​
 ​
 ​
+​
 Beste
 Zus
 ​
@@ -194,6 +195,7 @@ beste
 groeten
 je
 Piet
+​
 Dear
 Zus
 ​
@@ -604,6 +606,7 @@ emendaties
 ​
 ​
 ​
+​
 Lieve
 Zus
 neem
@@ -716,6 +719,7 @@ beste
 groeten
 je
 Piet
+​
 Dear
 Zus
 I
@@ -1217,6 +1221,7 @@ emendaties
 ​
 ​
 ​
+​
 Beste
 Zus
 ​
@@ -1355,6 +1360,7 @@ lieve
 Zus
 je
 Piet
+​
 Dear
 Zus
 ​
@@ -2038,6 +2044,7 @@ emendaties
 ​
 ​
 ​
+​
 Lieve
 Zus
 gisteren
@@ -2130,6 +2137,7 @@ groeten
 van
 je
 Piet
+​
 Dear
 Zus
 The
@@ -2488,6 +2496,7 @@ emendaties
 ​
 ​
 ​
+​
 Beste
 Zus
 daar
@@ -2618,6 +2627,7 @@ ben
 weinig
 thuis
 geweest
+​
 Dear
 Zus
 Because
@@ -3003,6 +3013,7 @@ emendaties
 ​
 ​
 ​
+​
 Mejuffrouw
 Aletta
 de
@@ -3011,6 +3022,8 @@ van
 Eeghenstraat
 40
 Stad
+​
+​
 ​
 Beste
 Zus
@@ -3081,6 +3094,7 @@ groeten
 je
 toegen
 Piet
+​
 Dear
 Zus
 This
@@ -3392,6 +3406,7 @@ emendaties
 ​
 ​
 ​
+​
 Lieve
 Zus
 hartelijk
@@ -3493,6 +3508,7 @@ in
 haast
 van
 Piet
+​
 Dear
 Zus
 Many
@@ -3822,6 +3838,7 @@ emendaties
 2023
 ​
 ​
+​
 Mevrouw
 en
 Mijnheer
@@ -3831,6 +3848,7 @@ Sarphatiepark
 42II
 ​
 Amsterdam
+​
 ​
 W
 Vr
@@ -3858,6 +3876,8 @@ Spoor
 je
 vr
 Piet
+​
+​
 Dear
 friends
 ​
@@ -3885,6 +3905,7 @@ Spoor
 your
 friend
 Piet
+​
 Scan
 van
 manuscript
@@ -4173,6 +4194,7 @@ emendaties
 ​
 ​
 ​
+​
 Domburg
 Ooststraat
 4
@@ -4408,6 +4430,7 @@ groeten
 van
 je
 Piet
+​
 Domburg
 Ooststraat
 4-A
@@ -5020,6 +5043,7 @@ emendaties
 21
 4
 2023
+​
 ​
 Waarde
 Querido
@@ -5921,6 +5945,7 @@ veel
 hartelijks
 Piet
 Mondriaan
+​
 Dear
 Querido
 I
@@ -7764,6 +7789,7 @@ emendaties
 ​
 ​
 ​
+​
 Zondagavond
 Kees
 daar
@@ -7827,6 +7853,7 @@ dus
 niet
 op
 me
+​
 Sunday
 evening
 Kees
@@ -8233,6 +8260,7 @@ emendaties
 ​
 ​
 ​
+​
 Sarphatiep
 Sarphatiepark
 42
@@ -8488,6 +8516,7 @@ is
 pecuniae
 causa
 ​
+​
 Ik
 zal
 met
@@ -8572,6 +8601,7 @@ Annie
 je
 vriendje
 Piet
+​
 Sarphatip
 42
 ​
@@ -8844,6 +8874,7 @@ it
 s
 pecuniae
 causa
+​
 ​
 I
 shall
@@ -9281,6 +9312,7 @@ emendaties
 ​
 ​
 ​
+​
 Beste
 Zus
 ik
@@ -9361,6 +9393,7 @@ haast
 je
 toegen
 Piet
+​
 Dear
 Zus
 I
@@ -9742,6 +9775,7 @@ emendaties
 21
 4
 2023
+​
 ​
 ​
 Waarde

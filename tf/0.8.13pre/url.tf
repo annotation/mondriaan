@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.8.13pre
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:44:03Z
+@dateWritten=2023-11-09T20:30:08Z
 
-82349	/images/1303/KM_123.397.tif
+82498	/images/1303/KM_123.397.tif
 /images/1303/KM_123.397_1r1.tif
 /images/1303/KM_123.397_02.tif
 dummy

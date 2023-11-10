@@ -320,7 +320,7 @@ a bit.
 1.  Comments (`<!-- this is a comment -->`) are ignored.
 1.  Declarations (`<?xml ...>` `<?xml-model ...>` `<?xml-stylesheet ...>`) are
     read by the parser, but do not leave traces in the TF output.
-1.  The atrributes of the root-element (`<TEI>`) are ignored.
+1.  The attrributes of the root-element (`<TEI>`) are ignored.
 1.  Namespaces (`xmlns="http://www.tei-c.org/ns/1.0"`) are read by the parser,
     but only the unqualified names are distinguishable in the output as feature names.
     So if the input has elements `tei:abb` and `ns:abb`, we'll see just the node

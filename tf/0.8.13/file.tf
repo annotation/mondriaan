@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=provided
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=name of source file
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,11 +21,11 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
-17771	artwork
-17882	biblio
-18589	19090216y_IONG_1303
+17807	artwork
+17918	biblio
+18738	19090216y_IONG_1303
 19090407y_IONG_1739
 19090421y_IONG_1304
 19090426y_IONG_1738
@@ -41,7 +41,7 @@
 19100131_SAAL_ARNO_0018
 artwork
 biblio
-18838	19090216y_IONG_1303
+18987	19090216y_IONG_1303
 19090407y_IONG_1739
 19090421y_IONG_1304
 19090426y_IONG_1738

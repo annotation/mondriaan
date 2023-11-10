@@ -6,7 +6,7 @@
 @conversionCode=tf
 @conversionMethod=literal-composed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-06-14T09:33:04Z
+@dateWritten=2023-11-02T18:05:18Z
 @description=the text of a word or token
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-06-14T09:34:47Z
+@dateWritten=2023-11-02T18:08:01Z
 
 Brief
 aan
@@ -175,6 +175,7 @@ emendaties
 ​
 \n
 \n
+​
 Beste
 Zus
 ,
@@ -238,7 +239,7 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -308,7 +309,6 @@ wishes
 your
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -765,6 +765,7 @@ emendaties
 ​
 \n
 \n
+​
  
 Lieve
 Zus
@@ -896,7 +897,7 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -1034,7 +1035,6 @@ wishes
 your
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -1529,11 +1529,13 @@ emendaties
 ​
 \n
 \n
+​
 Beste
 Zus
 ,
 \n
 ​
+\n
 Van
 morgen
 was
@@ -1639,6 +1641,7 @@ boek
 ik
 waarschuw
 je
+\n
  
 je
 ​
@@ -1653,6 +1656,7 @@ wilt
 .
 \n
 ​
+\n
 Laten
 we
 zoo
@@ -1693,12 +1697,13 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
 \n
 ​
+\n
 The
 “
 skull
@@ -1812,6 +1817,7 @@ I
 ’m
 just
 warning
+\n
  
 you
 ,
@@ -1864,7 +1870,6 @@ Zus
 your
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -2530,6 +2535,7 @@ emendaties
 ​
 \n
 \n
+​
  
 Lieve
 Zus
@@ -2644,7 +2650,7 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -2761,7 +2767,6 @@ from
 your
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -3082,6 +3087,7 @@ emendaties
 ​
 \n
 \n
+​
 Beste
 Zus
 ,
@@ -3241,6 +3247,7 @@ geweest
 .
 \n
 \n
+​
 Dear
 Zus
 ,
@@ -3713,6 +3720,7 @@ emendaties
 ​
 \n
 \n
+​
  
 Mejuffrouw
 Aletta
@@ -3734,6 +3742,8 @@ Stad
 \n
 ​
 \n
+​
+​
 Beste
 Zus
 ,
@@ -3827,7 +3837,7 @@ toegen
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -3917,7 +3927,6 @@ your
 affectionate
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -4205,6 +4214,7 @@ emendaties
 ​
 \n
 \n
+​
 Lieve
 Zus
 ,
@@ -4268,6 +4278,7 @@ komt
 s'morgens
 die
 professor
+\n
  
 en
 s'middags
@@ -4333,7 +4344,7 @@ van
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -4403,6 +4414,7 @@ coming
 in
 the
 morning
+\n
  
 and
 I
@@ -4479,7 +4491,6 @@ haste
 from
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -4743,6 +4754,7 @@ emendaties
 ​
 \n
 \n
+​
  
 Mevrouw
 en
@@ -4765,6 +4777,7 @@ Amsterdam
 \n
 ​
 \n
+​
 W.
 Vr.
 n
@@ -4802,7 +4815,8 @@ vr
 Piet
 .
 \n
-\n
+​
+​
 Dear
 friends
 ,
@@ -4840,7 +4854,7 @@ friend
 Piet
 .
 \n
-\n
+​
 Scan
 van
 manuscript
@@ -5196,6 +5210,7 @@ emendaties
 ​
 \n
 \n
+​
 Domburg
 .
 Ooststraat
@@ -5300,6 +5315,7 @@ landstreek
 is
 hier
 zoo
+\n
  
 blij
 en
@@ -5343,6 +5359,7 @@ Piet
 .
 \n
 ​
+\n
 P.S.
 De
 poliep
@@ -5405,6 +5422,7 @@ ik
 terug
 ben
 .
+\n
 \n
 Wil
 jij
@@ -5481,6 +5499,7 @@ Piet
 .
 \n
 \n
+​
 Domburg
 .
 Ooststraat
@@ -5583,6 +5602,7 @@ area
 here
 is
 so
+\n
  
 happy
 and
@@ -5625,6 +5645,7 @@ Piet
 .
 \n
 ​
+\n
 P.S.
 The
 polyp
@@ -5687,6 +5708,7 @@ I
 get
 back
 .
+\n
 \n
 If
 you
@@ -6264,6 +6286,7 @@ emendaties
 ​
 \n
 \n
+​
 Waarde
 Querido
 .
@@ -7360,7 +7383,7 @@ Piet
 Mondriaan
 .
 \n
-\n
+​
 Dear
 Querido
 .
@@ -8469,7 +8492,6 @@ regards
 Piet
 Mondriaan
 .
-\n
 \n
 Publicatie
 in
@@ -9632,6 +9654,7 @@ emendaties
 ​
 \n
 \n
+​
 Zondagavond
 .
 Kees
@@ -9712,6 +9735,7 @@ me
 .
 \n
 \n
+​
 Sunday
 evening
 .
@@ -10246,6 +10270,7 @@ emendaties
 ​
 \n
 \n
+​
 Sarphatiep
 .
 Sarphatiepark
@@ -10253,6 +10278,7 @@ Sarphatiepark
 .
 \n
 ​
+\n
 Lieve
 Zus
 ,
@@ -10349,6 +10375,7 @@ bij
 de
 Philippona
 's
+\n
  
 geweest
 :
@@ -10449,6 +10476,7 @@ t
 als
 combinatie
 ,
+\n
  
 veel
 goedkooper
@@ -10554,6 +10582,7 @@ causa
 .
 ​
 \n
+​
 Ik
 zal
 met
@@ -10659,13 +10688,14 @@ vriendje
 Piet
 .
 \n
-\n
+​
 Sarphatip
 .
 42
 .
 \n
 ​
+\n
 Dear
 Zus
 ,
@@ -10764,6 +10794,7 @@ to
 the
 Philipponas
 ’
+\n
  
 a
 few
@@ -10868,6 +10899,7 @@ we
 can
 get
 it
+\n
  
 much
 cheaper
@@ -10972,6 +11004,7 @@ causa
 .
 ​
 \n
+​
 I
 shall
 be
@@ -11070,7 +11103,6 @@ your
 friend
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -11530,6 +11562,7 @@ emendaties
 ​
 \n
 \n
+​
 Beste
 Zus
 ,
@@ -11576,6 +11609,7 @@ voor
 kostbare
 pakken
 ,
+\n
  
 nu
 zullen
@@ -11633,7 +11667,7 @@ toegen
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -11676,6 +11710,7 @@ for
 expensive
 outfits
 ,
+\n
  
 the
 Lucas
@@ -11735,7 +11770,6 @@ your
 affectionate
 Piet
 .
-\n
 \n
 Manuscript
 .
@@ -12102,6 +12136,7 @@ emendaties
 ​
 \n
 \n
+​
 Waarde
 Arnold
 Saalborn
@@ -12226,6 +12261,7 @@ aanleiding
 van
 wat
 U
+\n
  
 schreef
 ,
@@ -12382,6 +12418,7 @@ te
 toonen
 dat
 dergelijke
+\n
  
 dingen
 toch
@@ -12526,6 +12563,7 @@ dan
 volgt
 daaruit
 dat
+\n
  
 hij
 heel
@@ -12669,7 +12707,6 @@ van
 Piet
 Mondriaan
 .
-\n
 \n
 Dear
 Arnold
@@ -13250,7 +13287,6 @@ from
 Piet
 Mondriaan
 .
-\n
 \n
 Fotokopie
 van
@@ -17734,7 +17770,7 @@ Baarn
 1980
 .
 \n
-21645	Brief
+21914	Brief
 aan
 Aletta
 de
@@ -17878,6 +17914,7 @@ emendaties
 ​
 \n
 ​
+​
 Beste
 Zus
 ,
@@ -17935,7 +17972,7 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -18005,7 +18042,6 @@ wishes
 your
 Piet
 .
-\n
 \n
 Brief
 aan
@@ -18137,6 +18173,7 @@ emendaties
 ​
 \n
 ​
+​
  
 Lieve
 Zus
@@ -18267,7 +18304,7 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -18406,7 +18443,6 @@ your
 Piet
 .
 \n
-\n
 Brief
 aan
 Aletta
@@ -18540,11 +18576,13 @@ emendaties
 ​
 \n
 ​
+​
 Beste
 Zus
 ,
 \n
 ​
+\n
 Van
 morgen
 was
@@ -18650,7 +18688,6 @@ boek
 ik
 waarschuw
 je
- 
 ​
 ,
 dan
@@ -18663,6 +18700,7 @@ wilt
 .
 \n
 ​
+\n
 Laten
 we
 zoo
@@ -18703,12 +18741,13 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
 \n
 ​
+\n
 The
 “
 skull
@@ -18822,7 +18861,6 @@ I
 ’m
 just
 warning
- 
 you
 ,
 then
@@ -18874,7 +18912,6 @@ Zus
 your
 Piet
 .
-\n
 \n
 Brief
 aan
@@ -19010,6 +19047,7 @@ emendaties
 ​
 \n
 ​
+​
  
 Lieve
 Zus
@@ -19123,7 +19161,7 @@ je
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -19240,7 +19278,6 @@ from
 your
 Piet
 .
-\n
 \n
 \n
 Brief
@@ -19370,6 +19407,7 @@ emendaties
 \n
 ​
 \n
+​
 ​
 Beste
 Zus
@@ -19529,6 +19567,7 @@ geweest
 .
 \n
 \n
+​
 Dear
 Zus
 ,
@@ -19821,6 +19860,7 @@ emendaties
 ​
 \n
 ​
+​
  
 Mejuffrouw
 Aletta
@@ -19835,6 +19875,8 @@ Stad
 .
 ​
 \n
+​
+​
 Beste
 Zus
 ,
@@ -19919,7 +19961,7 @@ toegen
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -20009,7 +20051,6 @@ your
 affectionate
 Piet
 .
-\n
 \n
 Brief
 aan
@@ -20138,6 +20179,7 @@ emendaties
 ​
 \n
 ​
+​
 Lieve
 Zus
 ,
@@ -20200,7 +20242,6 @@ komt
 s'morgens
 die
 professor
- 
 en
 s'middags
 weet
@@ -20264,7 +20305,7 @@ van
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -20334,7 +20375,6 @@ coming
 in
 the
 morning
- 
 and
 I
 do
@@ -20410,7 +20450,6 @@ haste
 from
 Piet
 .
-\n
 \n
 \n
  
@@ -20546,6 +20585,7 @@ emendaties
 ​
 \n
 ​
+​
  
 Mevrouw
 en
@@ -20560,6 +20600,7 @@ Amsterdam
 .
 ​
 \n
+​
 W.
 Vr.nVrienden
 ​
@@ -20595,7 +20636,8 @@ vr
 Piet
 .
 \n
-\n
+​
+​
 Dear
 friends
 ,
@@ -20633,7 +20675,7 @@ friend
 Piet
 .
 \n
-\n
+​
 Brief
 aan
 Aletta
@@ -20762,6 +20804,7 @@ emendaties
 ​
 \n
 ​
+​
 Domburg
 .
 Ooststraat
@@ -20864,7 +20907,6 @@ landstreek
 is
 hier
 zoo
- 
 blij
 en
 rein
@@ -20907,6 +20949,7 @@ Piet
 .
 \n
 ​
+\n
 P.S.
 De
 poliep
@@ -20969,6 +21012,7 @@ ik
 terug
 ben
 .
+\n
 \n
 Wil
 jij
@@ -21041,8 +21085,7 @@ van
 je
 Piet
 .
-\n
-\n
+​
 Domburg
 .
 Ooststraat
@@ -21145,7 +21188,6 @@ area
 here
 is
 so
- 
 happy
 and
 clean
@@ -21187,6 +21229,7 @@ Piet
 .
 \n
 ​
+\n
 P.S.
 The
 polyp
@@ -21249,6 +21292,7 @@ I
 get
 back
 .
+\n
 \n
 If
 you
@@ -21322,8 +21366,6 @@ from
 your
 Piet
 .
-\n
-\n
 \n
 Brief
 aan
@@ -21445,6 +21487,7 @@ afkortingen
 en
 emendaties
 21.4.2023
+​
 ​
 Waarde
 Querido
@@ -22538,7 +22581,7 @@ Piet
 Mondriaan
 .
 \n
-\n
+​
 Dear
 Querido
 .
@@ -23648,7 +23691,6 @@ Piet
 Mondriaan
 .
 \n
-\n
 Briefkaart
 aan
 Kees
@@ -23771,6 +23813,7 @@ emendaties
 ​
 \n
 ​
+​
 Zondagavond
 .
 Kees
@@ -23851,6 +23894,7 @@ me
 .
 \n
 \n
+​
 Sunday
 evening
 .
@@ -24093,6 +24137,7 @@ emendaties
 ​
 \n
 ​
+​
 Sarphatiep
 .
 Sarphatiepark
@@ -24100,6 +24145,7 @@ Sarphatiepark
 .
 \n
 ​
+\n
 Lieve
 Zus
 ,
@@ -24196,7 +24242,6 @@ bij
 de
 Philippona
 's
- 
 geweest
 :
 ze
@@ -24295,7 +24340,6 @@ t
 als
 combinatie
 ,
- 
 veel
 goedkooper
 ,
@@ -24400,6 +24444,7 @@ causa
 .
 ​
 \n
+​
 Ik
 zal
 met
@@ -24505,13 +24550,14 @@ vriendje
 Piet
 .
 \n
-\n
+​
 Sarphatip
 .
 42
 .
 \n
 ​
+\n
 Dear
 Zus
 ,
@@ -24610,7 +24656,6 @@ to
 the
 Philipponas
 ’
- 
 a
 few
 times
@@ -24714,7 +24759,6 @@ we
 can
 get
 it
- 
 much
 cheaper
 as
@@ -24818,6 +24862,7 @@ causa
 .
 ​
 \n
+​
 I
 shall
 be
@@ -24916,7 +24961,6 @@ your
 friend
 Piet
 .
-\n
 \n
 Brief
 aan
@@ -25060,6 +25104,7 @@ emendaties
 ​
 \n
 ​
+​
 Beste
 Zus
 ,
@@ -25102,7 +25147,6 @@ voor
 kostbare
 pakken
 ,
- 
 nu
 zullen
 ze
@@ -25159,7 +25203,7 @@ toegen
 Piet
 .
 \n
-\n
+​
 Dear
 Zus
 ,
@@ -25202,7 +25246,6 @@ for
 expensive
 outfits
 ,
- 
 the
 Lucas
 people
@@ -25261,7 +25304,6 @@ your
 affectionate
 Piet
 .
-\n
 \n
 \n
 Brief
@@ -25405,6 +25447,7 @@ emendaties
 ​
 \n
 ​
+​
 Waarde
 Arnold
 Saalborn
@@ -25529,7 +25572,6 @@ aanleiding
 van
 wat
 U
- 
 schreef
 ,
 lijkt
@@ -25677,7 +25719,6 @@ te
 toonen
 dat
 dergelijke
- 
 dingen
 toch
 alle
@@ -25821,7 +25862,6 @@ dan
 volgt
 daaruit
 dat
- 
 hij
 heel
 veel
@@ -25963,7 +26003,6 @@ van
 Piet
 Mondriaan
 .
-\n
 \n
 Dear
 Arnold
@@ -26544,7 +26583,6 @@ from
 Piet
 Mondriaan
 .
-\n
 \n
 List
 of
