@@ -3,11 +3,11 @@
 @contributors1=Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
 @contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
 @contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
-@conversionCode=tf
-@conversionMethod=literal-composed
+@conversionCode=nlp
+@conversionMethod=nlp-generated
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2023-11-02T18:05:18Z
-@description=the text of a word or token
+@dateWritten=2024-02-07T09:25:05Z
+@description=the text of the token
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
 @institute2=Huygens Instituut Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2023-11-02T18:08:01Z
+@dateWritten=2024-02-07T09:25:35Z
 
 Brief
 aan

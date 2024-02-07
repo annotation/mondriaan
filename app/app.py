@@ -3,7 +3,7 @@ from tf.advanced.app import App
 
 # INSERT import
 
-KNOWN_RENDS = {'italics', 'h1', 'spaced', 'sc', 'below', 'h2', 'h6', 'above', 'super', 'center', 'h4', 'smallcaps', 'ul', 'b', 'italic', 'small_caps', 'h5', 'sup', 'margin', 'h3', 'large', 'underline', 'bold', 'i', 'sub', 'spat'}
+KNOWN_RENDS = {'center', 'large', 'margin', 'smallcaps', 'italic', 'spaced', 'h3', 'super', 'bold', 'i', 'above', 'h6', 'italics', 'h2', 'underline', 'small_caps', 'h4', 'spat', 'b', 'ul', 'below', 'sc', 'h1', 'sup', 'sub', 'h5'}
 
 
 def fmt_layout(app, n, **kwargs):
@@ -27,7 +27,7 @@ class TfApp(App):
         api = app.api
         F = api.F
         Fs = api.Fs
-        material = F.ch.v(n) or ""
+        material = f'{F.str.v(n) or ""}{F.after.v(n) or ""}'
         rClses = " ".join(
             f"r_{r}" if r in KNOWN_RENDS else "r_"
             for (fr, r) in rendFeatures

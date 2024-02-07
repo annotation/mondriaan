@@ -71,77 +71,77 @@ to see how we did that.
 
 ## `author`
 
-Piet Mondriaan
+`Piet Mondriaan`
 
 
 ## `title`
 
-Letters
+`Letters`
 
 
 ## `language`
 
-nl
+`nl`
 
 
 ## `converter`
 
-Dirk Roorda (Text-Fabric)
+`Dirk Roorda (Text-Fabric)`
 
 
 ## `sourceFormat`
 
-TEI
+`TEI`
 
 
 ## `descriptionTf`
 
-Critical edition
+`Critical edition`
 
 
 ## `institute1`
 
-HuC (Humanities Cluster) Amsterdam
+`HuC (Humanities Cluster) Amsterdam`
 
 
 ## `institute2`
 
-Huygens Instituut Amsterdam
+`Huygens Instituut Amsterdam`
 
 
 ## `institute3`
 
-RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
+`RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag`
 
 
 ## `contributors1`
 
-Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+`Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda`
 
 
 ## `contributors2`
 
-Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+`Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen`
 
 
 ## `contributors3`
 
-"Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
+`"Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"`
 
 
 ## `version`
 
-0.8.13pre
+`0.8.13`
 
 
 ## `teiVersion`
 
-2023-06-06
+`2023-06-06`
 
 
 ## `schema`
 
-TEI + MD + artwork
+`TEI + MD + artwork`
 
 
 ## Conversion

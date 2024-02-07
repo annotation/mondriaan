@@ -1,5 +1,9 @@
 apiVersion: 3
 dataDisplay:
+  textFormats:
+    layout-orig-full:
+      method: layout
+  textFormat: layout-orig-full
   excludedFeatures: []
   noneValues:
   - none
@@ -7,10 +11,6 @@ dataDisplay:
   - null
   - NA
   sectionSep1: '@'
-  textFormat: layout-orig-full
-  textFormats:
-    layout-orig-full:
-      method: layout
 docs:
   docPage: about
   featureBase: '{docBase}/transcription.md'
@@ -19,17 +19,17 @@ interfaceDefaults:
   fmt: layout-orig-full
   showGraphics: true
 provenanceSpec:
-  branch: master
   corpus: '{org} - {repo}{relative}'
   doi: 10.5281/zenodo.notyet
-  graphicsRelative: illustrations
   moduleSpecs: []
-  version: 0.8.13pre
+  version: 0.8.13
   webBase: https://public.{org}.org/{repo}
   webHint: Show this on the website
   webLang: en
   webUrl: '{webBase}/<1>/<2>/<3>&version={version}'
   webUrlLex: '{webBase}/word?version={version}&id=<lid>'
+  branch: master
+  graphicsRelative: illustrations
 typeDisplay:
   rs:
     features: type key

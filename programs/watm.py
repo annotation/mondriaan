@@ -12,6 +12,7 @@ NS_TF = "tf"
 NS_TEI = "tei"
 NS_NLP = "nlp"
 NS_TT = "tt"
+NS_NONE = "tf"
 
 NS_FROM_OTYPE = dict(
     page=NS_TF,
@@ -48,6 +49,7 @@ class WATM:
         self.slotType = self.F.otype.slotType
         self.otypes = self.F.otype.all
         self.info = app.info
+        self.warning = app.warning
         self.repoLocation = app.repoLocation
 
         Fall = api.Fall
@@ -97,7 +99,7 @@ class WATM:
             The target of the annotation.
         """
         annos = self.annos
-        aId = f"a{len(annos):>06}"
+        aId = f"a{len(annos):>08}"
         annos.append((kind, aId, ns, body, target))
         return aId
 
@@ -111,6 +113,7 @@ class WATM:
         slotType = self.slotType
         otypes = self.otypes
         skipMeta = self.skipMeta
+        warning = self.warning
 
         tlFromTf = self.tlFromTf
 
@@ -140,20 +143,30 @@ class WATM:
                         wrongTargets.append((otype, start, end))
 
                     target = f"{start}-{end + 1}"
-                    aId = self.mkAnno(
-                        KIND_PI, NS_TEI, otype[1:], target
-                    ) if otype.startswith("?") else self.mkAnno(
-                        KIND_ELEM, NS_FROM_OTYPE.get(otype, NS_TEI), otype, target
+                    aId = (
+                        self.mkAnno(KIND_PI, NS_TEI, otype[1:], target)
+                        if otype.startswith("?")
+                        else self.mkAnno(
+                            KIND_ELEM, NS_FROM_OTYPE.get(otype, NS_TEI), otype, target
+                        )
                     )
                     tlFromTf[n] = aId
                     self.mkAnno(KIND_NODE, NS_TF, n, aId)
 
         for feat in nodeFeatures:
-            ns = Fs(feat).meta["conversionCode"]
+            ns = Fs(feat).meta.get("conversionCode", None)
+
+            if ns is None:
+                warning(
+                    f"Node feature {feat} has no conversion code, "
+                    f"defaulting to {NS_NONE}"
+                )
+                ns = NS_NONE
+
             parts = feat.split("_", 2)
 
             if len(parts) >= 2 and parts[0] == "rend":
-                for (n, val) in Fs(feat).items():
+                for n, val in Fs(feat).items():
                     if not val or (skipMeta and F.is_meta.v(n)):
                         continue
                     prop = parts[1]
@@ -161,14 +174,14 @@ class WATM:
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
                     self.mkAnno(KIND_FMT, ns, prop, target)
             elif len(parts) == 2 and parts[0] == "is" and parts[1] == "note":
-                for (n, val) in Fs(feat).items():
+                for n, val in Fs(feat).items():
                     if not val or (skipMeta and F.is_meta.v(n)):
                         continue
                     t = tlFromTf[n]
                     target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
                     self.mkAnno(KIND_FMT, ns, "note", target)
             else:
-                for (n, val) in Fs(feat).items():
+                for n, val in Fs(feat).items():
                     if skipMeta and F.is_meta.v(n):
                         continue
                     t = tlFromTf.get(n, None)
@@ -178,9 +191,16 @@ class WATM:
                     aId = self.mkAnno(KIND_ATTR, ns, f"{feat}={val}", target)
 
         for feat in edgeFeatures:
-            ns = Es(feat).meta["conversionCode"]
+            ns = Es(feat).meta.get("conversionCode", None)
 
-            for (fromNode, toNodes) in Es(feat).items():
+            if ns is None:
+                warning(
+                    f"Edge feature {feat} has no conversion code, "
+                    f"defaulting to {NS_NONE}"
+                )
+                ns = NS_NONE
+
+            for fromNode, toNodes in Es(feat).items():
                 if skipMeta and F.is_meta.v(fromNode):
                     continue
                 fromT = tlFromTf.get(fromNode, None)
@@ -191,7 +211,7 @@ class WATM:
                 )
 
                 if type(toNodes) is dict:
-                    for (toNode, val) in toNodes.items():
+                    for toNode, val in toNodes.items():
                         if skipMeta and F.is_meta.v(toNode):
                             continue
                         toT = tlFromTf.get(toNode, None)
@@ -216,14 +236,14 @@ class WATM:
         extra = {}
         extra.update(self.getArtWorksUrl())
 
-        for (n, value) in extra.items():
+        for n, value in extra.items():
             t = tlFromTf[n]
             target = f"{t}-{t + 1}" if F.otype.v(n) == slotType else t
             aId = self.mkAnno(KIND_ANNO, NS_TT, str(value), target)
 
         if len(wrongTargets):
             print(f"WARNING: wrong targets, {len(wrongTargets)}x")
-            for (otype, start, end) in wrongTargets:
+            for otype, start, end in wrongTargets:
                 sega = text[start]
                 segb = text[end - 1]
                 print(f"{otype:>20} {start:>6} `{sega}` > {end - 1} `{segb}`")
@@ -242,6 +262,7 @@ class WATM:
     def writeAll(self):
         app = self.app
         info = self.info
+        warning = self.warning
         text = self.text
         annos = self.annos
 
@@ -249,21 +270,66 @@ class WATM:
         version = app.version
         resultDir = f"{baseDir}/{TT_NAME}/{version}"
         textFile = f"{resultDir}/text.json"
-        annoFile = f"{resultDir}/anno.json"
 
         self.textFile = textFile
-        self.annoFile = annoFile
 
         initTree(resultDir, fresh=True)
 
         with open(textFile, "w") as fh:
             json.dump(dict(_ordered_segments=text), fh, ensure_ascii=False, indent=1)
 
-        with open(annoFile, "w") as fh:
-            annoStore = {}
-            for (kind, aId, ns, body, target) in annos:
-                annoStore[aId] = (kind, ns, body, target)
-            json.dump(annoStore, fh, ensure_ascii=False, indent=1)
-
         info(f"Text file: {len(text):>7} segments to {ux(textFile)}", tm=False)
-        info(f"Anno file: {len(annos):>7} annotations to {ux(annoFile)}", tm=False)
+
+        annoStore = {}
+
+        for kind, aId, ns, body, target in annos:
+            annoStore[aId] = (kind, ns, body, target)
+
+        aIdSorted = sorted(annoStore.keys())
+
+        annoFile = f"{resultDir}/anno.tsv"
+
+        if False:
+            with open(annoFile, "w") as fh:
+                for aId in aIdSorted:
+                    (kind, ns, body, target) = annoStore[aId]
+                    fh.write(f"{aId}\t{kind}\t{ns}\t{body}\t{target}\n")
+
+        thisAnnoStore = {}
+        thisA = 1
+        annoFiles = []
+        self.annoFiles = annoFiles
+
+        LIMIT = 400000
+        j = 0
+        total = 0
+
+        def writeThis():
+            annoFile = f"{resultDir}/anno-{thisA:>01}.json"
+            annoFiles.append(annoFile)
+
+            with open(annoFile, "w") as fh:
+                json.dump(thisAnnoStore, fh, ensure_ascii=False, indent=1)
+
+            info(f"{j:>6} annotations written to {annoFile}")
+
+        for aId in aIdSorted:
+            if j >= LIMIT:
+                writeThis()
+                thisA += 1
+                thisAnnoStore = {}
+                total += j
+                j = 0
+
+            thisAnnoStore[aId] = annoStore[aId]
+            j += 1
+
+        if len(thisAnnoStore):
+            writeThis()
+            total += j
+
+        if len(annos) != total:
+            info(f"Sum of batches : {total:>8}", tm=False)
+            info(f"All annotations: {len(annoStore):>8}", tm=False)
+            warning("Mismatch in number of annotations", tm=False)
+        info(f"Anno files: {len(annos):>7} annotations to {len(annoFiles)} files", tm=False)
