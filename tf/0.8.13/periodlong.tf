@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2024-02-07T09:25:05Z
+@dateWritten=2024-02-08T12:08:19Z
 @description=The date of the letter as description; the content is taken from profileDesc/correspDesc/correspAction[type=sent]/date
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-07T09:25:35Z
+@dateWritten=2024-02-08T12:08:41Z
 
 18987	dinsdag 16 februari, dinsdag 2 maart of dinsdag 9 maart 1909
 woensdag 7 april 1909

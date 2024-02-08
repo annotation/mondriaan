@@ -7,7 +7,7 @@
 @conversionCode=tei
 @conversionMethod=literal-processed
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2024-02-07T09:25:05Z
+@dateWritten=2024-02-08T12:08:19Z
 @description=edge between a node and its preceding sibling nodes; labeled with the distance between them
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -22,7 +22,7 @@
 @version=0.8.13
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-07T09:25:35Z
+@dateWritten=2024-02-08T12:08:41Z
 
 17748	18722	1
 18723	1

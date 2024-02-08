@@ -1,9 +1,9 @@
 import types
 from tf.advanced.app import App
 
-# INSERT import
+from tf.advanced.find import loadModule
 
-KNOWN_RENDS = {'center', 'large', 'margin', 'smallcaps', 'italic', 'spaced', 'h3', 'super', 'bold', 'i', 'above', 'h6', 'italics', 'h2', 'underline', 'small_caps', 'h4', 'spat', 'b', 'ul', 'below', 'sc', 'h1', 'sup', 'sub', 'h5'}
+KNOWN_RENDS = {'italic', 'h5', 'margin', 'sup', 'spaced', 'smallcaps', 'large', 'center', 'b', 'sub', 'sc', 'small_caps', 'ul', 'h1', 'h6', 'h3', 'super', 'italics', 'h2', 'h4', 'below', 'underline', 'above', 'bold', 'i', 'spat'}
 
 
 def fmt_layout(app, n, **kwargs):
@@ -19,7 +19,9 @@ class TfApp(App):
         )
         app.isFeatures = tuple(f for f in app.api.Fall() if f.startswith("is_"))
 
-    # INSERT init
+        app.image = loadModule("image", *args)
+        app.image.getImagery(app, app.silent, checkout=kwargs.get("checkout", ""))
+        app.reinit()
 
     def _wrapHtml(app, n):
         rendFeatures = app.rendFeatures
@@ -38,5 +40,24 @@ class TfApp(App):
             material = f'<span class="{rClses} {iClses}">{material}</span>'
         return material
 
-    # INSERT extra
+    # GRAPHICS Support
+
+    def getGraphics(app, isPretty, n, nType, outer):
+        result = ""
+
+        if True:
+            theGraphics = app.image.getImages(
+                app,
+                n,
+                kind=nType,
+                _asString=True,
+                warning=False,
+            )
+            if theGraphics:
+                result = f"<div>{theGraphics}</div>" if isPretty else f" {theGraphics}"
+
+        return result
+
+    def imagery(app, objectType, kind):
+        return set(app._imagery.get(objectType, {}).get(kind, {}))
 
