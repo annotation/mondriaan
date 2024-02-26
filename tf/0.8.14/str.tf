@@ -6,7 +6,7 @@
 @conversionCode=nlp
 @conversionMethod=nlp-generated
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2024-02-15T16:03:53Z
+@dateWritten=2024-02-26T08:05:03Z
 @description=the text of the token
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.14
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-15T16:04:01Z
+@dateWritten=2024-02-26T08:05:14Z
 
 Brief
 aan

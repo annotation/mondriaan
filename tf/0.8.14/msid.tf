@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2024-02-15T16:03:53Z
+@dateWritten=2024-02-26T08:05:03Z
 @description=The manuscript identifier of a letter; the content is taken from sourceDesc/msDesc/msIdentifier/idno
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.14
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-15T16:04:01Z
+@dateWritten=2024-02-26T08:05:14Z
 
 18947	KM 123.397
 KM 122.574

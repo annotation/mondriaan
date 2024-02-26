@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2024-02-15T16:03:53Z
+@dateWritten=2024-02-26T08:05:03Z
 @description=The place where a letter is preserved; the content is taken from sourceDesc/msDesc/msIdentifier/institution
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.14
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-15T16:04:01Z
+@dateWritten=2024-02-26T08:05:14Z
 
 18947	Kröller Müller Museum
 Kröller Müller Museum

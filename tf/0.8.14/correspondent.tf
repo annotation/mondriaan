@@ -6,7 +6,7 @@
 @conversionCode=tt
 @conversionMethod=derived
 @converter=Dirk Roorda (Text-Fabric)
-@dateWritten=2024-02-15T16:03:53Z
+@dateWritten=2024-02-26T08:05:03Z
 @description=The person that Mondriaan corresponded with; the content is taken from profileDesc/correspDesc/correspAction[type=received]/name
 @descriptionTf=Critical edition
 @institute1=HuC (Humanities Cluster) Amsterdam
@@ -21,7 +21,7 @@
 @version=0.8.14
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-15T16:04:01Z
+@dateWritten=2024-02-26T08:05:14Z
 
 18947	Aletta de Iongh
 Aletta de Iongh

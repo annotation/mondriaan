@@ -5,7 +5,7 @@
 @valueType=str
 @version=0.8.14
 @writtenBy=Text-Fabric
-@dateWritten=2024-02-15T16:04:01Z
+@dateWritten=2024-02-26T08:05:14Z
 
 20353	Brief aan Aletta de Iongh
 Amsterdam
