@@ -27,7 +27,7 @@ adaptations:
 templateTrigger: "?editem@template"
 adaptationTrigger: "?editem@adaptation"
 prelim: true
-wordAsSlot: false
+granularity: token
 procins: true
 parentEdges: true
 siblingEdges: true

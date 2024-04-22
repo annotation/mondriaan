@@ -1,21 +1,15 @@
 19090216y_IONG_1303.xml
 	1x       0refs    
-	1x       3refs    Zus
+	1x       1ref     Zus
 	1x       0refs    Zus_NL
 	1x       0refs    lj
-	1x       0refs    n_dating
 	1x       0refs    n_dating_NL
-	1x       0refs    n_transcrSource
 	1x       0refs    n_transcrSource_NL
-	1x       0refs    ogt_1
 	1x       0refs    ogt_1_NL
-	1x       0refs    p.en.1
-	1x       0refs    p.en.2
-	1x       0refs    p.en.3
 	1x       0refs    p.nl.1
 	1x       0refs    p.nl.2
 	1x       0refs    p.nl.3
-	1x       4refs    plaatsBuhlig
+	1x       2refs    plaatsBuhlig
 	1x       0refs    plaatsBuhlig_NL
 	1x       0refs    s1r
 	1x       0refs    s1v
@@ -23,10 +17,10 @@
 	1x       0refs    sev
 	1x       0refs    wc
 	1x       0refs    z1r1
-	Unique:       24
+	Unique:       18
 	Non-unique:    0
-	Unused:       22
-	Referenced:    7 x    2
+	Unused:       16
+	Referenced:    3 x    2
 19090407y_IONG_1739.xml
 	1x       0refs    
 	1x       2refs    PaaschdagenArnhem

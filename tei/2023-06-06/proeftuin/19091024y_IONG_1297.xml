@@ -135,6 +135,7 @@
                     ik dat gezien heb.<ptr target="#DertienNovember"/> Ik
                    denk in zwart fluweel
                    te gaan, als 't niet te duur
+                console(f"\t\t\tWA = «{valWA}»")
                    komt. Ik zal eens informeeren
                     voor jelûi wat een
                    damespakje kost, want

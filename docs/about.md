@@ -131,7 +131,7 @@ to see how we did that.
 
 ## `version`
 
-`0.8.15`
+`0.9.0`
 
 
 ## `teiVersion`

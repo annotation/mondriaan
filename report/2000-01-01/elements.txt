@@ -1,0 +1,160 @@
+Inventory of tags and attributes in the source XML file(s).
+Contains the following sections:
+	Formatting Attributes
+	Keyword Attributes
+	Remaining Attributes and Elements
+
+
+
+Formatting Attributes
+
+	<hi>               rend=           2x underline
+
+Keyword Attributes
+
+	<change>           type=           1x editedText
+	                   who=            3x ev
+	                          "                      3x lj
+	                          "                      1x ms
+	                          "                      2x wc
+
+	<correspAction>    type=           1x received
+	                          "                      1x sent
+
+	<del>              type=           1x overwritten
+
+	<div>              lang=           1x en
+	                          "                      1x nl
+	                   type=           1x original
+	                          "                      1x translation
+
+	<idno>             type=           1x def
+	                          "                      1x letterId
+
+	<listAnnotation>   lang=           3x en
+	                          "                      3x nl
+	                   type=           2x notes
+	                          "                      2x ogtnotes
+	                          "                      2x typednotes
+
+	<note>             type=           1x dating
+	                          "                      1x dating_NL
+	                          "                      1x transcrSource
+	                          "                      1x transcrSource_NL
+
+	<objectDesc>       form=           1x correspondentiekaart
+
+	<pb>               facs=           2x #z1r1
+
+	<rs>               type=           9x person
+
+Remaining Attributes and Elements
+
+	<TEI>                              1x 
+
+	<add>                              1x 
+
+	<altIdentifier>                    2x 
+
+	<body>                             1x 
+
+	<change>                           2x 
+
+	<choice>                           2x 
+
+	<closer>           id=             2x X
+	                   n=              2x N
+
+	<correspDesc>                      1x 
+
+	<country>                          1x 
+
+	<date>             when=           1x NNNN-NN-NN
+
+	<decoDesc>                         1x 
+
+	<decoNote>                         1x 
+
+	<editor>           id=             2x X
+
+	<facsimile>                        1x 
+
+	<fileDesc>                         1x 
+
+	<graphic>          url=            1x /images/NNNN/KM_NNN.NNN.tif
+	                          "                      1x /images/NNNN/KM_NNN.NNN_NN.tif
+	                          "                      1x /images/NNNN/KM_NNN.NNN_NrN.tif
+	                          "                      2x dummy
+
+	<idno>                             1x 
+
+	<institution>                      1x 
+
+	<msDesc>                           1x 
+
+	<msIdentifier>                     1x 
+
+	<name>                             1x 
+	                   key=            1x X
+
+	<note>             id=            10x X
+	                   n=              4x N
+
+	<opener>           id=             2x X
+	                   n=              2x N
+
+	<orig>                             2x 
+
+	<p>                                1x 
+	                   id=             2x X
+	                   n=              2x N
+
+	<pb>               f=              2x Nr
+	                   n=              2x N
+
+	<physDesc>                         1x 
+
+	<placeName>                        1x 
+
+	<profileDesc>                      1x 
+
+	<ptr>              target=         5x X
+
+	<publicationStmt>                  1x 
+
+	<ref>              target=         4x X
+
+	<reg>                              2x 
+
+	<revisionDesc>                     1x 
+
+	<rs>               ref=            6x bio.xml#buhlig_richard
+	                          "                      3x bio.xml#iongh_aletta_de
+
+	<salute>                           4x 
+
+	<settlement>                       1x 
+
+	<signed>                           2x 
+
+	<sourceDesc>                       1x 
+
+	<sponsor>                          1x 
+
+	<standOff>                         1x 
+
+	<surface>          id=             4x X
+	                   n=              1x Nr
+	                          "                      1x Nv
+	                          "                      1x er
+	                          "                      1x ev
+
+	<teiHeader>                        1x 
+
+	<text>                             1x 
+
+	<title>                            1x 
+
+	<titleStmt>                        1x 
+
+	<zone>             id=             1x X

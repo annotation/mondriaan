@@ -1,11 +1,11 @@
 19090216y_IONG_1303.xml
-	ok             3 x 19090216y_IONG_1303.xml # Zus
-	ok             4 x 19090216y_IONG_1303.xml # plaatsBuhlig
+	ok             1 x 19090216y_IONG_1303.xml # Zus
+	ok             2 x 19090216y_IONG_1303.xml # plaatsBuhlig
 	ok             2 x biblio.xml # Heteren2018
-	dangling       6 x bio.xml # buhlig_richard
+	dangling       4 x bio.xml # buhlig_richard
 	dangling       3 x bio.xml # iongh_aletta_de
-	Dangling:      9 x    2
-	Resolvable:    9 x    3
+	Dangling:      7 x    2
+	Resolvable:    5 x    3
 19090407y_IONG_1739.xml
 	ok             2 x 19090407y_IONG_1739.xml # PaaschdagenArnhem
 	ok             2 x 19090407y_IONG_1739.xml # gekreukteEnveloppe

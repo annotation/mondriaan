@@ -1,0 +1,149 @@
+@edge
+@author=Piet Mondriaan
+@contributors1=Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+@contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+@contributors3="Wietse Coppes, Sabine Craft-Giepmans, Reinier van 't Zelfde"
+@conversionCode=tei
+@conversionMethod=literal-processed
+@converter=Dirk Roorda (Text-Fabric)
+@description=links to node identified by xml:id in attribute target
+@descriptionTf=Critical edition
+@institute1=HuC (Humanities Cluster) Amsterdam
+@institute2=Huygens Instituut Amsterdam
+@institute3=RKD (Nederlands Instituut voor Kunstgeschiedenis) Den Haag
+@language=nl
+@schema=TEI + MD + artwork
+@sourceFormat=TEI
+@teiVersion=2023-06-06
+@title=Letters
+@valueType=str
+@version=0.9.0
+@writtenBy=Text-Fabric
+@dateWritten=2024-04-22T13:37:52Z
+
+19486	19081
+19082
+19092
+19093
+19094
+19092
+19093
+19094
+19103
+19103
+19107
+19107
+19112
+19113
+19114
+19112
+19113
+19114
+19118
+19118
+19121
+19121
+19509	19126
+19127
+19126
+19127
+19131
+19132
+19133
+19134
+19135
+19136
+19137
+19131
+19132
+19133
+19134
+19135
+19136
+19137
+19142
+19143
+19144
+19145
+19146
+19147
+19148
+19142
+19143
+19144
+19145
+19146
+19147
+19148
+19152
+19153
+19152
+19153
+19158
+19159
+19160
+19161
+19162
+19158
+19159
+19160
+19161
+19162
+19166
+19166
+19177
+19178
+19177
+19178
+19581	19082
+17830
+17830
+19245,19247
+17824
+19587	19245,19247
+17824
+19590	18689
+18688
+19593	18689
+18688
+19596	18687
+19249,19251
+19254-19255
+19103
+17776
+19113
+17830
+19103
+19605	19118
+19268,19270
+19611	17778
+17794
+17829
+19134
+19275,19280
+19268,19270
+18463,19277
+19103
+19127
+17830
+17862
+17786
+19142
+17865
+19626	17815
+17776
+19629	19222-19223
+19631	17812
+19301,19303
+19134
+17830
+19636	17790
+19639	18696
+19642	17770
+17833
+19322,19327
+19646	17833
+19322,19327
+19652	17811
+17809
+17807

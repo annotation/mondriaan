@@ -23,7 +23,7 @@ Formatting Attributes
 	                          "                      1x right
 	                          "                      4x spaced
 	                          "                      7x super
-	                          "                     32x underline
+	                          "                     31x underline
 	                          "                      3x underline2
 
 	<p>                rend=           1x indent
@@ -62,11 +62,11 @@ Keyword Attributes
 	<del>              type=           1x overwritten
 	                          "                      5x strikeover
 
-	<div>              lang=          14x en
+	<div>              lang=          13x en
 	                          "                     14x nl
 	                   type=          14x original
 	                          "                      2x postalData
-	                          "                     14x translation
+	                          "                     13x translation
 
 	<graphic>          type=          10x thumb
 
@@ -75,23 +75,23 @@ Keyword Attributes
 	<idno>             type=          14x def
 	                          "                     14x letterId
 
-	<listAnnotation>   lang=          12x en
+	<listAnnotation>   lang=          10x en
 	                          "                     40x nl
 	                   type=          18x notes
-	                          "                     16x ogtnotes
-	                          "                     18x typednotes
+	                          "                     15x ogtnotes
+	                          "                     17x typednotes
 
 	<measure>          unit=          14x cm
 	                          "                      6x mm
 
 	<note>             type=          10x collection
-	                          "                     14x dating
+	                          "                     13x dating
 	                          "                      4x dating_NL
 	                          "                      4x ogtnote
 	                          "                      4x pubhistory
 	                          "                      1x pubhistory_NL
 	                          "                      1x remarks
-	                          "                     14x transcrSource
+	                          "                     13x transcrSource
 	                          "                      4x transcrSource_NL
 
 	<objectDesc>       form=          12x brief
@@ -102,7 +102,7 @@ Keyword Attributes
 	                          "                      7x #s1v
 	                          "                      1x #ser
 	                          "                      1x #sev
-	                          "                     16x #z1r1
+	                          "                     15x #z1r1
 	                          "                      2x #z1r4
 	                          "                      6x #z1v2
 	                          "                      4x #z1v3
@@ -117,7 +117,7 @@ Keyword Attributes
 	                          "                     12x journal
 	                          "                      8x museum
 	                          "                      6x org
-	                          "                    121x person
+	                          "                    119x person
 	                          "                      4x photograph
 
 	<space>            unit=           1x chars
@@ -166,8 +166,8 @@ Remaining Attributes and Elements
 
 	<classDecl>                        1x 
 
-	<closer>           id=            30x X
-	                   n=             30x N
+	<closer>           id=            29x X
+	                   n=             29x N
 
 	<correspDesc>                     14x 
 
@@ -248,22 +248,22 @@ Remaining Attributes and Elements
 	<name>                            14x 
 	                   key=           14x X
 
-	<note>             id=           106x X
+	<note>             id=           103x X
 	                   n=             52x N
 
-	<opener>           id=            28x X
-	                   n=             28x N
+	<opener>           id=            27x X
+	                   n=             27x N
 
 	<orig>                            11x 
 
 	<p>                               19x 
-	                   id=            76x X
-	                   n=             76x N
+	                   id=            75x X
+	                   n=             75x N
 
 	<pb>                               3x 
-	                   f=             29x Nr
+	                   f=             28x Nr
 	                          "                     17x Nv
-	                   n=             44x N
+	                   n=             43x N
 	                          "                      2x N-N
 	                          "                      1x er
 	                          "                      1x ev
@@ -278,11 +278,11 @@ Remaining Attributes and Elements
 
 	<profileDesc>                     14x 
 
-	<ptr>              target=        82x X
+	<ptr>              target=        79x X
 
 	<publicationStmt>                 16x 
 
-	<ref>              target=        75x X
+	<ref>              target=        74x X
 
 	<reg>                             10x 
 
@@ -297,7 +297,7 @@ Remaining Attributes and Elements
 	                          "                      8x artwork.xml#aNNNNNN
 	                          "                      1x bio.xml#besant_annie
 	                          "                      1x bio.xml#briel_albert_van_den
-	                          "                      6x bio.xml#buhlig_richard
+	                          "                      4x bio.xml#buhlig_richard
 	                          "                      3x bio.xml#calcar_reinder_van
 	                          "                      5x bio.xml#fernhout_henk
 	                          "                     34x bio.xml#iongh_aletta_de
@@ -323,11 +323,11 @@ Remaining Attributes and Elements
 	                          "                      5x expo.xml#sint_lucas_NNNN
 	                          "                      1x expo.xml#spoor_mondriaan_sluijters_NNNN
 
-	<salute>                          56x 
+	<salute>                          54x 
 
 	<settlement>                      14x 
 
-	<signed>                          29x 
+	<signed>                          28x 
 
 	<sourceDesc>                      16x 
 
